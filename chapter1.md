@@ -1,3 +1,6 @@
-# First Chapter
+# Product Discovery
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+
+# Introducción
+En 10 Pines construimos software para diversos tipos de clientes, desde grandes corporaciones como Claro y Burger King que quieren desarrollar nuevos productos o ampliar la funcionalidad de herramientas existentes hasta emprendimientos recién nacidos que buscan construir una primer versión de alguna idea magnífica. Si bien, las necesidades, el tamaño del problema y obviamente el presupuesto difieren, **siempre** comenzamos nuestros desarrollos con una etapa, que llamamos Product Discovery, donde nos juntamos especialistas en negocio, nuestros clientes, y especialistas en desarrollo, nosotros, a crear una visión compartida de lo que se desea realizar. El objetivo de esta etapa es entender que es lo que se quiere construir, quienes serán los usuarios y clientes principales, tener una idea del tamaño, establecer prioridades, identificar riesgos, acordar cuál es el producto mínimo viable, entender los objetivos y las razones de porque se quiere construir el producto, entender cuál es el modelo de negocio y cuál es el diferencial. En definitiva, lo que se busca es juntar a todos los actores que van a participar del desarrollo desde un inicio, maximizando la comunicación y la colaboración para desarrollar, juntos, una primera especificación del producto. 
+
