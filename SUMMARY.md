@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introducción](README.md)
 * [Product Discovery](chapter1.md)
 * Planeamiento Ágil
 
