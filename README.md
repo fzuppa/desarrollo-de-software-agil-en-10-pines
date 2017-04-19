@@ -1,3 +1,4 @@
-# My Awesome Book
+# Desarrollo Ágil en 10Pines
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Este libro relata la experiencia del autor desarrollando productos para diversos clientes, desde grandes corporaciones que necesitan herramientas para procesos puntuales hasta startups en busca de desarrollar el Producto Mínimo Viable \(MVP\) de su idea.
+
