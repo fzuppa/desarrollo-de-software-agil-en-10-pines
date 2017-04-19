@@ -16,15 +16,13 @@ Creemos firmemente en los valores ágiles de comunicación y colaboración y es 
 
 El resultado es un conjunto de artefactos que nos permitirán establecer un plan que nos permita encarar el desarrollo del producto. Creo que es importante remarcar que los artefactos producidos durante esta etapa son creados eficientemente a través de la colaboración de todos los involucrados, generando al mismo tiempo un **caudal de conocimiento compartido** enorme.
 
-
-
 ### **¿Que es lo que se busca descubrir?**
 
 Antes de describir el proceso y las herramientas que usamos en esta etapa, creo que es importante explicitar, en detalle, que es lo que se intenta descubrir:
 
 **Que: **Quienes son los actores principales del sistema que vamos a desarrollar y cuales son los procesos de negocios que van a llevar a cabo dentro del sistema. Por supuesto que todo proceso de negocios tiene un flujo principal y flujos alternativos. Es importante detectar todos los caminos posibles, aunque después se terminen priorizando los más importantes o directamente no se terminen haciendo.
 
-**Porque: **Porque es necesaria esta herramienta? Cuales son los problemas más importantes que desean resolver? Como decía un amigo consultor, donde les aprieta la zapatilla? Entender todo esto en detalle nos permite diseñar soluciones mejores, muchas veces sugiriendo alternativas a las inicialmente propuestas por nuestras clientes. 
+**Porque: **Porque es necesaria esta herramienta? Cuales son los problemas más importantes que desean resolver? Como decía un amigo consultor, donde les aprieta la zapatilla? Entender todo esto en detalle nos permite diseñar soluciones mejores, muchas veces sugiriendo alternativas a las inicialmente propuestas por nuestras clientes.
 
 **Prioridades: **Si algo aprendí en todos estos años de desarrollo es que el tiempo \(y la plata\) nunca van a alcanzar para construir todo lo que se quiere construir. Es por eso que parte de las actividades que desarrollamos en esta etapa consiste en identificar cuáles son los procesos más importantes, los features indispensables, aquellos que no pueden faltar o con los que van a obtener mayores beneficios. Entender las prioridades y trabajar en ellas primero es fundamental para el éxito del proyecto.
 
@@ -45,6 +43,24 @@ Marty Cagan, en su libro [‘Inspired, how to create products that customers lov
 La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones, talleres, que realizamos junto con nuestros clientes. Las reuniones pueden durar desde 4 horas, para productos pequeños, hasta una semana en proyectos de gran magnitud. A la reunión concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores. La diversidad de roles enriquece el resultado, ya que además de los **usuarios de negocios que conocen que se necesita** **y cuales son los objetivos**, se necesitan **desarrolladores que digan si es posible** \(y que sugieran alternativas\), **testers para que contribuyan con su atención a los detalles** y** especialistas en UX que evalúen la usabilidad**. Por supuesto que es fundamental que concurran el Product Manager y el Technical Leader. **Siempre existe un facilitador** que se encarga de llevar la reunion adelante, explicar las herramientas que se van a usar y mediar en las conversaciones.Es importante destacar que, más allá de los artefactos que produzcamos y las herramientas que usamos en estas reuniones, lo más importante son todas las conversaciones que se desarrollan. Es curioso, pero muchas veces detectamos que no existe una visión unificada ni siquiera entre diferentes personas del mismo cliente! Discutir sobre todas las aristas que va a tener el producto, en esta etapa, resulta esencial para unificar el entendimientos/las visiones de TODAS las personas que estarán involucradas en el desarrollo. [Jeff Patton llama a esto ‘Comprensión Compartida’](https://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909/ref=as_sl_pc_qf_sp_asin_til?tag=jefpatass-20&linkCode=w00&linkId=NX2UXYQEFAANOFPO&creativeASIN=1491904909).
 
 
+
+### **Herramientas**
+
+A continuación describiré algunas de las herramientas que usamos usualmente en los talleres:
+
+![](/assets/product_discovery_tools.png)
+
+#### 
+
+#### **User Story Mapping**
+
+##### Introducción
+
+Aprendí esta técnica cuando vivía en San Francisco en 2009, en uno de los tantos open spaces al que asistí. Por ese entonces, yo ya trabajaba con Scrum o Extreme Programming hace algunos años y uno de los cuestionamientos que tenía era que el backlog no me dejaba visualizar el trabajo que debíamos hacer de manera nítida. Se me perdían las stories en herramientas de Gestión Ágil digitales donde podía ver todas las User Stories en una gran lista. Descubrir esta herramienta fue realmente un hallazgo para mi.
+
+Que es un User Story Mapping? En pocas palabras, **es un mapa que describe los procesos de negocios de cada uno de los actores que forman parte del sistema**, junto con las tareas que se deben llevar a cabo para completar cada uno de estos procesos. La técnica fue popularizada por Jeff Patton dentro del mundillo ágil. El resultado es algo asi:
+
+![](https://lh6.googleusercontent.com/vSy_4DfsK9uHuSfZJg6hiHfiPbJGXdC8YFPenysGEuEN3DJFbbakwenAz8ZaZLg-VOHjhrxTJpisWKtq0ymiIF2d7oQxGGXtI4ESIT3adg79R4lKZd-I41xLZLdsGHxRYjDOfgdP)
 
 
 

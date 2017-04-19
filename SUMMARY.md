@@ -2,5 +2,5 @@
 
 * [Introducción](README.md)
 * [Product Discovery](chapter1.md)
-* Planeamiento Ágil
+* [Planeamiento Ágil](planeamiento-agil.md)
 
