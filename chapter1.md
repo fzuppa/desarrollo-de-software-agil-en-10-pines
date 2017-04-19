@@ -36,13 +36,9 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, creo 
 
 Marty Cagan, en su libro [‘Inspired, how to create products that customers love’](http://svpg.com/inspired-how-to-create-products-customers-love/), dice que para que un producto sea exitoso, debe ser **valioso, usable y posible de desarrollar** \(valuable, usable & feasible\). La fase de Product Discovery tiene el objetivo de crear una visión compartida de como alcanzar estas metas, y para eso debemos entender donde esta el valor del producto, como se va a usar y por supuesto, si técnicamente es factible de completar.
 
-
-
 ### **Talleres de Product Discovery**
 
 La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones, talleres, que realizamos junto con nuestros clientes. Las reuniones pueden durar desde 4 horas, para productos pequeños, hasta una semana en proyectos de gran magnitud. A la reunión concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores. La diversidad de roles enriquece el resultado, ya que además de los **usuarios de negocios que conocen que se necesita** **y cuales son los objetivos**, se necesitan **desarrolladores que digan si es posible** \(y que sugieran alternativas\), **testers para que contribuyan con su atención a los detalles** y** especialistas en UX que evalúen la usabilidad**. Por supuesto que es fundamental que concurran el Product Manager y el Technical Leader. **Siempre existe un facilitador** que se encarga de llevar la reunion adelante, explicar las herramientas que se van a usar y mediar en las conversaciones.Es importante destacar que, más allá de los artefactos que produzcamos y las herramientas que usamos en estas reuniones, lo más importante son todas las conversaciones que se desarrollan. Es curioso, pero muchas veces detectamos que no existe una visión unificada ni siquiera entre diferentes personas del mismo cliente! Discutir sobre todas las aristas que va a tener el producto, en esta etapa, resulta esencial para unificar el entendimientos/las visiones de TODAS las personas que estarán involucradas en el desarrollo. [Jeff Patton llama a esto ‘Comprensión Compartida’](https://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909/ref=as_sl_pc_qf_sp_asin_til?tag=jefpatass-20&linkCode=w00&linkId=NX2UXYQEFAANOFPO&creativeASIN=1491904909).
-
-
 
 ### **Herramientas**
 
@@ -60,7 +56,25 @@ Aprendí esta técnica cuando vivía en San Francisco en 2009, en uno de los tan
 
 Que es un User Story Mapping? En pocas palabras, **es un mapa que describe los procesos de negocios de cada uno de los actores que forman parte del sistema**, junto con las tareas que se deben llevar a cabo para completar cada uno de estos procesos. La técnica fue popularizada por Jeff Patton dentro del mundillo ágil. El resultado es algo asi:
 
-![](https://lh6.googleusercontent.com/vSy_4DfsK9uHuSfZJg6hiHfiPbJGXdC8YFPenysGEuEN3DJFbbakwenAz8ZaZLg-VOHjhrxTJpisWKtq0ymiIF2d7oQxGGXtI4ESIT3adg79R4lKZd-I41xLZLdsGHxRYjDOfgdP)
+![](/assets/story_mapping1.png)
+
+Porque me gusta tanto esta herramienta? Basicamente porque es:
+
+* **Intuitiva**: Puedo explicarla en minutos a un público completamente nuevo y empezar inmediatamente a construir el Story Map.
+
+* **Fácil de Crear**: Crear una tarea del Story Map es escribir un post-it y pegarlo. Cualquiera puede hacerlo y se hace sin crear ninguna disrupción. El tiempo se invierte en ir descubriendo estas tareas entre todos y a través de todas las conversaciones que se disparan. Los post-its pueden reacomodarse sin ningún esfuerzo a medida que se descubren nuevas tareas o se reprioriza.
+
+* **Visual**: El mapa nos permite visualizar claramente los actores principales junto con sus actividades principales y como están compuestas esas actividades. Podemos recorrer estos flujos simplemente leyendo las tareas de izquierda a derecha, algo que es intuitivo y natural. Podemos ver que es importante, simplemente viendo qué tareas se encuentran arriba de otras. El mapa contiene muchísima información, arreglada de una manera muy eficiente.
 
 
+
+##### **Dinámica \(o como construimos el User Story Map\)**
+
+Lo primero que se debe hacer es identificar los actores principales del sistema, es decir quienes son los tipos de usuarios que usarán el sistema una vez que esté terminado \(o que lo están usando en caso de estar haciendo un Story Mapping para un sistema existente\). Por supuesto que será difícil identificar todos de entrada, pero seguramente podremos identificar al tipo de usuario principal. Que no cunda el pánico! A medida que avanzamos con el descubrimiento, iremos identificando otros tipos de usuarios. Por cada tipo de usuario que descubramos, pegaremos un post-it que lo identifique \(dejando espacio para ir descubriendo todo lo que este tipo de usuario realizará en el sistema\).
+
+Para ir graficando la construcción del story map, introduciré un ejemplo muy sencillo. Imagen que tienen que construir un sistema para un cajero de un supermercado, es decir las personas que escanean cada uno de los objetos del carrito de compras y luego nos cobran. Para este ejemplo, el tipo de usuario que identificamos es el del cajero.
+
+![](/assets/story_mapping_dynamic1.png)
+
+Una vez que identificamos por lo menos al actor principal, trataremos de descubrir cómo es que este usuario usará el sistema y cuales son los procesos de negocio principales que están bajo su responsabilidad. Jeff Patton denomina **Actividades** a estos procesos de negocios sacando el término de gente de UX como Larry Constantine y Don Norman. Las actividades, dice Patton, **son cosas grandes que el actor hace**. En general están conformadas por un conjunto de pasos pero no siempre tienen un workflow preciso definido. En mi experiencia facilitando estos talleres, muchas veces es difícil poder precisar las actividades cuando recién se está comenzando a descubrir el sistema y por eso es que también se puede comenzar preguntando: Que es lo primero que este tipo de usuario hará en el sistema. Esto suele ser más fácil. Seguramente, nuestro Product Manager nos dirá que lo primero que hace es \[verbo\]. Este algo, escrito en forma de verbo, será nuestra 1er Tarea. Patton define a una **tarea como algo pequeño, que el usuario hace en el sistema para llegar a un objetivo**. Refraseando: Cual es la primera tarea que el usuario llevará a cabo en el sistema?. La escribiremos en un post-it que la identifique y la pegaremos debajo del post it que identifica al tipo de usuario. Luego trataremos de identificar qué hará el usuario a continuación, es decir su segunda tarea. Escribiremos el post-it y lo pegaremos a la derecha, para señalar una cuestión temporal \(es decir que hace primero una tarea y después la segunda\).
 
