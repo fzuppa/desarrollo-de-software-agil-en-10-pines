@@ -1,6 +1,4 @@
-# Product Discovery
-
-## Introducción
+# Introducción
 
 En 10Pines construimos software para diversos tipos de clientes, desde grandes corporaciones como Claro y Burger King que quieren desarrollar nuevos productos o ampliar la funcionalidad de herramientas existentes hasta emprendimientos recién nacidos que buscan construir una primer versión de alguna idea magnífica. Si bien, las necesidades, el tamaño del problema y obviamente el presupuesto difieren, siempre comenzamos nuestros desarrollos con una etapa, que llamamos **Product Discovery**, donde nos juntamos especialistas en negocio, nuestros clientes, y especialistas en desarrollo, nosotros, a crear una **visión compartida** de lo que se desea realizar.
 
@@ -8,7 +6,7 @@ El objetivo de esta etapa es entender que es lo que se quiere construir, quienes
 
 Es importante entender que existe una diferencia entre simplemente entender los requerimientos y el grado de comprensión e involucramiento que buscamos en la etapa de Product Discovery en 10Pines. Creo que esto es lo que nos permite **alcanzar el grado de colaboración que tenemos con todos nuestros clientes**. Diseñar una solución es algo muy complejo que se logra a través de las interacción y colaboración de todos estos actores desde el momento en que nos contactan. **El grado de compromiso y sinergia** que se alcanza cuando se hace esta etapa con todo el equipo es inmedible. Es por eso que en todos nuestros proyectos diseñamos las soluciones juntos, proponemos y discutimos alternativas y nos enfocamos en alcanzar los objetivos **maximizando la colaboración y la comunicación**, que son dos de los valores ágiles más importantes.
 
-## **Fase de Product Discovery**
+# **Fase de Product Discovery**
 
 La fase de Product Discovery es la primera fase de nuestra metodología. Aquí sentamos las bases de lo que va a constituir el resto del desarrollo. Buscamos entender el/los problemas que el cliente desea solucionar y a partir de ellos, visualizar un objetivo de como se puede lograr.
 
@@ -16,7 +14,7 @@ Creemos firmemente en los valores ágiles de comunicación y colaboración y es 
 
 El resultado es un conjunto de artefactos que nos permitirán establecer un plan que nos permita encarar el desarrollo del producto. Creo que es importante remarcar que los artefactos producidos durante esta etapa son creados eficientemente a través de la colaboración de todos los involucrados, generando al mismo tiempo un **caudal de conocimiento compartido** enorme.
 
-### **¿Que es lo que se busca descubrir?**
+## **¿Que es lo que se busca descubrir?**
 
 Antes de describir el proceso y las herramientas que usamos en esta etapa, creo que es importante explicitar, en detalle, que es lo que se intenta descubrir:
 
@@ -36,11 +34,15 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, creo 
 
 Marty Cagan, en su libro [‘Inspired, how to create products that customers love’](http://svpg.com/inspired-how-to-create-products-customers-love/), dice que para que un producto sea exitoso, debe ser **valioso, usable y posible de desarrollar** \(valuable, usable & feasible\). La fase de Product Discovery tiene el objetivo de crear una visión compartida de como alcanzar estas metas, y para eso debemos entender donde esta el valor del producto, como se va a usar y por supuesto, si técnicamente es factible de completar.
 
-### **Talleres de Product Discovery**
+
+
+## **Talleres de Product Discovery**
 
 La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones, talleres, que realizamos junto con nuestros clientes. Las reuniones pueden durar desde 4 horas, para productos pequeños, hasta una semana en proyectos de gran magnitud. A la reunión concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores. La diversidad de roles enriquece el resultado, ya que además de los **usuarios de negocios que conocen que se necesita** **y cuales son los objetivos**, se necesitan **desarrolladores que digan si es posible** \(y que sugieran alternativas\), **testers para que contribuyan con su atención a los detalles** y** especialistas en UX que evalúen la usabilidad**. Por supuesto que es fundamental que concurran el Product Manager y el Technical Leader. **Siempre existe un facilitador** que se encarga de llevar la reunion adelante, explicar las herramientas que se van a usar y mediar en las conversaciones.Es importante destacar que, más allá de los artefactos que produzcamos y las herramientas que usamos en estas reuniones, lo más importante son todas las conversaciones que se desarrollan. Es curioso, pero muchas veces detectamos que no existe una visión unificada ni siquiera entre diferentes personas del mismo cliente! Discutir sobre todas las aristas que va a tener el producto, en esta etapa, resulta esencial para unificar el entendimientos/las visiones de TODAS las personas que estarán involucradas en el desarrollo. [Jeff Patton llama a esto ‘Comprensión Compartida’](https://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909/ref=as_sl_pc_qf_sp_asin_til?tag=jefpatass-20&linkCode=w00&linkId=NX2UXYQEFAANOFPO&creativeASIN=1491904909).
 
-### **Herramientas**
+
+
+## **Herramientas**
 
 A continuación describiré algunas de las herramientas que usamos usualmente en los talleres:
 
@@ -48,9 +50,9 @@ A continuación describiré algunas de las herramientas que usamos usualmente en
 
 #### 
 
-#### **User Story Mapping**
+### **User Story Mapping**
 
-##### Introducción
+#### Introducción
 
 Aprendí esta técnica cuando vivía en San Francisco en 2009, en uno de los tantos open spaces al que asistí. Por ese entonces, yo ya trabajaba con Scrum o Extreme Programming hace algunos años y uno de los cuestionamientos que tenía era que el backlog no me dejaba visualizar el trabajo que debíamos hacer de manera nítida. Se me perdían las stories en herramientas de Gestión Ágil digitales donde podía ver todas las User Stories en una gran lista. Descubrir esta herramienta fue realmente un hallazgo para mi.
 
@@ -108,19 +110,15 @@ Siguiendo con el ejemplo, imaginen que en vez de ‘Ingresar el producto’ a ma
 
 Parece increíble, pero en pocas palabras ya pudimos ver el core de la actividad. El resto no es más que seguir identificando tareas o flujos de tareas que los usuarios realizan. Cuando identificamos grupos de tareas relacionadas, abstraemos la actividad o proceso de negocio al que pertenecen. Cuando identificamos tareas alternativas \(o flujos de tareas\) pegaremos los post-its debajo de las tareas principales. Y todo esto se da bajo una conversación continua delante del User Story Map, que va reflejando todo el conocimiento que vamos adquiriendo, dispara nuevas charlas \(y así el descubrimiento de nuevo conocimiento\) y lo hace sin generar ninguna disrupción. Ahora ven porque me gusta tanto?
 
-
-
-##### **Recorriendo el User Story Map**
+#### **Recorriendo el User Story Map**
 
 Lo que tenemos que hacer, una vez que tengamos una primera versión de nuestro User Story Map es lo que Jeff Patton denomina ‘Recorrer’ el story map, que no es más que ir leyendo los post-its que representan cada una de las tareas e ir imaginando cómo es que este usuario usaría el sistema. Podemos hacer este recorrido con diferentes personas, de manera de poder lograr diferentes opiniones. Por supuesto que al recorrer el Story Map podemos descubrir tareas que nos olvidamos y obviamente agregarla, ya que los post-its nos brindan esta flexibilidad!
 
-
-
 ![](https://lh3.googleusercontent.com/Dqz8rA8lCr_VMW6jXzapE9p0OA9591o386QTi2cf5VG9fuxm8L31DDpG-afckDXxIND5CxT6wJTOFnWpB8ySUA84KbCMYbBIFkj6VwBLtekEsXNAV0KHrBG_1edzhwguPtJ_rB9u)
 
+#### 
 
-
-##### **Priorización Usando el User Story Map**
+#### **Priorización Usando el User Story Map**
 
 Ya vimos que podemos especificar que una tarea es más importante que otra simplemente poniendo la tarea \(o conjunto de tareas\) en un nivel superior del Story Map. Genial! Además de eso, el Story Map es una herramienta genial para decidir cuál es la primera versión del producto con la cual podemos empezar a aprender con usuarios finales; lo que muchos llaman Producto Mínimo Viable \(MVP - Minimum Viable Product\).
 
@@ -130,15 +128,13 @@ Cómo hacemos esto? Simplemente trazando una línea que separe las tareas que es
 
 Obviamente decidir dónde debemos trazar la línea involucra muchísimos factores, muchos más de los que quiero contar en este capítulo. Lo importante a destacar es que la herramienta facilita la elección de una primera versión del MVP en un ambiente de colaboración donde participan expertos de todas las áreas.
 
-
-
-##### **Herramientas Digitales**
+#### **Herramientas Digitales**
 
 La herramienta que puedo recomendarles es la herramienta que estamos ayudando a desarrollar \(por supuesto!\). Se llama [Cardboard](http://cardboardit.com) y fue desarrollada por David Hussman. Les recomiendo también que vean el [video](https://vimeo.com/138232397) de David explicando como hacer un Story Mapping, ya que les va a servir para entender mucho más visualmente cómo se construye un Story Mapping y es exactamente el ejemplo que describí en este capítulo.
 
 
 
-#### **Lean Canvas**
+### **Lean Canvas**
 
 Ustedes piensan que nosotros, como equipo de desarrollo, debemos entender como funciona el negocio que modelaremos? Algunos dirán, no es necesario. Mientras que se comunique correctamente que es lo que se debe desarrollar, con esto alcanza. Podrán adivinar que estoy en desacuerdo con esta afirmación. Creo que es importante entender cómo funciona o funcionará el negocio de la empresa que nos contrata. Si estamos desarrollando un producto nuevo \(de un startup\), es necesario entender cuál es el modelo de negocios que piensan implementar o dicho de otra manera, cómo piensan hacer plata. Si es una aplicación que se va a desarrollar para una organización, entonces debemos entender por qué es necesaria esta aplicación, cuál va a ser el valor que aporte o cómo va a recortar costos.
 
@@ -167,6 +163,50 @@ En el orden propuesto, iremos descubriendo:
 6\) Cómo vas a medir el progreso? Como sabrás si tus hipotesis se cumplen?
 
 7\) Cuál es la ventaja diferencial de tu producto? Aquella que los competidores no podrán alcanzar.
+
+
+
+En [canvanizer.com](https://canvanizer.com/new/lean-canvas), podemos encontrar una versión aún más reducida:
+
+![](/assets/canvanizer.png)
+
+Mi amigo Jorge Silva encontró mucho valor en usar esta herramienta en corporaciones gigantes, pero la adaptó. La sección más importante que agrego es la de ‘Ahorros’, lo cual tiene mucho sentido ya que el objetivo de muchos de los sistemas desarrollados en estos ámbitos es el de ahorrar dinero en ciertos procesos. En este [post](https://blog.10pines.com/2015/07/13/enterprise-lean-canvas/) podrán encontrar más detalles..
+
+![](/assets/enterprise_canvas.png)
+
+Creo que tratar a estos proyectos corporativos como si fueran un proyecto para un startup es una gran idea, ya que no caemos en la trampa de pensar que el presupuesto es infinito a la vez que nos permite alinear las visiones de todas las areas que van a estar involucradas el desarrollo.
+
+Hacer un taller que implique la creación del Lean Canvas, donde participe todo el equipo, permite que todas las personas que construirán el producto tengan una visión compartida del valor que agregará, como piensan venderlo y cual es la competencia. El beneficio de que personas con un perfil técnico tengan una visión del negocio redunda en diseños pensados para alcanzar estos objetivos, el disparo de nuevas ideas, que muchas veces los usuarios de negocio no pensaron y en la propuesta de alternativas que cumplan los mismos objetivos, pero que tengan un costo menor. En estos problemas complejos, la interacción de este grupo de profesionales heterogéneo es lo que maximiza las probabilidades de éxito!
+
+
+
+### **Elevator Pitch**
+
+El elevator pitch refleja el concepto de poder convencer a alguien de que una idea es buena en muy poco tiempo, por ejemplo si nos toparamos con esa persona en el ascensor. El pitch debería entonces resumir los conceptos claves del producto que tenemos en mente: los clientes y beneficios claves, que pensamos hacer, cuál es nuestro diferencial y cual es nuestra ventaja competitiva.
+
+Nos gusta incluir este ejercicio en nuestros talleres porque nos permite entender, de una manera muy resumida, cuál es el modelo de negocios que va a tener el producto que se va a desarrollar. Hemos realizado el ejercicio con startups que recién estaban comenzando, con lo cual tener que realizar este ejercicio les implicaba un esfuerzo para resumir sus ideas, startups ya financiados y que habían pitcheado en reiteradas ocasiones, con lo cuál esto se convertían en un pitch más \(para nosotros!\) y también con proyectos que se realizaron en grandes corporaciones. Como ya mencioné en ocasiones anteriores, encarar estos proyectos como si se tratara de un startup conlleva innumerables beneficios.
+
+Para realizar este taller, le entregamos al equipo un afiche en el que tienen que completar:
+
+**Para **\(Clientes Claves\)
+
+**Quienes **\(Necesidad o Oportunidad\)
+
+**El **\(Nombre del producto\)
+
+**Que **\(Beneficios claves o razones más importantes por las que lo comprarían\)
+
+**A diferencia de **\(Competidor principal\)
+
+**Nuestro Producto **\(Diferencial\)
+
+
+
+Elevator Pitchs en clientes corporativos y startups![](https://lh6.googleusercontent.com/0gYisoQ9Ogga-qwOgwp_NDH4oRk4E6aINkl_fXaSNDsyMr5yMSnLIAuIveYYY6OtGttSqajsDMcka9DGX71orIrSPQp4EHrV3h-IKE-kqeDKkPkZ5DcYWwsqfSo6iuS04zwKw3Bb)
+
+### **Personas**
+
+**Uno de los puntos que buscamos en esta fase de Product Discovery es entender a los potenciales usuarios del sistema. Quienes son? Qué tipos de usuario son? Cómo encontrarán valor?**
 
 
 
