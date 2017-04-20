@@ -34,13 +34,9 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, creo 
 
 Marty Cagan, en su libro [‘Inspired, how to create products that customers love’](http://svpg.com/inspired-how-to-create-products-customers-love/), dice que para que un producto sea exitoso, debe ser **valioso, usable y posible de desarrollar** \(valuable, usable & feasible\). La fase de Product Discovery tiene el objetivo de crear una visión compartida de como alcanzar estas metas, y para eso debemos entender donde esta el valor del producto, como se va a usar y por supuesto, si técnicamente es factible de completar.
 
-
-
 ## **Talleres de Product Discovery**
 
 La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones, talleres, que realizamos junto con nuestros clientes. Las reuniones pueden durar desde 4 horas, para productos pequeños, hasta una semana en proyectos de gran magnitud. A la reunión concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores. La diversidad de roles enriquece el resultado, ya que además de los **usuarios de negocios que conocen que se necesita** **y cuales son los objetivos**, se necesitan **desarrolladores que digan si es posible** \(y que sugieran alternativas\), **testers para que contribuyan con su atención a los detalles** y** especialistas en UX que evalúen la usabilidad**. Por supuesto que es fundamental que concurran el Product Manager y el Technical Leader. **Siempre existe un facilitador** que se encarga de llevar la reunion adelante, explicar las herramientas que se van a usar y mediar en las conversaciones.Es importante destacar que, más allá de los artefactos que produzcamos y las herramientas que usamos en estas reuniones, lo más importante son todas las conversaciones que se desarrollan. Es curioso, pero muchas veces detectamos que no existe una visión unificada ni siquiera entre diferentes personas del mismo cliente! Discutir sobre todas las aristas que va a tener el producto, en esta etapa, resulta esencial para unificar el entendimientos/las visiones de TODAS las personas que estarán involucradas en el desarrollo. [Jeff Patton llama a esto ‘Comprensión Compartida’](https://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909/ref=as_sl_pc_qf_sp_asin_til?tag=jefpatass-20&linkCode=w00&linkId=NX2UXYQEFAANOFPO&creativeASIN=1491904909).
-
-
 
 ## **Herramientas**
 
@@ -132,8 +128,6 @@ Obviamente decidir dónde debemos trazar la línea involucra muchísimos factore
 
 La herramienta que puedo recomendarles es la herramienta que estamos ayudando a desarrollar \(por supuesto!\). Se llama [Cardboard](http://cardboardit.com) y fue desarrollada por David Hussman. Les recomiendo también que vean el [video](https://vimeo.com/138232397) de David explicando como hacer un Story Mapping, ya que les va a servir para entender mucho más visualmente cómo se construye un Story Mapping y es exactamente el ejemplo que describí en este capítulo.
 
-
-
 ### **Lean Canvas**
 
 Ustedes piensan que nosotros, como equipo de desarrollo, debemos entender como funciona el negocio que modelaremos? Algunos dirán, no es necesario. Mientras que se comunique correctamente que es lo que se debe desarrollar, con esto alcanza. Podrán adivinar que estoy en desacuerdo con esta afirmación. Creo que es importante entender cómo funciona o funcionará el negocio de la empresa que nos contrata. Si estamos desarrollando un producto nuevo \(de un startup\), es necesario entender cuál es el modelo de negocios que piensan implementar o dicho de otra manera, cómo piensan hacer plata. Si es una aplicación que se va a desarrollar para una organización, entonces debemos entender por qué es necesaria esta aplicación, cuál va a ser el valor que aporte o cómo va a recortar costos.
@@ -164,8 +158,6 @@ En el orden propuesto, iremos descubriendo:
 
 7\) Cuál es la ventaja diferencial de tu producto? Aquella que los competidores no podrán alcanzar.
 
-
-
 En [canvanizer.com](https://canvanizer.com/new/lean-canvas), podemos encontrar una versión aún más reducida:
 
 ![](/assets/canvanizer.png)
@@ -177,8 +169,6 @@ Mi amigo Jorge Silva encontró mucho valor en usar esta herramienta en corporaci
 Creo que tratar a estos proyectos corporativos como si fueran un proyecto para un startup es una gran idea, ya que no caemos en la trampa de pensar que el presupuesto es infinito a la vez que nos permite alinear las visiones de todas las areas que van a estar involucradas el desarrollo.
 
 Hacer un taller que implique la creación del Lean Canvas, donde participe todo el equipo, permite que todas las personas que construirán el producto tengan una visión compartida del valor que agregará, como piensan venderlo y cual es la competencia. El beneficio de que personas con un perfil técnico tengan una visión del negocio redunda en diseños pensados para alcanzar estos objetivos, el disparo de nuevas ideas, que muchas veces los usuarios de negocio no pensaron y en la propuesta de alternativas que cumplan los mismos objetivos, pero que tengan un costo menor. En estos problemas complejos, la interacción de este grupo de profesionales heterogéneo es lo que maximiza las probabilidades de éxito!
-
-
 
 ### **Elevator Pitch**
 
@@ -200,13 +190,13 @@ Para realizar este taller, le entregamos al equipo un afiche en el que tienen qu
 
 **Nuestro Producto **\(Diferencial\)
 
-
-
 Elevator Pitchs en clientes corporativos y startups![](https://lh6.googleusercontent.com/0gYisoQ9Ogga-qwOgwp_NDH4oRk4E6aINkl_fXaSNDsyMr5yMSnLIAuIveYYY6OtGttSqajsDMcka9DGX71orIrSPQp4EHrV3h-IKE-kqeDKkPkZ5DcYWwsqfSo6iuS04zwKw3Bb)
 
 ### **Personas**
 
-**Uno de los puntos que buscamos en esta fase de Product Discovery es entender a los potenciales usuarios del sistema. Quienes son? Qué tipos de usuario son? Cómo encontrarán valor?**
+Uno de los puntos que buscamos en esta fase de Product Discovery es entender a los potenciales usuarios del sistema. Quienes son? Qué tipos de usuario son? Cómo encontrarán valor?
 
+Una técnica muy útil para lograr conocimiento compartido en este sentido es la descripción de ‘Personas’ \(Personas en inglés :D\). Lo que hacemos es crear una persona, del mundo real \(con nombre y todo!\) , que usará el sistema \(o ya lo está usando\) e intentamos describirlo. Como es esa persona, cuales son sus características \(por ejemplo, es un usuario básico que conoce poco de computadoras o es un usuario avanzado\). Finalmente, describimos en pocas palabras cuál va a ser el valor que el producto que vamos a desarrollar le va a brindar. Cabe destacar que esta ‘persona’ representa en realidad a un conjunto de personas que comparten las mismas características y usarán el sistema de manera similar.
 
+Esto puede hacerlo el Product Owner solo \(o el UX Designer en proyectos que cuenten con este rol\) y después contarlo al equipo o se puede hacer un taller donde participen diferentes usuarios \(además del PO obviamente\) y también los desarrolladores. No me cansaré de repetir que mientras mejor entendamos \(nosotros, los desarrolladores\) a los usuarios y el problema que intentamos resolver, mejores soluciones diseñaremos.
 
