@@ -170,6 +170,8 @@ Creo que tratar a estos proyectos corporativos como si fueran un proyecto para u
 
 Hacer un taller que implique la creación del Lean Canvas, donde participe todo el equipo, permite que todas las personas que construirán el producto tengan una visión compartida del valor que agregará, como piensan venderlo y cual es la competencia. El beneficio de que personas con un perfil técnico tengan una visión del negocio redunda en diseños pensados para alcanzar estos objetivos, el disparo de nuevas ideas, que muchas veces los usuarios de negocio no pensaron y en la propuesta de alternativas que cumplan los mismos objetivos, pero que tengan un costo menor. En estos problemas complejos, la interacción de este grupo de profesionales heterogéneo es lo que maximiza las probabilidades de éxito!
 
+
+
 ### **Elevator Pitch**
 
 El elevator pitch refleja el concepto de poder convencer a alguien de que una idea es buena en muy poco tiempo, por ejemplo si nos toparamos con esa persona en el ascensor. El pitch debería entonces resumir los conceptos claves del producto que tenemos en mente: los clientes y beneficios claves, que pensamos hacer, cuál es nuestro diferencial y cual es nuestra ventaja competitiva.
@@ -190,6 +192,8 @@ Para realizar este taller, le entregamos al equipo un afiche en el que tienen qu
 
 **Nuestro Producto **\(Diferencial\)
 
+
+
 Elevator Pitchs en clientes corporativos y startups![](https://lh6.googleusercontent.com/0gYisoQ9Ogga-qwOgwp_NDH4oRk4E6aINkl_fXaSNDsyMr5yMSnLIAuIveYYY6OtGttSqajsDMcka9DGX71orIrSPQp4EHrV3h-IKE-kqeDKkPkZ5DcYWwsqfSo6iuS04zwKw3Bb)
 
 ### **Personas**
@@ -199,4 +203,46 @@ Uno de los puntos que buscamos en esta fase de Product Discovery es entender a l
 Una técnica muy útil para lograr conocimiento compartido en este sentido es la descripción de ‘Personas’ \(Personas en inglés :D\). Lo que hacemos es crear una persona, del mundo real \(con nombre y todo!\) , que usará el sistema \(o ya lo está usando\) e intentamos describirlo. Como es esa persona, cuales son sus características \(por ejemplo, es un usuario básico que conoce poco de computadoras o es un usuario avanzado\). Finalmente, describimos en pocas palabras cuál va a ser el valor que el producto que vamos a desarrollar le va a brindar. Cabe destacar que esta ‘persona’ representa en realidad a un conjunto de personas que comparten las mismas características y usarán el sistema de manera similar.
 
 Esto puede hacerlo el Product Owner solo \(o el UX Designer en proyectos que cuenten con este rol\) y después contarlo al equipo o se puede hacer un taller donde participen diferentes usuarios \(además del PO obviamente\) y también los desarrolladores. No me cansaré de repetir que mientras mejor entendamos \(nosotros, los desarrolladores\) a los usuarios y el problema que intentamos resolver, mejores soluciones diseñaremos.
+
+![](/assets/personas.png)
+
+
+
+### **Que Nos Quita el Sueño?**
+
+Siempre que se esta por empezar con un proyecto, existen un conjunto de incertidumbres o dicho de otro modo, riesgos que podrían hacer que el proyecto fracase. Esta actividad es una actividad muy cortita \(se puede hacer en 15/20 minutos\) que permite que todos los involucrados expliciten estos riesgos y se discuta cual puede ser el impacto de cada uno de ellos. Estos riesgos/incertidumbres son factores fundamentales en la priorización que se haga más adelante.
+
+Como es la dinámica de la actividad? Pués básicamente se pone un afiche y se entregan post-its a todos los participantes. Se dejan 5’ para que cada participante piense, escriba \(un riesgo por post-it\) y luego pegue el post-it. Al finalizar estos 5’, el facilitador lee cada riesgo que genera discusiones sobre cuán importante es el riesgo o como puede ser mitigado.
+
+![](/assets/quenosquitaelsueño.png)
+
+
+
+### **Experimentos de Usabilidad**
+
+Una de las facetas a las que generalmente le prestamos menos atención, y sin embargo es muy importante es la de la Experiencia de Usuario y la Usabilidad. Podemos empezar a testear la usabilidad, incluso antes de escribir una sola línea de código y lo mejor es que podemos hacerlo de manera muy económica! Aprender lo más rápido posible si los usuarios entienden la interfaz, que features consideran importantes y cuales ni siquiera notan o entienden pueden ahorrarte una cantidad de dinero importante.
+
+![](/assets/experimentos_usabilidad.png)
+
+
+
+# **Lean Sales Up**
+
+Si les pregunto cuál es el mejor momento para hacer estos talleres, ustedes \(la mayoría por lo menos\) me responderán que al inicio del proyecto. Sin embargo, en 10Pines lo hacemos antes, al momento de la preventa. Así es, lo que hacemos es, de alguna manera, construir la propuesta junto a nuestros clientes. De esta manera, nos aseguramos de entender su visión, el modelo de negocio, cuales son las restricciones más importantes y también llegamos a compartir una idea del tamaño del desarrollo.
+
+Jorge Silva denominó a esto Lean Sales Up, ya que eliminamos de esta manera todo el desperdicio que los procesos usuales de ventas contienen. Los artefactos que creamos son sumamente útiles para el posterior desarrollo y la cantidad de conocimiento compartido que generamos es infinita. Como siempre dice Hernan Wilkinson, el nuestro es un trabajo de comunicación y establecer este grado de comunicación desde el minuto 0 es uno de los factores más importantes de éxito de nuestros proyectos!
+
+
+
+# **Conclusiones**
+
+En este primer capítulo describí la primera fase de nuestro proceso de desarrollo: el Product Discovery. Comenzamos todos nuestros proyectos con los talleres descritos, ya que nos permiten crear una visión compartida de los objetivos a la vez que sientan las bases de una relación basada en la confianza donde fluya la comunicación.
+
+Todas las personas involucradas en el proyecto participan en estos talleres. Es importante escuchar todas las opiniones y saber que existe un alineamiento dentro de la empresa que quiere construir el producto. La interacción de todos estos perfiles, de negocios y técnicos, enriquece la conversación y potencia la innovación.
+
+Realizar estos talleres en el proceso de preventa genera un grado de confianza que permite que las ventas fluyan mejor a la vez que minimizan el desperdicio ya que el proceso de desarrollo es una continuación que usa los mismos artefactos y se hace con las mismas personas que participaron en el Product Discovery. 
+
+En el próximo capítulo, nos meteremos de lleno en el area de planeamiento ágil, empezando por las User Stories, estimación, priorización y finalmente cómo construir un plan ágil.
+
+
 
