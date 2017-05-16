@@ -1,30 +1,30 @@
 # Introducción
 
-En 10Pines construimos software para diversos tipos de clientes, desde grandes corporaciones como Claro y Burger King que quieren desarrollar nuevos productos o ampliar la funcionalidad de herramientas existentes hasta emprendimientos recién nacidos que buscan construir una primer versión de alguna idea magnífica. Si bien, las necesidades, el tamaño del problema y obviamente el presupuesto difieren, siempre comenzamos nuestros desarrollos con una etapa, que llamamos **Product Discovery**, donde nos juntamos especialistas en negocio, nuestros clientes, y especialistas en desarrollo, nosotros, a crear una **visión compartida** de lo que se desea realizar.
+En 10Pines construimos software para diversos tipos de clientes, desde grandes corporaciones como Claro y Burger King, que quieren desarrollar nuevos productos o ampliar la funcionalidad de herramientas existentes, hasta emprendimientos recién nacidos que buscan construir una versión inicial del producto. Si bien las necesidades, el tamaño del problema y obviamente el presupuesto difieren, siempre comenzamos nuestros desarrollos con una etapa que denominamos **Product Discovery** donde nos juntamos con los especialistas en el negocio, nuestros clientes, a crear una **visión compartida** de lo que se desea construir.
 
-El objetivo de esta etapa es entender que es lo que se quiere construir, quienes serán los usuarios y clientes principales, tener una idea del tamaño, establecer prioridades, identificar riesgos, acordar cuál es el [producto mínimo viable](https://es.wikipedia.org/wiki/Producto_viable_mínimo), entender los objetivos y las razones de porque se quiere construir el producto, entender cuál es el modelo de negocio y cuál es el diferencial.
+El objetivo de esta etapa es entender qué es lo que se quiere construir, quiénes serán los usuarios y clientes principales, tener una idea del tamaño, establecer prioridades, identificar riesgos, acordar cuál es el [producto mínimo viable](https://es.wikipedia.org/wiki/Producto_viable_mínimo), entender los objetivos y las razones ligados al producto y entender cuál es el modelo de negocio.
 
-Es importante entender que existe una diferencia entre simplemente entender los requerimientos y el grado de comprensión e involucramiento que buscamos en la etapa de Product Discovery en 10Pines. Creo que esto es lo que nos permite **alcanzar el grado de colaboración que tenemos con todos nuestros clientes**. Diseñar una solución es algo muy complejo que se logra a través de las interacción y colaboración de todos estos actores desde el momento en que nos contactan. **El grado de compromiso y sinergia** que se alcanza cuando se hace esta etapa con todo el equipo es inmedible. Es por eso que en todos nuestros proyectos diseñamos las soluciones juntos, proponemos y discutimos alternativas y nos enfocamos en alcanzar los objetivos **maximizando la colaboración y la comunicación**, que son dos de los valores ágiles más importantes.
+Existe una diferencia entre la simple compresión de los requerimientos y el grado de entendimiento e involucramiento que buscamos en esta etapa en 10Pines. Esto es lo que nos permite **alcanzar un intenso grado de colaboración con todos nuestros clientes**. Diseñar una solución es algo muy complejo que se logra a través de la interacción y colaboración de todos estos actores desde el momento en que nos contactan. **El compromiso y la sinergia,** alcanzados por el equipo en esta etapa, son muy importantes. Es por eso que en todos nuestros proyectos diseñamos las soluciones juntos, proponemos y discutimos alternativas y nos enfocamos en alcanzar los objetivos, **maximizando la colaboración y la comunicación**, que son dos de los valores ágiles más importantes.
 
 # **Fase de Product Discovery**
 
-La fase de Product Discovery es la primera fase de nuestra metodología. Aquí sentamos las bases de lo que va a constituir el resto del desarrollo. Buscamos entender el/los problemas que el cliente desea solucionar y a partir de ellos, visualizar un objetivo de como se puede lograr.
+Product Discovery es la primera fase de nuestra metodología. Sentamos aquí las bases de lo que constituirá el resto del desarrollo. Buscamos entender los problemas que el cliente desea solucionar y, a partir de ellos, trabajar en procura de las soluciones necesarias.
 
-Creemos firmemente en los valores ágiles de comunicación y colaboración y es por eso que durante esta primera fase, intentamos maximizar el ancho de banda de comunicación y establecer lazos de colaboración cercanos. Es por eso que esta fase consiste, principalmente, en una serie de talleres que desarrollamos junto a nuestros clientes que nos permiten realizar este descubrimiento juntos.
+Creemos firmemente en los valores ágiles de comunicación y colaboración. Por esta razón, durante esta primera fase, intentamos maximizar el ancho de banda y establecer lazos de colaboración cercanos. Esta etapa consiste, principalmente, en una serie de talleres que desarrollamos junto a nuestros clientes.
 
-El resultado es un conjunto de artefactos que nos permitirán establecer un plan que nos permita encarar el desarrollo del producto. Creo que es importante remarcar que los artefactos producidos durante esta etapa son creados eficientemente a través de la colaboración de todos los involucrados, generando al mismo tiempo un **caudal de conocimiento compartido** enorme.
+El resultado es un conjunto de artefactos que nos permitirá establecer un plan para desarrollar el producto. Es importante remarcar que la documentación producida durante esta etapa es creada, de forma _eficiente_, a través de la colaboración de todos los involucrados, generando, al mismo tiempo, un importante **caudal de conocimiento compartido**.
 
-## **¿Que es lo que se busca descubrir?**
+## **¿Qué es lo que se busca descubrir?**
 
-Antes de describir el proceso y las herramientas que usamos en esta etapa, creo que es importante explicitar, en detalle, que es lo que se intenta descubrir:
+Antes de describir el proceso y las herramientas que usamos en esta etapa, detallaremos qué es lo que se intenta descubrir:
 
-**Que: **Quienes son los actores principales del sistema que vamos a desarrollar y cuales son los procesos de negocios que van a llevar a cabo dentro del sistema. Por supuesto que todo proceso de negocios tiene un flujo principal y flujos alternativos. Es importante detectar todos los caminos posibles, aunque después se terminen priorizando los más importantes o directamente no se terminen haciendo.
+**Qué: **quiénes** **son** **los actores principales y qué procesos de negocios llevarán a cabo en el sistema a desarrollar. Por supuesto, existirán flujos principales y alternativos. En esta etapa detectaremos todos, aunque, después, terminemos priorizando algunos y descartando otros.
 
-**Porque: **Porque es necesaria esta herramienta? Cuales son los problemas más importantes que desean resolver? Como decía un amigo consultor, donde les aprieta la zapatilla? Entender todo esto en detalle nos permite diseñar soluciones mejores, muchas veces sugiriendo alternativas a las inicialmente propuestas por nuestras clientes.
+**Porqué: **¿Cuáles son los problemas más importantes que desean resolver? ¿Por qué es necesaria esta herramienta? Como decía un amigo consultor, ¿dónde les 'aprieta la zapatilla'? Entender todo esto en detalle nos permite diseñar soluciones mejores, muchas veces sugiriendo alternativas a las inicialmente propuestas por nuestras clientes.
 
-**Prioridades: **Si algo aprendí en todos estos años de desarrollo es que el tiempo \(y la plata\) nunca van a alcanzar para construir todo lo que se quiere construir. Es por eso que parte de las actividades que desarrollamos en esta etapa consiste en identificar cuáles son los procesos más importantes, los features indispensables, aquellos que no pueden faltar o con los que van a obtener mayores beneficios. Entender las prioridades y trabajar en ellas primero es fundamental para el éxito del proyecto.
+**Prioridades: **Si algo aprendí en todos estos años de desarrollo es que el tiempo y el dinero nunca alcanzarán para construir todo lo que se desea construir. Es por eso que parte de las actividades, que desarrollamos en esta etapa, consiste en identificar cuáles son los _features_ indispensables, es decir, aquellos que no pueden faltar o con los que se obtendrán mayores beneficios. Entender las prioridades y trabajar en ellas es fundamental para el éxito del proyecto.
 
-**Producto Mínimo Viable: **es fundamental entender cuál es el **experimento mínimo que están dispuestos a testear con usuarios reales**. Por supuesto que los clientes quieren terminar con todo el sistema y sus expectativas son que les vaya bien desde el principio, pero lo cierto es que la mayoría de las veces esto no es así. Es por eso que empujamos a nuestros clientes a diseñar ‘experimentos’ que validen, con usuarios reales, que lo que pensaban es cierto. Nuestro objetivo es [crear conocimiento validado de la manera más rápida y eficiente posible](http://theleanstartup.com/). Entender cuál es el producto mínimo viable es esencial, tanto en startups como en productos que se realicen para corporaciones.
+**Producto Mínimo Viable: **es fundamental entender cuál es el **experimento mínimo que nuestros clientes están dispuestos a testear con usuarios reales**. Sus altas expectativas muchas veces los impulsan a buscar la implementación de todas sus ideas, pretendiendo obtener éxito desde el comienzo. Lamentablemente, en la mayor parte de las ocasiones esto no ocurre. Es por eso que alentamos a nuestros clientes a diseñar _experimentos_ que validen sus hipótesis con usuarios reales. Nuestro objetivo es [crear conocimiento validado de la manera más rápida y eficiente posible](http://theleanstartup.com/). 
 
 **Modelo de Negocio: **Cuando trabajamos con startups que piensan desarrollar un negocio, creemos que es importante entender cuál es el modelo de negocios que piensan implementar, es decir como piensan ganar dinero. Si el proyecto es para una corporación, entonces es importante entender cuales son los procesos que esta herramienta optimizará, si se obtendrán nuevos ingresos o si el objetivo es reducir el costo/tiempo de los procesos.
 
@@ -170,8 +170,6 @@ Creo que tratar a estos proyectos corporativos como si fueran un proyecto para u
 
 Hacer un taller que implique la creación del Lean Canvas, donde participe todo el equipo, permite que todas las personas que construirán el producto tengan una visión compartida del valor que agregará, como piensan venderlo y cual es la competencia. El beneficio de que personas con un perfil técnico tengan una visión del negocio redunda en diseños pensados para alcanzar estos objetivos, el disparo de nuevas ideas, que muchas veces los usuarios de negocio no pensaron y en la propuesta de alternativas que cumplan los mismos objetivos, pero que tengan un costo menor. En estos problemas complejos, la interacción de este grupo de profesionales heterogéneo es lo que maximiza las probabilidades de éxito!
 
-
-
 ### **Elevator Pitch**
 
 El elevator pitch refleja el concepto de poder convencer a alguien de que una idea es buena en muy poco tiempo, por ejemplo si nos toparamos con esa persona en el ascensor. El pitch debería entonces resumir los conceptos claves del producto que tenemos en mente: los clientes y beneficios claves, que pensamos hacer, cuál es nuestro diferencial y cual es nuestra ventaja competitiva.
@@ -192,8 +190,6 @@ Para realizar este taller, le entregamos al equipo un afiche en el que tienen qu
 
 **Nuestro Producto **\(Diferencial\)
 
-
-
 Elevator Pitchs en clientes corporativos y startups![](https://lh6.googleusercontent.com/0gYisoQ9Ogga-qwOgwp_NDH4oRk4E6aINkl_fXaSNDsyMr5yMSnLIAuIveYYY6OtGttSqajsDMcka9DGX71orIrSPQp4EHrV3h-IKE-kqeDKkPkZ5DcYWwsqfSo6iuS04zwKw3Bb)
 
 ### **Personas**
@@ -206,8 +202,6 @@ Esto puede hacerlo el Product Owner solo \(o el UX Designer en proyectos que cue
 
 ![](/assets/personas.png)
 
-
-
 ### **Que Nos Quita el Sueño?**
 
 Siempre que se esta por empezar con un proyecto, existen un conjunto de incertidumbres o dicho de otro modo, riesgos que podrían hacer que el proyecto fracase. Esta actividad es una actividad muy cortita \(se puede hacer en 15/20 minutos\) que permite que todos los involucrados expliciten estos riesgos y se discuta cual puede ser el impacto de cada uno de ellos. Estos riesgos/incertidumbres son factores fundamentales en la priorización que se haga más adelante.
@@ -216,15 +210,11 @@ Como es la dinámica de la actividad? Pués básicamente se pone un afiche y se 
 
 ![](/assets/quenosquitaelsueño.png)
 
-
-
 ### **Experimentos de Usabilidad**
 
 Una de las facetas a las que generalmente le prestamos menos atención, y sin embargo es muy importante es la de la Experiencia de Usuario y la Usabilidad. Podemos empezar a testear la usabilidad, incluso antes de escribir una sola línea de código y lo mejor es que podemos hacerlo de manera muy económica! Aprender lo más rápido posible si los usuarios entienden la interfaz, que features consideran importantes y cuales ni siquiera notan o entienden pueden ahorrarte una cantidad de dinero importante.
 
 ![](/assets/experimentos_usabilidad.png)
-
-
 
 # **Lean Sales Up**
 
@@ -232,17 +222,13 @@ Si les pregunto cuál es el mejor momento para hacer estos talleres, ustedes \(l
 
 Jorge Silva denominó a esto Lean Sales Up, ya que eliminamos de esta manera todo el desperdicio que los procesos usuales de ventas contienen. Los artefactos que creamos son sumamente útiles para el posterior desarrollo y la cantidad de conocimiento compartido que generamos es infinita. Como siempre dice Hernan Wilkinson, el nuestro es un trabajo de comunicación y establecer este grado de comunicación desde el minuto 0 es uno de los factores más importantes de éxito de nuestros proyectos!
 
-
-
 # **Conclusiones**
 
 En este primer capítulo describí la primera fase de nuestro proceso de desarrollo: el Product Discovery. Comenzamos todos nuestros proyectos con los talleres descritos, ya que nos permiten crear una visión compartida de los objetivos a la vez que sientan las bases de una relación basada en la confianza donde fluya la comunicación.
 
 Todas las personas involucradas en el proyecto participan en estos talleres. Es importante escuchar todas las opiniones y saber que existe un alineamiento dentro de la empresa que quiere construir el producto. La interacción de todos estos perfiles, de negocios y técnicos, enriquece la conversación y potencia la innovación.
 
-Realizar estos talleres en el proceso de preventa genera un grado de confianza que permite que las ventas fluyan mejor a la vez que minimizan el desperdicio ya que el proceso de desarrollo es una continuación que usa los mismos artefactos y se hace con las mismas personas que participaron en el Product Discovery. 
+Realizar estos talleres en el proceso de preventa genera un grado de confianza que permite que las ventas fluyan mejor a la vez que minimizan el desperdicio ya que el proceso de desarrollo es una continuación que usa los mismos artefactos y se hace con las mismas personas que participaron en el Product Discovery.
 
 En el próximo capítulo, nos meteremos de lleno en el area de planeamiento ágil, empezando por las User Stories, estimación, priorización y finalmente cómo construir un plan ágil.
-
-
 
