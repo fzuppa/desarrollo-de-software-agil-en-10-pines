@@ -62,7 +62,7 @@ Aprendí esta técnica cuando vivía en San Francisco, en 2009, en uno de los ta
 
 * **Fácil de Crear**: Crear una tarea del _Story Map_ implica solamente escribir un _post-it_ y pegarlo. Cualquiera puede hacerlo sin crear ninguna disrupción. El tiempo se invierte en descubrir estas tareas entre todos y en las conversaciones que se disparan. Los _post-its_ pueden reacomodarse sin ningún esfuerzo, a medida que se descubren nuevas tareas o se repriorizan las existentes.
 
-* **Visual**: El mapa nos permite visualizar claramente a los actores junto con sus actividades principales y la composición de las mismas. Podemos recorrer estos flujos de negocios, simplemente, leyendo las tareas de izquierda a derecha, algo que resulta intuitivo y natural. Podemos ver qué es importante, simplemente viendo qué tareas se encuentran arriba de otras. El mapa contiene mucha información, presentada de forma clara.
+* **Visual**: El mapa nos permite visualizar a los actores junto a sus actividades principales y a la composición de las mismas. Podemos recorrer estos flujos de negocios, simplemente, leyendo las tareas de izquierda a derecha, algo que resulta intuitivo y natural. También, observar qué es importante, simplemente viendo qué tareas se encuentran arriba de otras. El mapa contiene mucha información, presentada de forma clara.
 
 ##### **Dinámica \(o como construimos el User Story Map\)**
 
