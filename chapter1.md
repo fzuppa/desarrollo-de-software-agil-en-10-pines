@@ -52,17 +52,17 @@ A continuación, describiré algunas de las herramientas que usamos habitualment
 
 Aprendí esta técnica cuando vivía en San Francisco, en 2009, en uno de los tantos open spaces a los que asistí. Por ese entonces, yo trabajaba con _Scrum_ o _Extreme Programming_ desde hacía algunos años y uno de los cuestionamientos que poseía era que el _backlog _\(que trataré en el próximo capitulo\) no me dejaba visualizar, de manera nítida, el trabajo que debíamos realizar. ¿No resulta difícil poder visualizar un producto, a través de una lista de _User Stories_? Descubrir esta herramienta fue realmente un hallazgo para mi.
 
-¿Qué es un _User Story Mapping_? En pocas palabras, **es un mapa que describe los procesos de negocios de cada uno de los actores que forman parte del sistema**, junto con las tareas que se deben llevar a cabo para completar cada uno de estos procesos. La técnica fue popularizada por Jeff Patton dentro del mundillo ágil. El resultado es algo asi:
+¿Qué es un _User Story Mapping_? En pocas palabras, **es un mapa que describe los procesos de negocios de cada uno de los actores que forman parte del sistema**, junto con las tareas que se deben llevar a cabo para completar cada uno de estos procesos. La técnica fue popularizada por Jeff Patton dentro del mundillo ágil. El resultado, desde el plano visual, será algo similar a lo que puede verse en la siguiente imagen:
 
 ![](/assets/story_mapping1.png)
 
-Porque me gusta tanto esta herramienta? Basicamente porque es:
+¿Por qué me gusta tanto esta herramienta? Básicamente, porque es:
 
-* **Intuitiva**: Puedo explicarla en minutos a un público completamente nuevo y empezar inmediatamente a construir el Story Map.
+* **Intuitiva**: Puedo explicarla en minutos a un público completamente nuevo y empezar inmediatamente a construir el _Story Map_.
 
-* **Fácil de Crear**: Crear una tarea del Story Map es escribir un post-it y pegarlo. Cualquiera puede hacerlo y se hace sin crear ninguna disrupción. El tiempo se invierte en ir descubriendo estas tareas entre todos y a través de todas las conversaciones que se disparan. Los post-its pueden reacomodarse sin ningún esfuerzo a medida que se descubren nuevas tareas o se reprioriza.
+* **Fácil de Crear**: Crear una tarea del _Story Map_ implica solamente escribir un _post-it_ y pegarlo. Cualquiera puede hacerlo sin crear ninguna disrupción. El tiempo se invierte en descubrir estas tareas entre todos y en las conversaciones que se disparan. Los _post-its_ pueden reacomodarse sin ningún esfuerzo, a medida que se descubren nuevas tareas o se repriorizan las existentes.
 
-* **Visual**: El mapa nos permite visualizar claramente los actores principales junto con sus actividades principales y como están compuestas esas actividades. Podemos recorrer estos flujos simplemente leyendo las tareas de izquierda a derecha, algo que es intuitivo y natural. Podemos ver que es importante, simplemente viendo qué tareas se encuentran arriba de otras. El mapa contiene muchísima información, arreglada de una manera muy eficiente.
+* **Visual**: El mapa nos permite visualizar claramente a los actores junto con sus actividades principales y la composición de las mismas. Podemos recorrer estos flujos de negocios, simplemente, leyendo las tareas de izquierda a derecha, algo que resulta intuitivo y natural. Podemos ver qué es importante, simplemente viendo qué tareas se encuentran arriba de otras. El mapa contiene mucha información, presentada de forma clara.
 
 ##### **Dinámica \(o como construimos el User Story Map\)**
 
