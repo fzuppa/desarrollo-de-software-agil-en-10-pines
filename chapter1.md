@@ -26,7 +26,7 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, detal
 
 **Producto Mínimo Viable: **es fundamental entender cuál es el **experimento mínimo que nuestros clientes están dispuestos a testear con usuarios reales**. Sus altas expectativas muchas veces los impulsan a buscar la implementación de todas sus ideas, pretendiendo obtener éxito desde el comienzo. Lamentablemente, en la mayor parte de las ocasiones esto no ocurre. Es por eso que alentamos a nuestros clientes a diseñar _experimentos_ que validen sus hipótesis con usuarios reales. Nuestro objetivo es [crear conocimiento validado de la manera más rápida y eficiente posible](http://theleanstartup.com/).
 
-**Modelo de Negocio: **Cuando trabajamos con [startups](https://en.wikipedia.org/wiki/Startup_company), que piensan desarrollar un negocio, creemos que es importante entender cuál es su modelo de negocios, es decir, cómo piensan ganar dinero y cuál es el diferencial del producto. Si el proyecto es para una corporación, entonces es importante entender cuáles son los procesos que esta herramienta optimizará o cómo se obtendrán nuevos ingresos a partir de la misma. 
+**Modelo de Negocio: **Cuando trabajamos con [startups](https://en.wikipedia.org/wiki/Startup_company), que piensan desarrollar un negocio, creemos que es importante entender cuál es su modelo de negocios, es decir, cómo piensan ganar dinero y cuál es el diferencial del producto. Si el proyecto es para una corporación, entonces es importante entender cuáles son los procesos que esta herramienta optimizará o cómo se obtendrán nuevos ingresos a partir de la misma.
 
 **Riesgos: **Es muy común que en las conversaciones realizadas en esta etapa se detecten riesgos, tanto técnicos como de negocio. Éstos deben ser marcados y discutidos, ya que representan información esencial para la posterior priorización de features.
 
@@ -50,9 +50,9 @@ A continuación, describiré algunas de las herramientas que usamos habitualment
 
 #### Introducción
 
-Aprendí esta técnica cuando vivía en San Francisco, en 2009, en uno de los tantos open spaces a los que asistí. Por ese entonces, yo trabajaba con Scrum o Extreme Programming desde hacía algunos años y uno de los cuestionamientos que tenía era que el _backlog _\(que trataré en el próximo cápitulo\) no me dejaba visualizar el trabajo que debíamos hacer de manera nítida. Se me perdían las stories en herramientas de Gestión Ágil digitales donde podía ver todas las User Stories en una gran lista. Descubrir esta herramienta fue realmente un hallazgo para mi.
+Aprendí esta técnica cuando vivía en San Francisco, en 2009, en uno de los tantos open spaces a los que asistí. Por ese entonces, yo trabajaba con _Scrum_ o _Extreme Programming_ desde hacía algunos años y uno de los cuestionamientos que poseía era que el _backlog _\(que trataré en el próximo capitulo\) no me dejaba visualizar, de manera nítida, el trabajo que debíamos realizar. ¿No resulta difícil poder visualizar un producto, a través de una lista de _User Stories_? Descubrir esta herramienta fue realmente un hallazgo para mi.
 
-Que es un User Story Mapping? En pocas palabras, **es un mapa que describe los procesos de negocios de cada uno de los actores que forman parte del sistema**, junto con las tareas que se deben llevar a cabo para completar cada uno de estos procesos. La técnica fue popularizada por Jeff Patton dentro del mundillo ágil. El resultado es algo asi:
+¿Qué es un _User Story Mapping_? En pocas palabras, **es un mapa que describe los procesos de negocios de cada uno de los actores que forman parte del sistema**, junto con las tareas que se deben llevar a cabo para completar cada uno de estos procesos. La técnica fue popularizada por Jeff Patton dentro del mundillo ágil. El resultado es algo asi:
 
 ![](/assets/story_mapping1.png)
 
