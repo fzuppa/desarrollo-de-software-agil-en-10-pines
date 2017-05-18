@@ -80,7 +80,7 @@ Retomando el ejemplo, ¿qué será lo primero que hará el cajero, cuando nos pr
 
 ![](/assets/story_mapping_dynamic2.png)
 
-Una vez calculado el total, el cajero deberá cobrar. El medio de pago más sencillo de implementar es con dinero en efectivo, así que escribiremos una tarea que lo represente: ‘Tomar pago con efectivo’. Una vez que hayamos tomado el pago, ‘emitiremos el recibo’. 
+Una vez calculado el total, el cajero deberá cobrar. El medio de pago más sencillo de implementar es con dinero en efectivo, así que escribiremos una tarea que lo represente: ‘Tomar pago con efectivo’. Una vez que hayamos tomado el pago, ‘emitiremos el recibo’.
 
 ![](/assets/story_mapping_dynamic3.png)
 
@@ -96,15 +96,13 @@ Por las mismas razones, denominaré a la actividad que engloba todas las tareas 
 
 ![](/assets/story_mapping_dynamic5.png)
 
-En este ejemplo, hemos partido del descubrimiento de tareas para luego abstraer las actividades. Podríamos haber partido también de la identificación de las actividades principales, ‘Cargar Productos’ y ‘Cobrar’ y luego descomponerlas en las tareas que la integran. En definitiva, ya sea que partamos de la abstracción, es decir, de la actividad, y la descompongamos en el conjunto de tareas o viceversa, partamos de descubrir las tareas concretas y, en algún momento, abstraigamos la actividad, el resultado final será el mismo.
+En este ejemplo, hemos partido del descubrimiento de tareas para luego abstraer las actividades. Podríamos haber comenzado también por la identificación de las actividades principales, ‘Cargar Productos’ y ‘Cobrar’ para luego descomponerlas en _tareas_. En definitiva, ya sea que partamos de la abstracción, es decir, de la actividad y la separemos en tareas o viceversa, de las tareas concretas y, en algún momento, abstraigamos la actividad, el resultado final será el mismo.
 
-Una vez descrita la primera actividad \(y el primer conjunto de tareas\) en general preguntaremos: ¿qué otras tareas piensan que este usuario va a llevar a cabo en el sistema? O que otra actividad importante este usuario llevará a cabo? Y así empezamos de nuevo a descubrir otras tareas, flujos de tareas y actividades.
+Una vez descrita la primera actividad \(y el primer conjunto de tareas\) preguntaremos: ¿qué otras tareas o actividades llevará a cabo en el sistema este usuario? Impulsados por esta interrogación, comenzaremos nuevamente el ciclo detallado.
 
-Muchas veces pasa que nos preguntamos dónde deberíamos poner los post-its que corresponden a esta actividad nueva? \(A veces no es muy claro si el usuario hará primero esta actividad o la otra\). Y eso es lo que pasa en la vida real en muchos de los sistemas que usamos, no? A veces hacemos primero una actividad y a veces otra. El orden que tenemos que poner es el orden que primero viene a la mente de manera que el Story Map denote lo mejor posible la temporalidad. Y estoy diciendo lo mejor posible.
+Seguramente, en algún momento, nos daremos cuenta de que podemos hacer cierta tarea o cierta otra tarea para alcanzar un mismo objetivo \(por supuesto que esto se puede extender a un flujo de tareas\). ¿Qué haremos para representar esto, visualmente, dentro de nuestro _story map_? Pegaremos los _post-its,_ que corresponden a las _tareas_ opcionales, debajo de las tareas principales. Nótese que mencioné una tarea principal y una opcional, es decir que _priorizamos_ y esta priorización queda reflejada en nuestro _story map_.
 
-Seguramente que en algún momento, nos daremos cuenta que podemos hacer cierta tarea o cierta otra tarea para alcanzar nuestro objetivo \(por supuesto que esto se puede extender a un flujo de tareas\). Es decir podemos hacer una cosa o la otra y llegaremos al mismo objetivo. Qué haremos para representar esto, visualmente, dentro de nuestro story map? Pues pegaremos los post-its que corresponden a las tareas opcionales debajo de las tareas principales. Si, muchos se habrán dado cuenta que ya dije tarea principal y tarea opcional, es decir que acabamos de priorizar y esa priorización que acordamos queda reflejada en nuestro story map.
-
-Siguiendo con el ejemplo, imaginen que en vez de ‘Ingresar el producto’ a mano, lo escaneamos \(que es como usualmente se hace en los supermercados\). Lo que haremos en nuestro Story Map será escribir la tarea y pegarla debajo de la tarea principal. Lo mismo pasaría si identificamos una tarea para ‘Tomar pago con tarjeta’, que será una tarea opcional a la tarea principal de 'Tomar pago con efectivo'.
+Siguiendo con el ejemplo, imagínese que, en vez de ‘Ingresar el producto’ de forma manual, lo escaneamos \(como usualmente se hace en los supermercados\). Escribiremos la tarea y la pegaremos debajo de la tarea principal. Lo mismo pasaría si identificásemos una tarea para ‘Tomar pago con tarjeta’, que será opcional a la principal de 'Tomar pago con efectivo'. Nuestro _Story Map_ quedará como ilustra el ejemplo:
 
 ![](/assets/story_mapping_dynamic6.png)
 
