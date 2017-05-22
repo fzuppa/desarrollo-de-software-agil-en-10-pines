@@ -126,10 +126,6 @@ Antes observamos que es posible especificar que una tarea es más importante que
 
 Decidir dónde debemos trazar la línea involucra muchísimos factores, muchos más de los que podría abordar en este capítulo. Lo importante a destacar es que la herramienta facilita la elección de una primera versión del MVP en un ambiente de colaboración, donde participan expertos de todas las áreas.
 
-#### **Herramientas Digitales**
-
-La herramienta que puedo recomendarles es la herramienta que estamos ayudando a desarrollar \(por supuesto!\). Se llama [Cardboard](http://cardboardit.com) y fue desarrollada por David Hussman. Les recomiendo también que vean el [video](https://vimeo.com/138232397) de David explicando como hacer un Story Mapping, ya que les va a servir para entender mucho más visualmente cómo se construye un Story Mapping y es exactamente el ejemplo que describí en este capítulo.
-
 ### **Lean Canvas**
 
 Ustedes piensan que nosotros, como equipo de desarrollo, debemos entender como funciona el negocio que modelaremos? Algunos dirán, no es necesario. Mientras que se comunique correctamente que es lo que se debe desarrollar, con esto alcanza. Podrán adivinar que estoy en desacuerdo con esta afirmación. Creo que es importante entender cómo funciona o funcionará el negocio de la empresa que nos contrata. Si estamos desarrollando un producto nuevo \(de un startup\), es necesario entender cuál es el modelo de negocios que piensan implementar o dicho de otra manera, cómo piensan hacer plata. Si es una aplicación que se va a desarrollar para una organización, entonces debemos entender por qué es necesaria esta aplicación, cuál va a ser el valor que aporte o cómo va a recortar costos.
