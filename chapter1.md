@@ -128,45 +128,43 @@ Decidir dónde debemos trazar la línea involucra muchísimos factores, muchos m
 
 ### **Lean Canvas**
 
-Ustedes piensan que nosotros, como equipo de desarrollo, debemos entender como funciona el negocio que modelaremos? Algunos dirán, no es necesario. Mientras que se comunique correctamente que es lo que se debe desarrollar, con esto alcanza. Podrán adivinar que estoy en desacuerdo con esta afirmación. Creo que es importante entender cómo funciona o funcionará el negocio de la empresa que nos contrata. Si estamos desarrollando un producto nuevo \(de un startup\), es necesario entender cuál es el modelo de negocios que piensan implementar o dicho de otra manera, cómo piensan hacer plata. Si es una aplicación que se va a desarrollar para una organización, entonces debemos entender por qué es necesaria esta aplicación, cuál va a ser el valor que aporte o cómo va a recortar costos.
+¿Ustedes piensan que los desarrolladores deberían entender como funciona el negocio que modelarán? Algunos dirán, no es necesario: mientras se comunique correctamente lo que se debe desarrollar es suficiente. Podrán adivinar que estoy en desacuerdo con esta afirmación. Creo que es importante entender cómo funciona o funcionará el negocio de la empresa que nos contrata. Si estamos desarrollando un producto nuevo \(de un startup\), es necesario entender cuál es el modelo de negocios que piensan implementar o, dicho de otra manera, cómo piensan generar dinero. Si se trata de una aplicación para una organización, entonces debemos entender por qué es necesaria, cuál es su valor o cómo recortará costos.
 
-En el pasado, era frecuente contar con planes de negocio extensos, que involucraban un esfuerzo grande de desarrollar. En la actualidad, es mucho más frecuente el uso de una herramienta llamada Lean Canvas que es mucho más simple y liviana y por ende mucho más atractiva para desarrollar en uno de nuestros talleres.
+En el pasado, eran frecuentes los planes de negocio extensos, que requerían un gran esfuerzo. En la actualidad, es común el uso de una herramienta llamada _Lean Canvas,_ que es mucho más simple y liviana y, por ende, más atractiva para desarrollar en uno de nuestros talleres.
 
-Lean Canvas es una herramienta que popularizó Eric Ries, a través de su metodología [Lean Startups](http://theleanstartup.com/book), que sirve para especificar el modelo de negocios de una manera muy simple y efectiva. La herramienta se enfoca en el problema detectado y cual es la solución que proporciona un valor agregado no existente en el mercado.
+Lean Canvas es una herramienta que popularizó Eric Ries, a través de su metodología [Lean Startups](http://theleanstartup.com/book), que sirve para especificar el modelo de negocios de una manera muy simple y efectiva. La herramienta se enfoca en el problema detectado y cuál es la solución que proporciona un valor agregado no existente en el mercado. Existen diferentes versiones, por ejemplo, en [leanstack](https://leanstack.com) pueden encontrar esta versión \(ilustrada por la imagen\) definida como una adaptación del _business model canvas_ de Alex Osterwalder.
 
-Existen diferentes versiones. Por ejemplo, en [leanstack](https://leanstack.com) pueden encontrar esta versión que definen como una adaptación del business model canvas de Alex Osterwalder.
+![](/assets/lean_canvas.png)En el orden propuesto, iremos descubriendo:
 
-![](/assets/lean_canvas.png)
+1a\) A quiénes estará orientado el producto.
 
-En el orden propuesto, iremos descubriendo:
+1b\) Los tres problemas más importantes que estos usuarios enfrentan. ¿Cómo los resuelven en la actualidad?
 
-1\) Segmento de clientes: a quienes va a apuntar nuestro producto?
+2\) Un mensaje simple, claro y atractivo que explique por qué tu solución es diferente y por qué valdría la pena comprarla.
 
-1\) 3 problemas más importantes que estos usuarios tienen. Acá tienen q pensar como están resolviendo estos problemas en la actualidad
+3\) Los tres _features_ más importantes.
 
-2\) Un mensaje simple, claro y atractivo que explique porque tu solución es diferente y porque vale la pena comprarla
+4\) Cómo llegar al cliente.
 
-3\) Features más importantes, al costado de cada problema
+5\) Flujo de ingresos: qué se cobrará y cuánto.
 
-4\) Cómo vas a llegar a tus clientes?
+6\) Cómo medir el progreso. Cómo saber si las hipótesis se cumplen.
 
-5\) Flujo de ingresos: que son las cosas que vas a cobrar y cuanto las vas a cobrar?
+7\) Cuál es la ventaja diferencial del producto \(aquella que los competidores no podrán alcanzar\).
 
-6\) Cómo vas a medir el progreso? Como sabrás si tus hipotesis se cumplen?
 
-7\) Cuál es la ventaja diferencial de tu producto? Aquella que los competidores no podrán alcanzar.
 
 En [canvanizer.com](https://canvanizer.com/new/lean-canvas), podemos encontrar una versión aún más reducida:
 
 ![](/assets/canvanizer.png)
 
-Mi amigo Jorge Silva encontró mucho valor en usar esta herramienta en corporaciones gigantes, pero la adaptó. La sección más importante que agrego es la de ‘Ahorros’, lo cual tiene mucho sentido ya que el objetivo de muchos de los sistemas desarrollados en estos ámbitos es el de ahorrar dinero en ciertos procesos. En este [post](https://blog.10pines.com/2015/07/13/enterprise-lean-canvas/) podrán encontrar más detalles..
+Mi colega Jorge Silva encontró un importante valor en el uso de esta herramienta en proyectos destinados a corporaciones, efectuándole algunos cambios, que incluyeron la adición de una sección de ‘Ahorros’, que permite describir cómo se ahorrará dinero en ciertos procesos. En este [post](https://blog.10pines.com/2015/07/13/enterprise-lean-canvas/) podrán encontrar más detalles.
 
 ![](/assets/enterprise_canvas.png)
 
-Creo que tratar a estos proyectos corporativos como si fueran un proyecto para un startup es una gran idea, ya que no caemos en la trampa de pensar que el presupuesto es infinito a la vez que nos permite alinear las visiones de todas las areas que van a estar involucradas el desarrollo.
+Tratar estos proyectos corporativos como si estuviesen destinados a un startup resulta un acierto, ya que evita caer en la trampa de pensar que el presupuesto es infinito y alinea las visiones de todas las áreas involucradas.
 
-Hacer un taller que implique la creación del Lean Canvas, donde participe todo el equipo, permite que todas las personas que construirán el producto tengan una visión compartida del valor que agregará, como piensan venderlo y cual es la competencia. El beneficio de que personas con un perfil técnico tengan una visión del negocio redunda en diseños pensados para alcanzar estos objetivos, el disparo de nuevas ideas, que muchas veces los usuarios de negocio no pensaron y en la propuesta de alternativas que cumplan los mismos objetivos, pero que tengan un costo menor. En estos problemas complejos, la interacción de este grupo de profesionales heterogéneo es lo que maximiza las probabilidades de éxito!
+Hacer un taller que implique la creación del Lean Canvas, donde participe todo el equipo, permite que todas las personas que construirán el producto tengan una visión compartida del valor que agregará, cómo piensan venderlo y cuál es la competencia. El beneficio de contar con desarrolladores que comprendan la visión del negocio y de sus objetivos redunda en diseños pensados para alcanzarlos, el disparo de nuevas ideas, muchas veces no previstas, y en la propuesta de alternativas que busquen cumplirlos a un costo menor. En estos problemas complejos, la interacción de este grupo de profesionales heterogéneo es lo que maximiza las probabilidades de éxito.
 
 ### **Elevator Pitch**
 
