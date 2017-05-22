@@ -152,8 +152,6 @@ Lean Canvas es una herramienta que popularizó Eric Ries, a través de su metodo
 
 7\) Cuál es la ventaja diferencial del producto \(aquella que los competidores no podrán alcanzar\).
 
-
-
 En [canvanizer.com](https://canvanizer.com/new/lean-canvas), podemos encontrar una versión aún más reducida:
 
 ![](/assets/canvanizer.png)
@@ -168,25 +166,23 @@ Hacer un taller que implique la creación del Lean Canvas, donde participe todo 
 
 ### **Elevator Pitch**
 
-El elevator pitch refleja el concepto de poder convencer a alguien de que una idea es buena en muy poco tiempo, por ejemplo si nos toparamos con esa persona en el ascensor. El pitch debería entonces resumir los conceptos claves del producto que tenemos en mente: los clientes y beneficios claves, que pensamos hacer, cuál es nuestro diferencial y cual es nuestra ventaja competitiva.
+¿Cómo podríamos convencer a un inversor, en un lapso de tiempo muy breve \(por ejemplo, si compartiésemos el ascensor\), de que tenemos una idea que vale la pena implementar? Nuestro _pitch_ deberá resumir los conceptos claves del producto que tenemos en mente: los clientes y beneficios claves, qué pensamos hacer, cuál es nuestro diferencial y cuál es nuestra ventaja competitiva.
 
-Nos gusta incluir este ejercicio en nuestros talleres porque nos permite entender, de una manera muy resumida, cuál es el modelo de negocios que va a tener el producto que se va a desarrollar. Hemos realizado el ejercicio con startups que recién estaban comenzando, con lo cual tener que realizar este ejercicio les implicaba un esfuerzo para resumir sus ideas, startups ya financiados y que habían pitcheado en reiteradas ocasiones, con lo cuál esto se convertían en un pitch más \(para nosotros!\) y también con proyectos que se realizaron en grandes corporaciones. Como ya mencioné en ocasiones anteriores, encarar estos proyectos como si se tratara de un startup conlleva innumerables beneficios.
-
-Para realizar este taller, le entregamos al equipo un afiche en el que tienen que completar:
+Nos gusta incluir este ejercicio en nuestros talleres, porque nos permite entender, de una manera muy resumida, cuál es el modelo de negocios que tendrá el producto a desarrollar. Para realizar este taller, entregamos al equipo un afiche con los siguientes campos a completar:
 
 **Para **\(Clientes Claves\)
 
-**Quienes **\(Necesidad o Oportunidad\)
+**Quiénes **\(Necesidad o Oportunidad\)
 
 **El **\(Nombre del producto\)
 
-**Que **\(Beneficios claves o razones más importantes por las que lo comprarían\)
+**Qué **\(Beneficios claves o razones más importantes por las que lo comprarían\)
 
 **A diferencia de **\(Competidor principal\)
 
 **Nuestro Producto **\(Diferencial\)
 
-Elevator Pitchs en clientes corporativos y startups![](https://lh6.googleusercontent.com/0gYisoQ9Ogga-qwOgwp_NDH4oRk4E6aINkl_fXaSNDsyMr5yMSnLIAuIveYYY6OtGttSqajsDMcka9DGX71orIrSPQp4EHrV3h-IKE-kqeDKkPkZ5DcYWwsqfSo6iuS04zwKw3Bb)
+Ejemplos de _Elevator Pitchs_ desarrollados para algunos clientes:![](https://lh6.googleusercontent.com/0gYisoQ9Ogga-qwOgwp_NDH4oRk4E6aINkl_fXaSNDsyMr5yMSnLIAuIveYYY6OtGttSqajsDMcka9DGX71orIrSPQp4EHrV3h-IKE-kqeDKkPkZ5DcYWwsqfSo6iuS04zwKw3Bb)
 
 ### **Personas**
 
