@@ -118,13 +118,13 @@ Una vez finalizada la primera versión del _Story Map,_ deberíamos hacer algo q
 
 #### **Priorización Usando el User Story Map**
 
-Ya vimos que podemos especificar que una tarea es más importante que otra simplemente poniendo la tarea \(o conjunto de tareas\) en un nivel superior del Story Map. Genial! Además de eso, el Story Map es una herramienta genial para decidir cuál es la primera versión del producto con la cual podemos empezar a aprender con usuarios finales; lo que muchos llaman Producto Mínimo Viable \(MVP - Minimum Viable Product\).
+Antes observamos que es posible especificar que una tarea es más importante que otra, simplemente poniendo la tarea \(o conjunto de tareas\) en un nivel superior del _Story Map_. ¡Genial! Además de eso, el Story Map es una herramienta muy útil para decidir cuál es la primera versión del producto que podemos poner en producción; lo que muchos llaman _Producto Mínimo Viable_ \(MVP - _Minimum Viable Product_\).
 
-Cómo hacemos esto? Simplemente trazando una línea que separe las tareas que estarán incluidas en el MVP de las que no. Podemos hacerlo trazando una línea que vaya bordeando las tareas, dejando las tareas del MVP arriba o simplemente trazar una línea recta dejando los post-its arriba o abajo según corresponda.
+¿Cómo hacemos esto? Separando las tareas que estarán incluidas en el MVP de las que no. Para esto, bordeamos las tareas que pertenecen al MVP o simplemente trazamos una recta que deje los _post-its_ arriba o abajo según corresponda \(como muestra la imagen\).
 
 ![](/assets/story_mapping_dynamic7.png)
 
-Obviamente decidir dónde debemos trazar la línea involucra muchísimos factores, muchos más de los que quiero contar en este capítulo. Lo importante a destacar es que la herramienta facilita la elección de una primera versión del MVP en un ambiente de colaboración donde participan expertos de todas las áreas.
+Decidir dónde debemos trazar la línea involucra muchísimos factores, muchos más de los que podría abordar en este capítulo. Lo importante a destacar es que la herramienta facilita la elección de una primera versión del MVP en un ambiente de colaboración, donde participan expertos de todas las áreas.
 
 #### **Herramientas Digitales**
 
