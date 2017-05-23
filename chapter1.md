@@ -198,7 +198,7 @@ Este ejercicio puede realizarlo el _Product Owner_ \(o el _UX Designer_ en proye
 
 Siempre que un nuevo proyecto está por comenzar, existe un conjunto de incertidumbres o, dicho de otro modo, de riesgos que podrían hacer que el proyecto fracase. Es necesario que éstos sean identificados cuanto antes. Esta actividad es breve \(se puede hacer en 15/20 minutos\) y permite que todos los involucrados hagan explícitos estos riesgos, discutiéndose el potencial impacto de cada uno de ellos. El resultado de esta actividad será de gran ayuda en la priorización que deberá establecerse en el futuro, cuando se realice el planeamiento.
 
-¿Cómo es la dinámica de la actividad? Básicamente, se trabaja sobre un papel de gran tamaño y _post-its_ que son entregados a todos los participantes. Durante 5’ cada integrante del equipo pensará y escribirá riesgos \(cada riesgo en un _post-it_\), pegándolos en el papel. Al finalizar este periodo, se leerán los riesgos que los integrantes del equipo han pensado y se discutirá la gravedad de cada uno de ellos, evaluándose cómo pueden ser mitigados. 
+¿Cómo es la dinámica de la actividad? Básicamente, se trabaja sobre un papel de gran tamaño y _post-its_ que son entregados a todos los participantes. Durante 5’ cada integrante del equipo pensará y escribirá riesgos \(cada riesgo en un _post-it_\), pegándolos en el papel. Al finalizar este periodo, se leerán los riesgos que los integrantes del equipo han pensado y se discutirá la gravedad de cada uno de ellos, evaluándose cómo pueden ser mitigados.
 
 ![](/assets/quenosquitaelsueño.png)
 
@@ -212,7 +212,7 @@ Una de las facetas a las que generalmente le prestamos menos atención y que, si
 
 Quiero destacar que en _10Pines_ hacemos estos talleres de _Product Discovery_ al momento de la preventa, es decir apenas ocurrido el primer contacto con el cliente. En consecuencia, lo que hacemos es **construir la propuesta junto a nuestros clientes**. De esta manera, nos aseguramos de entender su visión, el modelo de negocio, cuáles son las restricciones más importantes, compartiendo también una idea del costo que tendrá el desarrollo.
 
-Jorge Silva denominó a esto _Lean Sales Up_, ya que se elimina el [_desperdicio_](https://es.wikipedia.org/wiki/Lean_manufacturing) que los procesos usuales de ventas contienen. Los artefactos creados son sumamente útiles para el posterior desarrollo y la cantidad generada de conocimiento compartido es infinita. 
+Jorge Silva denominó a esto _Lean Sales Up_, ya que se elimina el [_desperdicio_](https://es.wikipedia.org/wiki/Lean_manufacturing) que los procesos usuales de ventas contienen. Los artefactos creados son sumamente útiles para el posterior desarrollo y la cantidad generada de conocimiento compartido es infinita.
 
 # **Conclusiones**
 
@@ -220,7 +220,5 @@ En este primer capítulo describí la primera fase de nuestro proceso de desarro
 
 Todas las personas involucradas en el proyecto participan en estos talleres. Es importante escuchar todas las opiniones y saber que existe un alineamiento dentro de la empresa que quiere construir el producto. La interacción de todos estos perfiles, de negocios y técnicos, enriquece la conversación y potencia la innovación.
 
-Realizar estos talleres en el proceso de preventa genera un grado de confianza que permite que las ventas fluyan mejor a la vez que minimizan el desperdicio ya que el proceso de desarrollo es una continuación que usa los mismos artefactos y se hace con las mismas personas que participaron en el Product Discovery.
-
-En el próximo capítulo, nos meteremos de lleno en el area de planeamiento ágil, empezando por las User Stories, estimación, priorización y finalmente cómo construir un plan ágil.
+Realizar estos talleres en el proceso de preventa genera un grado de confianza que permite que todo el proceso fluya mejor a la vez que minimiza el desperdicio, ya que el desarrollo será una continuación que utilizará los mismos artefactos y se hará con las mismas personas que participaron del _Product Discovery_.
 
