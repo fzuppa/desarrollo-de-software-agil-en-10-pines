@@ -186,37 +186,37 @@ Ejemplos de _Elevator Pitchs_ desarrollados para algunos clientes:![](https://lh
 
 ### **Personas**
 
-Uno de los puntos que buscamos en esta fase de Product Discovery es entender a los potenciales usuarios del sistema. Quienes son? Qué tipos de usuario son? Cómo encontrarán valor?
+Uno de los objetivos que perseguimos en esta fase de _Product Discovery_ implica entender a los potenciales usuarios del sistema. ¿Quiénes son? ¿Qué tipos de usuario son? ¿Cómo encontrarán valor?
 
-Una técnica muy útil para lograr conocimiento compartido en este sentido es la descripción de ‘Personas’ \(Personas en inglés :D\). Lo que hacemos es crear una persona, del mundo real \(con nombre y todo!\) , que usará el sistema \(o ya lo está usando\) e intentamos describirlo. Como es esa persona, cuales son sus características \(por ejemplo, es un usuario básico que conoce poco de computadoras o es un usuario avanzado\). Finalmente, describimos en pocas palabras cuál va a ser el valor que el producto que vamos a desarrollar le va a brindar. Cabe destacar que esta ‘persona’ representa en realidad a un conjunto de personas que comparten las mismas características y usarán el sistema de manera similar.
+Una técnica muy útil para lograr conocimiento compartido en este sentido es la descripción de _Personas_ \(término técnico procedente del inglés\). Esta herramienta consiste en la identificación de un tipo de usuario del mundo real que intentaremos describir. Cómo es, cuáles son sus características \(por ejemplo, si es un usuario básico que conoce poco de computadoras o si es un usuario avanzado\). Finalmente, describimos en pocas palabras cuál será el valor que el producto que vamos a desarrollar le brindará. Cabe destacar que esta _persona,_ que usamos como ejemplo, representa en realidad un conjunto de usuarios que comparten las mismas características y que usarán el producto de modo similar.
 
-Esto puede hacerlo el Product Owner solo \(o el UX Designer en proyectos que cuenten con este rol\) y después contarlo al equipo o se puede hacer un taller donde participen diferentes usuarios \(además del PO obviamente\) y también los desarrolladores. No me cansaré de repetir que mientras mejor entendamos \(nosotros, los desarrolladores\) a los usuarios y el problema que intentamos resolver, mejores soluciones diseñaremos.
+Este ejercicio puede realizarlo el _Product Owner_ \(o el _UX Designer_ en proyectos que cuenten con este rol\) para después informar sus conclusiones o puede efectuarse a través de un taller donde participe todo el equipo, incluyendo a los desarrolladores. ¡La diversidad de roles siempre enriquece el resultado!
 
 ![](/assets/personas.png)
 
-### **Que Nos Quita el Sueño?**
+### ¿**Qué Nos Quita el Sueño?**
 
-Siempre que se esta por empezar con un proyecto, existen un conjunto de incertidumbres o dicho de otro modo, riesgos que podrían hacer que el proyecto fracase. Esta actividad es una actividad muy cortita \(se puede hacer en 15/20 minutos\) que permite que todos los involucrados expliciten estos riesgos y se discuta cual puede ser el impacto de cada uno de ellos. Estos riesgos/incertidumbres son factores fundamentales en la priorización que se haga más adelante.
+Siempre que un nuevo proyecto está por comenzar, existe un conjunto de incertidumbres o, dicho de otro modo, de riesgos que podrían hacer que el proyecto fracase. Es necesario que éstos sean identificados cuanto antes. Esta actividad es breve \(se puede hacer en 15/20 minutos\) y permite que todos los involucrados hagan explícitos estos riesgos, discutiéndose el potencial impacto de cada uno de ellos. El resultado de esta actividad será de gran ayuda en la priorización que deberá establecerse en el futuro, cuando se realice el planeamiento.
 
-Como es la dinámica de la actividad? Pués básicamente se pone un afiche y se entregan post-its a todos los participantes. Se dejan 5’ para que cada participante piense, escriba \(un riesgo por post-it\) y luego pegue el post-it. Al finalizar estos 5’, el facilitador lee cada riesgo que genera discusiones sobre cuán importante es el riesgo o como puede ser mitigado.
+¿Cómo es la dinámica de la actividad? Básicamente, se trabaja sobre un papel de gran tamaño y _post-its_ que son entregados a todos los participantes. Durante 5’ cada integrante del equipo pensará y escribirá riesgos \(cada riesgo en un _post-it_\), pegándolos en el papel. Al finalizar este periodo, se leerán los riesgos que los integrantes del equipo han pensado y se discutirá la gravedad de cada uno de ellos, evaluándose cómo pueden ser mitigados. 
 
 ![](/assets/quenosquitaelsueño.png)
 
-### **Experimentos de Usabilidad**
+### **Experimentos de **_**Usabilidad**_
 
-Una de las facetas a las que generalmente le prestamos menos atención, y sin embargo es muy importante es la de la Experiencia de Usuario y la Usabilidad. Podemos empezar a testear la usabilidad, incluso antes de escribir una sola línea de código y lo mejor es que podemos hacerlo de manera muy económica! Aprender lo más rápido posible si los usuarios entienden la interfaz, que features consideran importantes y cuales ni siquiera notan o entienden pueden ahorrarte una cantidad de dinero importante.
+Una de las facetas a las que generalmente le prestamos menos atención y que, sin embargo, tiene mucha importancia es la de _Usabilidad_. Algo que muchos olvidan es que puede comenzar a evaluarse este aspecto sin escribir una sola línea de código y de manera muy económica. Aprender lo más rápido posible si los usuarios entienden la interfaz, qué _features_ consideran importantes y cuáles ni siquiera notan pueden ahorrar una importante cantidad de recursos económicos.
 
 ![](/assets/experimentos_usabilidad.png)
 
 # **Lean Sales Up**
 
-Si les pregunto cuál es el mejor momento para hacer estos talleres, ustedes \(la mayoría por lo menos\) me responderán que al inicio del proyecto. Sin embargo, en 10Pines lo hacemos antes, al momento de la preventa. Así es, lo que hacemos es, de alguna manera, construir la propuesta junto a nuestros clientes. De esta manera, nos aseguramos de entender su visión, el modelo de negocio, cuales son las restricciones más importantes y también llegamos a compartir una idea del tamaño del desarrollo.
+Quiero destacar que en _10Pines_ hacemos estos talleres de _Product Discovery_ al momento de la preventa, es decir apenas ocurrido el primer contacto con el cliente. En consecuencia, lo que hacemos es **construir la propuesta junto a nuestros clientes**. De esta manera, nos aseguramos de entender su visión, el modelo de negocio, cuáles son las restricciones más importantes, compartiendo también una idea del costo que tendrá el desarrollo.
 
-Jorge Silva denominó a esto Lean Sales Up, ya que eliminamos de esta manera todo el desperdicio que los procesos usuales de ventas contienen. Los artefactos que creamos son sumamente útiles para el posterior desarrollo y la cantidad de conocimiento compartido que generamos es infinita. Como siempre dice Hernan Wilkinson, el nuestro es un trabajo de comunicación y establecer este grado de comunicación desde el minuto 0 es uno de los factores más importantes de éxito de nuestros proyectos!
+Jorge Silva denominó a esto _Lean Sales Up_, ya que se elimina el [_desperdicio_](https://es.wikipedia.org/wiki/Lean_manufacturing) que los procesos usuales de ventas contienen. Los artefactos creados son sumamente útiles para el posterior desarrollo y la cantidad generada de conocimiento compartido es infinita. 
 
 # **Conclusiones**
 
-En este primer capítulo describí la primera fase de nuestro proceso de desarrollo: el Product Discovery. Comenzamos todos nuestros proyectos con los talleres descritos, ya que nos permiten crear una visión compartida de los objetivos a la vez que sientan las bases de una relación basada en la confianza donde fluya la comunicación.
+En este primer capítulo describí la primera fase de nuestro proceso de desarrollo: el _Product Discovery_. Todos nuestros proyectos comienzan con los talleres descritos, que nos permiten crear una visión compartida de los objetivos y sentar las bases de una relación basada en la confianza donde fluya la comunicación.
 
 Todas las personas involucradas en el proyecto participan en estos talleres. Es importante escuchar todas las opiniones y saber que existe un alineamiento dentro de la empresa que quiere construir el producto. La interacción de todos estos perfiles, de negocios y técnicos, enriquece la conversación y potencia la innovación.
 
