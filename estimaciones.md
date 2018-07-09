@@ -17,11 +17,11 @@ Durante muchos años de mi vida realicé estimaciones en tiempos absolutos. Para
 
 Cuando empecé a trabajar con Scrum, descubrí el concepto de estimaciones relativas usando _story points_. Con esta técnica, no estimamos cuánto esfuerzo demanda completar una _user story_, sino **cuánto demanda una con respecto a otra**. Asignamos puntos, que llamamos _story points_, como resultado de estas comparaciones relativas. Así, una _user story_ que tiene asignado 2 requerirá el doble de esfuerzo que otra de 1 y 2/3 de una tercera de 3. **Estos puntos amalgaman todos los factores que pueden influir en el esfuerzo**, entre los que puedo nombrarles:
 
-* **Cantidad de Trabajo**: ¿Es un formulario con 3 o 10 campos? ¿Involucra mucho _testing_?
+- **Cantidad de Trabajo**: ¿Es un formulario con 3 o 10 campos? ¿Involucra mucho _testing_?
 
-* **Incertidumbre**: ¿Conocemos el negocio? ¿Las funcionalidades están cerradas o hay puntos abiertos? ¿Es una tecnología que conocemos o es nueva y no tenemos experiencia? ¿Tenemos que interactuar con servicios nuevos?
+- **Incertidumbre**: ¿Conocemos el negocio? ¿Las funcionalidades están cerradas o hay puntos abiertos? ¿Es una tecnología que conocemos o es nueva y no tenemos experiencia? ¿Tenemos que interactuar con servicios nuevos?
 
-* **Complejidad**: Volviendo al ejemplo del formulario, ¿los componentes usados son sencillos? ¿Involucran validaciones? ¿Están interrelacionados?
+- **Complejidad**: Volviendo al ejemplo del formulario, ¿los componentes usados son sencillos? ¿Involucran validaciones? ¿Están interrelacionados?
 
 Los valores que pueden ser usados como _story points_ pertenecen a una escala discreta, por ejemplo, la serie de Fibonacci. **Limitarnos a valores discretos simplifica notablemente el proceso**. Cuando estimamos de esta manera, podemos imaginar que tenemos baldes que representan a cada uno de los valores y luego decidimos a cuál asignaríamos cadauser story. De este modo, evitamos discusiones que aportan muy poco valor, como si debiéramos asignar 2.5 o 2.7 ¡No disponemos de tanta información como para ser tan precisos! Los valores discretos incorporan intrínsecamente este grado de incertidumbre. La serie de Fibonacci es particularmente intuitiva en este sentido, ya que las distancias entre los números de la serie crecen a medida que los números se vuelven más grandes.
 
@@ -49,7 +49,7 @@ Usamos esta técnica para asignar estimaciones a las **user stories**. Para ello
 
 \[foto de planning poker de 10pines\]
 
-      
+
 La explicación del funcionamiento de esta técnica yace en la teoría de la [sabiduría de las masas](https://es.wikipedia.org/wiki/Sabiduría_de_los_grupos), que argumenta que la participación de todo el equipo incrementa la precisión de las estimaciones al escuchar las perspectivas de todos los integrantes. Que una persona sola, por más que sea un experto, realice todas las estimaciones implica un riesgo mucho mayor ya que es muy probable que omita factores poco visibles en su rol.    
 
 El proceso para hacer las estimaciones con esta técnica es el siguiente:
