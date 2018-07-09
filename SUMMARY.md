@@ -4,7 +4,7 @@
 * [Product Discovery](chapter1.md)
 * [User Stories & Backlog](user-stories-and-backlog.md)
 * [Estimaciones](estimaciones.md)
-* Priorización
+* [Priorización](priorizacion.md)
 * [Planeamiento Continuo](planeamiento-agil.md)
 * Armando el Equipo
 * Metodología de Desarrollo
