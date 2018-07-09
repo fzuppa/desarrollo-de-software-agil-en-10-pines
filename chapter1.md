@@ -66,7 +66,7 @@ Aprendí esta técnica cuando vivía en San Francisco, en 2009, en uno de los ta
 
 ##### 
 
-##### C**ómo construimos el **_**User Story Map**_
+##### C**ómo construimos el **_**User Story Map**_ {#como-construimos-el-user-story-map}
 
 Lo primero que se debe hacer es identificar a los actores principales del sistema, es decir, cuáles serán los tipos de usuarios \(o cuáles son, en caso de estar haciendo un _Story Mapping_ para un sistema ya operativo\). Muchas veces, resulta dificultosa la identificación de todos los usuarios en una instancia inicial, pero no se preocupen, porque, a medida que avancemos con la construcción del _Story Map_, identificaremos al resto. Por cada nuevo tipo de usuario, pegaremos un post-it que lo identifique, dejando espacio para descubrir todo lo que éste podrá realizar en el sistema.
 

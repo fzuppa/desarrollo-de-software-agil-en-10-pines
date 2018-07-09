@@ -3,7 +3,7 @@
 * [Introducción](README.md)
 * [Product Discovery](chapter1.md)
 * [User Stories & Backlog](user-stories-and-backlog.md)
-* Estimaciones
+* [Estimaciones](estimaciones.md)
 * Priorización
 * [Planeamiento Continuo](planeamiento-agil.md)
 * Armando el Equipo
