@@ -6,7 +6,7 @@
 * [Estimaciones](estimaciones.md)
 * [Priorización](priorizacion.md)
 * [Planeamiento Continuo](planeamiento-agil.md)
-* Armando el Equipo
+* [Armando el Equipo](armando-el-equipo.md)
 * Metodología de Desarrollo
 * Aspectos Técnicos de la Construcción
 * [Conclusión](aspectos-tecnicos-de-la-construccion.md)
