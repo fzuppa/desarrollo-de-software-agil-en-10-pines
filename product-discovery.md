@@ -1,3 +1,5 @@
+# ![](/assets/product_discovery_sketch.png)
+
 # Introducción
 
 En 10Pines construimos software para diversos tipos de clientes, desde grandes corporaciones como Claro y Burger King, que quieren desarrollar nuevos productos o ampliar la funcionalidad de herramientas existentes, hasta emprendimientos recién nacidos que buscan construir una versión inicial del producto. Si bien las necesidades, el tamaño del problema y obviamente el presupuesto difieren, siempre comenzamos nuestros desarrollos con una etapa que denominamos **Product Discovery** donde nos juntamos con los especialistas en el negocio, nuestros clientes, a crear una **visión compartida** de lo que se desea construir.
@@ -112,7 +114,7 @@ Hasta aquí, pudimos ver lo más importante referido a la herramienta. El resto 
 
 Una vez finalizada la primera versión del _Story Map,_ deberíamos hacer algo que Jeff Patton denomina ‘Recorrer el story map', que implica la lectura de los post-its que representan cada una de las tareas, imaginando cómo es que este usuario trabajaría con el sistema. Podemos hacer este recorrido con diferentes personas, de manera de poder lograr diferentes opiniones. Por supuesto que, al recorrer el _Story Map_, descubriremos tareas olvidadas que obviamente agregaremos. ¡Los _post-its_ nos brindan esta flexibilidad!
 
-![](https://lh3.googleusercontent.com/Dqz8rA8lCr_VMW6jXzapE9p0OA9591o386QTi2cf5VG9fuxm8L31DDpG-afckDXxIND5CxT6wJTOFnWpB8ySUA84KbCMYbBIFkj6VwBLtekEsXNAV0KHrBG_1edzhwguPtJ_rB9u)
+![](/assets/rocorriendo_user_story_mapping.jpg)
 
 #### 
 
