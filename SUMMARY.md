@@ -1,7 +1,7 @@
 # Summary
 
 * [Introducción](README.md)
-* [Product Discovery](chapter1.md)
+* [Product Discovery](/product-discovery.md "Product Discovery")
 * [User Stories & Backlog](user-stories-and-backlog.md)
 * [Estimaciones](estimaciones.md)
 * [Priorización](priorizacion.md)
@@ -11,4 +11,6 @@
 * Aspectos Técnicos de la Construcción
 * [Conclusión](aspectos-tecnicos-de-la-construccion.md)
 * Curriculums
+
+
 
