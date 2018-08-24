@@ -1,6 +1,5 @@
 # Estimaciones
 
-<br>
 
 # **Una Primera Noción del Tamaño**
 
