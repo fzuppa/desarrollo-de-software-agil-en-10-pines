@@ -1,4 +1,4 @@
-# ![](/assets/product_discovery.png)
+#          ![](/assets/product_discovery.png)
 
 # 
 
