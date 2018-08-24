@@ -1,6 +1,10 @@
-# ![](/assets/product_discovery_sketch.png)
+#          ![](/assets/product_discovery.png)
 
 # 
+
+> ### The hardest single part of building a software system is deciding precisely what to build - Frederick Brooks
+
+
 
 # Introducción
 
