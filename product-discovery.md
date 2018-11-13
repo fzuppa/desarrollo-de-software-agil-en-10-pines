@@ -1,4 +1,4 @@
-#          ![](/assets/product_discovery.png)
+# ![](/assets/product_discovery.png)
 
 # 
 
@@ -24,9 +24,9 @@ El resultado es un conjunto de artefactos que nos permitirá establecer un plan 
 
 Antes de describir el proceso y las herramientas que usamos en esta etapa, detallaremos qué es lo que se intenta descubrir:
 
-**Qué: **quiénes** **son** **los actores principales y qué procesos de negocios llevarán a cabo en el sistema a desarrollar. Por supuesto, existirán flujos principales y alternativos. En esta etapa detectaremos todos, aunque, después, terminemos priorizando algunos y descartando otros.
-
 **Porqué: **¿Cuáles son los problemas más importantes que desean resolver? ¿Por qué es necesaria esta herramienta? Como decía un amigo consultor, ¿dónde les 'aprieta la zapatilla'? Entender todo esto en detalle nos permite diseñar soluciones mejores, muchas veces sugiriendo alternativas a las inicialmente propuestas por nuestras clientes.
+
+**Qué: **quiénes** **son** **los actores principales y qué procesos de negocios llevarán a cabo en el sistema a desarrollar. Por supuesto, existirán flujos principales y alternativos. En esta etapa detectaremos todos, aunque, después, terminemos priorizando algunos y descartando otros.
 
 **Prioridades: **Si algo aprendí en todos estos años de desarrollo es que el tiempo y el dinero nunca alcanzarán para construir todo lo que se desea construir. Es por eso que parte de las actividades, que desarrollamos en esta etapa, consiste en identificar cuáles son los _features_ indispensables, es decir, aquellos que no pueden faltar o con los que se obtendrán mayores beneficios. Entender las prioridades y trabajar en ellas es fundamental para el éxito del proyecto.
 
