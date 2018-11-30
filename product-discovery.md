@@ -4,6 +4,8 @@
 
 > ### The hardest single part of building a software system is deciding precisely what to build - Frederick Brooks
 
+Esto es una prueba
+
 # Product Discovery
 
 En 10Pines construimos software para diversos tipos de clientes, desde grandes corporaciones como Claro y Burger King, que quieren desarrollar nuevos productos o ampliar la funcionalidad de herramientas existentes, hasta emprendimientos recién nacidos que buscan construir una versión inicial del producto. Si bien las necesidades, el tamaño del problema y obviamente el presupuesto difieren, siempre comenzamos nuestros desarrollos con una etapa que denominamos **Product Discovery** donde nos juntamos con los especialistas en el negocio, nuestros clientes, a crear una **visión compartida** de lo que se desea construir.
