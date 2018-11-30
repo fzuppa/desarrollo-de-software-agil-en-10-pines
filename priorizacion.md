@@ -44,7 +44,7 @@ Ahora sí, veamos algunas de las herramientas que usamos frecuente en distintas 
 
 Utilizo frecuentemente las que a continuación describiré porque permiten visualizar y facilitar el proceso de priorización. Además, resultan simples para entender y livianas de implementar. Existen otras más sofisticadas, por ejemplo las financieras, que calculan el retorno de inversión, sobre las que no profundizaré aquí.
 
-Empezaré por eluser story map, detallando su empleo a la hora de priorizar, durante elproduct discovery. Seguiré con una herramienta extremadamente simple, pero muy útil al mismo tiempo, llamada MoSCoW. A continuación, les mostraré algunas herramientas para visualizar la razón costo-beneficio y finalmente terminaré con otra, llamadaproduct roadmap, muy útil a la hora de facilitar la priorización de funcionalidades nuevas para un producto ya implementado.**    
+Empezaré por eluser story map, detallando su empleo a la hora de priorizar, durante elproduct discovery. Seguiré con una herramienta extremadamente simple, pero muy útil al mismo tiempo, llamada MoSCoW. A continuación, les mostraré algunas herramientas para visualizar la razón costo-beneficio y finalmente terminaré con otra, llamadaproduct roadmap, muy útil a la hora de facilitar la priorización de funcionalidades nuevas para un producto ya implementado.**      
 **
 
 ### **User Story Mapping**
@@ -55,14 +55,9 @@ Como ya vimos en el capítulo 1, la manera de indicar que una tarea resulta más
 
 Eluser story mapes una herramienta muy útil también para decidir cuál será el MVP, es decir, el producto que nos permite testear la hipótesis única de valor. Simplemente trazamos una línea por debajo de todas las tareas incluidas en él. Aquellas, situadas por sobre ésta, representan el MVP. Frecuentemente, vemos una gran cantidad depost-itspor sobre la línea, lo que nos permite comprender, instantáneamente, que el MVP seleccionado es demasiado grande. En esos casos, procuramos mover la línea hacia arriba. Como ya mencioné en la sección anterior, prefieroreleasescortos.
 
-> \[Hacer imagen propia\]
+![](/assets/product_discovery_mvp.png)
 
-![](https://lh4.googleusercontent.com/59qykYxygeY3lNYRQsl32Hw6FLzKSn0tObQKcqsjuzsK_ctxKmSLhvNoaP9Wo8k9uSRhRGxwk11BvRN4RKQ7DMLlZ71kbAgBhBylkQ79QREsqml0OFmSIdCc4S-TVesnwW79m6nd)
-
-**    
-**
-
-Soy un fan de esta herramienta. Todas las conversaciones empleadas en la toma de estas decisiones tienen lugar frente al ‘mapa’ del producto, quedando inmediatamente plasmadas.**    
+Soy un fan de esta herramienta. Todas las conversaciones empleadas en la toma de estas decisiones tienen lugar frente al ‘mapa’ del producto, quedando inmediatamente plasmadas.**      
 **
 
 ### **MoSCoW**
@@ -83,7 +78,7 @@ Pese a su simpleza, esta herramienta resulta sumamente útil, ya quenos obliga a
 
 Podemos usarla para priorizar un conjunto deuser storieso épicas de un producto nuevo y también funcionalidades que queremos agregar a uno en funcionamiento. Un ejemplo muy interesante de esta última situación tuvo lugar dentro de un equipo con el que colaboré: 3product ownersdebían priorizar las épicas del bimestre venidero. Resultó muy interesante observar como reconocían la imposibilidad para completar el trabajo, al visualizar la gran cantidad de épicas categorizadas en ‘Must’, y decidían las que podían posponerse. Como ya les mencioné, la utilidad de la herramienta yace en que obliga a un conjunto de personas a consensuar categorías para un conjunto de ítems de un modo muy visual.
 
-Con este equipo, solíamos priorizar también las épicas de cada categoría, sobre todo, las de la categoría ‘Must’. Así, lográbamos categorizar las épicas por bimestre, así como también conocer el orden de las que desarrollaríamos próximamente.**    
+Con este equipo, solíamos priorizar también las épicas de cada categoría, sobre todo, las de la categoría ‘Must’. Así, lográbamos categorizar las épicas por bimestre, así como también conocer el orden de las que desarrollaríamos próximamente.**      
 **![](/assets/moscow.png)
 
 ### **Puntos de Valor de Negocios**
@@ -92,7 +87,7 @@ Otra herramienta de gran utilidad durante el proceso de priorización es la asig
 
 Como en la técnica de MoSCoW, también nos fuerza a consensuar y explicitar valores. Decimos que una épica es más importante que otra, pero, ¿cuánto? ¿Estamos todos de acuerdo en eso? Explicitar esos puntos de valor de negocio puede resultar un ejercicio muy fructífero para todos.
 
-Además, estimar los puntos de valor de negocios de las épicas nos permite establecer la razón costo-beneficio de cada una de ellas. Existen varios modos de visualización, que transmitiré mediante el ejemplo del sistema para el cajero de supermercados del capítulo 1. Debemos agregar las épicas que presento a continuación, a las cuales asignaremos los siguientes puntos de valor de negocios y esfuerzo. Obtendremos es algo similar a la tabla siguiente:**    
+Además, estimar los puntos de valor de negocios de las épicas nos permite establecer la razón costo-beneficio de cada una de ellas. Existen varios modos de visualización, que transmitiré mediante el ejemplo del sistema para el cajero de supermercados del capítulo 1. Debemos agregar las épicas que presento a continuación, a las cuales asignaremos los siguientes puntos de valor de negocios y esfuerzo. Obtendremos es algo similar a la tabla siguiente:**      
 **
 
 | **Épica** | **Valor de Negocios** | **Puntos de Esfuerzo** | **Razón \(Beneficio\)** |
@@ -105,7 +100,7 @@ La 4ta columna es la razón entre el valor de negocios y los puntos de esfuerzo,
 
 En mi experiencia, el costo es un factor sustancialmente menos importante que los demás \(valor de negocios y riesgo\). En contadas ocasiones observé que unproduct ownertomara la decisión de priorizar una funcionalidad solamente porque su desarrollo no fuera costoso. Para resolver esto, podemos añadir ‘pesos’ para cada uno de los factores. Siguiendo el ejemplo anterior, si especificáramos un peso de 0.7 para el valor de negocios y 0.3 para el esfuerzo, obtendríamos los siguientes resultados.
 
-**    
+**      
 **
 
 | **Épica** | **Valor de Negocios \(0.7\)** | **Puntos de Esfuerzo \(0.3\)** | **Razón \(Beneficio\)** |
@@ -114,7 +109,7 @@ En mi experiencia, el costo es un factor sustancialmente menos importante que lo
 | **Pago con Tarjeta de Descuentos** | **5 \[3.5\]** | **3 \[0.9\]** | **3.88** |
 | **Reportes real-time para Jefes** | **8 \[5.6\]** | **3 \[0.9\]** | **6.22 ** |
 
-[Jim Highsmith](https://g.co/kgs/dNXTTD)argumenta la visualización de los beneficios como porcentajes ya que esto prevendría que, al trabajar con diferentes equipos, se exageren los puntos de valor. Los resultados para el ejemplo serían los que presento a continuación, donde calculamos el porcentaje de valor para cada una de las épicas, el porcentaje de esfuerzo y luego la razón.**    
+[Jim Highsmith](https://g.co/kgs/dNXTTD)argumenta la visualización de los beneficios como porcentajes ya que esto prevendría que, al trabajar con diferentes equipos, se exageren los puntos de valor. Los resultados para el ejemplo serían los que presento a continuación, donde calculamos el porcentaje de valor para cada una de las épicas, el porcentaje de esfuerzo y luego la razón.**      
 **
 
 | **Épica** | **Valor de Negocios \(0.7\)** | **% de Valor** | **Puntos de Esfuerzo \(0.3\)** | **% de Esfuerzo** | **Razón \(Beneficio\)** |
@@ -124,19 +119,19 @@ En mi experiencia, el costo es un factor sustancialmente menos importante que lo
 | **Reportes real-time para Jefes** | **8** | **0.53** | **3** | **0.42** | **1.26** |
 | **Total** | **15** | ** ** | **7** | ** ** | ** ** |
 
-**    
+**      
 **Todas las técnicas mostradas son similares, ya que nos fuerzan a explicitar valores y esfuerzos y nos devuelven un indicio de lo que podría ser la funcionalidad de mayor beneficio. Pueden incluso agregarse columnas, modificando consecuentemente la fórmula, para incorporar otros factores, por ejemplo, una penalidad \(si la épica no fuera desarrollada\) o el riesgo \(como en el ejemplo delpaperde[Karl Wiegers](http://www.processimpact.com/articles/prioritizing.pdf)\). En definitiva, el valor de la herramienta consiste en que fuerza a volcar toda la subjetividad existente en nuestras cabezas sobre una tabla con números explícitos, que calculan un beneficio a través de una fórmula acordada.
 
 ### **Product Roadmap**
 
 Esta es una herramienta utilizada por una experimentadaproduct ownercon la que tuve la oportunidad de trabajar, para priorizar y organizar el trabajo de los próximos meses para los diferentes grupos de los que formaba parte. Después de conocerla, leí el libro [Managing your Project Portfolio](https://g.co/kgs/auAsDJ)de Johanna Rothman, quien la explica detalladamente.
 
-Al observar la imagen siguiente, probablemente alcancen a comprender su funcionamiento. En un eje, se especifican las unidades de tiempo y en el otro, los diferentes equipos. Luego grafican el periodo que, estiman \(de modo superficial\), consumirá cada una de las épicas que tienen priorizadas en la columna correspondiente al equipo al que se asignará.**    
+Al observar la imagen siguiente, probablemente alcancen a comprender su funcionamiento. En un eje, se especifican las unidades de tiempo y en el otro, los diferentes equipos. Luego grafican el periodo que, estiman \(de modo superficial\), consumirá cada una de las épicas que tienen priorizadas en la columna correspondiente al equipo al que se asignará.**      
 **
 
 ![](https://lh5.googleusercontent.com/wjcw73pHK1KI62xEyw6c4Xex8f64og8tnzKig8K10Z5j7gsICpb1L5jMAU5wOumDj3t_41SrJyW0Cyl8mRAyDUiHiKLjl0UDa-82L5_gyjKgRz-TgeZbpC4LT3y07qRxMlfEwso5)
 
-**    
+**      
 **La única herramienta digital que conozco, sin haber utilizado, es[Roadmunk](https://roadmunk.com/jira-roadmap-integration). Lo bueno de que sea unpluginde[Jira](https://www.atlassian.com/software/jira)reside en que las mismas épicas planeadas en elroadmapson usadas posteriormente en la herramienta de gestión, una vez iniciada la construcción.** **
 
 ## **Priorizando Experimentos**
