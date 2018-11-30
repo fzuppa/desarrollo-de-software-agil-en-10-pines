@@ -14,7 +14,7 @@ En este capítulo ahondaré sobre estas herramientas, describiendo sus caracter�
 
 ### **Un Poco de Historia**
 
-**                            
+**                              
 **Durante los años 90, Kent Beck \(quizás, la persona más influyente en el nacimiento del mundo de desarrollo ágil?\) sugirió que la manera que usábamos para especificar el producto a desarrollar era tremendamente ineficiente. ¿Qué hacíamos? Una parte del equipo, conformado generalmente por los analistas, intentaba describir mediante un documento, en la fase de Análisis del Proceso del Desarrollo en Cascada, todo lo que el sistema a desarrollar debía contener. Luego, este documento era entregado a los desarrolladores para que empezaran a trabajar a partir de él. ¿Difícil, no? Difícil especificar lo que se tiene que hacer en un documento, que éste sea completo y entender qué hay que hacer a partir del mismo. Beck propuso un cambio radical, paradigmático y revolucionario desde la simplicidad: **que los usuarios de negocio escribieran una tarjeta por cada una de las funcionalidades que deseaban ver en el sistema **y que esa tarjeta fuera el disparador de un **conjunto de conversaciones que sirvieran para clarificar qué se deseaba** o, en otras palabras, para hacer el análisis.
 
 Ron Jeffries capturó los componentes de las _user stories_ en la famosa fórmula de las 3C’s, en inglés: _Card_, _Conversation_ & _Confirmation_ \(en español, sería TCC por Tarjeta\):
@@ -45,7 +45,7 @@ Profundizo en cada una de estos atributos:
 
 ### **Escribiendo User Stories**
 
-**                    
+**                      
 **Ya sabemos que las _user stories_ sirven para contar historias. También enumeramos sus atributos más importantes. Ahora describiré el formato clásico para escribirlas. Sin embargo, no quiero que tomen este formato como una regla que no pueden romper. En mi opinión, ustedes deben buscar el mejor modo de escribirlas en su contexto particular, siempre cumpliendo con los atributos que les mencioné.
 
 El formato clásico para las user stories es:
@@ -56,7 +56,7 @@ El formato clásico para las user stories es:
 
 `Para <obtener algún valor>`
 
-**                    
+**                      
 **Por ejemplo, siguiendo con nuestro cajero:
 
 `Como cajero`
@@ -65,7 +65,7 @@ El formato clásico para las user stories es:
 
 `Para seguir con la compra en los casos en que elscannerno funcione`
 
-**                    
+**                      
 **Éste es el template clásico de escritura de _user stories_. Noten que está descrita desde la perspectiva de uno de los usuarios finales y constituye alguna funcionalidad que éste empleará. Escribirlas de este modo nos asegura que lo desarrollado será algo visible.
 
 La 3ra sentencia, que explica el valor, tiene el objetivo que los usuarios expliquen por qué necesitan esa funcionalidad. En mi experiencia, muchas veces se hace difícil o un poco inútil explicar la razón de una funcionalidad tan pequeña. Creo que uno explica el porqué de módulos grandes de funcionalidad y no el de sus partes.
@@ -116,7 +116,7 @@ Y dentro de los criterios de aceptación, debería especificar todos los datos q
 
 Un punto muy importante, cuando escriban los criterios de aceptación, es que** todo debería ser lo más concreto posible**, desplazarse de la subjetividad. No pueden especificar que algo debe ser rápido, o debe verse bien. ¿Qué implica que algo sea rápido? ¿Qué implica que se vea bien? Todo esto debe estar claramente definido.
 
-Cuando estamos construyendo una aplicación que tiene una interfase visual \(una _app web_ o _mobile_\), la mayoría de las _user stories_ tendrán asociadas una vista en la que se desarrollará esta funcionalidad. El mejor modo para describirla es a través de un _mockup_, que podría ser dibujado a mano \(muchas veces lo hemos realizado junto con el usuario y luego tomada una captura fotográfica\) o ser confeccionado en una herramienta que sirva para este fin como [balsamiq](https://balsamiq.com/). Dentro de estos _mockups_ podemos agregar cualquier descripción que sirva para refinar el scope de la funcionalidad a describir. Retomando el ejemplo del recibo de la _user story_ anterior, podríamos haberlo imaginado en un _mockup_, como el de la imagen que sigue, donde especificamos la información esperada de un modo más visual:**                        
+Cuando estamos construyendo una aplicación que tiene una interfase visual \(una _app web_ o _mobile_\), la mayoría de las _user stories_ tendrán asociadas una vista en la que se desarrollará esta funcionalidad. El mejor modo para describirla es a través de un _mockup_, que podría ser dibujado a mano \(muchas veces lo hemos realizado junto con el usuario y luego tomada una captura fotográfica\) o ser confeccionado en una herramienta que sirva para este fin como [balsamiq](https://balsamiq.com/). Dentro de estos _mockups_ podemos agregar cualquier descripción que sirva para refinar el scope de la funcionalidad a describir. Retomando el ejemplo del recibo de la _user story_ anterior, podríamos haberlo imaginado en un _mockup_, como el de la imagen que sigue, donde especificamos la información esperada de un modo más visual:**                          
 **
 
 ![](https://lh3.googleusercontent.com/YP0UrP5HLq6FxxN5nbJyZ55NQRTe8EpZ89pLVfD4RGSwKyr0UPiEGZnipVhleh1X8fxCe_grH7-4Tc5cmRDO9IfiKhqDLLrkRCuqKSCj59-brHS5JrPQjEQCoMeDF-5-6akjx-bR)
@@ -133,20 +133,20 @@ _**Workflow**_** de estados**: En muchas herramientas que he construido, hemos n
 
 Un punto muy importante que quiero mencionarles. Como en el caso del código, la duplicación es mala, ‘_the root of all evils in software_’, dice ‘Uncle Bob’ Martin ya que se vuelven obsoletas muy rápidamente. Si tuviéramos especificaciones duplicadas, tendríamos una carga mayor de trabajo para mantenerlas actualizadas y correríamos adicionalmente el riesgo de no entender cuál es la última versión.
 
-Me gustaría cerrar esta sección diciéndoles que, como en cualquier otra parte de su metodología, **en la escritura de las **_**user stories**_**, ustedes, como equipo, deben ser críticos para refinar este proceso y encontrar el modo más claro y eficiente**.   **                         
+Me gustaría cerrar esta sección diciéndoles que, como en cualquier otra parte de su metodología, **en la escritura de las **_**user stories**_**, ustedes, como equipo, deben ser críticos para refinar este proceso y encontrar el modo más claro y eficiente**.   **                           
 **
 
 ### **Proceso de Descubrimiento**
 
-**                            
+**                              
 **Paso a contarles cuál es el proceso de descubrimiento y refinamiento de las _user stories_. El resultado del _product discovery_ nos brinda los artefactos que nos sirven como base. En particular, el _user story mapping_ es muy útil. Partiendo de las tareas que cada uno de los roles ‘hacen’ en el sistema inferimos la funcionalidad necesaria para escribirlas. Ya vimos el caso donde, para la tarea de escaneo manual que habíamos detectado, creamos una _user story_ para detallarla con mayor profundidad. También habíamos descubierto que el cajero podía tomar un 'pago con tarjeta de crédito'[^1]. Seguramente, será mejor construir una funcionalidad tan compleja usando múltiples _user stories_, de manera de poder incluir al _product owner_ durante la construcción y medir el progreso intermedio.
 
-En este trabajo de descubrimiento inicial, en el que vamos identificando las_ user stories_ y las vamos incluyendo en un _backlog_ inicial \(artefacto del que hablaré en breve\), no debemos preocuparnos por entender su _scope_ exacto,ya que iremos refinándolas a medida que avancemos en la construcción del producto. El objetivo no es comenzar el desarrollo inmediatamente, sino armar un _backlog_ que describa la funcionalidad más importante, priorizarlo y hacer una estimación que sea usada, posteriormente, al efectuar la planificación del proyecto.**                    
+En este trabajo de descubrimiento inicial, en el que vamos identificando las_ user stories_ y las vamos incluyendo en un _backlog_ inicial \(artefacto del que hablaré en breve\), no debemos preocuparnos por entender su _scope_ exacto,ya que iremos refinándolas a medida que avancemos en la construcción del producto. El objetivo no es comenzar el desarrollo inmediatamente, sino armar un _backlog_ que describa la funcionalidad más importante, priorizarlo y hacer una estimación que sea usada, posteriormente, al efectuar la planificación del proyecto.**                      
 **
 
 #### **\[TOOL\] **_**Example Mapping**_
 
-**                            
+**                              
 **Descubrí esta técnica en la conferencia XP 2016 y la he usado en un par de ocasiones para escribir _user stories_ junto a todo el equipo. Su creador es Matt Wynn. Pueden obtener más información [aquí](https://cucumber.io/blog/2015/12/08/example-mapping-introduction).
 
 La idea de esta herramienta consiste en estructurar la conversación que se da al intentar escribirlas, partiendo de la base de que todas tienen un título, un conjunto de reglas, un conjunto de ejemplos que ayudan a clarificar esas reglas y un conjunto de preguntas abiertas. Utilizamos tarjetas de diferentes colores para cada uno de estos componentes:
@@ -161,11 +161,9 @@ La idea de esta herramienta consiste en estructurar la conversación que se da a
 
 Por cada user story, se construirá un ‘mapa’ usando estas tarjetas, como muestra la imagen que sigue:
 
-**                                          **
+---
 
 ![](/assets/Cap.2---Example-mapping.png)
-
-
 
 Noten que los colores tienen el objetivo de poder visualizar ciertos _smells_ en las _stories_:
 
@@ -181,7 +179,7 @@ Esta técnica sirve para depurar las _user stories_ de una manera estructurada y
 
 ### **Partiendo **_**User Stories**_
 
-**                            
+**                              
 **Voy a hacer un paréntesis, para contarles sobre uno de los problemas que frecuentemente observo cuando _coacheo_ equipos externos: Hacer que las _user stories_ sean visibles y pequeñas representa, en muchas ocasiones, una dificultad para equipos que recién están comenzando con _Agile_.
 
 Suelen decirme, vehementemente, que tenga en cuenta que involucra trabajo en todas las capas, que no es eficiente trabajar así. ¡Además, trabajamos en iteraciones sobre el mismo _codebase_, agregando funcionalidad, cambiándola y refactorizando todo el tiempo! Puede llegar a sonar ineficiente, pero yo estoy ahí para convencerlos de lo contrario. Se puede trabajar en incrementos pequeños de funcionalidad eficientemente, usando buenas prácticas de desarrollo de software, como _Test Driven Development_ y _Continuous Refactor_.
@@ -206,11 +204,13 @@ Trabajar de esta manera requiere cambiar el _mindset_ y pensar en _slices_ verti
 
 * **Hacer un **_**spike**_: Cuando existe demasiada incertidumbre \(y digo demasiada, porque siempre debemos resolver algo!\), podemos hacer un _spike_ que sirva para investigar y, posteriormente, la _user story_ para hacer el trabajo propiamente dicho.
 
-## **El **_**Backlog**_![](/assets/backlog_sketch.png)
+## **El **_**Backlog**_
+
+## ![](/assets/Cap.2 - Backlog.png)
 
 ### **Introducción**
 
-**                            
+**                              
 **A medida que vamos escribiendo _user stories_, las almacenamos en una lista, llamada _Backlog_ de Producto o, simplemente, _Backlog_, priorizando las más importantes, aquellas que deseamos desarrollar primero en el tope y dejando las de menor importancia al final.
 
 Cuando empezamos a construir el _backlog_, nos focalizamos en descubrir todo el trabajo que tenemos por delante, sin ir a los detalles, haciendo un barrido horizontal de todo el producto y procurando identificar toda su funcionalidad. Hacemos, en este momento también, un trabajo importante de priorización: ¿cuáles son las _user stories_ que forman el _core_? ¿Qué es lo más importante para el negocio? ¿Qué es lo más riesgoso? ¿Cuáles son las _user stories_ que debemos construir para edificar la arquitectura de la aplicación?
@@ -219,17 +219,17 @@ Las _user stories_ del _backlog_ inicial no están refinadas, es decir, no está
 
 El _backlog_ no es un artefacto estático, es un artefacto que muta en el transcurso del proyecto. Se modifica para reflejar, en todo momento, nuestro entendimiento del producto que estamos construyendo.
 
-Todo el equipo trabaja activamente en el _backlog_, pero es el _product owner_, la persona que mejor conoce del negocio, quien debe encargarse de gestionarlo de modo prolijo. Él procura que las _user stories_ estén bien escritas y de priorizarlas de acuerdo al valor de negocios. Muchas veces, a partir de conversaciones mantenidas entre los miembros del equipo o de _feedback_ externo, pueden surgir cambios en funcionalidad que inicialmente se había pensado, que deben reflejarse prolijamente en el _backlog_ a través del _product owner_.**                    
+Todo el equipo trabaja activamente en el _backlog_, pero es el _product owner_, la persona que mejor conoce del negocio, quien debe encargarse de gestionarlo de modo prolijo. Él procura que las _user stories_ estén bien escritas y de priorizarlas de acuerdo al valor de negocios. Muchas veces, a partir de conversaciones mantenidas entre los miembros del equipo o de _feedback_ externo, pueden surgir cambios en funcionalidad que inicialmente se había pensado, que deben reflejarse prolijamente en el _backlog_ a través del _product owner_.**                      
 **
 
 ### **¿Qué es el **_**Backlog**_** de Producto?**
 
-**                            
+**                              
 **Formalizando, **el **_**backlog**_** es una lista priorizada y posiblemente estimada de las **_**user stories**_** del proyecto**. Lo utilizamos para **almacenar, comunicar, compartir y principalmente gestionar todo el conocimiento **que adquirimos durante el transcurso del proyecto, a través de las _user stories_. Es, además, **una herramienta de gestión fundamental durante la construcción** del sistema que nos permite visualizar qué _user stories_ fueron terminadas, están en desarrollo o quedan por hacer.
 
 ### **Atributos Importantes**
 
-**                            
+**                              
 **Repasemos los atributos más importantes de este artefacto:
 
 **Es un artefacto ‘vivo’**: Su vida comienza en la fase de descubrimiento y planeamiento del _release_ con un conjunto de _user stories_, de las que se posee información superficial. Durante la fase de construcción, cada una de éstas se refinará, es decir, se profundizará el conocimiento del _scope_ hasta contener toda la información necesaria para comenzar a desarrollar. Además, seguramente se descubrirán otras, ya que es imposible detectar toda la funcionalidad de un producto en un momento inicial. Nuestra cabeza no funciona así! Necesita retroalimentación. Observar funcionalidad dispara nuevas ideas, que deben ser plasmadas en nuevas _user stories_.También es posible que otras resulten modificadas, repriorizadas o, incluso, eliminadas.El trabajo en el _backlog_ se extiende durante el transcurso del proyecto.
@@ -244,7 +244,7 @@ Creo que es fundamental contar con una herramienta digital para la correcta gest
 
 En 10Pines trabajamos con clientes que utilizan diferentes herramientas como [Jira](https://www.atlassian.com/software/jira), [VersionOne](https://www.versionone.com/) o [Pivotal Tracker](https://www.pivotaltracker.com/). Otros clientes tienen su propia herramienta ágil que se adapta exactamente a su metodología, como 8thlight con [Artisan](https://artisan.8thlight.com).
 
-**                            
+**                              
 **
 
 ![](https://lh5.googleusercontent.com/az75-_H9BJPEve1XDwN5YpcWI7PiXdq_YCIaKRC8eiqHjLeePWy0DHgAYKpHqncFr8OCVVT1eZgg8aYaOrR4lyoYlnohL__tTO7eBUtJubzwXDRELmMUYEzX68vkxM-kVxLXODAt)
