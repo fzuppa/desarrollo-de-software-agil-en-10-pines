@@ -182,8 +182,6 @@ Nos gusta incluir este ejercicio en nuestros talleres, porque nos permite entend
 
 **El **\(Nombre del producto\)
 
-**Es un** \(Tipo de aplicación o vertical\)
-
 **Qué **\(Beneficios claves o razones más importantes por las que lo comprarían\)
 
 **A diferencia de **\(Competidor principal\)
