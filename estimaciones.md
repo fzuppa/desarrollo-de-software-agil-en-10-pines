@@ -4,7 +4,7 @@
 
 ## **Una Primera Noción del Tamaño**
 
-**              
+**                
 **Una vez que tenemos esta primera versión del _backlog_, **necesitaremos saber cuán grande es el producto** a construir, **para tener un estimado del costo y también para planear un equipo** que, teniendo en cuenta las restricciones de tiempo y dinero, lo desarrolle.
 
 **Hacemos la estimación inicial de la manera más rápida y eficiente posible**, sin perder tiempo en adivinanzas y especulaciones, usando la técnica de [planning poker](https://es.wikipedia.org/wiki/Planning_poker), para asignar [story points](https://www.mountaingoatsoftware.com/blog/what-are-story-points) a cada una de las _user stories_ descubiertas. Noten que estimamos incrementos de funcionalidad visibles. Ésto es fundamental para la posterior gestión del proyecto, ya que medimos el progreso del mismo en base a funcionalidad terminada.
@@ -27,11 +27,11 @@ Cuando empecé a trabajar con Scrum, descubrí el concepto de estimaciones relat
 
 Los valores que pueden ser usados como _story points_ pertenecen a una escala discreta, por ejemplo, la serie de Fibonacci. **Limitarnos a valores discretos simplifica notablemente el proceso**. Cuando estimamos de esta manera, podemos imaginar que tenemos baldes que representan a cada uno de los valores y luego decidimos a cuál asignaríamos cadauser story. De este modo, evitamos discusiones que aportan muy poco valor, como si debiéramos asignar 2.5 o 2.7 ¡No disponemos de tanta información como para ser tan precisos! Los valores discretos incorporan intrínsecamente este grado de incertidumbre. La serie de Fibonacci es particularmente intuitiva en este sentido, ya que las distancias entre los números de la serie crecen a medida que los números se vuelven más grandes.
 
-Si bien es bastante frecuente usar _story points_, éstos no son fundamentales dentro del concepto de estimaciones relativas. Pueden usar talles de remera, como en el gráfico que se encuentra abajo, o cualquier otra medida. El punto es que cada número, por sí mismo, carece de sentido. Toma sentido cuando se lo ve en comparación con otro.**              
+Si bien es bastante frecuente usar _story points_, éstos no son fundamentales dentro del concepto de estimaciones relativas. Pueden usar talles de remera, como en el gráfico que se encuentra abajo, o cualquier otra medida. El punto es que cada número, por sí mismo, carece de sentido. Toma sentido cuando se lo ve en comparación con otro.**                
 **
 
-![](/assets/storypointestimation.png)**              
-**¿Por qué usamos estimaciones relativas? **La primera razón es que vuelven el proceso más sencillo y liviano**, ya que no nos detenemos en tratar de adivinar lo que no conocemos o en investigaciones que haremos cuando empecemos a trabajar. Además, las estimaciones relativas nos desplazan de razonamientos tales como ‘esta _user story_ la desarrollará una persona determinada por sus _skills_ o _seniority_’ que no tienen ningún sentido. Simplemente decidimos, como equipo, cuanto más grande o más chica es una _user story_ con respecto a otra. La segunda razón es que realizar las estimaciones de esta manera nos protege de cualquier intento de presión \(por parte de jefes/_project managers_, etc\) a través de la existencia de este nivel nuevo de indirección. Estas presiones siempre generan, como ya mencioné, conductas que no son beneficiosas para nadie.**          
+![](/assets/storypointestimation.png)**                
+**¿Por qué usamos estimaciones relativas? **La primera razón es que vuelven el proceso más sencillo y liviano**, ya que no nos detenemos en tratar de adivinar lo que no conocemos o en investigaciones que haremos cuando empecemos a trabajar. Además, las estimaciones relativas nos desplazan de razonamientos tales como ‘esta _user story_ la desarrollará una persona determinada por sus _skills_ o _seniority_’ que no tienen ningún sentido. Simplemente decidimos, como equipo, cuanto más grande o más chica es una _user story_ con respecto a otra. La segunda razón es que realizar las estimaciones de esta manera nos protege de cualquier intento de presión \(por parte de jefes/_project managers_, etc\) a través de la existencia de este nivel nuevo de indirección. Estas presiones siempre generan, como ya mencioné, conductas que no son beneficiosas para nadie.**            
 **
 
 ## **¿Qué tienen en cuenta cuando estiman?**
@@ -98,21 +98,19 @@ Podríamos pensar que existe una similitud entre las horas descritas y las [hora
 
 ## _**Velocity**_** y **_**Burndown**_
 
-Cuando comencemos a trabajar, **mediremos la cantidad de **_**story points**_** que podemos terminar en cada iteración**, lo que nos dará una pauta de la verdadera capacidad del equipo.Llamamos a ésto [_velocity_](https://www.agilealliance.org/glossary/velocity), que es un término que proviene de la física y que incluye la celeridad y la dirección \(creo que la metáfora es interesante, ya que podríamos estar desarrollando muy rápidamente la funcionalidad errada\).
+Cuando comencemos a trabajar, **mediremos la cantidad de **_**story points**_** que podemos terminar en cada iteración**, lo que nos dará una pauta de la verdadera capacidad del equipo. Llamamos a ésto [_velocity_](https://www.agilealliance.org/glossary/velocity), que es un término que proviene de la física y que incluye la celeridad y la dirección \(creo que la metáfora es interesante, ya que podríamos estar desarrollando muy rápidamente la funcionalidad errada\).
 
 Midiendo la _velocity_ de la primera iteración, podríamos inferir, con más información que antes de empezar, cuánto nos queda por delante. Sigamos con el ejemplo de la sección anterior e imaginemos que el equipo completa 2 _user stories_: una de 5 puntos y otra de 3. La _velocity_ será entonces de 8 puntos. De los 75 puntos estimados, completamos 8 \(en la jerga decimos ‘quemamos 8’ y ya veremos la causa\), o sea que nos quedan 68. Podemos inferir entonces que, si seguimos con esta _velocity_, necesitaríamos 8.5 iteraciones \(68 / 8\) para terminar.
 
 Al completar la 2da iteración y medir la _velocity_, dispondremos de mayor información aún, ya que podremos obtener un promedio de las _velocities_ de las 2 primeras iteraciones. Por ejemplo, si hubiera sido igual a 6, el promedio de las 2 iteraciones sería igual a 7, lo que nos indica que necesitaríamos 8.8 iteraciones más para terminar.
 
-Para visualizar la _velocity_, podemos usar el gráfico de _burndown:_
-
-![](/assets/Burndown Chart.png)
+Para visualizar la _velocity_, podemos usar el gráfico de _burndown:_![](/assets/Burndown Chart.png)
 
 En este gráfico, el eje ‘Y’ indica la cantidad de puntos por quemar y el ‘X’ muestra el tiempo \(aquí ponemos las fechas de fin de cada iteración para simplificar\).
 
 En este ejemplo, sobrestimamos nuestra capacidad \(o subestimamos la complejidad del proyecto\). **Con esta información, deberemos actualizar nuestro plan**: ¿Podemos extender la fecha de entrega? ¿Podemos acotar el _scope_, dejando algunas funcionalidades para un _release_ posterior? ¿Podríamos aumentar la _velocity_ sumando un integrante más? La confianza y la colaboración existentes entre los miembros del equipo permiten dar lugar a estas conversaciones.
 
-**Mike Cohn dice que la **_**velocity**_** es el gran ecualizador, ya que nos permite actualizar nuestro plan automáticamente**. Mientras que las estimaciones relativas sean consistentes, la medición de la _velocity_ nos permitirá inferir un calendario actualizado sin necesidad de efectuar ningún tipo de re-estimación.**          
+**Mike Cohn dice que la **_**velocity**_** es el gran ecualizador, ya que nos permite actualizar nuestro plan automáticamente**. Mientras que las estimaciones relativas sean consistentes, la medición de la _velocity_ nos permitirá inferir un calendario actualizado sin necesidad de efectuar ningún tipo de re-estimación.**            
 **
 
 ## **Aspectos Importantes en las Estimaciones Ágiles**
