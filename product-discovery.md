@@ -140,7 +140,9 @@ En el pasado, eran frecuentes los planes de negocio extensos, que requerían un 
 
 _Lean Canvas_ es una herramienta que popularizó Eric Ries, a través de su metodología [Lean Startups](http://theleanstartup.com/book), que sirve para especificar el modelo de negocios de una manera muy simple y efectiva. La herramienta se enfoca en el problema detectado y cuál es la solución que proporciona un valor agregado no existente en el mercado. Existen diferentes versiones, por ejemplo, en [leanstack](https://leanstack.com) pueden encontrar esta versión \(ilustrada por la imagen\) definida como una adaptación del _business model canvas_ de Alex Osterwalder.
 
-![](/assets/lean_canvas.png)En el orden propuesto, iremos descubriendo:
+![](/assets/lean_canvas %281%29.png)
+
+En el orden propuesto, iremos descubriendo:
 
 1a\) A quiénes estará orientado el producto.
 
