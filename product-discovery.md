@@ -1,7 +1,5 @@
 # ![](/assets/vision-compartida %282%29.png)
 
-# 
-
 > ### The hardest single part of building a software system is deciding precisely what to build - Frederick Brooks
 
 # Product Discovery
