@@ -1,4 +1,4 @@
-# ![](/assets/C1product_discovery.png)
+# ![](/assets/vision-compartida %282%29.png)
 
 # 
 
