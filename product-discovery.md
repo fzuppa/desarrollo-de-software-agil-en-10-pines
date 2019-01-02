@@ -46,9 +46,7 @@ La mejor forma de hacer este descubrimiento es a partir de un conjunto de reunio
 
 A continuación, describiré algunas de las herramientas que usamos habitualmente en los talleres:
 
-![](/assets/product_discovery_tools.png)
-
-#### 
+#### ![](/assets/product_discovery_tools.png)
 
 #### _**User Story Mapping**_
 
