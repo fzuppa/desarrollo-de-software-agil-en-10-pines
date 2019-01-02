@@ -4,7 +4,7 @@
 
 ## **Una Primera Noción del Tamaño**
 
-**                
+**                      
 **Una vez que tenemos esta primera versión del _backlog_, **necesitaremos saber cuán grande es el producto** a construir, **para tener un estimado del costo y también para planear un equipo** que, teniendo en cuenta las restricciones de tiempo y dinero, lo desarrolle.
 
 **Hacemos la estimación inicial de la manera más rápida y eficiente posible**, sin perder tiempo en adivinanzas y especulaciones, usando la técnica de [planning poker](https://es.wikipedia.org/wiki/Planning_poker), para asignar [story points](https://www.mountaingoatsoftware.com/blog/what-are-story-points) a cada una de las _user stories_ descubiertas. Noten que estimamos incrementos de funcionalidad visibles. Ésto es fundamental para la posterior gestión del proyecto, ya que medimos el progreso del mismo en base a funcionalidad terminada.
@@ -25,13 +25,14 @@ Cuando empecé a trabajar con Scrum, descubrí el concepto de estimaciones relat
 
 * **Complejidad**: Volviendo al ejemplo del formulario, ¿los componentes usados son sencillos? ¿Involucran validaciones? ¿Están interrelacionados?
 
-Los valores que pueden ser usados como _story points_ pertenecen a una escala discreta, por ejemplo, la serie de Fibonacci. **Limitarnos a valores discretos simplifica notablemente el proceso**. Cuando estimamos de esta manera, podemos imaginar que tenemos baldes que representan a cada uno de los valores y luego decidimos a cuál asignaríamos cadauser story. De este modo, evitamos discusiones que aportan muy poco valor, como si debiéramos asignar 2.5 o 2.7 ¡No disponemos de tanta información como para ser tan precisos! Los valores discretos incorporan intrínsecamente este grado de incertidumbre. La serie de Fibonacci es particularmente intuitiva en este sentido, ya que las distancias entre los números de la serie crecen a medida que los números se vuelven más grandes.
+Los valores que pueden ser usados como _story points_ pertenecen a una escala discreta, por ejemplo, la serie de Fibonacci. **Limitarnos a valores discretos simplifica notablemente el proceso**. Cuando estimamos de esta manera, podemos imaginar que tenemos baldes que representan a cada uno de los valores y luego decidimos a cuál asignaríamos cada _user story_. De este modo, evitamos discusiones que aportan muy poco valor, como si debiéramos asignar 2.5 o 2.7 ¡No disponemos de tanta información como para ser tan precisos! Los valores discretos incorporan intrínsecamente este grado de incertidumbre. La serie de Fibonacci es particularmente intuitiva en este sentido, ya que las distancias entre los números de la serie crecen a medida que los números se vuelven más grandes.
 
-Si bien es bastante frecuente usar _story points_, éstos no son fundamentales dentro del concepto de estimaciones relativas. Pueden usar talles de remera, como en el gráfico que se encuentra abajo, o cualquier otra medida. El punto es que cada número, por sí mismo, carece de sentido. Toma sentido cuando se lo ve en comparación con otro.**                
-**
+Si bien es bastante frecuente usar _story points_, éstos no son fundamentales dentro del concepto de estimaciones relativas. Pueden usar talles de remera, como en el gráfico que se encuentra abajo, o cualquier otra medida. El punto es que cada número, por sí mismo, carece de sentido. Toma sentido cuando se lo ve en comparación con otro.**                  **
 
-![](/assets/storypointestimation.png)**                
-**¿Por qué usamos estimaciones relativas? **La primera razón es que vuelven el proceso más sencillo y liviano**, ya que no nos detenemos en tratar de adivinar lo que no conocemos o en investigaciones que haremos cuando empecemos a trabajar. Además, las estimaciones relativas nos desplazan de razonamientos tales como ‘esta _user story_ la desarrollará una persona determinada por sus _skills_ o _seniority_’ que no tienen ningún sentido. Simplemente decidimos, como equipo, cuanto más grande o más chica es una _user story_ con respecto a otra. La segunda razón es que realizar las estimaciones de esta manera nos protege de cualquier intento de presión \(por parte de jefes/_project managers_, etc\) a través de la existencia de este nivel nuevo de indirección. Estas presiones siempre generan, como ya mencioné, conductas que no son beneficiosas para nadie.**            
+![](/assets/EstimacionesRelativas.png)
+
+**                      
+**¿Por qué usamos estimaciones relativas? **La primera razón es que vuelven el proceso más sencillo y liviano**, ya que no nos detenemos en tratar de adivinar lo que no conocemos o en investigaciones que haremos cuando empecemos a trabajar. Además, las estimaciones relativas nos desplazan de razonamientos tales como ‘esta _user story_ la desarrollará una persona determinada por sus _skills_ o _seniority_’ que no tienen ningún sentido. Simplemente decidimos, como equipo, cuanto más grande o más chica es una _user story_ con respecto a otra. La segunda razón es que realizar las estimaciones de esta manera nos protege de cualquier intento de presión \(por parte de jefes/_project managers_, etc\) a través de la existencia de este nivel nuevo de indirección. Estas presiones siempre generan, como ya mencioné, conductas que no son beneficiosas para nadie.**                  
 **
 
 ## **¿Qué tienen en cuenta cuando estiman?**
@@ -44,7 +45,7 @@ Todos estos puntos, y quizás algunos otros que se agreguen para algún proyecto
 
 Usamos esta técnica para asignar estimaciones a las **user stories**. Para ello, invitamos a todo el equipo que participará del proyecto \(desarrolladores, testers, diseñadores y por supuesto los _product owners_\), entregándoles mazos similares al que se encuentra abajo, donde cada una de las cartas representa un número de _story points_:
 
-![](/assets/planning_poker.png)
+![](/assets/Planning-poker-cards.png)
 
 La explicación del funcionamiento de esta técnica yace en la teoría de la [sabiduría de las masas](https://es.wikipedia.org/wiki/Sabiduría_de_los_grupos), que argumenta que la participación de todo el equipo incrementa la precisión de las estimaciones al escuchar las perspectivas de todos los integrantes. Que una persona sola, por más que sea un experto, realice todas las estimaciones implica un riesgo mucho mayor ya que es muy probable que omita factores poco visibles en su rol.
 
@@ -72,7 +73,7 @@ Empezamos por seleccionar una _user story_ que esté entre las prioritarias y qu
 
 Una vez establecida una estimación para la segunda _user story_, seguiremos con la tercera, la cuarta y así sucesivamente. Durante los comienzos, puede llegar a surgir la necesidad de algunos ajustes, pero puedo asegurarles que el sistema se estabiliza muy rápidamente y estas primeras estimaciones establecen el parámetro para todos las _user stories_ que restan en el _backlog_ \(y para todas las que se descubran en el futuro\).
 
-Como ya lo mencioné, **no creo que tenga sentido invertir una cantidad exagerada de tiempo en esta actividad**. Si ya definimos el Producto Mínimo Viable \(hablaremos sobre este concepto que llamamos MVP en la próxima sección\), nos limitaremos a estimar solamente sususer stories. Si el MVP fuera demasiado grande, sería bueno partirlo enreleases. Debe tenerse en cuenta que, mientras másuser storiesestimemos, mayor será el riesgo de perder el tiempo en ítems que después no sean construidos. **Tampoco vale la pena invertir tiempo en entender cadauser story en profundidad**. Una técnica que empleo habitualmente para no extenderme consiste en delimitar el tiempo que se va a usar para la estimación de cadauser story\(5 minutos puede ser adecuado\). Otra opción consiste en, de ser el equipo numeroso, repartir lasuser storiesentre 2 grupos para que puedan hacer las estimaciones en paralelo dando lugar a la exposición de los resultados.
+Como ya lo mencioné, **no creo que tenga sentido invertir una cantidad exagerada de tiempo en esta actividad**. Si ya definimos el Producto Mínimo Viable \(hablaremos sobre este concepto que llamamos MVP en la próxima sección\), nos limitaremos a estimar solamente sus _user stories_. Si el MVP fuera demasiado grande, sería bueno partirlo en _releases_. Debe tenerse en cuenta que, mientras más _user stories_ estimemos, mayor será el riesgo de perder el tiempo en ítems que después no sean construidos. **Tampoco vale la pena invertir tiempo en entender cada **_**user story**_** en profundidad**. Una técnica que empleo habitualmente para no extenderme consiste en delimitar el tiempo que se va a usar para la estimación de cada _user story_ \(5 minutos puede ser adecuado\). Otra opción consiste en, de ser el equipo numeroso, repartir las _user stories_ entre 2 grupos para que puedan hacer las estimaciones en paralelo dando lugar a la exposición de los resultados.
 
 ## **¿Cuál es el costo y cuándo terminaremos?**
 
@@ -104,13 +105,13 @@ Midiendo la _velocity_ de la primera iteración, podríamos inferir, con más in
 
 Al completar la 2da iteración y medir la _velocity_, dispondremos de mayor información aún, ya que podremos obtener un promedio de las _velocities_ de las 2 primeras iteraciones. Por ejemplo, si hubiera sido igual a 6, el promedio de las 2 iteraciones sería igual a 7, lo que nos indica que necesitaríamos 8.8 iteraciones más para terminar.
 
-Para visualizar la _velocity_, podemos usar el gráfico de _burndown:_![](/assets/Burndown Chart.png)
+Para visualizar la _velocity_, podemos usar el gráfico de _burndown:_![](assets/burndown_chart.png)
 
-En este gráfico, el eje ‘Y’ indica la cantidad de puntos por quemar y el ‘X’ muestra el tiempo \(aquí ponemos las fechas de fin de cada iteración para simplificar\).
+En este gráfico, el eje ‘Y’ indica la cantidad de puntos por quemar y el ‘X’ muestra el tiempo.
 
 En este ejemplo, sobrestimamos nuestra capacidad \(o subestimamos la complejidad del proyecto\). **Con esta información, deberemos actualizar nuestro plan**: ¿Podemos extender la fecha de entrega? ¿Podemos acotar el _scope_, dejando algunas funcionalidades para un _release_ posterior? ¿Podríamos aumentar la _velocity_ sumando un integrante más? La confianza y la colaboración existentes entre los miembros del equipo permiten dar lugar a estas conversaciones.
 
-**Mike Cohn dice que la **_**velocity**_** es el gran ecualizador, ya que nos permite actualizar nuestro plan automáticamente**. Mientras que las estimaciones relativas sean consistentes, la medición de la _velocity_ nos permitirá inferir un calendario actualizado sin necesidad de efectuar ningún tipo de re-estimación.**            
+**Mike Cohn dice que la **_**velocity**_** es el gran ecualizador, ya que nos permite actualizar nuestro plan automáticamente**. Mientras que las estimaciones relativas sean consistentes, la medición de la _velocity_ nos permitirá inferir un calendario actualizado sin necesidad de efectuar ningún tipo de re-estimación.**                  
 **
 
 ## **Aspectos Importantes en las Estimaciones Ágiles**
@@ -121,7 +122,7 @@ Me gustaría contarles, para finalizar, cuáles son los puntos fundamentales del
 
 * **No se invierte mucho tiempo en hacer un análisis detallado **para hacer la estimación porque la precisión que presumiblemente se podría alcanzar no justifica la inversión. Ésto no significa que las estimaciones dejen de hacerse por completo ya que es necesario tener una noción del tamaño, para hacer la planificación.
 
-* **No implican un compromiso**. La presión que se ejerza sobre el equipo, ya sea para que acorte los tiempos o para que cumpla con la fecha inicialmente estimada, es la principal causa de disfuncionalidad que conozco. Queremos evitar que el equipo sienta la necesidad de poner unpada la estimación o quiera cortar camino para cumplir con las estimaciones y consecuentemente agregue deuda técnica. Ninguno de estos comportamientos resulta beneficioso.
+* **No implican un compromiso**. La presión que se ejerza sobre el equipo, ya sea para que acorte los tiempos o para que cumpla con la fecha inicialmente estimada, es la principal causa de disfuncionalidad que conozco. Queremos evitar que el equipo sienta la necesidad de poner un _pad_ a la estimación o quiera cortar camino para cumplir con las estimaciones y consecuentemente agregue deuda técnica. Ninguno de estos comportamientos resulta beneficioso.
 
 ## **Conclusión**
 
