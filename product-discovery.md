@@ -1,4 +1,4 @@
-# ![](/assets/vision-compartida %282%29.png)
+# ![](/assets/vision-compartida.png)
 
 > ### The hardest single part of building a software system is deciding precisely what to build - Frederick Brooks
 
