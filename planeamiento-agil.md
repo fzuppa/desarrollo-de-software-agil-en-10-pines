@@ -1,4 +1,6 @@
-# **Introducción**
+# ![](/assets/Planeamiento.png)
+
+# Planeamiento Continuo
 
 Ya hicimos el _Product Discovery_ y descubrimos qué se quiere construir y cómo brindará valor el producto. Entendemos mejor qué es lo más importante y también qué se considera indispensable para la primera versión. Escribimos las _user stories_ y las estimamos. Tenemos una idea vaga, por supuesto, del tamaño. **Resta ahora pensar cuál es la mejor manera de construirlo, dadas las restricciones existentes**, que pueden ser de tiempo \(por ejemplo, ¿es necesario que el MVP esté en el mercado para cierta fecha?\) o de dinero \(los clientes cuentan con un presupuesto\).
 
@@ -54,7 +56,7 @@ Hablemos por unos minutos como _project managers_, para entender las variables q
 
 Existe una 4ta arista, la de calidad, que no se especifica en el plan, sino que es el resultado de todos estos factores.
 
-Estas aristas están vinculadas, unas con otras, en modos no lineales. Si alguna de ellas se modifica, alguna de las otras debe modificarse también. Cuando se descubre nueva funcionalidad \(_scope creep_, decían en mi época\), el proyecto claramente implicará más tiempo. Podríamos intentar sumar ‘recursos’ para aumentar la _velocity_, pero los ‘recursos’ son personas, que deben ser entrenadas, con el impacto consecuente sobre el proyecto \(como enunció Fred Brooks en su famosa [Ley de Brooks](https://en.wikipedia.org/wiki/Brooks's_law)\). Si no quisiéramos correr la fecha y no sumáramos ‘recursos’, la calidad seguramente se verá afectada.
+Estas aristas están vinculadas, unas con otras, en modos no lineales. Si alguna de ellas se modifica, alguna de las otras debe modificarse también. Cuando se descubre nueva funcionalidad \(_scope creep_, decían en mi época\), el proyecto claramente implicará más tiempo. Podríamos intentar sumar ‘recursos’ para aumentar la _velocity_, pero los ‘recursos’ son personas, que deben ser entrenadas, con el impacto consecuente sobre el proyecto \(como enunció Fred Brooks en su famosa \[Ley de Brooks\]\([https://en.wikipedia.org/wiki/Brooks's\_law\)\](https://en.wikipedia.org/wiki/Brooks's_law%29\)\). Si no quisiéramos correr la fecha y no sumáramos ‘recursos’, la calidad seguramente se verá afectada.
 
 En mis ‘años mozos’, conocí el [Triángulo de Acero de la Gestión de Proyectos](https://en.wikipedia.org/wiki/Project_management_triangle), un modelo que permitía visualizar estas restricciones: si se ‘tira’ de alguna de las aristas, alguna de las otras deberá moverse forzosamente.
 
@@ -68,7 +70,7 @@ La idea del cuadrado de acero es que ‘la modificación de una de las aristas e
 
 El _project manager_ tiene como objetivo gestionar estas aristas para que el proyecto sea exitoso. La pregunta es: ¿Qué significa que el proyecto sea exitoso? El Standish Group popularizó una métrica errónea, basándose en el cumplimiento de las aristas del triángulo de acero. Así, un proyecto resultaba exitoso en caso de completar el _scope_ planeado a tiempo y con los recursos estimados. Aprendí, a través de Jim Highsmith, que debemos tener en cuenta los factores de negocio al evaluar el resultado ¿Cuánto valor de negocios entregamos? ¿Resolvimos los problemas de los usuarios? ¿Es usable? Las decisiones que tomemos, durante la ejecución del proyecto, deben estar guiadas por estas preguntas. Nuestro objetivo debe ser la construcción de un producto que genere la mayor cantidad de valor de negocios y que sea usable, cumpliendo con las restricciones, es decir, dentro de los tiempos y el presupuesto con el que se cuenta. Con este objetivo en mente, el plan es otro artefacto que nos ayudará a ir decidiendo y visualizando cuál es la mejor manera de lograrlo.
 
-Highsmith sugirió modificar el triángulo de acero para hacerlo compatible con los valores ágiles. Si el objetivo es maximizar el valor de negocios, este debía estar incluido en el triángulo:**            
+Highsmith sugirió modificar el triángulo de acero para hacerlo compatible con los valores ágiles. Si el objetivo es maximizar el valor de negocios, este debía estar incluido en el triángulo:**              
 **
 
 ![](https://lh3.googleusercontent.com/qo75s_6RRSUt8ejH1zt7dZse2fQTDZevaKo9dsWqFt87b_lZ45JTpufRonbqfqa6HGJYCDPBgeifSXY74nVyalu0nAEuGPg786cm6IxZBV9Hgs6gHEOCs7dNdehCBUs1TyQ-XwEr)
