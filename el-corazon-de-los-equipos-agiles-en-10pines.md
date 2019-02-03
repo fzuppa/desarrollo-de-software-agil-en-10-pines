@@ -30,15 +30,11 @@ Los equipos están conformados por integrantes dedicados a tiempo completo. Esto
 
 Pueden notar que los equipos no presentan ninguna característica especial. Son conformaciones circunstanciales, auto-organizadas para atender clientes y proyectos. No existen fricciones o contradicciones con la empresa. Comparten valores, principios y prácticas.
 
-
-
 # **Los Equipos son las Personas**
 
 Analicemos cada uno de los atributos que hacen a los buenos equipos, empezando por el corazón. Los equipos son las personas. Las empresas, también. No se puede desarrollar software con gente desmotivada, en la cual no confiamos. Tampoco, ser ágiles. **Necesitamos buenos desarrolladores, honestos, responsables y colaborativos.**
 
 En esta sección les hablaré sobre las personas, el ingrediente fundamental de los equipos. Les contaré cómo seleccionamos las semillas, sus atributos y describiré el ‘camino del pino’, nuestro plan de carrera.
-
-
 
 ## Proceso de Selección
 
@@ -49,9 +45,4 @@ Como sabemos que las personas son importantes, invertimos mucho tiempo en el pro
 Como mencioné anteriormente, **la excelencia técnica es parte de nuestro ADN**. No creemos que se pueda hacer software con programadores que no sean fuertes técnicamente, que no sepan diseñar o testear. Los postulantes desarrollan un ejercicio usando el lenguaje de programación de preferencia. A continuación, debatimos las decisiones de diseño tomadas, las abstracciones creadas y el proceso utilizado para llegar a ellas \(¿usaronTest Driven Development?\). No hacemos foco en el aspecto tecnológico o en los detalles del lenguaje.
 
 El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto. Para lograrlo, **organizamos una entrevista grupal en la que participamos todos los integrantes de la empresa**. El objetivo es conocer al candidato en profundidad, evaluando si es alguien con quien nos gustaría trabajar. Piensen que compartiremos muchísimas horas de nuestro día con él o ella.
-
-
-
-  
-
 
