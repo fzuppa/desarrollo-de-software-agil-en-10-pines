@@ -6,9 +6,10 @@
 * [Estimaciones](estimaciones.md)
 * [Priorización](priorizacion.md)
 * [Planeamiento Continuo](planeamiento-agil.md)
-* [El Corazón de los Equipos Agiles en 10Pines](armando-el-equipo.md)
+* [Armando el Equipo](armando-el-equipo.md)
+* [El Corazon de los Equipos Agiles en 10Pines](el-corazon-de-los-equipos-agiles-en-10pines.md)
 * [Desarrollando software, paso a paso](construyendo-el-producto-paso-a-paso.md)
 * Desarrollando software con Excelencia Técnica
 * [Conclusión](aspectos-tecnicos-de-la-construccion.md)
-* Curriculums
+* El Corazon de los Equipos Agiles en 10Pines
 
