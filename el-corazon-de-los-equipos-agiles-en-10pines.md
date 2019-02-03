@@ -46,3 +46,12 @@ Como mencioné anteriormente, **la excelencia técnica es parte de nuestro ADN**
 
 El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto. Para lograrlo, **organizamos una entrevista grupal en la que participamos todos los integrantes de la empresa**. El objetivo es conocer al candidato en profundidad, evaluando si es alguien con quien nos gustaría trabajar. Piensen que compartiremos muchísimas horas de nuestro día con él o ella.
 
+
+
+## **Skills de los Pinos**
+
+Seguramente les resultará una ‘verdad de Perogrullo’ si les digo que para desarrollar software se necesita gente que sepa desarrollar software. Es necesario saber modelar una solución disciplinadamente, usando las prácticas ingenieriles correctas.
+
+  
+
+
