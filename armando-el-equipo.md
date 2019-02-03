@@ -22,8 +22,6 @@ Describiré nuestra receta usando el formato propuesto por Alistair Cockburn en 
 
 El corazón está compuesto por las personas. Sin un buen ambiente, no es posible auto-organizarse efectivamente. Establecer una visión clara es parte de una buena comunicación, pero es tan importante que, creo, merece estar en su cuadrante. La auto-organización funciona de modo eficiente con personas como las descritas, en un buen ambiente y con una visión clara. Pueden ver que estos atributos están relacionados, son interdependientes.
 
-
-
 # **¿Cómo formamos los equipos?**
 
 Primero, seleccionamos las personas más adecuadas para integrarlos. Muchos me han preguntado: ¿cómo es posible que todos participen? Quienes así consultan piensan que esta modalidad favorecería la toma individual de decisiones. Esto no sucede. Somos responsables y buscamos el bienestar colectivo.
@@ -34,5 +32,26 @@ Pueden notar que los equipos no presentan ninguna característica especial. Son 
 
 
 
+# **Los Equipos son las Personas**
+
+Analicemos cada uno de los atributos que hacen a los buenos equipos, empezando por el corazón. Los equipos son las personas. Las empresas, también. No se puede desarrollar software con gente desmotivada, en la cual no confiamos. Tampoco, ser ágiles. **Necesitamos buenos desarrolladores, honestos, responsables y colaborativos.**
+
+En esta sección les hablaré sobre las personas, el ingrediente fundamental de los equipos. Les contaré cómo seleccionamos las semillas, sus atributos y describiré el ‘camino del pino’, nuestro plan de carrera.
+
+
+
+## **Proceso de Selección**
+
+![](/assets/Proceso de seleccion.png)
+
+Como sabemos que las personas son importantes, invertimos mucho tiempo en el proceso de selección. No buscamos programadores con ciertos _skills_ para ingresar a un proyecto particular. **Buscamos programadores que deseen desarrollar su vida profesional en 10Pines**. En consecuencia, somos muy estrictos en la evaluación técnica. También queremos conocer, tanto como sea posible, su parte humana. Con estos objetivos hemos ideado nuestro proceso de selección.
+
+Como mencioné anteriormente, **la excelencia técnica es parte de nuestro ADN**. No creemos que se pueda hacer software con programadores que no sean fuertes técnicamente, que no sepan diseñar o testear. Los postulantes desarrollan un ejercicio usando el lenguaje de programación de preferencia. A continuación, debatimos las decisiones de diseño tomadas, las abstracciones creadas y el proceso utilizado para llegar a ellas \(¿usaron _Test Driven Development_?\). No hacemos foco en el aspecto tecnológico o en los detalles del lenguaje.
+
+El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto. Para lograrlo, **organizamos una entrevista grupal en la que participamos todos los integrantes de la empresa**. El objetivo es conocer al candidato en profundidad, evaluando si es alguien con quien nos gustaría trabajar. Piensen que compartiremos muchísimas horas de nuestro día con él o ella.
+
+![](https://lh3.googleusercontent.com/X_WKwIAYAXBE35qgxjLedm43bomVKo00ipyre_DqYTn3mMHb2AM4DJCcI8U5DfbE8OhfhwmFQ7OEb6uLyToQyryWTb1B_GEqHQgOK4zSh7-w48ll3NXki07GdiiXoZc_efwjo76W)
+
+  
 
 
