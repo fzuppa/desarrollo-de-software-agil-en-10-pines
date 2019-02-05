@@ -118,8 +118,6 @@ Tenemos en cuenta estos atributos en cada una de las decisiones que tomamos: ¿Q
 
 Además, una vez al año, durante nuestro retiro estratégico \(una reunión que realizamos con todos los pinos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/): Todos los pinos puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!
 
-
-
 ## **¿Qué hacemos para lograr un buen ambiente?**
 
 ### **Promover la confianza**
@@ -152,18 +150,15 @@ Trabajar de este modo puede resultar más lento e incómodo. Sin embargo, como u
 
 ### **Crear Espacios de Reconocimiento Personal**
 
-Otro de los factores necesarios para sentirnos bien es el reconocimiento. Que una persona con la que trabajamos nos diga que estamos haciendo las cosas bien aumenta la autoestima y motiva intrínsecamente. 
+Otro de los factores necesarios para sentirnos bien es el reconocimiento. Que una persona con la que trabajamos nos diga que estamos haciendo las cosas bien aumenta la autoestima y motiva intrínsecamente.
 
-La [pirámide de Maslow](https://es.wikipedia.org/wiki/Pir%C3%A1mide_de_Maslow) muestra que el reconocimiento es parte de nuestras necesidades esenciales, después de la seguridad y de la confianza. El ser humano precisa tanto ser reconocido como demostrar reconocimiento.
+La [pirámide de Maslow](https://es.wikipedia.org/wiki/Pirámide_de_Maslow) muestra que el reconocimiento es parte de nuestras necesidades esenciales, después de la seguridad y de la confianza. El ser humano precisa tanto ser reconocido como demostrar reconocimiento.
 
 **En 10Pines, nos gusta reconocer un buen trabajo**. Lo hacemos todo el tiempo, por ejemplo, cuando alguien nos ayuda a resolver un problema o prepara una charla. Publicamos estos reconocimientos mediante ‘[La muralla de Kudos](https://kudos.10pines.com/)’. Esta herramienta, basada en las cartas de _Kudos_ de _Management 3.0_, fue desarrollada por uno de nuestros pinos, Joaquín, para ‘enviar’ _kudos_ virtuales a otro/s pino/s a través de [slack](https://slack.com), que luego compartimos durante el standup semanal. ¡Se siente muy bien aparecer en la muralla y también agradecer a alguien de esta manera!
 
-  
 ![](/assets/Kudos en el Standup.png)
 
 Kudos al final de nuestro _standup_ semanal
-
-
 
 ### **Fomentar Momentos de Distensión**
 
@@ -171,10 +166,25 @@ Me gusta salir a tomar una cerveza y mantener conversaciones fuera del ámbito l
 
 
 
-  
+## **Las 5 disfunciones de las empresas**
+
+¿Conocen [este libro](https://g.co/kgs/LVoPh5) de Patrick Lencioni? Me ayudó a entender algunas situaciones completamente disfuncionales que se daban en algunas de las empresas donde trabajé. El autor las describe a través de esta pirámide:
+
+![](/assets/Piramide de disfunciones.png)5 Disfunciones de los Equipos
 
 
 
+La primera disfunción, en la base, es la **falta de Confianza**, que nace de la no-voluntad a mostrarse vulnerable frente al grupo. Si los miembros del equipo no confían entre ellos, entonces no piden ayuda y ocultan información. En definitiva, hacen lo que es mejor para ellos mismos y no para el grupo.
+
+La falta de confianza genera **miedo al conflicto**. Si los miembros del equipo no confían entre ellos, entonces no discuten. Si en un equipo nadie discute, ¡desconfíen! En 10Pines, tienen lugar debates, argumentos y discusiones, dentro de un ambiente saludable. Son actividades constructivas. Cuando uno está comprometido, convencido de que su postura es la correcta, discute con vehemencia.
+
+La imposibilidad de razonar constructivamente es la principal causa por la cual **los miembros no se comprometen con las decisiones** que se toman. Si no participaste de la discusión, ¿tú lo harías?
+
+Miembros que no se comprometen son **miembros que no son responsables** ¿Puede requerirse el seguimiento de un plan a un integrante en estas circunstancias?
+
+Finalmente, los miembros no responsables crean un ambiente donde la 5ta disfunción florece: **No atención a los resultados**.
+
+Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son el resultado de problemas más profundos. Sólo observamos los síntomas. He visto, por ejemplo, equipos se comunican a través de herramientas \(Jira\) para dejar ‘evidencia’ o testers que incluyen un reporte de _bugs_ antes de aceptar la _user story_. En algunas ocasiones, cometí el error de centrarme en los síntomas, queriendo hacer los procesos más eficientes, cuando los problemas eran humanos, de falta de confianza y colaboración. Las personas, como agentes inteligentes dentro de este sistema complejo que es una organización, maquillan los problemas, desplazan el eje o se acomodan según intereses propios. Por el contrario, cuando se brinda confianza y se empodera a las personas, los integrantes están comprometidos y velan por los resultados.
 
 
 
