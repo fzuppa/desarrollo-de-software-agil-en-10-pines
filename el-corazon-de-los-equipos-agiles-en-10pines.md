@@ -22,6 +22,8 @@ Describiré nuestra receta usando el formato propuesto por Alistair Cockburn en 
 
 El corazón está compuesto por las personas. Sin un buen ambiente, no es posible auto-organizarse efectivamente. Establecer una visión clara es parte de una buena comunicación, pero es tan importante que, creo, merece estar en su cuadrante. La auto-organización funciona de modo eficiente con personas como las descritas, en un buen ambiente y con una visión clara. Pueden ver que estos atributos están relacionados, son interdependientes.
 
+
+
 # **¿Cómo formamos los equipos?**
 
 Primero, seleccionamos las personas más adecuadas para integrarlos. Muchos me han preguntado: ¿cómo es posible que todos participen? Quienes así consultan piensan que esta modalidad favorecería la toma individual de decisiones. Esto no sucede. Somos responsables y buscamos el bienestar colectivo.
@@ -30,11 +32,15 @@ Los equipos están conformados por integrantes dedicados a tiempo completo. Esto
 
 Pueden notar que los equipos no presentan ninguna característica especial. Son conformaciones circunstanciales, auto-organizadas para atender clientes y proyectos. No existen fricciones o contradicciones con la empresa. Comparten valores, principios y prácticas.
 
+
+
 # **Los Equipos son las Personas**
 
 Analicemos cada uno de los atributos que hacen a los buenos equipos, empezando por el corazón. Los equipos son las personas. Las empresas, también. No se puede desarrollar software con gente desmotivada, en la cual no confiamos. Tampoco, ser ágiles. **Necesitamos buenos desarrolladores, honestos, responsables y colaborativos.**
 
 En esta sección les hablaré sobre las personas, el ingrediente fundamental de los equipos. Les contaré cómo seleccionamos las semillas, sus atributos y describiré el ‘camino del pino’, nuestro plan de carrera.
+
+
 
 ## Proceso de Selección
 
@@ -45,6 +51,8 @@ Como sabemos que las personas son importantes, invertimos mucho tiempo en el pro
 Como mencioné anteriormente, **la excelencia técnica es parte de nuestro ADN**. No creemos que se pueda hacer software con programadores que no sean fuertes técnicamente, que no sepan diseñar o testear. Los postulantes desarrollan un ejercicio usando el lenguaje de programación de preferencia. A continuación, debatimos las decisiones de diseño tomadas, las abstracciones creadas y el proceso utilizado para llegar a ellas \(¿usaronTest Driven Development?\). No hacemos foco en el aspecto tecnológico o en los detalles del lenguaje.
 
 El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto. Para lograrlo, **organizamos una entrevista grupal en la que participamos todos los integrantes de la empresa**. El objetivo es conocer al candidato en profundidad, evaluando si es alguien con quien nos gustaría trabajar. Piensen que compartiremos muchísimas horas de nuestro día con él o ella.
+
+
 
 ## **Skills de los Pinos**
 
@@ -64,6 +72,8 @@ Seguramente les resultará una ‘verdad de Perogrullo’ si les digo que para d
 
 ![](/assets/Skills de un pino.png)Junto con las habilidades ‘duras’ que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _product discovery_ o gestionar un _backlog_ . El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
 
+
+
 ## El camino del pino
 
 Llegar a ser un buen programador implica un recorrido, que nosotros llamamos ‘Camino del Pino’. Durante el trayecto, crecemos y nos desarrollamos tanto humana como profesionalmente. Hemos definido un marco de referencia: comenzamos como ‘_Padawans_’, copiando y aprendiendo de pinos más experimentados. Nos convertimos luego en ‘_Knights_’, programadores experimentados y con conocimientos de gestión. Después de muchos años, alcanzamos el ‘rango’ de ‘_Masters_’, programadores expertos, conocedores de la profesión en profundidad. El lector podrá deducir de qué saga hemos extraído los nombres.
@@ -76,6 +86,8 @@ Evaluamos de forma continua el progreso, para saber en qué lugar del camino est
 
 Este camino es fundamental, tanto para cada uno de nosotros, los pinos, que, como trabajadores del conocimiento, valoramos la motivación intrínseca, como para 10Pines, que desea que las personas crezcan aquí. En consecuencia, invertimos mucho esfuerzo en ‘señalizarlo’. Evaluamos constantemente cómo está funcionando y qué podemos hacer para mejorarlo.
 
+
+
 # **Un buen ambiente**
 
 ![](/assets/Que hacemos para sentirnos bien.png)
@@ -85,6 +97,8 @@ Una vez que tenemos buenas semillas, **debemos crear un ambiente donde éstas pu
 Trabajar en un ambiente así permite que los talentos de todas las personas se combinen y hagan sinergia para obtener los mejores resultados. No quedan dudas de que, cuando todos colaboramos, el producto resultante es mejor. Como resultado adicional, esto nos estimula, nos motiva. Esta es la manera en la que trabajamos en 10Pines. No imagino hacerlo de otro modo.
 
 ¿Cómo podemos crear este ambiente? **¿Cómo podemos configurar las reglas de este sistema complejo, que es la organización, para alentar estos sentimientos y comportamientos?** En esta sección, les contaré lo que hemos construido, entre todos, en 10Pines.
+
+
 
 ## **¿Qué nos motiva?**
 
@@ -117,6 +131,8 @@ Los que conocen la [teoría X y la teoría Y de McGregor](https://es.wikipedia.o
 Tenemos en cuenta estos atributos en cada una de las decisiones que tomamos: ¿Qué proyectos deberíamos tomar? ¿Cómo deberíamos aumentar nuestros sueldos? Estos valores representan nuestra guía, el consenso de lo importante para el grupo.
 
 Además, una vez al año, durante nuestro retiro estratégico \(una reunión que realizamos con todos los pinos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/): Todos los pinos puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!
+
+
 
 ## **¿Qué hacemos para lograr un buen ambiente?**
 
@@ -164,6 +180,8 @@ Kudos al final de nuestro _standup_ semanal
 
 Me gusta salir a tomar una cerveza y mantener conversaciones fuera del ámbito laboral con mis compañeros de trabajo. Estos momentos permiten relajarnos y conocernos. Crean lazos fuertes que luego nos permiten trabajar mejor. **En 10Pines, jugar juegos de mesa, compartir un **_**after-office**_** o ver películas constituyen una costumbre positiva**. Entre nosotros existen vínculos que van más allá del trabajo.
 
+
+
 ## **Las 5 disfunciones de las empresas**
 
 ¿Conocen [este libro](https://g.co/kgs/LVoPh5) de Patrick Lencioni? Me ayudó a entender algunas situaciones completamente disfuncionales que se daban en algunas de las empresas donde trabajé. El autor las describe a través de esta pirámide:
@@ -194,6 +212,8 @@ Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son e
 
 ![](/assets/Retiro Estrategico photos.png)
 
+
+
 # **Auto-organización**
 
 ![](/assets/Autoorganizacion.png)
@@ -201,6 +221,8 @@ Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son e
 Compartida la visión, reconocidos los objetivos, **el equipo se auto-organiza para empezar a trabajar**. Todos participamos opinando, debatiendo o planteando alternativas. Contribuimos a la solución. Estamos empoderados.
 
 Habiendo contemplado una empresa auto-gestionada durante los últimos 9 años, no me quedan dudas: representa la mejor forma de trabajo. **Permite alcanzar resultados óptimos porque combina los talentos del grupo. E impacta en nuestro bienestar**: representa uno de los factores esenciales en la creación de un buen ambiente laboral.
+
+
 
 ## **¿Qué logramos con la auto-organización?**
 
@@ -252,11 +274,58 @@ Un punto que también vale la pena mencionar dentro de este tópico es l**a nece
 
 
 
+# **Comunicación**
 
+> **“Algunos de nosotros estamos en el negocio de la tecnología. La mayoría estamos en el negocio de la comunicación humana.”**[^2]** - Tom de Marco**
+
+
+
+Reconocemos la importancia de la comunicación. Por eso nos esforzamos en que sea lo más caudalosa y efectiva posible.
+
+Alistair Cockburn define, en [_Agile Software Development_](https://g.co/kgs/wUnzS8), la comunicación como ‘la transmisión de una idea desde una persona a otra’. Cuando trabajamos en un equipo, emitimos diariamente conceptos, que se plasman en especificaciones y, en definitiva, en el _codebase_ que representa la solución.
+
+Lograr una buena comunicación es difícil. Existen malas interpretaciones, incluso cuando charlamos con nuestras parejas. ¡Imaginen en un equipo, con gente que conocemos menos y tenemos poco contacto!
+
+La comunicación, dentro del enfoque de construcción de software que hemos elegido, el enfoque ágil, es crucial: Un equipo multidisciplinario, motivado y organizado desarrolla pequeños incrementos de funcionalidad para obtener feedback rápido[^3]. Este proceso, altamente concurrente, ya que implica la interacción de todos los roles que forman parte del equipo, requiere que fluya un caudal enorme de comunicación entre sus integrantes.
+
+En consecuencia, **debemos usar los medios de comunicación más eficientes y efectivos** a nuestro alcance: aumentar el ancho de banda de comunicación tanto como sea posible, que existan radiadores de información que disparen nuevas conversaciones, que fluya en todas direcciones y que sea directa, es decir, sin intermediarios.
+
+
+
+## **¿Cuál es la manera más eficiente de comunicarse?**
+
+Sin duda, estar con la persona o personas con las cuales queremos comunicarnos frente a frente, ya que podemos observar su lenguaje corporal y aumentar la velocidad al notar la comprensión o detenernos en caso de observar dificultades. Desde el punto de vista del receptor, podemos interrumpir, permitiendo que el emisor aclare, para continuar sobre bases sólidas. ¿Cuál es la manera menos eficiente? La comunicación escrita, donde el emisor genera un documento para que otras personas lean e interpreten. No solo es más lento, sino también más proclive a errores. Entre una y otra, podemos encontrar diversos métodos alternativos como _Google Hangouts_, que permite visualizar a las personas y compartir la pantalla o _Slack_ , que posibilita la creación de grupos con los cuales se comparte información masivamente.
+
+![](/assets/Communication Effectiveness %281%29.png)  
+Gráfico original de [Efectividad de la comunicación](https://g.co/kgs/RVkx3i) con nuevas herramientas \(la evaluación de su efectividad está basada en un juicio propio\).
+
+En 10Pines procuramos que los equipos se comuniquen de modo efectivo: se trabaja en un _open space_, donde los integrantes se sientan juntos de modo de maximizar la [comunicación osmótica](http://alistair.cockburn.us/Osmotic+communication). Cuando trabajamos desde casa, nos reunimos virtualmente usando _Hangouts_ o _Skype_. Usamos herramientas para chatear y para gestionar el proyecto, como _Jira_ o _Pivotal Tracker_. Desarrollamos haciendo _pair programming_ y hacemos _code review_. Todas estas prácticas y herramientas resultan esenciales para mejorar la comunicación.
+
+Muchos de los equipos en los que trabajamos son distribuidos, conformados con desarrolladores de 10Pines y _product owners_, _testers_ y _scrum masters_ en otras ubicaciones del globo. En estos casos, analizamos y definimos como lograr la comunicación más eficiente posible, reconociendo que, cuando las personas no comparten la misma ubicación, se genera un menor caudal de información. Para lidiar con esta situación, multiplicamos las reuniones y hacemos un uso, aún más, intensivo de las herramientas digitales.
+
+![](/assets/Comunicacion Photos.png)
+
+
+
+# **Conclusión**
+
+No buscamos personas para un proyecto en particular, sino personas que deseen desarrollar su vida profesional dentro de 10Pines. Nuestro proceso de selección evalúa fuertemente los aspectos técnicos sin dejar de lado el aspecto humano.
+
+Creemos que es fundamental sentirnos bien, trabajar en un ambiente transparente, honesto y colaborativo porque permite brindarnos al máximo. Por esta razón, continuamente evaluamos cómo nos sentimos y qué podemos mejorar. Poseemos un camino de crecimiento, que llamamos ‘Camino del Pino’, que facilita nuestro desarrollo. Poder crecer profesionalmente impacta en nuestra felicidad.
+
+Construimos una visión compartida, tanto en 10Pines como en cada uno de los productos que desarrollamos, que nos permite estar alineados y colaborar eficientemente.
+
+El empoderamiento resulta esencial para desarrollar el mejor producto posible y, también, para gestionar una empresa. Además, nos compromete, disciplina, motiva y hace felices.
+
+Finalmente, buscamos una estrategia que maximice el bandwidth de comunicación, al considerarla vital para el desarrollo de software.
 
 
 
 
 
 [^1]: 'If you don't know where you are going, any road will get you there'.
+
+[^2]: “Few of us are in the high tech business. Most of us are in the human communications business.”
+
+[^3]: Alistair lo denomina ‘un juego de invención y cooperación’: un equipo de _crafters_ colabora entre sí para que la solución emerja, aportando cada uno desde su perspectiva.
 
