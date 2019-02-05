@@ -164,15 +164,11 @@ Kudos al final de nuestro _standup_ semanal
 
 Me gusta salir a tomar una cerveza y mantener conversaciones fuera del ámbito laboral con mis compañeros de trabajo. Estos momentos permiten relajarnos y conocernos. Crean lazos fuertes que luego nos permiten trabajar mejor. **En 10Pines, jugar juegos de mesa, compartir un **_**after-office**_** o ver películas constituyen una costumbre positiva**. Entre nosotros existen vínculos que van más allá del trabajo.
 
-
-
 ## **Las 5 disfunciones de las empresas**
 
 ¿Conocen [este libro](https://g.co/kgs/LVoPh5) de Patrick Lencioni? Me ayudó a entender algunas situaciones completamente disfuncionales que se daban en algunas de las empresas donde trabajé. El autor las describe a través de esta pirámide:
 
 ![](/assets/Piramide de disfunciones.png)5 Disfunciones de los Equipos
-
-
 
 La primera disfunción, en la base, es la **falta de Confianza**, que nace de la no-voluntad a mostrarse vulnerable frente al grupo. Si los miembros del equipo no confían entre ellos, entonces no piden ayuda y ocultan información. En definitiva, hacen lo que es mejor para ellos mismos y no para el grupo.
 
@@ -188,7 +184,52 @@ Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son e
 
 
 
+# **Visión**
+
+> **“Si no sabes para donde vas, cualquier camino te llevará allí**[^1]**" - Lewis Carroll**
+
+![](/assets/Armando el equipo.png)Como ya mencioné en el capítulo 1, comenzamos los proyectos haciendo un **product discovery** del que participa todo el equipo y que permite construir una visión compartida. Aquí consensuamos los objetivos y el plan para alcanzarlos. Dicha visión nos permite volcar todo nuestro talento en busca de las mejores soluciones. **Es el disparador de la inteligencia colectiva, el energizante que dispara las interacciones necesarias**. Sienta las bases para que se produzca el mejor tipo de colaboración. Somos agentes inteligentes, empoderados, en un ambiente que nos alienta para dar lo mejor de nosotros.
+
+![](/assets/Product Discovery photos.png)
+
+10Pines funciona exactamente del mismo modo. **Todos los pinos construimos la visión de la empresa**, que repasamos y refinamos cada año, durante nuestro retiro estratégico. Esta visión nos guía, nos permite tomar las decisiones diarias.
+
+![](/assets/Retiro Estrategico photos.png)
 
 
 
+# **Auto-organización**
+
+![](/assets/Autoorganizacion.png)
+
+
+
+Compartida la visión, reconocidos los objetivos, **el equipo se auto-organiza para empezar a trabajar**. Todos participamos opinando, debatiendo o planteando alternativas. Contribuimos a la solución. Estamos empoderados.
+
+Habiendo contemplado una empresa auto-gestionada durante los últimos 9 años, no me quedan dudas: representa la mejor forma de trabajo. **Permite alcanzar resultados óptimos porque combina los talentos del grupo. E impacta en nuestro bienestar**: representa uno de los factores esenciales en la creación de un buen ambiente laboral.
+
+##  **¿Qué logramos con la auto-organización?**
+
+¿Por qué se obtienen mejores resultados cuando se trabaja de esta manera? A continuación describo algunas razones:
+
+**Tenemos perspectivas parciales, que se combinan: **Crear la solución entre todos los integrantes del equipo permite que la misma sea equivalente a la suma de los talentos individuales: ¿Por qué prescindir de ideas, perspectivas y mentes de personas inteligentes y capaces? [Management 3.0](https://www.amazon.com/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471) detalla el ‘principio de la oscuridad’, que explica la razón por la cual, desde el punto de vista de la complejidad, resulta positiva la auto-organización: ‘Los miembros de un equipo de desarrollo poseen un modelo mental incompleto del sistema’. Cuando éstos se combinan, dicho modelo se completa, obteniendo ideas mejores que las que hubieran podido obtenerse por separado.
+
+**Tenemos diferentes **_**backgrounds**_** y **_**skills**_**, que se potencian: **Nuestro trabajo, como desarrolladores de software, es un trabajo de creación y de innovación que requiere de un equipo diverso, con diferentes _backgrounds_ y _skills_, que interactúe libremente. El [video de ABC Nightline sobre IDEO](https://www.youtube.com/watch?v=M66ZU2PCIcM) describe muy bien cómo debe crearse un ambiente de innovación: no existe un jefe, sino un facilitador, en una estructura completamente horizontal donde los integrantes tienen perfiles muy diversos. Se brinda un objetivo y se deja al equipo auto-organizarse. Debido a que el problema es altamente caótico, se fija un lapso de tiempo para su finalización. Suena familiar, ¿no?
+
+**Somos personas formadas, en contacto con los problemas: **El 5to principio en el libro de “[_Lean Software Development_](https://g.co/kgs/Cf4dUX)” habla sobre Empoderamiento: ‘Empleados educados y empoderados, guiados por un líder, pueden tomar mejores decisiones que sus _managers_’, sugiere. El método científico de Taylor no fue pensado para organizaciones del conocimiento. En éstas, delegar ‘es mucho más efectivo porque estos ingenieros, trabajando en la línea de producción, tienen mejor información y, también, la formación necesaria para tomar esas decisiones’. El desarrollo de software es exactamente igual. Los programadores somos profesionales capacitados, que trabajamos en la ‘línea de producción’.
+
+**Somos los que mejor sabemos como contribuir: **Cada integrante es quien mejor conoce sus propios _skills_ y, por ende, quien mejor sabe cómo contribuir al equipo en función de los objetivos compartidos. Por esto, Jim Highsmith, en [_Agile Project Management_](https://g.co/kgs/pzb6LH), especifica que ‘cada una de las personas se hace responsable del pasaje de trabajo \(de acuerdo a la necesidad\), del manejo de su propia carga y de la efectividad del equipo’. ¿Existe modo superador de gestionar un proyecto?
+
+**Es la mejor manera de atacar la complejidad: **Los ‘sistemas adaptativos complejos’ describen científicamente cómo funciona la auto-organización: la solución ‘emerge’ a partir de la interacción de agentes inteligentes que toman decisiones diarias con un impacto en la solución final. Los proyectos de desarrollo de software son sistemas adaptativos complejos. La auto-organización permite atacar la complejidad inherente, a través de la participación de todos los integrantes \(agentes\) en el producto final. Dejarla en manos de una persona sería demasiado arriesgado.
+
+**Nos hace sentir mejor y más comprometidos: **Cuando una persona capaz está motivada, quiere participar en las decisiones y en el devenir del proyecto. Siente, al hacerlo, una motivación intrínseca: una necesidad interna por alcanzar una conclusión exitosa. John Buck y Gerard Endenburg, en ‘[_The Creative Forces of Self Organization_](http://sociocracyconsulting.com/wp-content/uploads/2016/04/CreativeForces-updated2012.pdf)’, argumentan que, cuando se trabaja de esta manera, no existen fricciones entre los intereses personales y los de la empresa. Nuestra energía se encauza hacia objetivos compartidos. Sentirnos motivados, energizados y trabajar auto-organizadamente en un equipo nos vuelve personas más responsables con nuestros pares y nosotros mismos. Esta responsabilidad nace de los deseos intrínsecos. Es diferente de la que podría originarse al ser reprendidos o premiados. Puedo decirles, sin temor a equivocarme, que nunca vi, en todos mis años de experiencia, equipos y personas tan comprometidas como en 10Pines.
+
+
+
+
+
+  
+
+
+[^1]: 'If you don't know where you are going, any road will get you there'.
 
