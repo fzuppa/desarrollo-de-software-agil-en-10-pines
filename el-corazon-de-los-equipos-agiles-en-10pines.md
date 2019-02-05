@@ -64,21 +64,17 @@ Seguramente les resultará una ‘verdad de Perogrullo’ si les digo que para d
 
 ![](/assets/Skills de un pino.png)Junto con las habilidades ‘duras’ que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _product discovery_ o gestionar un _backlog_ . El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
 
-
-
 ## El camino del pino
 
 Llegar a ser un buen programador implica un recorrido, que nosotros llamamos ‘Camino del Pino’. Durante el trayecto, crecemos y nos desarrollamos tanto humana como profesionalmente. Hemos definido un marco de referencia: comenzamos como ‘_Padawans_’, copiando y aprendiendo de pinos más experimentados. Nos convertimos luego en ‘_Knights_’, programadores experimentados y con conocimientos de gestión. Después de muchos años, alcanzamos el ‘rango’ de ‘_Masters_’, programadores expertos, conocedores de la profesión en profundidad. El lector podrá deducir de qué saga hemos extraído los nombres.
 
 Durante las etapas iniciales del camino, como ‘_Padawans_’, los hitos consisten en mejorar los _skills_ de programación, es decir, aprender lenguajes, _frameworks_, técnicas, herramientas y participar con responsabilidad y compromiso de las actividades del equipo. Los ‘_Knights_’ son programadores capaces de resolver la mayoría de los problemas de forma autónoma. Tienen una visión más amplia del sistema, que incluye factores como la seguridad y la performance. Toman responsabilidad en parte de la gestión del proyecto y ayudan a sus pares. Dominan varios lenguajes de programación y manejan las herramientas que usamos diariamente \(git, ide\) a la perfección. En la última etapa del camino están los _Masters_, nuestros líderes, encargados de crear y fomentar el mejor ambiente laboral posible. Ellos guían a los más jóvenes por sus caminos y también trabajan para que 10Pines siga creciendo, obteniendo nuevos clientes y manteniendo la relación con los existentes.
 
-Una empresa autogestionada, como la nuestra, suma actividades a sus integrantes que otras no tienen, como por ejemplo, _staffear_ los equipos de trabajo, organizar eventos y alquilar la oficina. Los pinos asumimos compromisos gradualmente que impactan dentro de nuestro crecimiento profesional. 
+Una empresa autogestionada, como la nuestra, suma actividades a sus integrantes que otras no tienen, como por ejemplo, _staffear_ los equipos de trabajo, organizar eventos y alquilar la oficina. Los pinos asumimos compromisos gradualmente que impactan dentro de nuestro crecimiento profesional.
 
 Evaluamos de forma continua el progreso, para saber en qué lugar del camino estamos y, en consecuencia, hacer ajustes y planear objetivos. Para ello, elegimos un ‘jardinero’, de mayor _seniority_ obviamente, que nos acompaña en el recorrido.
 
 Este camino es fundamental, tanto para cada uno de nosotros, los pinos, que, como trabajadores del conocimiento, valoramos la motivación intrínseca, como para 10Pines, que desea que las personas crezcan aquí. En consecuencia, invertimos mucho esfuerzo en ‘señalizarlo’. Evaluamos constantemente cómo está funcionando y qué podemos hacer para mejorarlo.
-
-
 
 # **Un buen ambiente**
 
@@ -90,8 +86,6 @@ Trabajar en un ambiente así permite que los talentos de todas las personas se c
 
 ¿Cómo podemos crear este ambiente? **¿Cómo podemos configurar las reglas de este sistema complejo, que es la organización, para alentar estos sentimientos y comportamientos?** En esta sección, les contaré lo que hemos construido, entre todos, en 10Pines.
 
-
-
 ## **¿Qué nos motiva?**
 
 En uno de nuestros primeros retiros estratégicos, hicimos una actividad que tuvo el propósito de consensuar los atributos que debería tener nuestro trabajo ideal. En otras palabras, los factores que contribuirán a nuestra felicidad, a sentirnos bien, cómodos y contentos en nuestra labor diaria.
@@ -99,8 +93,6 @@ En uno de nuestros primeros retiros estratégicos, hicimos una actividad que tuv
 ![](/assets/Radar en el Retiro.png)
 
 La 1ra foto muestra la actividad que hicimos para obtener estos atributos y luego priorizarlos. La 2da, una retrospectiva donde evaluamos cómo estamos en cada uno de ellos.
-
-
 
 Los factores que acordamos son:
 
@@ -120,13 +112,72 @@ Los factores que acordamos son:
 
 * Imagen y reputación
 
-  
-Los que conocen la [teoría X y la teoría Y de McGregor](https://es.wikipedia.org/wiki/Teor%C3%ADa_X_y_teor%C3%ADa_Y) sobre _Management_ podrán notar que, dentro de los atributos que definimos, existen algunos motivadores extrínsecos, como los sueldos y la comodidad laboral. Sin embargo, la mayoría son intrínsecos, es decir, motivadores que provienen de los objetivos desafiantes, de la asunción de responsabilidades, de los logros obtenidos y del reconocimiento consecuente.
+Los que conocen la [teoría X y la teoría Y de McGregor](https://es.wikipedia.org/wiki/Teoría_X_y_teoría_Y) sobre _Management_ podrán notar que, dentro de los atributos que definimos, existen algunos motivadores extrínsecos, como los sueldos y la comodidad laboral. Sin embargo, la mayoría son intrínsecos, es decir, motivadores que provienen de los objetivos desafiantes, de la asunción de responsabilidades, de los logros obtenidos y del reconocimiento consecuente.
 
 Tenemos en cuenta estos atributos en cada una de las decisiones que tomamos: ¿Qué proyectos deberíamos tomar? ¿Cómo deberíamos aumentar nuestros sueldos? Estos valores representan nuestra guía, el consenso de lo importante para el grupo.
 
-Además, una vez al año, durante nuestro retiro estratégico \(una reunión que realizamos con todos los pinos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/): Todos los pinos puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!  
+Además, una vez al año, durante nuestro retiro estratégico \(una reunión que realizamos con todos los pinos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/): Todos los pinos puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!
+
+
+
+## **¿Qué hacemos para lograr un buen ambiente?**
+
+### **Promover la confianza**
+
+¿Podrías trabajar en un lugar en el que no confías en la empresa o en tus colegas? Creo que no. Resguardarías la información. No te arriesgarías a cometer errores, no colaborarías.
+
+**En 10Pines establecemos una relación de confianza desde el momento del ingreso**. Un ejemplo de esto lo constituye la carga de las horas trabajadas que cada quien realiza para luego calcular su sueldo. Cada una de los procesos creados o las decisiones tomadas están basados en la confianza. Es nuestro valor más importante. Es la base de un lugar sano, colaborativo, donde nos sentimos bien.
+
+### **Ser Transparentes**
+
+La transparencia fomenta la confianza y, por ende, la colaboración. En 10Pines, la información está disponible para su consulta. **Somos una empresa de **[**números abiertos**](https://en.wikipedia.org/wiki/Open-book_management): cualquiera puede ver los ingresos de la empresa, la rentabilidad de los proyectos y, también, lo percibido por cada pino.
+
+Cuando desarrollamos un proyecto, usamos todas los recursos disponibles para aumentar la transparencia, como por ejemplo, [radiadores de información](https://www.agilealliance.org/glossary/information-radiators/) o herramientas de gestión online. Buscamos que los integrantes del equipo cuenten con la mayor cantidad de información posible, acerca de los objetivos, del progreso y de todas las aristas que puedan tener alguna incidencia en el resultado final.
+
+### Compartir objetivos
+
+Cuando conformamos equipos para construir un producto, compartimos los objetivos, que definimos en el _product discovery_. ¿Qué pasaría si éstos fueran personales? Por ejemplo, si se midiera la performance de los programadores únicamente por su desempeño individual \(_user stories_ terminadas\) o si los integrantes del equipo pertenecieran a otras áreas, con fines contrapuestos. Seguramente, enfrentaríamos comportamientos competitivos y disfuncionales. Las reglas que especificamos en un sistema complejo determinan las conductas de sus agentes que, deseamos, sean colaborativas. El éxito del grupo debe ser el éxito de cada uno de los integrantes. **Los objetivos de 10Pines son los objetivos de todos nosotros**.
+
+### **Hacer los procesos justos**
+
+Un punto muy importante dentro de la transparencia es que los procesos sean justos, que las reglas estén claras. En el articulo ‘[Fair Process: Managing in the Knowledge Economy](https://hbr.org/2003/01/fair-process-managing-in-the-knowledge-economy)’, se explica su importancia para los trabajadores del conocimiento.
+
+**En 10Pines, los procesos y políticas se encuentran claramente definidos en una web de acceso irrestricto**. Cuando surgen aspectos que no tenemos contemplados en ninguna política, nos juntamos, debatimos, consensuamos una y la publicamos en la web mencionada. Al ser una empresa de estructura horizontal, todos nos encargamos de respetar y hacer respetar estos procesos co-creados.
+
+### **Tomar las Decisiones en Equipo**
+
+Con este nivel de transparencia, confianza y colaboración, las decisiones deben tomarse de manera compartida. De esta manera, aseguramos que los integrantes estén comprometidos. **En 10Pines, cualquier grupo que se conforme posee un carácter abierto**, es decir, cualquier pino puede integrarlo. Y tomamos las decisiones entre todos.
+
+Trabajar de este modo puede resultar más lento e incómodo. Sin embargo, como uno de los líderes de 10Pines, puedo asegurarles que es muy gratificante. Valoramos sentirnos escuchados.
+
+### **Crear Espacios de Reconocimiento Personal**
+
+Otro de los factores necesarios para sentirnos bien es el reconocimiento. Que una persona con la que trabajamos nos diga que estamos haciendo las cosas bien aumenta la autoestima y motiva intrínsecamente. 
+
+La [pirámide de Maslow](https://es.wikipedia.org/wiki/Pir%C3%A1mide_de_Maslow) muestra que el reconocimiento es parte de nuestras necesidades esenciales, después de la seguridad y de la confianza. El ser humano precisa tanto ser reconocido como demostrar reconocimiento.
+
+**En 10Pines, nos gusta reconocer un buen trabajo**. Lo hacemos todo el tiempo, por ejemplo, cuando alguien nos ayuda a resolver un problema o prepara una charla. Publicamos estos reconocimientos mediante ‘[La muralla de Kudos](https://kudos.10pines.com/)’. Esta herramienta, basada en las cartas de _Kudos_ de _Management 3.0_, fue desarrollada por uno de nuestros pinos, Joaquín, para ‘enviar’ _kudos_ virtuales a otro/s pino/s a través de [slack](https://slack.com), que luego compartimos durante el standup semanal. ¡Se siente muy bien aparecer en la muralla y también agradecer a alguien de esta manera!
+
   
+![](/assets/Kudos en el Standup.png)
+
+Kudos al final de nuestro _standup_ semanal
+
+
+
+### **Fomentar Momentos de Distensión**
+
+Me gusta salir a tomar una cerveza y mantener conversaciones fuera del ámbito laboral con mis compañeros de trabajo. Estos momentos permiten relajarnos y conocernos. Crean lazos fuertes que luego nos permiten trabajar mejor. **En 10Pines, jugar juegos de mesa, compartir un **_**after-office**_** o ver películas constituyen una costumbre positiva**. Entre nosotros existen vínculos que van más allá del trabajo.
+
+
+
+  
+
+
+
+
+
+
 
 
 
