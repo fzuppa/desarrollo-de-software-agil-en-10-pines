@@ -182,8 +182,6 @@ Finalmente, los miembros no responsables crean un ambiente donde la 5ta disfunci
 
 Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son el resultado de problemas más profundos. Sólo observamos los síntomas. He visto, por ejemplo, equipos se comunican a través de herramientas \(Jira\) para dejar ‘evidencia’ o testers que incluyen un reporte de _bugs_ antes de aceptar la _user story_. En algunas ocasiones, cometí el error de centrarme en los síntomas, queriendo hacer los procesos más eficientes, cuando los problemas eran humanos, de falta de confianza y colaboración. Las personas, como agentes inteligentes dentro de este sistema complejo que es una organización, maquillan los problemas, desplazan el eje o se acomodan según intereses propios. Por el contrario, cuando se brinda confianza y se empodera a las personas, los integrantes están comprometidos y velan por los resultados.
 
-
-
 # **Visión**
 
 > **“Si no sabes para donde vas, cualquier camino te llevará allí**[^1]**" - Lewis Carroll**
@@ -196,19 +194,15 @@ Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son e
 
 ![](/assets/Retiro Estrategico photos.png)
 
-
-
 # **Auto-organización**
 
 ![](/assets/Autoorganizacion.png)
-
-
 
 Compartida la visión, reconocidos los objetivos, **el equipo se auto-organiza para empezar a trabajar**. Todos participamos opinando, debatiendo o planteando alternativas. Contribuimos a la solución. Estamos empoderados.
 
 Habiendo contemplado una empresa auto-gestionada durante los últimos 9 años, no me quedan dudas: representa la mejor forma de trabajo. **Permite alcanzar resultados óptimos porque combina los talentos del grupo. E impacta en nuestro bienestar**: representa uno de los factores esenciales en la creación de un buen ambiente laboral.
 
-##  **¿Qué logramos con la auto-organización?**
+## **¿Qué logramos con la auto-organización?**
 
 ¿Por qué se obtienen mejores resultados cuando se trabaja de esta manera? A continuación describo algunas razones:
 
@@ -226,9 +220,42 @@ Habiendo contemplado una empresa auto-gestionada durante los últimos 9 años, n
 
 
 
+## **Auto-organización en 10Pines**
+
+10Pines es una empresa horizontal gestionada por todos los que formamos parte. Estamos empoderados para participar y lo hacemos con gusto. Compartimos la responsabilidad de llevar adelante la empresa. Colaboramos para resolver los problemas. Me gusta trabajar de esta manera y siento que a todos los pinos también. De hecho, como ya vieron, se encuentra dentro de las aristas que valoramos colectivamente. Sentirnos partícipes de lo que hacemos nos motiva y todos nos sentimos partícipes de 10Pines.
+
+No voy a contarles demasiados detalles de cómo nos organizamos. Creo que ésto merece un libro por sí mismo. Solo quería comentarles que, al momento de escribirlo, somos más de 80 personas auto-organizadas para gestionar 10Pines. Tenemos equipos auto-conformados que se ocupan de tareas diarias que deben hacerse en todas las empresas, como el _recruiting_, la gestión del hardware o la configuración de la red. Conformamos equipos espontáneos para organizar eventos particulares, como una conferencia o, incluso, la fiesta de fin de año. Nos reunimos mensualmente para compartir los números de la empresa y tomar decisiones importantes como, por ejemplo, en qué proyectos trabajar y quiénes conformarán los equipos.
+
+Por supuesto que la gestión participativa implica un gran desafío a la hora de tomar decisiones. Sin embargo, a pesar de las dificultades e incomodidades que puedan originarse, el efecto positivo de participar en las decisiones y de saber que el proceso es justo nos llena de energía y de confianza.
 
 
-  
+
+## **Líderes en 10Pines**
+
+Les conté que en 10Pines nos auto-organizamos para gestionar la empresa. También, que no existen jefes. Podrán pensar ustedes que es un ambiente caótico, casi anárquico, pero nada dista más de la realidad. Existe un sistema, conformado por valores, procesos y reglas, que funciona muy bien.
+
+Y existen líderes, que son las personas más experimentadas, las que mejor conocen la empresa. **Ellos sentaron las bases de la cultura. Configuraron el contexto. Fijaron los objetivos, el rumbo y las restricciones**. Los procesos que forman parte de nuestra columna vertebral, como el _recruiting_ o las reuniones estratégicas mensuales, fueron diseñados por ellos.
+
+Al ser quienes mejor conocen los valores y la visión de 10Pines, se encargan de transmitirlos al resto de los pinos diariamente, en reuniones, eventos y frente a hechos relevantes, que marcan puntos de inflexión en la vida de la empresa. Hablan mucho con los pinos más jóvenes, alinean expectativas y se preocupan por su motivación. Son los ‘jardineros’, que guían a las personas a través del camino del pino. Aconsejan y brindan sus puntos de vista. En ambientes como el nuestro, sin estructuras formales, los líderes tienen un brillo particular. Son reconocidos por lo que hacen y transmiten, más que por sus títulos.
+
+Claramente los fundadores son los líderes principales. Sin embargo, no son los únicos. Después de casi 10 años de existencia, muchas otras personas han tomado posiciones de liderazgo. Estos ‘_masters_’, que conocen la empresa íntimamente, participan en áreas vitales de la misma. Sin ellos, 10Pines no funcionaría del mismo modo.
+
+
+
+## Disciplina
+
+Quizás piensen que los equipos de estas características carecen de disciplina, pero no es cierto. Puedo asegurarles que **en 10Pines los equipos son auto-disciplinados, rigurosos con los procesos y las prácticas y responsables para cumplir los objetivos** teniendo en cuenta las restricciones. Cuando un grupo de personas competentes trabaja de esta manera, tomando responsabilidad colectiva por los resultados, la auto-disciplina \(así como también, la auto-organización\) sucede naturalmente.
+
+Jim Highsmith expresa que ‘la auto-disciplina hace posible la libertad y el empoderamiento’ y continúa diciendo que ‘uno de los peligros más grandes de los desarrollos centrados en procesos y de la gestión de proyectos es la reducción de los incentivos para la auto-disciplina. Posteriormente, comenta que ‘algunos _project managers_ se preguntan por qué nadie toma la iniciativa y es responsable’.
+
+Un punto que también vale la pena mencionar dentro de este tópico es l**a necesidad de trabajar disciplinadamente para lograr excelencia técnica**. Esta disciplina no puede ser impuesta, ya que requiere de una práctica constante por parte de todos los integrantes del equipo. Las prácticas de _Extreme Programming_ permiten crear esa ‘presión de pares’ que nos lleva a trabajar de ese modo. Hacer _pair programming_ y _code reviews_ nos impulsa a buscar mejores diseños, a pensar cuidadosamente los nombres, a no dejar deuda técnica, a testear cuidadosamente y a evitar atajos**.**
+
+
+
+
+
+
+
 
 
 [^1]: 'If you don't know where you are going, any road will get you there'.
