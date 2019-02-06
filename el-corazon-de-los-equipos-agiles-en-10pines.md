@@ -96,8 +96,6 @@ En uno de nuestros primeros retiros estratégicos, hicimos una actividad que tuv
 
 La 1ra foto muestra la actividad que hicimos para obtener estos atributos y luego priorizarlos. La 2da, una retrospectiva donde evaluamos cómo estamos en cada uno de ellos.
 
-
-
 Los factores que acordamos son:
 
 * Proyectos interesantes
@@ -163,8 +161,6 @@ La [pirámide de Maslow](https://es.wikipedia.org/wiki/Pirámide_de_Maslow) mues
 ![](/assets/Kudos en el Standup.png)
 
 Kudos al final de nuestro _standup_ semanal
-
-
 
 ### **Fomentar Momentos de Distensión**
 
@@ -254,8 +250,6 @@ Un punto que también vale la pena mencionar dentro de este tópico es l**a nece
 
 > **“Algunos de nosotros estamos en el negocio de la tecnología. La mayoría estamos en el negocio de la comunicación humana.”**[^7]** - Tom de Marco**
 
-
-
 Reconocemos la importancia de la comunicación. Por eso nos esforzamos en que sea lo más caudalosa y efectiva posible.
 
 Alistair Cockburn define, en [_Agile Software Development_](https://g.co/kgs/wUnzS8), la comunicación como ‘la transmisión de una idea desde una persona a otra’. Cuando trabajamos en un equipo, emitimos diariamente conceptos, que se plasman en especificaciones y, en definitiva, en el _codebase_ que representa la solución.
@@ -272,8 +266,6 @@ Sin duda, estar con la persona o personas con las cuales queremos comunicarnos f
 
 ![](/assets/Communication Effectiveness %281%29.png)  
 Gráfico original de [Efectividad de la comunicación](https://g.co/kgs/RVkx3i) con nuevas herramientas \(la evaluación de su efectividad está basada en un juicio propio\).
-
-
 
 En 10Pines procuramos que los equipos se comuniquen de modo efectivo: se trabaja en un _open space_, donde los integrantes se sientan juntos de modo de maximizar la [comunicación osmótica](http://alistair.cockburn.us/Osmotic+communication). Cuando trabajamos desde casa, nos reunimos virtualmente usando _Hangouts_ o _Skype_. Usamos herramientas para chatear y para gestionar el proyecto, como _Jira_ o _Pivotal Tracker_. Desarrollamos haciendo _pair programming_ y hacemos _code review_. Todas estas prácticas y herramientas resultan esenciales para mejorar la comunicación.
 
