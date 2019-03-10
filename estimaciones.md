@@ -1,13 +1,10 @@
 # Estimaciones
 
-## ![](.gitbook/assets/estimaciones.png)
+![](.gitbook/assets/tapa-estimaciones.png)
 
-## Estimaciones
+## **Una Primera Noción del Tamaño**
 
-### **Una Primera Noción del Tamaño**
-
-    
-****Una vez que tenemos esta primera versión del _backlog_, **necesitaremos saber cuán grande es el producto** a construir, **para tener un estimado del costo y también para planear un equipo** que, teniendo en cuenta las restricciones de tiempo y dinero, lo desarrolle.
+ ****Una vez que tenemos esta primera versión del _backlog_, **necesitaremos saber cuán grande es el producto** a construir, **para tener un estimado del costo y también para planear un equipo** que, teniendo en cuenta las restricciones de tiempo y dinero, lo desarrolle.
 
 **Hacemos la estimación inicial de la manera más rápida y eficiente posible**, sin perder tiempo en adivinanzas y especulaciones, usando la técnica de [planning poker](https://es.wikipedia.org/wiki/Planning_poker), para asignar [story points](https://www.mountaingoatsoftware.com/blog/what-are-story-points) a cada una de las _user stories_ descubiertas. Noten que estimamos incrementos de funcionalidad visibles. Ésto es fundamental para la posterior gestión del proyecto, ya que medimos el progreso del mismo en base a funcionalidad terminada.
 
@@ -15,7 +12,7 @@ Deberemos arriesgar el tiempo que involucraría 1 _story point_, para inferir, d
 
 He mencionado unos cuantos conceptos sobre los que, desde mi punto de vista, vale la pena profundizar. En las secciones que siguen, les contaré más sobre estimaciones relativas, _story points_, _planning poker_, la _velocity_ y sobre cómo usamos estos conceptos para el planeamiento y la gestión del proyecto.
 
-### **Estimaciones Relativas usando** _**Story Points**_
+## **Estimaciones Relativas usando** _**Story Points**_
 
 Durante muchos años de mi vida realicé estimaciones en tiempos absolutos. Para hacerlas, desagregaba los componentes que, entendía, debían desarrollarse y asignaba tiempos para cada uno de ellos que luego sumaba. Usé puntos de función y complejas planillas de cálculo creadas dentro del marco de estándares de calidad como CMMI \(que procuraban tener métodos estandarizados para la organización\). Ninguna de estas técnicas resultó, en mi experiencia, en estimaciones más precisas y, además, siempre generaron comportamientos disfuncionales que terminaron siendo perjudiciales para la organización. Un ejemplo que todos conocerán es el de agregar un ‘_padding_’ a la estimación, para ‘cumplir’ con los tiempos ¿Les parece que tiene sentido?
 
@@ -35,13 +32,13 @@ Si bien es bastante frecuente usar _story points_, éstos no son fundamentales d
 ****¿Por qué usamos estimaciones relativas? **La primera razón es que vuelven el proceso más sencillo y liviano**, ya que no nos detenemos en tratar de adivinar lo que no conocemos o en investigaciones que haremos cuando empecemos a trabajar. Además, las estimaciones relativas nos desplazan de razonamientos tales como ‘esta _user story_ la desarrollará una persona determinada por sus _skills_ o _seniority_’ que no tienen ningún sentido. Simplemente decidimos, como equipo, cuanto más grande o más chica es una _user story_ con respecto a otra. La segunda razón es que realizar las estimaciones de esta manera nos protege de cualquier intento de presión \(por parte de jefes/_project managers_, etc\) a través de la existencia de este nivel nuevo de indirección. Estas presiones siempre generan, como ya mencioné, conductas que no son beneficiosas para nadie.    
 ****
 
-### **¿Qué tienen en cuenta cuando estiman?**
+## **¿Qué tienen en cuenta cuando estiman?**
 
 Un punto a tener en claro, antes de estimar, es qué significa completar una _user story_. No basta con que solamente hayamos ‘codeado’ la funcionalidad. **Debemos, como mínimo, ejecutar exitosamente todos los casos de prueba y el** _**product owner**_ **debe validar y aceptar la** _**user story**_. Además, deben existir _tests automatizados_ para toda la nueva funcionalidad, que se volverán fundamentales para su posterior regresión.
 
 Todos estos puntos, y quizás algunos otros que se agreguen para algún proyecto u organización en particular, constituyen la [definition of done](https://www.scruminc.com/definition-of-done/). No tiene sentido escribirlos en cada _user story_ porque están implícitos. Es importantísimo que todo el equipo entienda lo mismo. En otras palabras, que para todos signifique lo mismo completar una _user story_. Una actividad que podemos realizar, para asegurarnos de ésto, consiste en armar un afiche, entre todos, con la lista de los criterios definidos. Una vez creado, podemos pegarlo cerca de nuestros escritorios, para que sea un [radiador de información](http://alistair.cockburn.us/Information+radiator).
 
-### **Planning Poker**
+## **Planning Poker**
 
 Usamos esta técnica para asignar estimaciones a las **user stories**. Para ello, invitamos a todo el equipo que participará del proyecto \(desarrolladores, testers, diseñadores y por supuesto los _product owners_\), entregándoles mazos similares al que se encuentra abajo, donde cada una de las cartas representa un número de _story points_:
 
@@ -59,7 +56,7 @@ El proceso para hacer las estimaciones con esta técnica es el siguiente:
 6. Es bueno escuchar a los _outliers_, es decir a aquellas personas que tienen estimaciones muy bajas o muy altas ya que pueden tener información que el resto desconoce u omite. Por supuesto que también pudo desconocerse o malinterpretarse algún punto de la _user story_. De igual modo, resulta relevante escuchar sus argumentos y, en base a ellos, decidir si se desea estimar nuevamente.
 7. ¡Siempre llegamos a un consenso! Al menos, ésa es mi experiencia. Que los valores sean discretos ayuda mucho. Después de todo, sólo estamos decidiendo cuántos _story points_ asignar a una _user story_ y no cuántos días vamos a tardar en completarla.
 
-### **Estimando el** _**Backlog**_
+## **Estimando el** _**Backlog**_
 
 Para finalizar esta sección, les contaré el proceso que usamos para estimar un conjunto de _user stories_, que podría llegar a ser el _backlog_ completo o sólo el próximo _release_ \(personalmente no creo que valga la pena hacer una estimación de más de 2 meses de trabajo\).
 
@@ -69,7 +66,7 @@ Una vez establecida una estimación para la segunda _user story_, seguiremos con
 
 Como ya lo mencioné, **no creo que tenga sentido invertir una cantidad exagerada de tiempo en esta actividad**. Si ya definimos el Producto Mínimo Viable \(hablaremos sobre este concepto que llamamos MVP en la próxima sección\), nos limitaremos a estimar solamente sus _user stories_. Si el MVP fuera demasiado grande, sería bueno partirlo en _releases_. Debe tenerse en cuenta que, mientras más _user stories_ estimemos, mayor será el riesgo de perder el tiempo en ítems que después no sean construidos. **Tampoco vale la pena invertir tiempo en entender cada** _**user story**_ **en profundidad**. Una técnica que empleo habitualmente para no extenderme consiste en delimitar el tiempo que se va a usar para la estimación de cada _user story_ \(5 minutos puede ser adecuado\). Otra opción consiste en, de ser el equipo numeroso, repartir las _user stories_ entre 2 grupos para que puedan hacer las estimaciones en paralelo dando lugar a la exposición de los resultados.
 
-### **¿Cuál es el costo y cuándo terminaremos?**
+## **¿Cuál es el costo y cuándo terminaremos?**
 
 Para comenzar un proyecto, se debe tener una idea de la dimensión del producto a construir, principalmente para conocer el costo y para poder planificar en base a él.
 
@@ -91,7 +88,7 @@ En nuestro ejemplo:
 
 Podríamos pensar que existe una similitud entre las horas descritas y las [horas-hombre](https://es.wikipedia.org/wiki/Hora-persona) de la gestión tradicional de proyectos, pero no son exactamente lo mismo. La diferencia, sutil, radica en que las estimaciones para cada una de las _user stories_ se basan en un equipo, mientras que para la gestión tradicional de proyectos son estimaciones del tiempo que demora un 'recurso' en completar una actividad.
 
-### _**Velocity**_ **y** _**Burndown**_
+## _**Velocity**_ **y** _**Burndown**_
 
 Cuando comencemos a trabajar, **mediremos la cantidad de** _**story points**_ **que podemos terminar en cada iteración**, lo que nos dará una pauta de la verdadera capacidad del equipo. Llamamos a ésto [_velocity_](https://www.agilealliance.org/glossary/velocity), que es un término que proviene de la física y que incluye la celeridad y la dirección \(creo que la metáfora es interesante, ya que podríamos estar desarrollando muy rápidamente la funcionalidad errada\).
 
@@ -99,16 +96,17 @@ Midiendo la _velocity_ de la primera iteración, podríamos inferir, con más in
 
 Al completar la 2da iteración y medir la _velocity_, dispondremos de mayor información aún, ya que podremos obtener un promedio de las _velocities_ de las 2 primeras iteraciones. Por ejemplo, si hubiera sido igual a 6, el promedio de las 2 iteraciones sería igual a 7, lo que nos indica que necesitaríamos 8.8 iteraciones más para terminar.
 
-Para visualizar la _velocity_, podemos usar el gráfico de _burndown:_![](.gitbook/assets/burndown_chart.png)
+Para visualizar la _velocity_, podemos usar el gráfico de _burndown:_
+
+![](.gitbook/assets/burndown_chart.png)
 
 En este gráfico, el eje ‘Y’ indica la cantidad de puntos por quemar y el ‘X’ muestra el tiempo.
 
 En este ejemplo, sobrestimamos nuestra capacidad \(o subestimamos la complejidad del proyecto\). **Con esta información, deberemos actualizar nuestro plan**: ¿Podemos extender la fecha de entrega? ¿Podemos acotar el _scope_, dejando algunas funcionalidades para un _release_ posterior? ¿Podríamos aumentar la _velocity_ sumando un integrante más? La confianza y la colaboración existentes entre los miembros del equipo permiten dar lugar a estas conversaciones.
 
-**Mike Cohn dice que la** _**velocity**_ **es el gran ecualizador, ya que nos permite actualizar nuestro plan automáticamente**. Mientras que las estimaciones relativas sean consistentes, la medición de la _velocity_ nos permitirá inferir un calendario actualizado sin necesidad de efectuar ningún tipo de re-estimación.    
-****
+**Mike Cohn dice que la** _**velocity**_ **es el gran ecualizador, ya que nos permite actualizar nuestro plan automáticamente**. Mientras que las estimaciones relativas sean consistentes, la medición de la _velocity_ nos permitirá inferir un calendario actualizado sin necesidad de efectuar ningún tipo de re-estimación.
 
-### **Aspectos Importantes en las Estimaciones Ágiles**
+## **Aspectos Importantes en las Estimaciones Ágiles**
 
 Me gustaría contarles, para finalizar, cuáles son los puntos fundamentales del enfoque ágil en mi opinión. No son los _story points_, ni el _planning poker_, sino el proceso que usamos para estimar. En resumen:
 
@@ -116,7 +114,7 @@ Me gustaría contarles, para finalizar, cuáles son los puntos fundamentales del
 * **No se invierte mucho tiempo en hacer un análisis detallado** para hacer la estimación porque la precisión que presumiblemente se podría alcanzar no justifica la inversión. Ésto no significa que las estimaciones dejen de hacerse por completo ya que es necesario tener una noción del tamaño, para hacer la planificación.
 * **No implican un compromiso**. La presión que se ejerza sobre el equipo, ya sea para que acorte los tiempos o para que cumpla con la fecha inicialmente estimada, es la principal causa de disfuncionalidad que conozco. Queremos evitar que el equipo sienta la necesidad de poner un _pad_ a la estimación o quiera cortar camino para cumplir con las estimaciones y consecuentemente agregue deuda técnica. Ninguno de estos comportamientos resulta beneficioso.
 
-### **Conclusión**
+## **Conclusión**
 
 En esta sección vimos cómo hacer una estimación inicial del producto. Necesitamos tener una idea de la dimensión del mismo para poder planificar el equipo y proyectar tiempos \(de acuerdo a los _deadlines_ y las expectativas del negocio\). No deseamos, ni podemos, saber exactamente cuánto llevará. Tampoco, invertir demasiado tiempo en intentarlo, sin enfrentarnos con los problemas prácticos. No lo considero un buen uso del tiempo. Asumir un compromiso con esta información tampoco me parece razonable y es causa de muchas disfuncionalidades. Cuando comencemos a desarrollar, podremos verificar si las asunciones y estimaciones eran correctas, plasmando el conocimiento adquirido en nuestros planes. Usando _story points_ y midiendo la _velocity_, ésto es automático.
 
