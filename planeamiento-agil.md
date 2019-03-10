@@ -1,6 +1,8 @@
 # Planeamiento Continuo
 
-## ![](.gitbook/assets/planeamiento.png)
+##  
+
+![](.gitbook/assets/tapa-planeamiento-continuo.png)
 
 ## Planeamiento Continuo
 
@@ -54,11 +56,11 @@ Estas aristas están vinculadas, unas con otras, en modos no lineales. Si alguna
 
 En mis ‘años mozos’, conocí el [Triángulo de Acero de la Gestión de Proyectos](https://en.wikipedia.org/wiki/Project_management_triangle), un modelo que permitía visualizar estas restricciones: si se ‘tira’ de alguna de las aristas, alguna de las otras deberá moverse forzosamente.
 
-![](.gitbook/assets/triangulo-de-acero.png)
+![](.gitbook/assets/tirangulo-3-es.png)
 
 En el libro de Management 3.0, Jurgen describe el Cuadrado de Acero, incluyendo en la 4ta arista la calidad.
 
-![](.gitbook/assets/cuadrado-de-acero.png)
+![](.gitbook/assets/tirangulo-4-es.png)
 
 La idea del cuadrado de acero es que ‘la modificación de una de las aristas en una dirección tiene un efecto similar en alguna de las aristas adyacentes o el efecto contrario en la opuesta. Por ejemplo: ampliar la funcionalidad implica más recursos o extender la fecha o una calidad inferior \(interna y/o externa\). Una pérdida de recursos llevaría a tener que incluir menos funcionalidad o bajar la calidad o extender el tiempo.
 
@@ -67,13 +69,13 @@ El _project manager_ tiene como objetivo gestionar estas aristas para que el pro
 Highsmith sugirió modificar el triángulo de acero para hacerlo compatible con los valores ágiles. Si el objetivo es maximizar el valor de negocios, este debía estar incluido en el triángulo:    
 ****
 
-![](https://lh3.googleusercontent.com/qo75s_6RRSUt8ejH1zt7dZse2fQTDZevaKo9dsWqFt87b_lZ45JTpufRonbqfqa6HGJYCDPBgeifSXY74nVyalu0nAEuGPg786cm6IxZBV9Hgs6gHEOCs7dNdehCBUs1TyQ-XwEr)
+![](.gitbook/assets/tirangulo-1-es.png)
 
 Como pueden ver, en una de las aristas se encuentra el valor, en forma de un producto implementable, la 2da equivale a la calidad interna, que permite al producto ser confiable y adaptable, y finalmente la 3ra, conformada por las restricciones \(costo, calendario y _scope_\).
 
 Mike Cottmeyer escribió un [post](https://www.leadingagile.com/2010/01/replacing-the-iron-triangle-of-project-management/) en el que coincide en mover el foco de las restricciones al valor que el producto puede generar, pero no cree que el triángulo sugerido represente correctamente las relaciones entre las diferentes aristas, como sí lo hace el triángulo de acero. Sugiere incluir la calidad y el valor como parte del _scope_, es decir, de la _definition of done_. ¿Estaría algo terminado si el _product owner_ no aceptara su valor o si su calidad fuera pobre?
 
-![](https://lh4.googleusercontent.com/8y3bOYWGsNyZsZweqJjuceZ7qtOao1t-ibibbjQTHClmgasGuPpE4yop4d1WyajzVlghC_z6YOLaiRLMcLKoGpR2cBPIy_n8yYXz5k1slaV6-hmChNRdaUaV1LoTi9116i-Pn3k2)
+![](.gitbook/assets/tirangulo-2-es.png)
 
 Personalmente, no logro visualizar las relaciones del triángulo original en ninguna de estas últimas variantes. Creo que entregar la funcionalidad imaginada, con la calidad esperada, es lo que permite generar el beneficio planeado. Si no cumplimos con el presupuesto, no podremos entregar nada. Y si no lo hacemos dentro de los tiempos esperados, otro lo hará. El valor de negocios es un _tradeoff_ complejo entre todas estas aristas y por eso no creo que pueda ser ubicado dentro de ellas.
 
@@ -85,11 +87,13 @@ Para finalizar, detallaré las heurísticas que sigo cuando gestiono un proyecto
 
 Como ya vimos, todo el conocimiento ganado del producto lo reflejamos en el _backlog_, donde re-priorizamos, agregamos y borramos _user stories_. Veamos ahora un par de herramientas que sirven para visualizar el progreso.
 
-### **Burndown chart**
+### _**Burndown chart**_
 
 Este gráfico nos sirve para visualizar la pendiente de progreso del equipo, es decir, para determinar la cantidad de trabajo restante y, en base a la _velocity_, estimar su finalización.
 
-Simplemente graficamos una línea que represente la cantidad de puntos por ‘quemar’. Esta cantidad está dada por la suma de los puntos de las _user stories_ que restan por hacer. Cada vez que finalizamos una historia, ‘quemamos’ sus puntos y actualizamos la pendiente. De esta manera, podemos calcular la pendiente y deducir la fecha de finalización estimada. Al momento de esbozar el plan, estimamos una pendiente \(y una fecha de finalización acorde\) que luego podremos contrastar con el progreso real.![](.gitbook/assets/burndown_chart%20%281%29.png)
+Simplemente graficamos una línea que represente la cantidad de puntos por ‘quemar’. Esta cantidad está dada por la suma de los puntos de las _user stories_ que restan por hacer. Cada vez que finalizamos una historia, ‘quemamos’ sus puntos y actualizamos la pendiente. De esta manera, podemos calcular la pendiente y deducir la fecha de finalización estimada. Al momento de esbozar el plan, estimamos una pendiente \(y una fecha de finalización acorde\) que luego podremos contrastar con el progreso real.
+
+![](.gitbook/assets/burndown_chart%20%281%29.png)
 
 Noten que, al graficar los _story points_ remanentes, no podemos distinguir los ‘quemados’ de los agregados, es decir, los correspondientes a nuevas _user stories_. En otras palabras, si estuviéramos ‘quemando’ menos puntos de los que estimamos, no podríamos, mediante este gráfico, discernir si esto se debe a una capacidad inferior del equipo a la estimada o al descubrimiento de nueva funcionalidad. Si quisiéramos presentar esta diferencia, podríamos hacerlo del siguiente modo:
 
@@ -111,21 +115,22 @@ Este es un _failure mode_ típico de grandes corporaciones: planear como si fué
 
 ¿Conocen la [Ley de Little](https://berriprocess.com/es/2016/01/03/la-ley-de-little/)? Dice que si estamos haciendo X tareas a la vez, demoraremos X veces más en terminar cada una de ellas. Bastante fuerte, ¿no? Visualicemos la fórmula mediante un ejemplo: imaginen que tienen un negocio y son capaces de atender 2 personas por hora \(_throughput_\). Asumiendo que dedican media hora \(0.5 horas\) para cada una \(_leadtime_\), según la ley mencionada, la cantidad promedio de personas en el local \(_wip_\) será 1.
 
-=&gt; _throughput \* leadtime = wip_
+`=>` _`throughput * leadtime = wip`_
 
 Con nuestros datos:
 
-=&gt; 2 \* 0.5 = 1
+`=> 2 * 0.5 = 1`
 
 Despejando el _lead time_, podemos ver que:
 
-=&gt; _lead time = wip/throughput_
+`=>` _`lead time = wip/throughput`_
 
 Esto implica que si, en vez de atender 1 persona, atendiésemos 2 simultáneamente, el tiempo para terminar con cada una de ellas será de 1 hora y no 30 minutos. Noten que el tiempo para completar las 2 tareas implica lo mismo, es decir, 1 hora, por lo que no se perdió productividad. Sin embargo, cada uno de las tareas demora el doble.
 
-1 tarea a la vez =&gt; 1/2= 0.5 hrs
-
-2 tareas a la vez =&gt; 2/2 = 1 hora
+```text
+1 tarea a la vez => 1/2= 0.5 hr
+2 tareas a la vez => 2/2 = 1 hora
+```
 
 Para hacer estos cálculos, asumimos que podemos _switchear_ de tarea sin ningún _overhead_ \(como las computadoras\). Para las personas, estos cambios no son gratuitos lo que, en consecuencia, repercutirá en el tiempo de cada uno.
 
@@ -135,7 +140,7 @@ Siempre me produjo mucha molestia la interrupción en el ‘momento del codeo’
 
 Piensen entonces las consecuencias que implicará _staffear_ a un desarrollador en más de un proyecto: cada uno de ellos demorará más y los integrantes no tendrán los tiempos necesarios para alcanzar el _flow_, además del _overhead_ que se producirá por cada uno.
 
-### **Deadlines Estrictos**
+### _**Deadlines**_ **Estrictos**
 
 ¿Les resulta familiar este diálogo?
 
