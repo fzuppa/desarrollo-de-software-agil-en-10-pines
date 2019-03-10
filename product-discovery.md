@@ -1,6 +1,6 @@
 # Product Discovery
 
-## ![](.gitbook/assets/vision-compartida.png)
+![](.gitbook/assets/tapa-prodcut-discovery.png)
 
 > #### The hardest single part of building a software system is deciding precisely what to build - Frederick Brooks
 
