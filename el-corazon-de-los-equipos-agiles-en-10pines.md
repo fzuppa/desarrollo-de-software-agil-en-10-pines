@@ -1,10 +1,10 @@
 # El Corazon de los Equipos Agiles en 10Pines
 
-## ![](.gitbook/assets/colaboracion.png)
+![](.gitbook/assets/colaboracion.png)
 
 ## El corazón de los Equipos Ágiles en 10Pines
 
-El desarrollo de software se hace en equipos. Un equipo no implica la reunión de un grupo de personas. Es mucho más que eso, tiene identidad. Todos los integrantes colaboran. Tienen el mismo objetivo, un sentido de compromiso y solidaridad y sienten que aportan valor. Tom de Marco los denominó ‘equipos consolidados’ \(en inglés, [jelled teams](https://g.co/kgs/624M1r), que toman forma, como la gelatina cuando se cocina\).
+El desarrollo de software se hace en equipos. Un equipo no implica la reunión de un grupo de personas. Es mucho más que eso, tiene identidad. Todos los integrantes colaboran. Tienen el mismo objetivo, un sentido de compromiso y solidaridad y sienten que aportan valor. Tom de Marco los denominó ‘equipos consolidados’ \(en inglés, [_jelled teams_](https://g.co/kgs/624M1r), que toman forma, como la gelatina cuando se cocina\).
 
 ¿Tuvieron la suerte de trabajar en un equipo así? Conformados por integrantes capaces y motivados, dispuestos a dar lo mejor de sí. Comparten objetivos y planes, están comprometidos y empoderados. Se respira la energía del grupo y la sinergia que puede alcanzarse es increíble.
 
@@ -50,7 +50,7 @@ Como mencioné anteriormente, **la excelencia técnica es parte de nuestro ADN**
 
 El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto. Para lograrlo, **organizamos una entrevista grupal en la que participamos todos los integrantes de la empresa**. El objetivo es conocer al candidato en profundidad, evaluando si es alguien con quien nos gustaría trabajar. Piensen que compartiremos muchísimas horas de nuestro día con él o ella.
 
-### **Skills de los Pinos**
+### _**Skills**_ **de los Pinos**
 
 Seguramente les resultará una ‘verdad de Perogrullo’ si les digo que para desarrollar software se necesita gente que sepa desarrollar software. Es necesario saber modelar una solución disciplinadamente, usando las prácticas ingenieriles correctas.
 
@@ -62,7 +62,9 @@ Seguramente les resultará una ‘verdad de Perogrullo’ si les digo que para d
 * **Técnicas**: Considero que un buen programador debe ser prolijo y disciplinado para construir software, usando _test driven development_, refactorizando continuamente e integrando tan pronto como sea posible. Estas técnicas se vuelven fundamentales cuando trabajamos en un equipo, para poder sincronizar y colaborar correctamente.
 * **Herramientas**: Finalmente, es importante conocer en profundidad las herramientas que usamos diariamente en nuestro trabajo: la IDE, sus atajos, sus diferentes vistas y sus funcionalidades. También el versionador de código. El desarrollo debe fluir sin que existan ‘fricciones’.
 
-![](.gitbook/assets/skills-de-un-pino.png)Junto con las habilidades ‘duras’ que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _product discovery_ o gestionar un _backlog_ . El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
+![](.gitbook/assets/skills-de-un-pino.png)
+
+Junto con las habilidades ‘duras’ que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _product discovery_ o gestionar un _backlog_ . El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
 
 ### El camino del pino
 
@@ -149,9 +151,7 @@ La [pirámide de Maslow](https://es.wikipedia.org/wiki/Pirámide_de_Maslow) mues
 
 **En 10Pines, nos gusta reconocer un buen trabajo**. Lo hacemos todo el tiempo, por ejemplo, cuando alguien nos ayuda a resolver un problema o prepara una charla. Publicamos estos reconocimientos mediante ‘[La muralla de Kudos](https://kudos.10pines.com/)’. Esta herramienta, basada en las cartas de _Kudos_ de _Management 3.0_, fue desarrollada por uno de nuestros pinos, Joaquín, para ‘enviar’ _kudos_ virtuales a otro/s pino/s a través de [slack](https://slack.com), que luego compartimos durante el standup semanal. ¡Se siente muy bien aparecer en la muralla y también agradecer a alguien de esta manera!
 
-![](.gitbook/assets/kudos-en-el-standup.png)
-
-Kudos al final de nuestro _standup_ semanal
+![Kudos al final de nuestro standup semanal](.gitbook/assets/kudos-en-el-standup.png)
 
 #### **Fomentar Momentos de Distensión**
 
@@ -161,7 +161,7 @@ Me gusta salir a tomar una cerveza y mantener conversaciones fuera del ámbito l
 
 ¿Conocen [este libro](https://g.co/kgs/LVoPh5) de Patrick Lencioni? Me ayudó a entender algunas situaciones completamente disfuncionales que se daban en algunas de las empresas donde trabajé. El autor las describe a través de esta pirámide:
 
-![](.gitbook/assets/piramide-de-disfunciones.png)5 Disfunciones de los Equipos
+![5 Disfunciones de los Equipos](.gitbook/assets/piramide-de-disfunciones.png)
 
 La primera disfunción, en la base, es la **falta de Confianza**, que nace de la no-voluntad a mostrarse vulnerable frente al grupo. Si los miembros del equipo no confían entre ellos, entonces no piden ayuda y ocultan información. En definitiva, hacen lo que es mejor para ellos mismos y no para el grupo.
 
@@ -179,7 +179,9 @@ Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son e
 
 > **“Si no sabes para donde vas, cualquier camino te llevará allí" - Lewis Carroll**
 
-![](.gitbook/assets/armando-el-equipo.png)Como ya mencioné en el capítulo 1, comenzamos los proyectos haciendo un **product discovery** del que participa todo el equipo y que permite construir una visión compartida. Aquí consensuamos los objetivos y el plan para alcanzarlos. Dicha visión nos permite volcar todo nuestro talento en busca de las mejores soluciones. **Es el disparador de la inteligencia colectiva, el energizante que dispara las interacciones necesarias**. Sienta las bases para que se produzca el mejor tipo de colaboración. Somos agentes inteligentes, empoderados, en un ambiente que nos alienta para dar lo mejor de nosotros.
+Como ya mencioné en el capítulo 1, comenzamos los proyectos haciendo un **product discovery** del que participa todo el equipo y que permite construir una visión compartida. Aquí consensuamos los objetivos y el plan para alcanzarlos. Dicha visión nos permite volcar todo nuestro talento en busca de las mejores soluciones. **Es el disparador de la inteligencia colectiva, el energizante que dispara las interacciones necesarias**. Sienta las bases para que se produzca el mejor tipo de colaboración. Somos agentes inteligentes, empoderados, en un ambiente que nos alienta para dar lo mejor de nosotros.
+
+![](.gitbook/assets/armando-el-equipo.png)
 
 ![](.gitbook/assets/product-discovery-photos.png)
 
@@ -255,8 +257,7 @@ En consecuencia, **debemos usar los medios de comunicación más eficientes y ef
 
 Sin duda, estar con la persona o personas con las cuales queremos comunicarnos frente a frente, ya que podemos observar su lenguaje corporal y aumentar la velocidad al notar la comprensión o detenernos en caso de observar dificultades. Desde el punto de vista del receptor, podemos interrumpir, permitiendo que el emisor aclare, para continuar sobre bases sólidas. ¿Cuál es la manera menos eficiente? La comunicación escrita, donde el emisor genera un documento para que otras personas lean e interpreten. No solo es más lento, sino también más proclive a errores. Entre una y otra, podemos encontrar diversos métodos alternativos como _Google Hangouts_, que permite visualizar a las personas y compartir la pantalla o _Slack_ , que posibilita la creación de grupos con los cuales se comparte información masivamente.
 
-![](.gitbook/assets/communication-effectiveness-1.png)  
-Gráfico original de [Efectividad de la comunicación](https://g.co/kgs/RVkx3i) con nuevas herramientas \(la evaluación de su efectividad está basada en un juicio propio\).
+![Gr&#xE1;fico original de Efectividad de la comunicaci&#xF3;n con nuevas herramientas \(la evaluaci&#xF3;n de su efectividad est&#xE1; basada en un juicio propio\).](.gitbook/assets/communication-effectiveness-1.png)
 
 En 10Pines procuramos que los equipos se comuniquen de modo efectivo: se trabaja en un _open space_, donde los integrantes se sientan juntos de modo de maximizar la [comunicación osmótica](http://alistair.cockburn.us/Osmotic+communication). Cuando trabajamos desde casa, nos reunimos virtualmente usando _Hangouts_ o _Skype_. Usamos herramientas para chatear y para gestionar el proyecto, como _Jira_ o _Pivotal Tracker_. Desarrollamos haciendo _pair programming_ y hacemos _code review_. Todas estas prácticas y herramientas resultan esenciales para mejorar la comunicación.
 
