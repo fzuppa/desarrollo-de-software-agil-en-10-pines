@@ -1,6 +1,6 @@
 # User Stories & Backlog
 
-## ![](.gitbook/assets/tapa-user-stories.png)
+![](.gitbook/assets/tapa-user-stories.png)
 
 ## Introducción
 
