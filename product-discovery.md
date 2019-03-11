@@ -226,5 +226,5 @@ Realizar estos talleres en el proceso de preventa genera un grado de confianza q
 
 ## Notas al pie
 
-1. The hardest single part of building a software system is deciding precisely what to build - Frederick Brooks
+1. [The hardest single part of building a software system is deciding precisely what to build](bibliografia.md)
 
