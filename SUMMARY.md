@@ -2,8 +2,7 @@
 
 * [Readme](README.md)
 * [Introducción](introduccion.md)
-* [Product Discovery](product-discovery/README.md)
-  * [Notas al Pie](product-discovery/notas-al-pie.md)
+* [Product Discovery](product-discovery.md)
 * [User Stories & Backlog](user-stories-and-backlog.md)
 * [Estimaciones](estimaciones.md)
 * [Priorización](priorizacion.md)
