@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/tapa-prodcut-discovery.png)
 
-> #### La parte más dificil de construir un sistema de software es, precisamente, decidir que construir[1]()
+> #### La parte más dificil de construir un sistema de software es, precisamente, decidir que construir[1](product-discovery.md#notas-al-pie)
 
 ## Introducción
 
