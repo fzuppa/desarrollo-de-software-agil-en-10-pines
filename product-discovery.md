@@ -14,7 +14,7 @@ Existe una diferencia entre la simple compresión de los requerimientos y el gra
 
 ## **Fase de Product Discovery**
 
-_Product Discovery_ es la primera fase de nuestra metodología. Sentamos aquí las bases de lo que constituirá el resto del desarrollo. Buscamos entender los problemas que el cliente desea solucionar y, a partir de ellos, trabajar en procura de las soluciones necesarias.
+_Product Discovery_ es la primera fase de nuestra Metodología. Sentamos aquí las bases de lo que constituirá el resto del desarrollo. Buscamos entender los problemas que el cliente desea solucionar y, a partir de ellos, trabajar en procura de las soluciones necesarias.
 
 Creemos firmemente en los valores ágiles de comunicación y colaboración. Por esta razón, durante esta primera fase, intentamos maximizar el ancho de banda y establecer lazos de colaboración cercanos. Esta etapa consiste, principalmente, en una serie de talleres que desarrollamos junto a nuestros clientes.
 
@@ -26,11 +26,11 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, detal
 
 **Porqué:** ¿Cuáles son los problemas más importantes que desean resolver? ¿Por qué es necesaria esta herramienta? Como decía un amigo consultor, ¿dónde les 'aprieta la zapatilla'? Entender todo esto en detalle nos permite diseñar soluciones mejores, muchas veces sugiriendo alternativas a las inicialmente propuestas por nuestras clientes.
 
-**Qué:** quiénes ****son ****los actores principales y qué procesos de negocios llevarán a cabo en el sistema a desarrollar. Por supuesto, existirán flujos principales y alternativos. En esta etapa detectaremos todos, aunque, después, terminemos priorizando algunos y descartando otros.
+**Qué:** quiénes son los actores principales y qué procesos de negocios llevarán a cabo en el sistema a desarrollar. Por supuesto, existirán flujos principales y alternativos. En esta etapa detectaremos todos, aunque, después, terminemos priorizando algunos y descartando otros.
 
 **Prioridades:** Si algo aprendí en todos estos años de desarrollo es que el tiempo y el dinero nunca alcanzarán para construir todo lo que se desea construir. Es por eso que parte de las actividades, que desarrollamos en esta etapa, consiste en identificar cuáles son los _features_ indispensables, es decir, aquellos que no pueden faltar o con los que se obtendrán mayores beneficios. Entender las prioridades y trabajar en ellas es fundamental para el éxito del proyecto.
 
-**Producto Mínimo Viable:** es fundamental entender cuál es el experimento mínimo que nuestros clientes están dispuestos a testear con usuarios reales. Sus altas expectativas muchas veces los impulsan a buscar la implementación de todas sus ideas, pretendiendo obtener éxito desde el comienzo. Lamentablemente, en la mayor parte de las ocasiones esto no ocurre. Es por eso que alentamos a nuestros clientes a diseñar _experimentos_ que validen sus hipótesis con usuarios reales. Nuestro objetivo es [crear conocimiento validado de la manera más rápida y eficiente posible](http://theleanstartup.com/).
+**Producto Mínimo Viable:** es fundamental entender cuál es el experimento mínimo que nuestros clientes están dispuestos a testear con usuarios reales. Sus altas expectativas muchas veces los impulsan a buscar la implementación de todas sus ideas, pretendiendo obtener éxito desde el comienzo. Lamentablemente, en la mayor parte de las ocasiones esto no ocurre. Es por eso que alentamos a nuestros clientes a diseñar _experimentos_ que validen sus hipótesis con usuarios reales. Nuestro objetivo es "crear conocimiento validado de la manera más rápida y eficiente posible".[[Ries00]](bibliografía.md#Ries00)
 
 **Modelo de Negocio:** Cuando trabajamos con [_startups_](https://en.wikipedia.org/wiki/Startup_company), que piensan desarrollar un negocio, creemos que es importante entender cuál es su modelo de negocios, es decir, cómo piensan ganar dinero y cuál es el diferencial del producto. Si el proyecto es para una corporación, entonces es importante entender cuáles son los procesos que esta herramienta optimizará o cómo se obtendrán nuevos ingresos a partir de la misma.
 
@@ -38,7 +38,7 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, detal
 
 **Estimación inicial de la magnitud:** A partir de las conversaciones sostenidas en esta etapa, se puede tener una idea inicial de cuán grande podría llegar a ser el desarrollo.
 
-Marty Cagan, en su libro [‘_Inspired, how to create products that customers love_’](http://svpg.com/inspired-how-to-create-products-customers-love/), afirma que para que un producto sea exitoso, debe ser **valioso, usable y posible de desarrollar**. La fase de _Product Discovery_ tiene el objetivo de crear una visión compartida de cómo alcanzar estas metas. Para eso debemos entender dónde está el valor del producto, cómo va a ser usado \(su [usabilidad](https://es.wikipedia.org/wiki/Usabilidad)\) y, por supuesto, si técnicamente es factible de construir.
+Marty Cagan, en su libro [‘_Inspired, how to create products that customers love_’](https://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408), afirma que para que un producto sea exitoso, debe ser **valioso, usable y posible de desarrollar**. La fase de _Product Discovery_ tiene el objetivo de crear una visión compartida de cómo alcanzar estas metas. Para eso debemos entender dónde está el valor del producto, cómo va a ser usado \(su [usabilidad](https://es.wikipedia.org/wiki/Usabilidad)\) y, por supuesto, si técnicamente es factible de construir.
 
 ### **Talleres de** _**Product Discovery**_
 
