@@ -1,6 +1,18 @@
+
+
 # Product Discovery
 
-<img src="https://i1.wp.com/noticias.perfil.com/wp-content/uploads/2018/12/TapaNoticias2190.jpg" alt="Product Discovery" title="Product Discovery" />
+
+
+<div>
+    <d
+</div>
+
+<div>
+    <img src="https://i1.wp.com/noticias.perfil.com/wp-content/uploads/2018/12/TapaNoticias2190.jpg" alt="Product Discovery" title="Product Discovery" />
+</div>
+
+
 
 
 
