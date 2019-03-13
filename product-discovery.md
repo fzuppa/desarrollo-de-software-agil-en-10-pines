@@ -4,15 +4,7 @@
 
 
 
-<div>
-    <d
-</div>
-
-<div>
-    <img src="/assets/tapa-product-discovery.png" alt="Product Discovery" title="Product Discovery" style='max-height:90vh;'/>
-</div>
-
-
+![Product Discovery](./assets/tapa-product-discovery.png)
 
 
 
@@ -62,23 +54,23 @@ La mejor forma de hacer este descubrimiento es a partir de un conjunto de reunio
 
 Quiero destacar que en _10Pines_ hacemos estos talleres de _Product Discovery_ al momento de la preventa, es decir apenas ocurrido el primer contacto con el cliente. En consecuencia, lo que hacemos es **construir la propuesta junto a nuestros clientes**. De esta manera, nos aseguramos de entender su visión, el modelo de negocio, cuáles son las restricciones más importantes, compartiendo también una idea del costo que tendrá el desarrollo.
 
-Jorge Silva denominó a esto _Lean Sales Up_, ya que se elimina el [_desperdicio_](https://es.wikipedia.org/wiki/Lean_manufacturing) que los procesos usuales de ventas contienen. Los artefactos creados son sumamente útiles para el posterior desarrollo y la cantidad generada de conocimiento compartido es infinita.
+Jorge Silva denominó a esto _[Lean Sales Up](https://blog.10pines.com/2014/10/28/lean-sales-up/)_, ya que se elimina el [_desperdicio_](https://es.wikipedia.org/wiki/Lean_manufacturing) que los procesos usuales de ventas contienen. Los artefactos creados son sumamente útiles para el posterior desarrollo y la cantidad generada de conocimiento compartido es infinita.
 
 ## **Herramientas**
 
 A continuación, describiré algunas de las herramientas que usamos habitualmente en los talleres:
 
-![](.gitbook/assets/product_discovery_tools.png)
+![](./assets/product_discovery_tools.png)
 
 ### **User Story Mapping**
 
 **Introducción**
 
-Aprendí esta técnica cuando vivía en San Francisco, en 2009, en uno de los tantos _open spaces_ a los que asistí. Por ese entonces, yo trabajaba con _Scrum_ o _Extreme Programming_ desde hacía algunos años y uno de los cuestionamientos que poseía era que el _backlog_ \(que trataré en el próximo capitulo\) no me dejaba visualizar, de manera nítida, el trabajo que debíamos realizar. ¿No resulta difícil poder visualizar un producto, a través de una lista de u_ser stories_? Descubrir esta herramienta fue realmente un hallazgo para mi.
+Aprendí esta técnica cuando vivía en San Francisco, en 2009, en uno de los tantos _open spaces_ a los que asistí. Por ese entonces, yo trabajaba con _Scrum_ o _Extreme Programming_ desde hacía algunos años y uno de los cuestionamientos que poseía era que el _backlog_ \(que trataré en el próximo capitulo\) no me dejaba visualizar, de manera nítida, el trabajo que debíamos realizar. ¿No resulta difícil poder visualizar un producto, a través de una lista de *user stories*? Descubrir esta herramienta fue realmente un hallazgo para mi.
 
 ¿Qué es un _User Story Mapping_? En pocas palabras, **es un mapa que describe los procesos de negocios de cada uno de los actores que forman parte del sistema**, junto con las tareas que se deben llevar a cabo para completar cada uno de estos procesos. La técnica fue popularizada por Jeff Patton dentro del mundillo ágil. El resultado, desde el plano visual, será algo similar a lo que puede verse en la siguiente imagen:
 
-![](.gitbook/assets/story_mapping1.png)
+![Foto Story Mapping 1](./assets/story_mapping1.png)
 
 ¿Por qué me gusta tanto esta herramienta? Básicamente, porque es:
 
@@ -88,7 +80,7 @@ Aprendí esta técnica cuando vivía en San Francisco, en 2009, en uno de los ta
 
 **Cómo construimos el User Story Map**
 
-Lo primero que se debe hacer es identificar a los actores principales del sistema, es decir, cuáles serán los tipos de usuarios \(o cuáles son, en caso de estar haciendo un _Story Mapping_ para un sistema ya operativo\). Muchas veces, resulta dificultosa la identificación de todos los usuarios en una instancia inicial, pero no se preocupen, porque, a medida que avancemos con la construcción del _Story Map_, identificaremos al resto. Por cada nuevo tipo de usuario, pegaremos un post-it que lo identifique, dejando espacio para descubrir todo lo que éste podrá realizar en el sistema.
+Lo primero que se debe hacer es identificar a los actores principales del sistema, es decir, cuáles serán los tipos de usuarios \(o cuáles son, en caso de estar haciendo un _Story Mapping_ para un sistema ya operativo\). Muchas veces, resulta dificultosa la identificación de todos los usuarios en una instancia inicial, pero no se preocupen, porque, a medida que avancemos con la construcción del _Story Map_, identificaremos al resto. Por cada nuevo tipo de usuario, pegaremos un _post-it_ que lo identifique, dejando espacio para descubrir todo lo que éste podrá realizar en el sistema.
 
 Para graficar la construcción del _story map_, introduciré un ejemplo muy sencillo. Imaginen que deben construir un sistema para un supermercado, que ayude a los empleados que cobran la mercadería. El sistema debe, en pocas palabras, permitir el escaneo de los productos para luego cobrarlos y emitir una factura. En consecuencia, el tipo de usuario que identificaremos será el del cajero.
 
@@ -108,7 +100,7 @@ Se observa cómo puede visualizarse rápidamente el flujo de tareas de nuestro t
 
 Seguramente que la charla llevará a querer agrupar estas tareas bajo un proceso de negocio o, como Patton las denomina, una _actividad_ que las identifique. Cuando descubramos esta _Actividad_, escribiremos un _post-it_ de otro color y lo pegaremos sobre el conjunto de tareas que engloba.
 
-¿Cómo podríamos llamar a la actividad que engloba la introducción de todos los artículos y el cálculo del total a pagar? Por razones de simplicidad y falta de otros participantes para discutir el nombre de la misma, la llamaré: ‘Cargar Productos’. Nótese el post-it de diferente color sobre la 1er tarea que comprende.
+¿Cómo podríamos llamar a la actividad que engloba la introducción de todos los artículos y el cálculo del total a pagar? Por razones de simplicidad y falta de otros participantes para discutir el nombre de la misma, la llamaré: ‘Cargar Productos’. Nótese el *post-it* de diferente color sobre la 1er tarea que comprende.
 
 ![](.gitbook/assets/story_mapping_dynamic4.png)
 
@@ -120,7 +112,7 @@ En este ejemplo, hemos partido del descubrimiento de tareas para luego abstraer 
 
 Una vez descrita la primera actividad \(y el primer conjunto de tareas\) preguntaremos: ¿qué otras tareas o actividades llevará a cabo en el sistema este usuario? Impulsados por esta interrogación, comenzaremos nuevamente el ciclo detallado.
 
-Seguramente, en algún momento, nos daremos cuenta de que podemos hacer cierta tarea o cierta otra tarea para alcanzar un mismo objetivo \(por supuesto que esto se puede extender a un flujo de tareas\). ¿Qué haremos para representar esto, visualmente, dentro de nuestro _story map_? Pegaremos los _post-its,_ que corresponden a las _tareas_ opcionales, debajo de las tareas principales. Nótese que mencioné una tarea principal y una opcional, es decir que _priorizamos_ y esta priorización queda reflejada en nuestro _story map_.
+Seguramente, en algún momento, nos daremos cuenta de que podemos hacer cierta tarea o cierta otra tarea para alcanzar un mismo objetivo \(por supuesto que esto se puede extender a un flujo de tareas\). ¿Qué haremos para representar esto, visualmente, dentro de nuestro _Story Map_? Pegaremos los _post-its,_ que corresponden a las tareas opcionales, debajo de las tareas principales. Nótese que mencioné una tarea principal y una opcional, es decir que _priorizamos_ y esta priorización queda reflejada en nuestro _Story Map_.
 
 Siguiendo con el ejemplo, imagínese que, en vez de ‘Ingresar el producto’ de forma manual, lo escaneamos \(como usualmente se hace en los supermercados\). Escribiremos la tarea y la pegaremos debajo de la tarea principal. Lo mismo pasaría si identificásemos una tarea para ‘Tomar pago con tarjeta’, que será opcional a la principal de 'Tomar pago con efectivo'. Nuestro _Story Map_ quedará como ilustra el ejemplo:
 
@@ -130,7 +122,7 @@ Hasta aquí, pudimos ver lo más importante referido a la herramienta. El resto 
 
 **Recorriendo el User Story Map**
 
-Una vez finalizada la primera versión del _Story Map,_ deberíamos hacer algo que Jeff Patton denomina ‘Recorrer el story map', que implica la lectura de los post-its que representan cada una de las tareas, imaginando cómo es que este usuario trabajaría con el sistema. Podemos hacer este recorrido con diferentes personas, de manera de poder lograr diferentes opiniones. Por supuesto que, al recorrer el _Story Map_, descubriremos tareas olvidadas que obviamente agregaremos. ¡Los _post-its_ nos brindan esta flexibilidad!
+Una vez finalizada la primera versión del _Story Map,_ deberíamos hacer algo que Jeff Patton denomina ‘Recorrer el story map', que implica la lectura de los *post-its* que representan cada una de las tareas, imaginando cómo es que este usuario trabajaría con el sistema. Podemos hacer este recorrido con diferentes personas, de manera de poder lograr diferentes opiniones. Por supuesto que, al recorrer el _Story Map_, descubriremos tareas olvidadas que obviamente agregaremos. ¡Los _post-its_ nos brindan esta flexibilidad!
 
 ![](.gitbook/assets/rocorriendo_user_story_mapping.jpg)
 
@@ -210,9 +202,9 @@ Ejemplos de _Elevator Pitchs_ desarrollados para algunos clientes:![](https://lh
 
 Uno de los objetivos que perseguimos en esta fase de _Product Discovery_ implica entender a los potenciales usuarios del sistema. ¿Quiénes son? ¿Qué tipos de usuario son? ¿Cómo encontrarán valor?
 
-Una técnica muy útil para lograr conocimiento compartido en este sentido es la descripción de _Personas_ \(término técnico procedente del inglés\). Esta herramienta consiste en la identificación de un tipo de usuario del mundo real que intentaremos describir. Cómo es, cuáles son sus características \(por ejemplo, si es un usuario básico que conoce poco de computadoras o si es un usuario avanzado\). Finalmente, describimos en pocas palabras cuál será el valor que el producto que vamos a desarrollar le brindará. Cabe destacar que esta _persona,_ que usamos como ejemplo, representa en realidad un conjunto de usuarios que comparten las mismas características y que usarán el producto de modo similar.
+Una técnica muy útil para lograr conocimiento compartido en este sentido es la descripción de _Personas_ \(término técnico procedente del inglés\). Esta herramienta consiste en la identificación de un tipo de usuario del mundo real que intentaremos describir. Cómo es, cuáles son sus características \(por ejemplo, si es un usuario básico que conoce poco de computadoras o si es un usuario avanzado\). Finalmente, describimos en pocas palabras cuál será el valor que el producto que vamos a desarrollar le brindará. Cabe destacar que esta _Persona,_ que usamos como ejemplo, representa en realidad un conjunto de usuarios que comparten las mismas características y que usarán el producto de modo similar.
 
-Este ejercicio puede realizarlo el p_roduct owner_ \(o el _UX Designer_ en proyectos que cuenten con este rol\) para después informar sus conclusiones o puede efectuarse a través de un taller donde participe todo el equipo, incluyendo a los desarrolladores. ¡La diversidad de roles siempre enriquece el resultado!
+Este ejercicio puede realizarlo el *Product Owner* \(o el _UX Designer_ en proyectos que cuenten con este rol\) para después informar sus conclusiones o puede efectuarse a través de un taller donde participe todo el equipo, incluyendo a los desarrolladores. ¡La diversidad de roles siempre enriquece el resultado!
 
 ![](.gitbook/assets/personas.png)
 
