@@ -1,7 +1,6 @@
 # Product Discovery
 
-<img src="assets/tapa-product-discovery.png" alt="Product Discovery"
-	title="Product Discovery" style="max-height:90vh" />
+<img src="https://drive.google.com/open?id=1Vp6NLH_4t56ZNMiM9L0WHElRiWnAKv2E" alt="Product Discovery" title="Product Discovery" />
 
 
 
