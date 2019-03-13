@@ -222,6 +222,70 @@ Una de las facetas a las que generalmente le prestamos menos atención y que, si
 
 ![Experimentos de Usabilidad](./assets/experimentos_usabilidad.png)
 
+
+
+#### Cómo realizar un test de usabilidad en cinco pasos - Por Juan Manuel Carraro
+
+Muchas veces hay resistencias o limitaciones para realizar un test de usabilidad sin todas las condiciones que indica la teoría. Es cierto que un test realizado por un consultor en usabilidad permitirá obtener mejores resultados pero también es posible hacerlo internamente y hacerse de buena información. El requisito es cumplir ciertos criterios mínimos que aseguren una mayor consistencia metodológica y confiabilidad.
+
+##### 1. Definir los objetivos del test.
+
+El primer paso consiste en definir cuáles son los objetivos del test. Un objetivo puede ser revisar la arquitectura de la información, los rótulos de determinadas secciones o saber si el proceso de compra que tenemos montado en nuestro sitio resulta intuitivo y fácil para los usuarios.
+
+Los objetivos son sumamente importantes porque de ellos podremos derivar las tareas que los usuarios deberán realizar al momento de hacer el test. Por ejemplo, si nuestro objetivo es testear cuán intuitivo y fácil de navegar resulta el catálogo de productos que tenemos en nuestro sitio, una tarea podría ser solicitarle a los usuarios que encuentren un producto que cumpla con determinadas características.
+
+##### 2. Construir el guión de tareas.
+
+Un guión se divide en conjuntos de preguntas y series de tareas, cada una de los cuales está vinculada a ciertos objetivos. Como mínimo debe tener lo siguiente:
+
+- **Introducción:** aquí es donde el consultor o quien realice el test se presenta, le cuenta al usuario qué va a hacer, cuáles son los objetivos del test, etc. Dos ideas son las que tienen que quedar claras para el usuario: debe pensar en voz alta para que el consultor pueda tomar notas mientras él trabaja y debe tener en claro que no se está evaluando a la persona sino a la interfaz, por lo que los errores serán bienvenidos.
+- **Cuestionario previo al test:** aquí se trata de identificar o verificar el perfil del usuario. Algunas de las preguntas que se pueden incluir son: cuántas horas al día le dedica a Internet, qué tipo de sitios visita habitualmente o si realiza compras online.
+- **Descripción de un escenario:** como el contexto del test no deja de ser una situación artificial, es decir que intenta reproducir las circunstancias reales, se le da al usuario información para situarlo en un determinado contexto. Por ejemplo, si estamos testeando un Home Banking con clientes que no pertenecen al mismo banco se les pide que actúen como si fueran clientes de la entidad y se les da información de sus cuentas, de su perfil o servicios contratados con el banco.
+- **Tareas:** las tareas constituyen el eje del guión y son aquellas acciones que se le pide al usuario que realice durante el test. Algunos ejemplos son agregar un producto al carrito de compra, ingresar al sitio con usuario y contraseña, registrarse, etc. Es sumamente importante que el usuario comente en voz alta lo que va haciendo para que el consultor pueda ir tomando nota de sus dudas, dificultades o errores que se van produciendo durante el proceso.
+- **Preguntas:** también pueden incluirse preguntas cerradas o abiertas dentro del test para conocer la opinión del usuario respecto a determinado elemento. Esto ayuda a evaluar elementos secundarios que por sus características no pueden testearse mediante tareas.
+- **Cuestionario posterior al test:** una vez que el usuario terminó de realizar todas las tareas y respondió todas las preguntas, se le solicita que exprese sus sensaciones y opiniones con respecto a la interfaz. Este segmento del guión de tareas es altamente cualitativo. Es importante incentivar a los usuarios para que se expresen y evitar el “Me pareció todo bien”.
+
+##### **3. Identificar el perfil de los usuarios.**
+
+Uno de los factores que más influye en los resultados del test es que las personas que lo realicen sean lo suficientemente representativas del target del sitio. Para ello es importante trabajar previamente en la identificación de los rasgos y las cualidades de los usuarios teniendo en cuenta las diferentes dimensiones que componen un perfil:
+
+- **Geográfica:** analiza la ubicación geográfica de los usuarios.
+- **Demográfica:** analiza las características de los usuarios en tanto individuos sociales.
+- **Psicográfica:** procura conocer a la persona entera en su interacción con el ambiente.
+- **Conductual:** mide las actitudes de los usuarios hacia el consumo de un determinado producto o servicio en particular. La forma, el lugar y las ocasiones en que dicho consumo se produce.
+
+Es incluso muy común que un sitio tenga diferentes segmentos de usuarios claramente identificables. En este caso es importante entonces definir en primera instancia al perfil genérico y luego a los perfiles particulares.
+
+Siendo todavía más específico se pueden luego vincular determinados perfiles con ciertas tareas porque como es de esperar un perfil avanzado realizará tareas más complejas dentro del sitio que un perfil de un usuario nuevo.
+
+##### **4. Realizar los test.**
+
+Con un guión de tareas consistente y correctamente revisado con al menos un par de usuarios de prueba, el test de usabilidad debería desarrollarse sin sobresaltos.
+
+Es fundamental tener resueltas previamente todas las cuestiones logísticas para que no haya imprevistos durante las sesiones. Se deberá verificar que el ordenador funcione adecuadamente y tenga el prototipo o las páginas cargadas, que los dispositivos que utilicemos para grabar las sesiones (audio, video, grabadores de pantalla, etc.) funcionen bien y demás.
+
+Cada sesión individual no debería durar más de una hora, sesiones más largas tienden a cansar al usuario y la atención decae. Normalmente es suficiente realizar un test con 5 usuarios, ya que así se identificarán cerca del 80% de los problemas de usabilidad.
+
+Si se puede es recomendable realizar dos o tres sesiones en la mañana, tener un tiempo entre sesión para registrar algunas notas y luego aprovechar las tardes para pasar en limpio la información completa de cada test cuando todavía tengamos frescos los detalles.
+
+##### **5. Redactar un informe.**
+
+El modo de organizar el informe final con los resultados del test es muy personal. En general es recomendable comenzar por los resultados más destacados y terminar con los detalles. Esto ayuda a que si el informe debe ser leído por alguna personas con poco tiempo, en las primeras 3 páginas pueda tener un resumen de lo más importante.
+
+En el informe se deben clasificar los errores o problemas encontrados para luego poder priorizarlos y armar un plan de implementación de mejoras si fuese necesario. Las categorías deben ser simples y reducidas. Un ejemplo sería:
+
+- **Problemas graves:** aquellos que impiden a un usuario concluir la tarea solicitada.
+- **Problemas importantes:** aquellos que permiten la conclusión de la tarea pero con un esfuerzo mayor al normal y luego de numerosos errores.
+- **Problemas menores:** aquellos que generan dudas o confusión en los usuarios pero permiten realizar la tarea sin mucha demora.
+
+También los errores pueden clasificarse por tipo, por ejemplo si se trata de errores de la arquitectura de la información, del diseño o a nivel de los textos.
+
+Algunos de los datos que también son útiles incluir son la cantidad de clics y el tiempo que les lleva a los usuarios realizar cada tarea. Esta información puede ayudar luego a extraer interesantes conclusiones.
+
+Hasta aquí se han resumido muy sucintamente los pasos más importantes para realizar un test de usabilidad.
+
+Si bien es importante la habilidad y los conocimientos previos de quien prepare y realice el test, la experiencia ayudará a ir encontrando la mejor forma de conducirlo y obtener de él resultados cada vez más reveladores.
+
 ## **Conclusiones**
 
 En este primer capítulo describí la primera fase de nuestro proceso de desarrollo: el _Product Discovery_. Todos nuestros proyectos comienzan con los talleres descritos, que **nos permiten crear una visión compartida de los objetivos** y **sentar las bases de una relación basada en la confianza donde fluya la comunicación**.
