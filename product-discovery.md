@@ -1,6 +1,11 @@
 # Product Discovery
 
-![](.gitbook/assets/tapa-prodcut-discovery.png)
+<img src="assets/tapa-product-discovery.png" alt="Product Discovery"
+	title="A cute kitten" style="width:770px;height:1140px" />
+
+
+
+
 
 > #### La parte más dificil de construir un sistema de software es, precisamente, decidir que construir[1](product-discovery.md#notas-al-pie)
 
@@ -30,7 +35,7 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, detal
 
 **Prioridades:** Si algo aprendí en todos estos años de desarrollo es que el tiempo y el dinero nunca alcanzarán para construir todo lo que se desea construir. Es por eso que parte de las actividades, que desarrollamos en esta etapa, consiste en identificar cuáles son los _features_ indispensables, es decir, aquellos que no pueden faltar o con los que se obtendrán mayores beneficios. Entender las prioridades y trabajar en ellas es fundamental para el éxito del proyecto.
 
-**Producto Mínimo Viable:** es fundamental entender cuál es el experimento mínimo que nuestros clientes están dispuestos a testear con usuarios reales. Sus altas expectativas muchas veces los impulsan a buscar la implementación de todas sus ideas, pretendiendo obtener éxito desde el comienzo. Lamentablemente, en la mayor parte de las ocasiones esto no ocurre. Es por eso que alentamos a nuestros clientes a diseñar _experimentos_ que validen sus hipótesis con usuarios reales. Nuestro objetivo es "crear conocimiento validado de la manera más rápida y eficiente posible".[Ries00](bibliografia.md#Ries00)
+**Producto Mínimo Viable:** es fundamental entender cuál es el experimento mínimo que nuestros clientes están dispuestos a testear con usuarios reales. Sus altas expectativas muchas veces los impulsan a buscar la implementación de todas sus ideas, pretendiendo obtener éxito desde el comienzo. Lamentablemente, en la mayor parte de las ocasiones esto no ocurre. Es por eso que alentamos a nuestros clientes a diseñar _experimentos_ que validen sus hipótesis con usuarios reales. Nuestro objetivo es [crear conocimiento validado de la manera más rápida y eficiente posible](http://theleanstartup.com/).
 
 **Modelo de Negocio:** Cuando trabajamos con [_startups_](https://en.wikipedia.org/wiki/Startup_company), que piensan desarrollar un negocio, creemos que es importante entender cuál es su modelo de negocios, es decir, cómo piensan ganar dinero y cuál es el diferencial del producto. Si el proyecto es para una corporación, entonces es importante entender cuáles son los procesos que esta herramienta optimizará o cómo se obtendrán nuevos ingresos a partir de la misma.
 
