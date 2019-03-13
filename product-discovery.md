@@ -1,7 +1,7 @@
 # Product Discovery
 
 <img src="assets/tapa-product-discovery.png" alt="Product Discovery"
-	title="Product Discovery" style="vh:90" />
+	title="Product Discovery" style="max-height:90vh" />
 
 
 
