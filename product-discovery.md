@@ -216,8 +216,6 @@ Siempre que un nuevo proyecto está por comenzar, existe un conjunto de incertid
 
 ¿Cómo es la dinámica de la actividad? Básicamente, se trabaja sobre un papel de gran tamaño y _post-its_ que son entregados a todos los participantes. Durante 5’ cada integrante del equipo pensará y escribirá riesgos \(cada riesgo en un _post-it_\), pegándolos en el papel. Al finalizar este periodo, se leerán los riesgos que los integrantes del equipo han pensado y se discutirá la gravedad de cada uno de ellos, evaluándose cómo pueden ser mitigados.
 
-![¿Qué nos quita el Sueño?](./assets/quenosquitaelsueño.png)
-
 ### **Experimentos de Usabilidad**
 
 Una de las facetas a las que generalmente le prestamos menos atención y que, sin embargo, tiene mucha importancia es la de _Usabilidad_. Algo que muchos olvidan es que puede comenzar a evaluarse este aspecto sin escribir una sola línea de código y de manera muy económica. Aprender lo más rápido posible si los usuarios entienden la interfaz, qué _features_ consideran importantes y cuáles ni siquiera notan pueden ahorrar una importante cantidad de recursos económicos.
