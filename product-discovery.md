@@ -9,7 +9,7 @@
 </div>
 
 <div>
-    <img src="https://i1.wp.com/noticias.perfil.com/wp-content/uploads/2018/12/TapaNoticias2190.jpg" alt="Product Discovery" title="Product Discovery" />
+    <img src="/assets/tapa-product-discovery.png" alt="Product Discovery" title="Product Discovery" style='max-height:90vh;'/>
 </div>
 
 
