@@ -1,6 +1,6 @@
 # Product Discovery
 
-<img src="https://drive.google.com/open?id=1Vp6NLH_4t56ZNMiM9L0WHElRiWnAKv2E" alt="Product Discovery" title="Product Discovery" />
+<img src="https://i1.wp.com/noticias.perfil.com/wp-content/uploads/2018/12/TapaNoticias2190.jpg" alt="Product Discovery" title="Product Discovery" />
 
 
 
