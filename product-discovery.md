@@ -1,11 +1,7 @@
 # Product Discovery
 
 <img src="assets/tapa-product-discovery.png" alt="Product Discovery"
-	title="Product Discovery" style="width:770px;height:1140px;max-height:90vh;" />
-
-Hola
-
-![Product Discovery](/assets/tapa-product-discovery.png){style="vh:90"}
+	title="Product Discovery" style="vh:90" />
 
 
 
