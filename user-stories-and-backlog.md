@@ -234,5 +234,5 @@ Usamos un _Backlog_ para gestionar las User Stories y para facilitar las convers
 
 # Notas al Pie
 
-1. '*The root of all evils in software in software design*' - [Martin00](bibliografía.md#Martin00)
+1. '*The root of all evils in software in software design*' - [Martin00](bibliografia.md#Martin00)
 
