@@ -22,7 +22,7 @@
 
 <a name="DeMarco00"></a>[DeMarco - DeMarco, Tom - Peopleware: Productive Projects and Teams - Febrero, 1999](https://g.co/kgs/s9jWfH)
 
-###### [Highsmith00 - Highsmith, Jim - Agile Project Management: Creating Innovative Products (Agile Software Development Series), 2nd Edition - Julio, 2009](https://g.co/kgs/6fxQ7q)
+###### [Highsmith00 - Highsmith, Jim - Agile Project Management: Creating Innovative Products, Agile Software Development Series, 2nd Edition - Julio, 2009](https://g.co/kgs/6fxQ7q)
 
 <a name="Highsmith00"></a>[Highsmith00 - Highsmith, Jim - Agile Project Management: Creating Innovative Products (Agile Software Development Series), 2nd Edition - Julio, 2009](https://g.co/kgs/6fxQ7q)
 
