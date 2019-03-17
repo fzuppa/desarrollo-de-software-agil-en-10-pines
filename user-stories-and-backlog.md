@@ -128,7 +128,7 @@ _**Workflow**_ **de estados**: En muchas herramientas que he construido, hemos n
 
 Éstos son ejemplos de herramientas adicionales que usamos para pensar y describir la funcionalidad que deseamos construir y que luego podemos vincular desde las _User Stories_.
 
-Un punto muy importante que quiero mencionarles. Como en el caso del código, la duplicación es mala, 'La raíz de todos los males en el software', dice ‘Uncle Bob’ [1](user-stories-and-backlog.md#notas-al-pie) ya que se vuelven obsoletas muy rápidamente. Si tuviéramos especificaciones duplicadas, tendríamos una carga mayor de trabajo para mantenerlas actualizadas y correríamos adicionalmente el riesgo de no entender cuál es la última versión.
+Un punto muy importante que quiero mencionarles. Como en el caso del código, la duplicación es mala, 'La raíz de todos los males en el software', dice ‘Uncle Bob’ [[1]](user-stories-and-backlog.md#notas-al-pie) ya que se vuelven obsoletas muy rápidamente. Si tuviéramos especificaciones duplicadas, tendríamos una carga mayor de trabajo para mantenerlas actualizadas y correríamos adicionalmente el riesgo de no entender cuál es la última versión.
 
 Me gustaría cerrar esta sección diciéndoles que, como en cualquier otra parte de su Metodología, en la escritura de las *User Stories* ustedes, como equipo, **deben ser críticos para refinar este proceso** y encontrar el modo más claro y eficiente.     
 ****

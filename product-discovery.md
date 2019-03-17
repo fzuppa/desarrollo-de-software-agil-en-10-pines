@@ -292,7 +292,9 @@ Todas las personas involucradas en el proyecto participan en estos talleres. Es 
 
 Realizar estos talleres en el proceso de preventa genera un grado de confianza que permite que todo el proceso fluya mejor a la vez que minimiza el desperdicio, ya que el desarrollo será una continuación que utilizará los mismos artefactos y se hará con las mismas personas que participaron del _Product Discovery_.
 
-## Notas al pie
+___
+
+# Notas al pie
 
 1. The hardest single part of building a software system is deciding precisely what to build - [Brooks00](bibliografia.md#Brooks00)
 
