@@ -77,7 +77,7 @@ When (cuando)
 Then (entonces)
 ```
 
-Es decir, dado un conjunto de precondiciones, cuando ejecutamos cierta acción, deberíamos ver cierto resultado. Escribir los criterios de aceptación de esta manera permite traducirlos en tests automatizados, que pasarán a constituir ‘documentación viva’ \(como lo denominó [Gojko Adzik](Adzic00)).
+Es decir, dado un conjunto de precondiciones, cuando ejecutamos cierta acción, deberíamos ver cierto resultado. Escribir los criterios de aceptación de esta manera permite traducirlos en tests automatizados, que pasarán a constituir ‘documentación viva’ \(como lo denominó Gojko Adzik [[Adzic00]](bibliografia.md#adzic00-adzic-gojko-specification-by-example-how-successful-teams-deliver-the-right-software-1st-edition-junio-2011)).
 
 Por ejemplo, si quisiera dar un criterio de aceptación que describa qué pasa con el cálculo de todos los ítems, podría especificarlo así:
 
@@ -234,5 +234,5 @@ Usamos un _Backlog_ para gestionar las User Stories y para facilitar las convers
 
 # Notas al Pie
 
-1. '*The root of all evils in software in software design*' - [Martin00](bibliografia.md#Martin00)
+1. '*The root of all evils in software in software design*' - [Martin00](bibliografia.md#martin00-martin-uncle-robert-clean-code-a-handbook-of-agile-software-craftsmanship-agosto-2008)
 

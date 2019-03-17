@@ -1,4 +1,4 @@
-
+ƒ
 
 
 
@@ -42,11 +42,11 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, detal
 
 **Estimación inicial de la magnitud:** A partir de las conversaciones sostenidas en esta etapa, se puede tener una idea inicial de cuán grande podría llegar a ser el desarrollo.
 
-Marty Cagan, en su libro [‘_Inspired, how to create products that customers love_’](https://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408), afirma que para que un producto sea exitoso, debe ser **valioso, usable y posible de desarrollar**. La fase de _Product Discovery_ tiene el objetivo de crear una visión compartida de cómo alcanzar estas metas. Para eso debemos entender dónde está el valor del producto, cómo va a ser usado \(su [usabilidad](https://es.wikipedia.org/wiki/Usabilidad)\) y, por supuesto, si técnicamente es factible de construir.
+Marty Cagan, en su libro ‘_Inspired, how to create products that customers love_’[[Cagan00]](bibliografia.md#rothman01-rothman-johanna-manage-it-your-guide-to-modern-pragmatic-project-management-junio-2007), afirma que para que un producto sea exitoso, debe ser **valioso, usable y posible de desarrollar**. La fase de _Product Discovery_ tiene el objetivo de crear una visión compartida de cómo alcanzar estas metas. Para eso debemos entender dónde está el valor del producto, cómo va a ser usado \(su [usabilidad](https://es.wikipedia.org/wiki/Usabilidad)\) y, por supuesto, si técnicamente es factible de construir.
 
 ## **Talleres de** _**Product Discovery**_
 
-La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones que realizamos junto con nuestros clientes en las que empleamos un conjunto de herramientas, juegos, que permiten que todos los participantes se involucren. Estas reuniones, a las que concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores, pueden durar desde 4 horas, para productos pequeños, hasta una semana en proyectos de gran magnitud. La diversidad de roles enriquece el resultado, ya que, además de nuestros clientes, **que conocen qué se requiere** **y cuáles son los objetivos**, se necesitan **desarrolladores que evalúen la factibilidad**, **testers que contribuyan con su atención a los detalles** y **especialistas en UX que evalúen la** _**usabilidad**_. Es fundamental que concurran el _product manager_, el _technical leader_ y un facilitador que se encargará de llevar la reunion adelante, explicar las herramientas que se van a usar y mediar en las conversaciones. Destaco que, más allá de los artefactos producidos, resultan de gran utilidad las conversaciones desarrolladas. ¡Es curioso pero, muchas veces, detectamos que no existe una visión unificada, ni siquiera, entre diferentes integrantes de la misma empresa cliente! Discutir sobre todas las aristas que tendrá el producto, en esta etapa, resulta esencial para unificar el entendimiento y las visiones de todas las personas involucradas en el desarrollo. [Jeff Patton llama a esto ‘Comprensión Compartida’](https://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909/ref=as_sl_pc_qf_sp_asin_til?tag=jefpatass-20&linkCode=w00&linkId=NX2UXYQEFAANOFPO&creativeASIN=1491904909).
+La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones que realizamos junto con nuestros clientes en las que empleamos un conjunto de herramientas, juegos, que permiten que todos los participantes se involucren. Estas reuniones, a las que concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores, pueden durar desde 4 horas, para productos pequeños, hasta una semana en proyectos de gran magnitud. La diversidad de roles enriquece el resultado, ya que, además de nuestros clientes, **que conocen qué se requiere** **y cuáles son los objetivos**, se necesitan **desarrolladores que evalúen la factibilidad**, **testers que contribuyan con su atención a los detalles** y **especialistas en UX que evalúen la** _**usabilidad**_. Es fundamental que concurran el _product manager_, el _technical leader_ y un facilitador que se encargará de llevar la reunion adelante, explicar las herramientas que se van a usar y mediar en las conversaciones. Destaco que, más allá de los artefactos producidos, resultan de gran utilidad las conversaciones desarrolladas. ¡Es curioso pero, muchas veces, detectamos que no existe una visión unificada, ni siquiera, entre diferentes integrantes de la misma empresa cliente! Discutir sobre todas las aristas que tendrá el producto, en esta etapa, resulta esencial para unificar el entendimiento y las visiones de todas las personas involucradas en el desarrollo. Jeff Patton llama a esto ‘Comprensión Compartida’[[Patton00]](bibliografia.md#patton00-patton-jeff-user-story-mapping-discover-the-whole-story-build-the-right-product-septiembre-2014).
 
 ## **Lean Sales Up**
 
@@ -296,5 +296,5 @@ ___
 
 # Notas al pie
 
-1. The hardest single part of building a software system is deciding precisely what to build - [Brooks00](bibliografia.md#Brooks00)
+1. The hardest single part of building a software system is deciding precisely what to build - [Brooks00](bibliografia.md#brooks00-brooks-jr-frederick-the-mythical-man-month-agosto-1995)
 

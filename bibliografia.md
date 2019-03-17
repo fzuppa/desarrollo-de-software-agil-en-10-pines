@@ -20,13 +20,11 @@
 
 ###### [Cohn01 - Cohn, Mike - Agile Estimating and Planning - Noviembre, 2005](https://g.co/kgs/iuMEez)
 
-###### [DeMarco - DeMarco, Tom - Peopleware: Productive Projects and Teams - Febrero, 1999](https://g.co/kgs/s9jWfH)
+###### [DeMarco00 - DeMarco, Tom - Peopleware: Productive Projects and Teams - Febrero, 1999](https://g.co/kgs/s9jWfH)
 
 ###### [Highsmith00 - Highsmith, Jim - Agile Project Management: Creating Innovative Products, Agile Software Development Series, 2nd Edition - Julio, 2009](https://g.co/kgs/6fxQ7q)
 
 ###### [Highsmith00 - Highsmith, Jim - Agile Project Management: Creating Innovative Products (Agile Software Development Series), 2nd Edition - Julio, 2009](https://g.co/kgs/6fxQ7q)
-
-###### [Highsmith - Highsmith, Jim - Agile Project Management: Creating Innovative Products (Agile Software Development Series), 2nd Edition - Julio, 2009](https://g.co/kgs/6fxQ7q)
 
 ###### [Kniberg00- Kniberg, Henrik - Lean from the Trenches: Managing Large-Scale Projects with Kanban - Diciembre, 2011](https://g.co/kgs/MKjSYM)
 

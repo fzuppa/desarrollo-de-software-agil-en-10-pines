@@ -163,7 +163,7 @@ Me gusta salir a tomar una cerveza y mantener conversaciones fuera del ámbito l
 
 ## **Las 5 disfunciones de las empresas**
 
-¿Conocen este libro de Patrick Lencioni[[Lencioni00]](bibliografia.md#Lencioni00 - Lencioni, Patrick - The Five Dysfunctions of a Team: A Leadership Fable - Abril, 2002)? Me ayudó a entender algunas situaciones completamente disfuncionales que se daban en algunas de las empresas donde trabajé. El autor las describe a través de esta pirámide:
+¿Conocen este libro de Patrick Lencioni[[Lencioni00]](bibliografia.md#lencioni00-lencioni-patrick-the-five-dysfunctions-of-a-team-a-leadership-fable-abril-2002)? Me ayudó a entender algunas situaciones completamente disfuncionales que se daban en algunas de las empresas donde trabajé. El autor las describe a través de esta pirámide:
 
 ![5 Disfunciones de los Equipos](.gitbook/assets/piramide-de-disfunciones.png)
 
@@ -211,7 +211,7 @@ Habiendo contemplado una empresa auto-gestionada durante los últimos 9 años, n
 
 **Tenemos diferentes** _**backgrounds**_ **y** _**skills**_**, que se potencian:** Nuestro trabajo, como desarrolladores de software, es un trabajo de creación y de innovación que requiere de un equipo diverso, con diferentes _backgrounds_ y _skills_, que interactúe libremente. El [video de ABC Nightline sobre IDEO](https://www.youtube.com/watch?v=M66ZU2PCIcM) describe muy bien cómo debe crearse un ambiente de innovación: no existe un jefe, sino un facilitador, en una estructura completamente horizontal donde los integrantes tienen perfiles muy diversos. Se brinda un objetivo y se deja al equipo auto-organizarse. Debido a que el problema es altamente caótico, se fija un lapso de tiempo para su finalización. Suena familiar, ¿no?
 
-**Somos personas formadas, en contacto con los problemas:** El 5to principio en el libro de “_Lean Software Development"_[[Poppendieck00]](bibliografia.md#Poppendieck00) habla sobre Empoderamiento: ‘Empleados educados y empoderados, guiados por un líder, pueden tomar mejores decisiones que sus _managers_’, sugiere. El método científico de Taylor no fue pensado para organizaciones del conocimiento. En éstas, delegar ‘es mucho más efectivo porque estos ingenieros, trabajando en la línea de producción, tienen mejor información y, también, la formación necesaria para tomar esas decisiones’. El desarrollo de software es exactamente igual. Los programadores somos profesionales capacitados, que trabajamos en la ‘línea de producción’.
+**Somos personas formadas, en contacto con los problemas:** El 5to principio en el libro de “_Lean Software Development"_[[Poppendieck00]](bibliografia.md#poppendieck00-poppendieck-00-mary-tom-lean-software-development-an-agile-toolkit-mayo-2003) habla sobre Empoderamiento: ‘Empleados educados y empoderados, guiados por un líder, pueden tomar mejores decisiones que sus _managers_’, sugiere. El método científico de Taylor no fue pensado para organizaciones del conocimiento. En éstas, delegar ‘es mucho más efectivo porque estos ingenieros, trabajando en la línea de producción, tienen mejor información y, también, la formación necesaria para tomar esas decisiones’. El desarrollo de software es exactamente igual. Los programadores somos profesionales capacitados, que trabajamos en la ‘línea de producción’.
 
 **Somos los que mejor sabemos como contribuir:** Cada integrante es quien mejor conoce sus propios _skills_ y, por ende, quien mejor sabe cómo contribuir al equipo en función de los objetivos compartidos. Por esto, Jim Highsmith, en _Agile Project Management_[[Highsmith00]](bibliografía.md#highsmith00-highsmith-jim-agile-project-management-creating-innovative-products-agile-software-development-series-2nd-edition-julio-2009), especifica que ‘cada una de las personas se hace responsable del pasaje de trabajo \(de acuerdo a la necesidad\), del manejo de su propia carga y de la efectividad del equipo’. ¿Existe modo superador de gestionar un proyecto?
 
@@ -251,7 +251,7 @@ Un punto que también vale la pena mencionar dentro de este tópico es l**a nece
 
 Reconocemos la importancia de la comunicación. Por eso nos esforzamos en que sea lo más caudalosa y efectiva posible.
 
-Alistair Cockburn define, en _Agile Software Development_[[Cockburn00]](bibliografia.md#Cockburn00), la comunicación como ‘la transmisión de una idea desde una persona a otra’. Cuando trabajamos en un equipo, emitimos diariamente conceptos, que se plasman en especificaciones y, en definitiva, en el _codebase_ que representa la solución.
+Alistair Cockburn define, en _Agile Software Development_[[Cockburn00]](bibliografia.md#cockburn00-cockburn-alistair-agile-software-development-the-cooperative-game-2-nd-edition-octubre-2006), la comunicación como ‘la transmisión de una idea desde una persona a otra’. Cuando trabajamos en un equipo, emitimos diariamente conceptos, que se plasman en especificaciones y, en definitiva, en el _codebase_ que representa la solución.
 
 Lograr una buena comunicación es difícil. Existen malas interpretaciones, incluso cuando charlamos con nuestras parejas. ¡Imaginen en un equipo, con gente que conocemos menos y tenemos poco contacto!
 
@@ -267,7 +267,7 @@ Sin duda, estar con la persona o personas con las cuales queremos comunicarnos f
 
 
 
-En 10Pines procuramos que los equipos se comuniquen de modo efectivo: se trabaja en un _open space_, donde los integrantes se sientan juntos de modo de maximizar la [comunicación osmótica](bibliografia.md#Cockburn00). Cuando trabajamos desde casa, nos reunimos virtualmente usando _Hangouts_ o _Skype_. Usamos herramientas para chatear y para gestionar el proyecto, como _Jira_ o _Pivotal Tracker_. Desarrollamos haciendo _pair programming_ y hacemos _code review_. Todas estas prácticas y herramientas resultan esenciales para mejorar la comunicación.
+En 10Pines procuramos que los equipos se comuniquen de modo efectivo: se trabaja en un _open space_, donde los integrantes se sientan juntos de modo de maximizar la [comunicación osmótica](bibliografia.md#cockburn00-cockburn-alistair-agile-software-development-the-cooperative-game-2-nd-edition-octubre-2006). Cuando trabajamos desde casa, nos reunimos virtualmente usando _Hangouts_ o _Skype_. Usamos herramientas para chatear y para gestionar el proyecto, como _Jira_ o _Pivotal Tracker_. Desarrollamos haciendo _pair programming_ y hacemos _code review_. Todas estas prácticas y herramientas resultan esenciales para mejorar la comunicación.
 
 Muchos de los equipos en los que trabajamos son distribuidos, conformados con desarrolladores de 10Pines y _product owners_, _testers_ y _scrum masters_ en otras ubicaciones del globo. En estos casos, analizamos y definimos como lograr la comunicación más eficiente posible, reconociendo que, cuando las personas no comparten la misma ubicación, se genera un menor caudal de información. Para lidiar con esta situación, multiplicamos las reuniones y hacemos un uso, aún más, intensivo de las herramientas digitales.
 
