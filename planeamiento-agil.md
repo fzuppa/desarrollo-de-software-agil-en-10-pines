@@ -52,7 +52,7 @@ Hablemos por unos minutos como _project managers_, para entender las variables q
 
 Existe una 4ta arista, la de calidad, que no se especifica en el plan, sino que es el resultado de todos estos factores.
 
-Estas aristas están vinculadas, unas con otras, en modos no lineales. Si alguna de ellas se modifica, alguna de las otras debe modificarse también. Cuando se descubre nueva funcionalidad \(_scope creep_, decían en mi época\), el proyecto claramente implicará más tiempo. Podríamos intentar sumar ‘recursos’ para aumentar la _Velocity_, pero los ‘recursos’ son personas, que deben ser entrenadas, con el impacto consecuente sobre el proyecto \(como enunció Fred Brooks en su famosa [Ley de Brooks](https://en.wikipedia.org/wiki/Brooks's_law). Si no quisiéramos correr la fecha y no sumáramos ‘recursos’, la calidad seguramente se verá afectada.
+Estas aristas están vinculadas, unas con otras, en modos no lineales. Si alguna de ellas se modifica, alguna de las otras debe modificarse también. Cuando se descubre nueva funcionalidad \(_scope creep_, decían en mi época\), el proyecto claramente implicará más tiempo. Podríamos intentar sumar ‘recursos’ para aumentar la _Velocity_, pero los ‘recursos’ son personas, que deben ser entrenadas, con el impacto consecuente sobre el proyecto \(como enunció Fred Brooks en su famosa [Ley de Brooks](https://en.wikipedia.org/wiki/Brooks's_law)). Si no quisiéramos correr la fecha y no sumáramos ‘recursos’, la calidad seguramente se verá afectada.
 
 En mis ‘años mozos’, conocí el [Triángulo de Acero de la Gestión de Proyectos](https://en.wikipedia.org/wiki/Project_management_triangle), un modelo que permitía visualizar estas restricciones: si se ‘tira’ de alguna de las aristas, alguna de las otras deberá moverse forzosamente.
 
@@ -103,7 +103,7 @@ Simplemente graficamos una línea que represente la cantidad de puntos por ‘qu
 
 Noten que, al graficar los _Story Points_ remanentes, no podemos distinguir los ‘quemados’ de los agregados, es decir, los correspondientes a nuevas _user stories_. En otras palabras, si estuviéramos ‘quemando’ menos puntos de los que estimamos, no podríamos, mediante este gráfico, discernir si esto se debe a una capacidad inferior del equipo a la estimada o al descubrimiento de nueva funcionalidad. Si quisiéramos presentar esta diferencia, podríamos hacerlo del siguiente modo:
 
-![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/burndown-quemados-agregados.png)
+![](./assets/burndown-quemados-agregados.png)
 
 Pueden existir muchas sutilezas en este juego de colaboración y comunicación que es el desarrollo de software. El gráfico podría mostrar que estamos ‘quemando’ menos puntos de los planeados, pero esto puede deberse a que la funcionalidad no está claramente expresada en las _User Stories_ \(y, por ende, cuesta ‘aceptarlas’\). Estas herramientas disparan conversaciones que permiten clarificar razones y buscar mejoras progresivas.
 
@@ -117,12 +117,12 @@ Prefiero seguir los valores ágiles para manejar la complejidad: presentar toda 
 
 ## _**Multitasking**_
 
-Este es un _failure mode_ típico de grandes corporaciones: planear como si fuéramos a trabajar en un solo proyecto, pero hacerlo en varios, además de sumar reuniones y otras actividades. El impacto en cada proyecto y en la productividad es inmenso y suele pasar desapercibido.
+Este es un _failure mode_ típico de grandes corporaciones: planear como si fuéramos a trabajar en un solo proyecto, pero hacerlo en varios, además de sumar reuniones y otras actividades. El impacto en cada proyecto y en la productividad es inmenso y suele pasar desapercibido[[1]](planeamiento-ágil.md#notas-al-pie).
 
 ¿Conocen la [Ley de Little](https://berriprocess.com/es/2016/01/03/la-ley-de-little/)? Dice que si estamos haciendo X tareas a la vez, demoraremos X veces más en terminar cada una de ellas. Bastante fuerte, ¿no? Visualicemos la fórmula mediante un ejemplo: imaginen que tienen un negocio y son capaces de atender 2 personas por hora \(_Throughput_\). Asumiendo que dedican media hora \(0.5 horas\) para cada una \(_Leadtime_\), según la ley mencionada, la cantidad promedio de personas en el local \(_wip_\) será 1.
 
 ```
-`=>` _`throughput * leadtime = wip
+=> throughput * leadtime = wip
 ```
 
 Con nuestros datos:
@@ -136,7 +136,7 @@ Despejando el _lead time_, podemos ver que:
 `
 
 ```
-=>` _`lead time = wip/throughput
+=> leadtime = wip/throughput
 ```
 
 Esto implica que si, en vez de atender 1 persona, atendiésemos 2 simultáneamente, el tiempo para terminar con cada una de ellas será de 1 hora y no 30 minutos. Noten que el tiempo para completar las 2 tareas implica lo mismo, es decir, 1 hora, por lo que no se perdió productividad. Sin embargo, cada uno de las tareas demora el doble.
@@ -176,4 +176,10 @@ Tener un plan no significa otra cosa que saber adónde se quiere llegar y tener 
 Muchas veces escuché decir que en _Agile_ no se planea. Tiene sentido pensar en que se puede empezar a trabajar sin un mínimo de descubrimiento y planeamiento? Creo que no. El punto es cuánto resulta razonable y eficiente. En otras palabras, cuánto invertiremos en hacerlo: ¡No pierdan el tiempo adivinando!
 
 Finalmente, recuerden el plan es simplemente otro de los artefactos que nos ayuda a entregar un producto con valor. Nuestro objetivo no es seguirlo.
+
+
+
+# Notas al Pie
+
+1. Si buscan un juego para visualizar el costo del multitasking, les recomiendo [The Multitasking Name Game](https://www.crisp.se/gratis-material-och-guider/multitasking-name-game) de Henrik Kniberg.
 
