@@ -1,10 +1,10 @@
-# El Corazon de los Equipos Agiles en 10Pines
+
 
 ![](.gitbook/assets/colaboracion.png)
 
-## El corazón de los Equipos Ágiles en 10Pines
+# El corazón de los Equipos Ágiles en 10Pines
 
-El desarrollo de software se hace en equipos. Un equipo no implica la reunión de un grupo de personas. Es mucho más que eso, tiene identidad. Todos los integrantes colaboran. Tienen el mismo objetivo, un sentido de compromiso y solidaridad y sienten que aportan valor. Tom de Marco los denominó ‘equipos consolidados’ \(en inglés, [_jelled teams_](https://g.co/kgs/624M1r), que toman forma, como la gelatina cuando se cocina\).
+El desarrollo de software se hace en equipos. Un equipo no implica la reunión de un grupo de personas. Es mucho más que eso, tiene identidad. Todos los integrantes colaboran. Tienen el mismo objetivo, un sentido de compromiso y solidaridad y sienten que aportan valor. Tom de Marco los denominó ‘equipos consolidados’ \(en inglés, [_Jelled Teams_](https://g.co/kgs/624M1r), que toman forma, como la gelatina cuando se cocina\).
 
 ¿Tuvieron la suerte de trabajar en un equipo así? Conformados por integrantes capaces y motivados, dispuestos a dar lo mejor de sí. Comparten objetivos y planes, están comprometidos y empoderados. Se respira la energía del grupo y la sinergia que puede alcanzarse es increíble.
 
@@ -22,25 +22,29 @@ Finalmente, reconocemos que **la comunicación es clave para el éxito**. Por es
 
 Describiré nuestra receta usando el formato propuesto por Alistair Cockburn en su [Corazón de la Agilidad](https://heartofagile.com). Lo denominé ‘El Corazón de los Equipos Ágiles en 10Pines’.
 
+
+
 ![](.gitbook/assets/diamante-del-corazon-de-los-equipos-agiles-es.png)
+
+
 
 El corazón está compuesto por las personas. Sin un buen ambiente, no es posible auto-organizarse efectivamente. Establecer una visión clara es parte de una buena comunicación, pero es tan importante que, creo, merece estar en su cuadrante. La auto-organización funciona de modo eficiente con personas como las descritas, en un buen ambiente y con una visión clara. Pueden ver que estos atributos están relacionados, son interdependientes.
 
-## **¿Cómo formamos los equipos?**
+# **¿Cómo formamos los equipos?**
 
 Primero, seleccionamos las personas más adecuadas para integrarlos. Muchos me han preguntado: ¿cómo es posible que todos participen? Quienes así consultan piensan que esta modalidad favorecería la toma individual de decisiones. Esto no sucede. Somos responsables y buscamos el bienestar colectivo.
 
 Los equipos están conformados por integrantes dedicados a tiempo completo. Esto es mejor para la productividad, la calidad y para las personas, que pueden concentrarse sin sufrir interrupciones. Dentro del equipo existen todos los _skills_ necesarios para desarrollar un incremento de funcionalidad: que los equipos sean interdisciplinarios permite una gestión mucho más simple y efectiva.
 
-Pueden notar que los equipos no presentan ninguna característica especial. Son conformaciones circunstanciales, auto-organizadas para atender clientes y proyectos. No existen fricciones o contradicciones con la empresa. Comparten valores, principios y prácticas.
+Pueden notar que los equipos no presentan ninguna característica especial. Son conformaciones circunstanciales, auto-organizadas para atender clientes y proyectos. No existen fricciones o contradicciones con la empresa[^1]. Comparten valores, principios y prácticas.
 
-## **Los Equipos son las Personas**
+# **Los Equipos son las Personas**
 
 Analicemos cada uno de los atributos que hacen a los buenos equipos, empezando por el corazón. Los equipos son las personas. Las empresas, también. No se puede desarrollar software con gente desmotivada, en la cual no confiamos. Tampoco, ser ágiles. **Necesitamos buenos desarrolladores, honestos, responsables y colaborativos.**
 
 En esta sección les hablaré sobre las personas, el ingrediente fundamental de los equipos. Les contaré cómo seleccionamos las semillas, sus atributos y describiré el ‘camino del pino’, nuestro plan de carrera.
 
-### Proceso de Selección
+## Proceso de Selección
 
 ![](.gitbook/assets/proceso-de-seleccion.png)
 
@@ -50,9 +54,9 @@ Como mencioné anteriormente, **la excelencia técnica es parte de nuestro ADN**
 
 El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto. Para lograrlo, **organizamos una entrevista grupal en la que participamos todos los integrantes de la empresa**. El objetivo es conocer al candidato en profundidad, evaluando si es alguien con quien nos gustaría trabajar. Piensen que compartiremos muchísimas horas de nuestro día con él o ella.
 
-### _**Skills**_ **de los Pinos**
+## _**Skills**_ **de los Pinos**
 
-Seguramente les resultará una ‘verdad de Perogrullo’ si les digo que para desarrollar software se necesita gente que sepa desarrollar software. Es necesario saber modelar una solución disciplinadamente, usando las prácticas ingenieriles correctas.
+Seguramente les resultará una ‘verdad de Perogrullo’[^2] si les digo que para desarrollar software se necesita gente que sepa desarrollar software. Es necesario saber modelar una solución disciplinadamente, usando las prácticas ingenieriles correctas.
 
 ¿Qué significa ‘saber’ desarrollar software? ¿Qué implica ‘ser’ un buen programador? Considero que los buenos desarrolladores con los que he trabajado a lo largo de los años poseen esta combinación de _skills_:
 
@@ -66,7 +70,7 @@ Seguramente les resultará una ‘verdad de Perogrullo’ si les digo que para d
 
 Junto con las habilidades ‘duras’ que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _product discovery_ o gestionar un _backlog_ . El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
 
-### El camino del pino
+## El camino del pino
 
 Llegar a ser un buen programador implica un recorrido, que nosotros llamamos ‘Camino del Pino’. Durante el trayecto, crecemos y nos desarrollamos tanto humana como profesionalmente. Hemos definido un marco de referencia: comenzamos como ‘_Padawans_’, copiando y aprendiendo de pinos más experimentados. Nos convertimos luego en ‘_Knights_’, programadores experimentados y con conocimientos de gestión. Después de muchos años, alcanzamos el ‘rango’ de ‘_Masters_’, programadores expertos, conocedores de la profesión en profundidad. El lector podrá deducir de qué saga hemos extraído los nombres.
 
@@ -78,7 +82,7 @@ Evaluamos de forma continua el progreso, para saber en qué lugar del camino est
 
 Este camino es fundamental, tanto para cada uno de nosotros, los pinos, que, como trabajadores del conocimiento, valoramos la motivación intrínseca, como para 10Pines, que desea que las personas crezcan aquí. En consecuencia, invertimos mucho esfuerzo en ‘señalizarlo’. Evaluamos constantemente cómo está funcionando y qué podemos hacer para mejorarlo.
 
-## **Un buen ambiente**
+# **Un buen ambiente**
 
 ![](.gitbook/assets/que-hacemos-para-sentirnos-bien.png)
 
@@ -88,7 +92,7 @@ Trabajar en un ambiente así permite que los talentos de todas las personas se c
 
 ¿Cómo podemos crear este ambiente? **¿Cómo podemos configurar las reglas de este sistema complejo, que es la organización, para alentar estos sentimientos y comportamientos?** En esta sección, les contaré lo que hemos construido, entre todos, en 10Pines.
 
-### **¿Qué nos motiva?**
+## **¿Qué nos motiva?**
 
 En uno de nuestros primeros retiros estratégicos, hicimos una actividad que tuvo el propósito de consensuar los atributos que debería tener nuestro trabajo ideal. En otras palabras, los factores que contribuirán a nuestra felicidad, a sentirnos bien, cómodos y contentos en nuestra labor diaria.
 
@@ -113,37 +117,37 @@ Tenemos en cuenta estos atributos en cada una de las decisiones que tomamos: ¿Q
 
 Además, una vez al año, durante nuestro retiro estratégico \(una reunión que realizamos con todos los pinos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/): Todos los pinos puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!
 
-### **¿Qué hacemos para lograr un buen ambiente?**
+## **¿Qué hacemos para lograr un buen ambiente?**
 
-#### **Promover la confianza**
+### **Promover la confianza**
 
 ¿Podrías trabajar en un lugar en el que no confías en la empresa o en tus colegas? Creo que no. Resguardarías la información. No te arriesgarías a cometer errores, no colaborarías.
 
 **En 10Pines establecemos una relación de confianza desde el momento del ingreso**. Un ejemplo de esto lo constituye la carga de las horas trabajadas que cada quien realiza para luego calcular su sueldo. Cada una de los procesos creados o las decisiones tomadas están basados en la confianza. Es nuestro valor más importante. Es la base de un lugar sano, colaborativo, donde nos sentimos bien.
 
-#### **Ser Transparentes**
+### **Ser Transparentes**
 
 La transparencia fomenta la confianza y, por ende, la colaboración. En 10Pines, la información está disponible para su consulta. **Somos una empresa de** [**números abiertos**](https://en.wikipedia.org/wiki/Open-book_management): cualquiera puede ver los ingresos de la empresa, la rentabilidad de los proyectos y, también, lo percibido por cada pino.
 
 Cuando desarrollamos un proyecto, usamos todas los recursos disponibles para aumentar la transparencia, como por ejemplo, [radiadores de información](https://www.agilealliance.org/glossary/information-radiators/) o herramientas de gestión online. Buscamos que los integrantes del equipo cuenten con la mayor cantidad de información posible, acerca de los objetivos, del progreso y de todas las aristas que puedan tener alguna incidencia en el resultado final.
 
-#### Compartir objetivos
+### Compartir objetivos
 
 Cuando conformamos equipos para construir un producto, compartimos los objetivos, que definimos en el _product discovery_. ¿Qué pasaría si éstos fueran personales? Por ejemplo, si se midiera la performance de los programadores únicamente por su desempeño individual \(_user stories_ terminadas\) o si los integrantes del equipo pertenecieran a otras áreas, con fines contrapuestos. Seguramente, enfrentaríamos comportamientos competitivos y disfuncionales. Las reglas que especificamos en un sistema complejo determinan las conductas de sus agentes que, deseamos, sean colaborativas. El éxito del grupo debe ser el éxito de cada uno de los integrantes. **Los objetivos de 10Pines son los objetivos de todos nosotros**.
 
-#### **Hacer los procesos justos**
+### **Hacer los procesos justos**
 
 Un punto muy importante dentro de la transparencia es que los procesos sean justos, que las reglas estén claras. En el articulo ‘[Fair Process: Managing in the Knowledge Economy](https://hbr.org/2003/01/fair-process-managing-in-the-knowledge-economy)’, se explica su importancia para los trabajadores del conocimiento.
 
 **En 10Pines, los procesos y políticas se encuentran claramente definidos en una web de acceso irrestricto**. Cuando surgen aspectos que no tenemos contemplados en ninguna política, nos juntamos, debatimos, consensuamos una y la publicamos en la web mencionada. Al ser una empresa de estructura horizontal, todos nos encargamos de respetar y hacer respetar estos procesos co-creados.
 
-#### **Tomar las Decisiones en Equipo**
+### **Tomar las Decisiones en Equipo**
 
 Con este nivel de transparencia, confianza y colaboración, las decisiones deben tomarse de manera compartida. De esta manera, aseguramos que los integrantes estén comprometidos. **En 10Pines, cualquier grupo que se conforme posee un carácter abierto**, es decir, cualquier pino puede integrarlo. Y tomamos las decisiones entre todos.
 
 Trabajar de este modo puede resultar más lento e incómodo. Sin embargo, como uno de los líderes de 10Pines, puedo asegurarles que es muy gratificante. Valoramos sentirnos escuchados.
 
-#### **Crear Espacios de Reconocimiento Personal**
+### **Crear Espacios de Reconocimiento Personal**
 
 Otro de los factores necesarios para sentirnos bien es el reconocimiento. Que una persona con la que trabajamos nos diga que estamos haciendo las cosas bien aumenta la autoestima y motiva intrínsecamente.
 
@@ -153,11 +157,11 @@ La [pirámide de Maslow](https://es.wikipedia.org/wiki/Pirámide_de_Maslow) mues
 
 ![Kudos al final de nuestro standup semanal](.gitbook/assets/kudos-en-el-standup.png)
 
-#### **Fomentar Momentos de Distensión**
+### **Fomentar Momentos de Distensión**
 
 Me gusta salir a tomar una cerveza y mantener conversaciones fuera del ámbito laboral con mis compañeros de trabajo. Estos momentos permiten relajarnos y conocernos. Crean lazos fuertes que luego nos permiten trabajar mejor. **En 10Pines, jugar juegos de mesa, compartir un** _**after-office**_ **o ver películas constituyen una costumbre positiva**. Entre nosotros existen vínculos que van más allá del trabajo.
 
-### **Las 5 disfunciones de las empresas**
+## **Las 5 disfunciones de las empresas**
 
 ¿Conocen [este libro](https://g.co/kgs/LVoPh5) de Patrick Lencioni? Me ayudó a entender algunas situaciones completamente disfuncionales que se daban en algunas de las empresas donde trabajé. El autor las describe a través de esta pirámide:
 
@@ -175,7 +179,7 @@ Finalmente, los miembros no responsables crean un ambiente donde la 5ta disfunci
 
 Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son el resultado de problemas más profundos. Sólo observamos los síntomas. He visto, por ejemplo, equipos se comunican a través de herramientas \(Jira\) para dejar ‘evidencia’ o testers que incluyen un reporte de _bugs_ antes de aceptar la _user story_. En algunas ocasiones, cometí el error de centrarme en los síntomas, queriendo hacer los procesos más eficientes, cuando los problemas eran humanos, de falta de confianza y colaboración. Las personas, como agentes inteligentes dentro de este sistema complejo que es una organización, maquillan los problemas, desplazan el eje o se acomodan según intereses propios. Por el contrario, cuando se brinda confianza y se empodera a las personas, los integrantes están comprometidos y velan por los resultados.
 
-## **Visión**
+# **Visión**
 
 > **“Si no sabes para donde vas, cualquier camino te llevará allí" - Lewis Carroll**
 
@@ -189,7 +193,7 @@ Como ya mencioné en el capítulo 1, comenzamos los proyectos haciendo un **prod
 
 ![](.gitbook/assets/retiro-estrategico-photos.png)
 
-## **Auto-organización**
+# **Auto-organización**
 
 ![](.gitbook/assets/autoorganizacion.png)
 
@@ -197,7 +201,7 @@ Compartida la visión, reconocidos los objetivos, **el equipo se auto-organiza p
 
 Habiendo contemplado una empresa auto-gestionada durante los últimos 9 años, no me quedan dudas: representa la mejor forma de trabajo. **Permite alcanzar resultados óptimos porque combina los talentos del grupo. E impacta en nuestro bienestar**: representa uno de los factores esenciales en la creación de un buen ambiente laboral.
 
-### **¿Qué logramos con la auto-organización?**
+## **¿Qué logramos con la auto-organización?**
 
 ¿Por qué se obtienen mejores resultados cuando se trabaja de esta manera? A continuación describo algunas razones:
 
@@ -213,7 +217,7 @@ Habiendo contemplado una empresa auto-gestionada durante los últimos 9 años, n
 
 **Nos hace sentir mejor y más comprometidos:** Cuando una persona capaz está motivada, quiere participar en las decisiones y en el devenir del proyecto. Siente, al hacerlo, una motivación intrínseca: una necesidad interna por alcanzar una conclusión exitosa. John Buck y Gerard Endenburg, en ‘[_The Creative Forces of Self Organization_](http://sociocracyconsulting.com/wp-content/uploads/2016/04/CreativeForces-updated2012.pdf)’, argumentan que, cuando se trabaja de esta manera, no existen fricciones entre los intereses personales y los de la empresa. Nuestra energía se encauza hacia objetivos compartidos. Sentirnos motivados, energizados y trabajar auto-organizadamente en un equipo nos vuelve personas más responsables con nuestros pares y nosotros mismos. Esta responsabilidad nace de los deseos intrínsecos. Es diferente de la que podría originarse al ser reprendidos o premiados. Puedo decirles, sin temor a equivocarme, que nunca vi, en todos mis años de experiencia, equipos y personas tan comprometidas como en 10Pines.
 
-### **Auto-organización en 10Pines**
+## **Auto-organización en 10Pines**
 
 10Pines es una empresa horizontal gestionada por todos los que formamos parte. Estamos empoderados para participar y lo hacemos con gusto. Compartimos la responsabilidad de llevar adelante la empresa. Colaboramos para resolver los problemas. Me gusta trabajar de esta manera y siento que a todos los pinos también. De hecho, como ya vieron, se encuentra dentro de las aristas que valoramos colectivamente. Sentirnos partícipes de lo que hacemos nos motiva y todos nos sentimos partícipes de 10Pines.
 
@@ -221,7 +225,7 @@ No voy a contarles demasiados detalles de cómo nos organizamos. Creo que ésto 
 
 Por supuesto que la gestión participativa implica un gran desafío a la hora de tomar decisiones. Sin embargo, a pesar de las dificultades e incomodidades que puedan originarse, el efecto positivo de participar en las decisiones y de saber que el proceso es justo nos llena de energía y de confianza.
 
-### **Líderes en 10Pines**
+## **Líderes en 10Pines**
 
 Les conté que en 10Pines nos auto-organizamos para gestionar la empresa. También, que no existen jefes. Podrán pensar ustedes que es un ambiente caótico, casi anárquico, pero nada dista más de la realidad. Existe un sistema, conformado por valores, procesos y reglas, que funciona muy bien.
 
@@ -231,7 +235,7 @@ Al ser quienes mejor conocen los valores y la visión de 10Pines, se encargan de
 
 Claramente los fundadores son los líderes principales. Sin embargo, no son los únicos. Después de casi 10 años de existencia, muchas otras personas han tomado posiciones de liderazgo. Estos ‘_masters_’, que conocen la empresa íntimamente, participan en áreas vitales de la misma. Sin ellos, 10Pines no funcionaría del mismo modo.
 
-### Disciplina
+## Disciplina
 
 Quizás piensen que los equipos de estas características carecen de disciplina, pero no es cierto. Puedo asegurarles que **en 10Pines los equipos son auto-disciplinados, rigurosos con los procesos y las prácticas y responsables para cumplir los objetivos** teniendo en cuenta las restricciones. Cuando un grupo de personas competentes trabaja de esta manera, tomando responsabilidad colectiva por los resultados, la auto-disciplina \(así como también, la auto-organización\) sucede naturalmente.
 
@@ -239,7 +243,7 @@ Jim Highsmith expresa que ‘la auto-disciplina hace posible la libertad y el em
 
 Un punto que también vale la pena mencionar dentro de este tópico es l**a necesidad de trabajar disciplinadamente para lograr excelencia técnica**. Esta disciplina no puede ser impuesta, ya que requiere de una práctica constante por parte de todos los integrantes del equipo. Las prácticas de _Extreme Programming_ permiten crear esa ‘presión de pares’ que nos lleva a trabajar de ese modo. Hacer _pair programming_ y _code reviews_ nos impulsa a buscar mejores diseños, a pensar cuidadosamente los nombres, a no dejar deuda técnica, a testear cuidadosamente y a evitar atajos**.**
 
-## **Comunicación**
+# **Comunicación**
 
 > **“Algunos de nosotros estamos en el negocio de la tecnología. La mayoría estamos en el negocio de la comunicación humana.” - Tom de Marco**
 
@@ -253,7 +257,7 @@ La comunicación, dentro del enfoque de construcción de software que hemos eleg
 
 En consecuencia, **debemos usar los medios de comunicación más eficientes y efectivos** a nuestro alcance: aumentar el ancho de banda de comunicación tanto como sea posible, que existan radiadores de información que disparen nuevas conversaciones, que fluya en todas direcciones y que sea directa, es decir, sin intermediarios.
 
-### **¿Cuál es la manera más eficiente de comunicarse?**
+## **¿Cuál es la manera más eficiente de comunicarse?**
 
 Sin duda, estar con la persona o personas con las cuales queremos comunicarnos frente a frente, ya que podemos observar su lenguaje corporal y aumentar la velocidad al notar la comprensión o detenernos en caso de observar dificultades. Desde el punto de vista del receptor, podemos interrumpir, permitiendo que el emisor aclare, para continuar sobre bases sólidas. ¿Cuál es la manera menos eficiente? La comunicación escrita, donde el emisor genera un documento para que otras personas lean e interpreten. No solo es más lento, sino también más proclive a errores. Entre una y otra, podemos encontrar diversos métodos alternativos como _Google Hangouts_, que permite visualizar a las personas y compartir la pantalla o _Slack_ , que posibilita la creación de grupos con los cuales se comparte información masivamente.
 
@@ -269,7 +273,7 @@ Muchos de los equipos en los que trabajamos son distribuidos, conformados con de
 
 ![](.gitbook/assets/comunicacion-photos.png)
 
-## **Conclusión**
+# **Conclusión**
 
 No buscamos personas para un proyecto en particular, sino personas que deseen desarrollar su vida profesional dentro de 10Pines. Nuestro proceso de selección evalúa fuertemente los aspectos técnicos sin dejar de lado el aspecto humano.
 
@@ -282,4 +286,14 @@ El empoderamiento resulta esencial para desarrollar el mejor producto posible y,
 Finalmente, buscamos una estrategia que maximice el bandwidth de comunicación, al considerarla vital para el desarrollo de software.
 
 Alistair lo denomina ‘un juego de invención y cooperación’: un equipo de _crafters_ colabora entre sí para que la solución emerja, aportando cada uno desde su perspectiva.
+
+---
+
+# Notas al Pie
+
+[^1]: ¿**Equipos Ágiles en empresas no Ágiles?**
+
+En el pasado, trabajé en equipos ágiles, dentro de empresas que no lo eran. Reconocía la importancia de la auto-organización para lidiar con la complejidad y alcanzar un mejor grado de colaboración. Sin embargo, la empresa poseía una estructura jerárquica. Además, competíamos duramente por lograr un bono que era repartido entre pocos. Eso generaba grandes discrepancias que repercutían tanto en la performance colectiva como en la motivación de cada uno de los integrantes. Reportar a un jefe externo o lidiar con personas, que no comparten la modalidad de trabajo y los valores, afecta la moral y la motivación. Me pregunto si en estas situaciones existe un techo de cristal que limita a estos equipos.
+
+[^2]: Expresión del habla coloquial que funciona como sinónimo de obviedad.
 
