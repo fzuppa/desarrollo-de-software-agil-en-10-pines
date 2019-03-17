@@ -56,19 +56,19 @@ El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto.
 
 ## _**Skills**_ **de los Pinos**
 
-Seguramente les resultará una ‘verdad de Perogrullo’[2](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie) si les digo que para desarrollar software se necesita gente que sepa desarrollar software. Es necesario saber modelar una solución disciplinadamente, usando las prácticas ingenieriles correctas.
+Seguramente les resultará una ‘verdad de Perogrullo’[[2]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie) si les digo que para desarrollar software se necesita gente que sepa desarrollar software. Es necesario saber modelar una solución disciplinadamente, usando las prácticas ingenieriles correctas.
 
 ¿Qué significa ‘saber’ desarrollar software? ¿Qué implica ‘ser’ un buen programador? Considero que los buenos desarrolladores con los que he trabajado a lo largo de los años poseen esta combinación de _skills_:
 
 * **Comprenden el dominio en profundidad**: ¿Cómo puedes modelar algo sin conocerlo plenamente? Los buenos programadores buscan entender en profundidad los conceptos que forman parte del problema que enfrentan. Investigan, preguntan y se empapan del dominio.
 * **Saben diseñar**: Tienen habilidad para plasmar en el modelo las abstracciones correctas. Ser un buen diseñador se aprende, a partir de cursos y compartiendo proyectos junto a programadores experimentados. Sin embargo, creo que los mejores tienen algo de innato.
-* **Dominan el lenguaje de programación**: Dominar el lenguaje permite enfocarse en la resolución del problema, creando, además, soluciones más ‘elegantes’[^3]. Conocer los usos y costumbres \(lo que llamamos [_idioms_](https://en.wikipedia.org/wiki/Programming_idiom)\) hace que nuestro _codebase_ luzca bien.
+* **Dominan el lenguaje de programación**: Dominar el lenguaje permite enfocarse en la resolución del problema, creando, además, soluciones más ‘elegantes’[[3]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie). Conocer los usos y costumbres \(lo que llamamos [_idioms_](https://en.wikipedia.org/wiki/Programming_idiom)\) hace que nuestro _codebase_ luzca bien.
 * **Técnicas**: Considero que un buen programador debe ser prolijo y disciplinado para construir software, usando _test driven development_, refactorizando continuamente e integrando tan pronto como sea posible. Estas técnicas se vuelven fundamentales cuando trabajamos en un equipo, para poder sincronizar y colaborar correctamente.
 * **Herramientas**: Finalmente, es importante conocer en profundidad las herramientas que usamos diariamente en nuestro trabajo: la IDE, sus atajos, sus diferentes vistas y sus funcionalidades. También el versionador de código. El desarrollo debe fluir sin que existan ‘fricciones’.
 
 ![](.gitbook/assets/skills-de-un-pino.png)
 
-Junto con las habilidades ‘duras’[^4] que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _Product Discovery_ o gestionar un _Backlog_ . El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
+Junto con las habilidades ‘duras’[[4]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie) que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _Product Discovery_ o gestionar un _Backlog_ . El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
 
 ## El camino del pino
 
@@ -115,7 +115,7 @@ Los que conocen la [teoría X y la teoría Y de McGregor](https://es.wikipedia.o
 
 Tenemos en cuenta estos atributos en cada una de las decisiones que tomamos: ¿Qué proyectos deberíamos tomar? ¿Cómo deberíamos aumentar nuestros sueldos? Estos valores representan nuestra guía, el consenso de lo importante para el grupo.
 
-Además, una vez al año, durante nuestro retiro estratégico \(una reunión que realizamos con todos los pinos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/)[^5]: Todos los pinos puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!
+Además, una vez al año, durante nuestro retiro estratégico \(una reunión que realizamos con todos los pinos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/)[[5]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie): Todos los pinos puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!
 
 ## **¿Qué hacemos para lograr un buen ambiente?**
 
@@ -181,7 +181,7 @@ Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son e
 
 # **Visión**
 
-> **“Si no sabes para donde vas, cualquier camino te llevará allí" - Lewis Carroll**[^6]
+> **“Si no sabes para donde vas, cualquier camino te llevará allí" - Lewis Carroll**[[6]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie)
 
 Como ya mencioné en el [capítulo 1](product-discovery.md), comenzamos los proyectos haciendo un **product discovery** del que participa todo el equipo y que permite construir una visión compartida. Aquí consensuamos los objetivos y el plan para alcanzarlos. Dicha visión nos permite volcar todo nuestro talento en busca de las mejores soluciones. **Es el disparador de la inteligencia colectiva, el energizante que dispara las interacciones necesarias**. Sienta las bases para que se produzca el mejor tipo de colaboración. Somos agentes inteligentes, empoderados, en un ambiente que nos alienta para dar lo mejor de nosotros.
 
@@ -247,7 +247,7 @@ Un punto que también vale la pena mencionar dentro de este tópico es l**a nece
 
 # **Comunicación**
 
-> **“Algunos de nosotros estamos en el negocio de la tecnología. La mayoría estamos en el negocio de la comunicación humana.” - Tom de Marco**[^7]
+> **“Algunos de nosotros estamos en el negocio de la tecnología. La mayoría estamos en el negocio de la comunicación humana.” - Tom de Marco**[[7]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie)
 
 Reconocemos la importancia de la comunicación. Por eso nos esforzamos en que sea lo más caudalosa y efectiva posible.
 
@@ -255,7 +255,7 @@ Alistair Cockburn define, en _Agile Software Development_[[Cockburn00]](bibliogr
 
 Lograr una buena comunicación es difícil. Existen malas interpretaciones, incluso cuando charlamos con nuestras parejas. ¡Imaginen en un equipo, con gente que conocemos menos y tenemos poco contacto!
 
-La comunicación, dentro del enfoque de construcción de software que hemos elegido, el enfoque ágil, es crucial: Un equipo multidisciplinario, motivado y organizado desarrolla pequeños incrementos de funcionalidad para obtener feedback rápido. Este proceso, altamente concurrente, ya que implica la interacción de todos los roles que forman parte del equipo, requiere que fluya un caudal enorme de comunicación entre sus integrantes[^8].
+La comunicación, dentro del enfoque de construcción de software que hemos elegido, el enfoque ágil, es crucial: Un equipo multidisciplinario, motivado y organizado desarrolla pequeños incrementos de funcionalidad para obtener feedback rápido. Este proceso, altamente concurrente, ya que implica la interacción de todos los roles que forman parte del equipo, requiere que fluya un caudal enorme de comunicación entre sus integrantes[[8]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie).
 
 En consecuencia, **debemos usar los medios de comunicación más eficientes y efectivos** a nuestro alcance: aumentar el ancho de banda de comunicación tanto como sea posible, que existan radiadores de información que disparen nuevas conversaciones, que fluya en todas direcciones y que sea directa, es decir, sin intermediarios.
 
@@ -289,23 +289,20 @@ Finalmente, buscamos una estrategia que maximice el *bandwidth* de comunicación
 
 # Notas al Pie
 
-###### 1. ¿Equipos Ágiles en empresas no Ágiles?
+1. ¿Equipos Ágiles en empresas no Ágiles?
 
-En el pasado, trabajé en equipos ágiles, dentro de empresas que no lo eran. Reconocía la importancia de la auto-organización para lidiar con la complejidad y alcanzar un mejor grado de colaboración. Sin embargo, la empresa poseía una estructura jerárquica. Además, competíamos duramente por lograr un bono que era repartido entre pocos. Eso generaba grandes discrepancias que repercutían tanto en la performance colectiva como en la motivación de cada uno de los integrantes. Reportar a un jefe externo o lidiar con personas, que no comparten la modalidad de trabajo y los valores, afecta la moral y la motivación. Me pregunto si en estas situaciones existe un techo de cristal que limita a estos equipos.
+   En el pasado, trabajé en equipos ágiles, dentro de empresas que no lo eran. Reconocía la importancia de la auto-organización para lidiar con la complejidad y alcanzar un mejor grado de colaboración. Sin embargo, la empresa poseía una estructura jerárquica. Además, competíamos duramente por lograr un bono que era repartido entre pocos. Eso generaba grandes discrepancias que repercutían tanto en la performance colectiva como en la motivación de cada uno de los integrantes. Reportar a un jefe externo o lidiar con personas, que no comparten la modalidad de trabajo y los valores, afecta la moral y la motivación. Me pregunto si en estas situaciones existe un techo de cristal que limita a estos equipos.
 
-###### 2. Expresión del habla coloquial que funciona como sinónimo de obviedad.
+2. Expresión del habla coloquial que funciona como sinónimo de obviedad.
 
-###### 3. Sé que la ‘elegancia’ constituye un concepto subjetivo, pero también sé que todos los programadores podemos distinguir código elegante.
+3. Sé que la ‘elegancia’ constituye un concepto subjetivo, pero también sé que todos los programadores podemos distinguir código elegante.
 
-###### 4. [Ciencias duras y blandas](https://es.wikipedia.org/wiki/Ciencias_duras_y_blandas)
+4. [Ciencias duras y blandas](https://es.wikipedia.org/wiki/Ciencias_duras_y_blandas)
 
-###### 5. Esta retrospectiva es muy interesante para hacerla con sus equipos. Genera una base de entendimiento y de valores compartidos. Nos permite tomar decisiones durante la ejecución del proyecto (guiadas por estos valores). Sentirnos un equipo.
+5. Esta retrospectiva es muy interesante para hacerla con sus equipos. Genera una base de entendimiento y de valores compartidos. Nos permite tomar decisiones durante la ejecución del proyecto (guiadas por estos valores). Sentirnos un equipo.
 
-###### 6. ‘If you don't know where you are going, any road will get you there’.
+6. 'If you don't know where you are going, any road will get you there'.
 
-###### 7. “Few of us are in the high tech business. Most of us are in the human communications business.”
+7. 'Few of us are in the high tech business. Most of us are in the human communications business.'
 
-###### 8. Alistair lo denomina [‘un juego de invención y cooperación](http://alistair.cockburn.us/ASD+book+extract%3A+%22A+cooperative+game+of+invention+and+communication%22)’: un equipo de *crafters* colabora entre sí para que la solución emerja, aportando cada uno desde su perspectiva.
-
-
-
+8. Alistair lo denomina [‘un juego de invención y cooperación](http://alistair.cockburn.us/ASD+book+extract%3A+%22A+cooperative+game+of+invention+and+communication%22)’: un equipo de *crafters* colabora entre sí para que la solución emerja, aportando cada uno desde su perspectiva.
