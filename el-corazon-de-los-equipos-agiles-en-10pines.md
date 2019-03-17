@@ -36,7 +36,7 @@ Primero, seleccionamos las personas más adecuadas para integrarlos. Muchos me h
 
 Los equipos están conformados por integrantes dedicados a tiempo completo. Esto es mejor para la productividad, la calidad y para las personas, que pueden concentrarse sin sufrir interrupciones. Dentro del equipo existen todos los _skills_ necesarios para desarrollar un incremento de funcionalidad: que los equipos sean interdisciplinarios permite una gestión mucho más simple y efectiva.
 
-Pueden notar que los equipos no presentan ninguna característica especial. Son conformaciones circunstanciales, auto-organizadas para atender clientes y proyectos. No existen fricciones o contradicciones con la empresa[^1]. Comparten valores, principios y prácticas.
+Pueden notar que los equipos no presentan ninguna característica especial. Son conformaciones circunstanciales, auto-organizadas para atender clientes y proyectos. No existen fricciones o contradicciones con la empresa[^1^](#notas-al-pie). Comparten valores, principios y prácticas.
 
 # **Los Equipos son las Personas**
 
@@ -289,15 +289,24 @@ Finalmente, buscamos una estrategia que maximice el *bandwidth* de comunicación
 
 # Notas al Pie
 
-[^1]: ¿Equipos Ágiles en empresas no Ágiles?
+1. ###### ¿Equipos Ágiles en empresas no Ágiles?
 
-En el pasado, trabajé en equipos ágiles, dentro de empresas que no lo eran. Reconocía la importancia de la auto-organización para lidiar con la complejidad y alcanzar un mejor grado de colaboración. Sin embargo, la empresa poseía una estructura jerárquica. Además, competíamos duramente por lograr un bono que era repartido entre pocos. Eso generaba grandes discrepancias que repercutían tanto en la performance colectiva como en la motivación de cada uno de los integrantes. Reportar a un jefe externo o lidiar con personas, que no comparten la modalidad de trabajo y los valores, afecta la moral y la motivación. Me pregunto si en estas situaciones existe un techo de cristal que limita a estos equipos.
+   En el pasado, trabajé en equipos ágiles, dentro de empresas que no lo eran. Reconocía la importancia de la auto-organización para lidiar con la complejidad y alcanzar un mejor grado de colaboración. Sin embargo, la empresa poseía una estructura jerárquica. Además, competíamos duramente por lograr un bono que era repartido entre pocos. Eso generaba grandes discrepancias que repercutían tanto en la performance colectiva como en la motivación de cada uno de los integrantes. Reportar a un jefe externo o lidiar con personas, que no comparten la modalidad de trabajo y los valores, afecta la moral y la motivación. Me pregunto si en estas situaciones existe un techo de cristal que limita a estos equipos.
 
-[^2]: Expresión del habla coloquial que funciona como sinónimo de obviedad.
-[^3]: Sé que la ‘elegancia’ constituye un concepto subjetivo, pero también sé que todos los programadores podemos distinguir código elegante.
-[^4]: [Ciencias duras y blandas](https://es.wikipedia.org/wiki/Ciencias_duras_y_blandas)
-[^5]: Esta retrospectiva es muy interesante para hacerla con sus equipos. Genera una base de entendimiento y de valores compartidos. Nos permite tomar decisiones durante la ejecución del proyecto (guiadas por estos valores). Sentirnos un equipo.
-[^6]: ‘If you don't know where you are going, any road will get you there’.
-[^7]: “Few of us are in the high tech business. Most of us are in the human communications business.”
-[^8]: Alistair lo denomina [‘un juego de invención y cooperación](http://alistair.cockburn.us/ASD+book+extract%3A+%22A+cooperative+game+of+invention+and+communication%22)’: un equipo de *crafters* colabora entre sí para que la solución emerja, aportando cada uno desde su perspectiva.
+2. ###### Expresión del habla coloquial que funciona como sinónimo de obviedad.
 
+3. ###### Sé que la ‘elegancia’ constituye un concepto subjetivo, pero también sé que todos los programadores podemos distinguir código elegante.
+
+4. ###### [Ciencias duras y blandas](https://es.wikipedia.org/wiki/Ciencias_duras_y_blandas)
+
+5. ###### Esta retrospectiva es muy interesante para hacerla con sus equipos. Genera una base de entendimiento y de valores compartidos. Nos permite tomar decisiones durante la ejecución del proyecto (guiadas por estos valores). Sentirnos un equipo.
+
+6. ###### ‘If you don't know where you are going, any road will get you there’.
+
+7. ###### “Few of us are in the high tech business. Most of us are in the human communications business.”
+
+8. ###### Alistair lo denomina [‘un juego de invención y cooperación](http://alistair.cockburn.us/ASD+book+extract%3A+%22A+cooperative+game+of+invention+and+communication%22)’: un equipo de *crafters* colabora entre sí para que la solución emerja, aportando cada uno desde su perspectiva.
+
+   
+
+   
