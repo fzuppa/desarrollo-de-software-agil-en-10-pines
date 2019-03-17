@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/tapa-user-stories.png)
 
-# Introducción
+# ***User Stories & Backlog***
 
 Ya terminamos la fase de _Product Discovery_, que nos permitió tener una visión compartida acerca de lo que deseamos construir y por qué, quiénes serán los usuarios principales y cuál será el modelo de negocios. Ahora, debemos refinar nuestro entendimiento de la funcionalidad detectada, descomponiéndola en ítems o incrementos de funcionalidad, que usaremos, primero para planear y luego para ir construyendo el producto incrementalmente, con el involucramiento cercano de los _Product Owners_.
 

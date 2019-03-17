@@ -1,10 +1,6 @@
-##  
+![](./assets/Tapa - Planeamiento Continuo.png)
 
-![](.gitbook/assets/tapa-planeamiento-continuo.png)
-
-
-
-# Planeamiento Continuo
+# **Planeamiento Continuo**
 
 Ya hicimos el _Product Discovery_ y descubrimos qué se quiere construir y cómo brindará valor el producto. Entendemos mejor qué es lo más importante y también qué se considera indispensable para la primera versión. Escribimos las _User Stories_ y las estimamos. Tenemos una idea vaga, por supuesto, del tamaño. **Resta ahora pensar cuál es la mejor manera de construirlo, dadas las restricciones existentes**, que pueden ser de tiempo \(por ejemplo, ¿es necesario que el MVP esté en el mercado para cierta fecha?\) o de dinero \(los clientes cuentan con un presupuesto\).
 

@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/tapa-estimaciones.png)
 
-# **Una Primera Noción del Tamaño**
+# **Estimaciones**
 
 Una vez que tenemos esta primera versión del _Backlog_, **necesitaremos saber cuán grande es el producto** a construir, **para tener un estimado del costo y también para planear un equipo** que, teniendo en cuenta las restricciones de tiempo y dinero, lo desarrolle.
 

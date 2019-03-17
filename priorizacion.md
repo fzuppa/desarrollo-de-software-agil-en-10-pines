@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/tapa-priorizacion.png)
 
-# **Saber qué es lo importante es lo importante**
+# **Priorización**
 
  Un consultor amigo siempre decía que las metodologías ágiles no son más que un compendio de prácticas para reducir el riesgo. En este sentido, desarrollar las funcionalidades más importantes primero es fundamental, ya que muy probablemente el dinero no alcance para todas las que el cliente desea. Al usar un proceso de desarrollo iterativo e incremental, podemos hacer _releases_ tempranos que las implementen, dejando el resto para otros posteriores. De esta manera, optimizamos el retorno de inversión y minimizamos el riesgo del proyecto.
 

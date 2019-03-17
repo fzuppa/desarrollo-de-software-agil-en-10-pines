@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/colaboracion.png)
 
-# El corazón de los Equipos Ágiles en 10Pines
+# **El corazón de los Equipos Ágiles en 10Pines**
 
 El desarrollo de software se hace en equipos. Un equipo no implica la reunión de un grupo de personas. Es mucho más que eso, tiene identidad. Todos los integrantes colaboran. Tienen el mismo objetivo, un sentido de compromiso y solidaridad y sienten que aportan valor. Tom de Marco los denominó ‘equipos consolidados’ \(en inglés, [_Jelled Teams_](https://g.co/kgs/624M1r), que toman forma, como la gelatina cuando se cocina\).
 
