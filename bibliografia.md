@@ -1,6 +1,6 @@
 # Bibliografía
 
-<a name="Adzic00"></a>[Adzic00 - Adzic, Gojko - Specification by Example: How Successful Teams Deliver the Right Software 1st Edition - Junio, 2011](https://g.co/kgs/3ecUwn)
+###### [Adzic00 - Adzic, Gojko - Specification by Example: How Successful Teams Deliver the Right Software 1st Edition - Junio, 2011](https://g.co/kgs/3ecUwn)
 
 <a name="Anderson00"></a>[Anderson00 - Anderson, David - Kanban: Successful Evolutionary Change for Your Technology Business - Abril, 2010](https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402)
 
