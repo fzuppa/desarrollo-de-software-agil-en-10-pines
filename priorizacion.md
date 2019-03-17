@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/tapa-priorizacion.png)
 
-## **Saber qué es lo importante es lo importante**
+# **Saber qué es lo importante es lo importante**
 
  Un consultor amigo siempre decía que las metodologías ágiles no son más que un compendio de prácticas para reducir el riesgo. En este sentido, desarrollar las funcionalidades más importantes primero es fundamental, ya que muy probablemente el dinero no alcance para todas las que el cliente desea. Al usar un proceso de desarrollo iterativo e incremental, podemos hacer _releases_ tempranos que las implementen, dejando el resto para otros posteriores. De esta manera, optimizamos el retorno de inversión y minimizamos el riesgo del proyecto.
 
@@ -14,7 +14,7 @@ El trabajo de priorización no concluye con la escritura del _Backlog_ prelimina
 
 En este capítulo, trataremos principalmente la priorización dentro del contexto de desarrollo de un producto nuevo, transmitiendo los factores a tener en cuenta y algunas herramientas utilizadas.
 
-## **¿Qué debe tenerse en cuenta al priorizar?**
+# **¿Qué debe tenerse en cuenta al priorizar?**
 
 El factor más importante es el valor de negocios, que, en su acepción más sencilla, implica cuánto dinero ganaremos. Sin embargo, este podría no llegar a ser tan directo. Existen otras aristas que influyen, como ganar nuevos clientes o una porción de mercado donde no existan otros competidores. En definitiva, **el valor de negocios que una funcionalidad entrega es el beneficio que la organización obtiene a partir de él**. Nuestro objetivo debe ser maximizarlo.
 
@@ -26,7 +26,7 @@ Otro factor que podríamos llegar a tener en cuenta, aunque de menor importancia
 
 Ninguno de estos factores decide la priorización por sí mismo, ya que tanto los de negocios, como los tecnológicos, deben ser tenidos en cuenta. Como ya mencioné anteriormente, las decisiones de priorización serán el resultado de la colaboración entre todos los miembros del equipo.
 
-## ***Releases* Cortos**
+# ***Releases* Cortos**
 
 Antes de interiorizarnos en muchas de las herramientas utilizadas, les mostraré la heurística más importante a la hora de priorizar y de planear. Acoten, tanto como sea posible, la cantidad de trabajo. En otras palabras, en lugar de hacer _releases_ grandes y riesgosos, háganlos simples y breves. Les resumo las ventajas que obtendrán:
 
@@ -40,14 +40,14 @@ En estos días, muchos de nuestros clientes, que ya poseen un producto en funcio
 
 Ahora sí, veamos algunas de las herramientas que usamos frecuente en distintas etapas del proceso de priorización.
 
-## **Herramientas**
+# **Herramientas**
 
 Utilizo frecuentemente las que a continuación describiré porque permiten visualizar y facilitar el proceso de priorización. Además, resultan simples para entender y livianas de implementar. Existen otras más sofisticadas, por ejemplo las financieras, que calculan el retorno de inversión, sobre las que no profundizaré aquí.
 
 Empezaré por el _User Story Map_, detallando su empleo a la hora de priorizar, durante el _Product Discovery_. Seguiré con una herramienta extremadamente simple, pero muy útil al mismo tiempo, llamada MoSCoW. A continuación, les mostraré algunas herramientas para visualizar la razón costo-beneficio y finalmente terminaré con otra, llamada _product roadmap_, muy útil a la hora de facilitar la priorización de funcionalidades nuevas para un producto ya implementado.    
 ****
 
-### ![](.gitbook/assets/32x32.png) _**User Story Mapping**_
+## ![](.gitbook/assets/32x32.png) _**User Story Mapping**_
 
 Esta herramienta nos permite visualizar el producto completo rápidamente, resultando de gran utilidad para facilitar la priorización. Lo usamos durante las sesiones de _Product Discovery_, ya que nos permite comprender el orden de importancia de las tareas detectadas y también el conjunto mínimo necesario para una primer versión.
 
@@ -60,7 +60,7 @@ El _User Story Map_ es una herramienta muy útil también para decidir cuál ser
 Soy un fan de esta herramienta. Todas las conversaciones empleadas en la toma de estas decisiones tienen lugar frente al ‘mapa’ del producto, quedando inmediatamente plasmadas.    
 ****
 
-### ![](.gitbook/assets/32x32.png) **MoSCoW**
+## ![](.gitbook/assets/32x32.png) **MoSCoW**
 
 Esta técnica de priorización es la más sencilla de todas. Consiste en categorizar las _User Stories_ o las épicas según su importancia. Las categorías, cuyas iniciales dan nombre a la técnica, son:
 
@@ -78,7 +78,7 @@ Con este equipo, solíamos priorizar también las épicas de cada categoría, so
 
 ![](.gitbook/assets/moscow.png)
 
-### ![](.gitbook/assets/32x32.png) **Puntos de Valor de Negocios**
+## ![](.gitbook/assets/32x32.png) **Puntos de Valor de Negocios**
 
 Otra herramienta de gran utilidad durante el proceso de priorización es la asignación de ‘puntos de valor de negocios’ \(_business value points_\) a las diferentes funcionalidades, haciendo una comparación similar a la utilizada al estimar _Story Points_, pero, esta vez, asignando valores relativos en lugar de esfuerzos relativos. Las piezas de funcionalidad a las que asignamos puntos deben ser necesariamente mayores que las _User Stories_, ya que estas últimas, por sí mismas, son unidades funcionales muy pequeñas para representar un valor de negocios.
 
@@ -117,7 +117,7 @@ En mi experiencia, el costo es un factor sustancialmente menos importante que lo
 
 Todas las técnicas mostradas son similares, ya que nos fuerzan a explicitar valores y esfuerzos y nos devuelven un indicio de lo que podría ser la funcionalidad de mayor beneficio. Pueden incluso agregarse columnas, modificando consecuentemente la fórmula, para incorporar otros factores, por ejemplo, una penalidad \(si la épica no fuera desarrollada\) o el riesgo \(como en el ejemplo del _paper_ de [Karl Wiegers](http://www.processimpact.com/articles/prioritizing.pdf)\). En definitiva, el valor de la herramienta consiste en que fuerza a volcar toda la subjetividad existente en nuestras cabezas sobre una tabla con números explícitos, que calculan un beneficio a través de una fórmula acordada.
 
-### ![](.gitbook/assets/32x32.png) **Tracer Bullets**
+## ![](.gitbook/assets/32x32.png) **Tracer Bullets**
 
 Cuando empezamos con un producto nuevo, el equipo técnico debe pensar cómo encarar su desarrollo, es decir, cómo construir el producto mínimo viable iterativa e incrementalmente y cómo testear que la arquitectura y tecnologías elegidas soporten los requerimientos funcionales y no funcionales. En esta fase de la priorización, de más bajo nivel, nos centramos en atacar los riesgos e incertidumbres y en dividir el trabajo de la mejor manera.
 
@@ -125,7 +125,7 @@ Con este objetivo, elegimos un conjunto de _User Stories_ que nos permitan const
 
 Este _Tracer Bullet_ permite testear todas las capas de nuestra arquitectura y crear una columna vertebral a partir de la cual hacer incrementos de funcionalidad. Además, nos permite mostrar un avance al usuario rápidamente \(aunque no tenga la calidad final\) y también correr tests de carga/_stress_ que validen la arquitectura elegida.
 
-### ![](.gitbook/assets/32x32.png) _**Product Roadmap**_
+## ![](.gitbook/assets/32x32.png) _**Product Roadmap**_
 
 Esta es una herramienta utilizada por una experimentada _Product Owner_ con la que tuve la oportunidad de trabajar, para priorizar y organizar el trabajo de los próximos meses para los diferentes grupos de los que formaba parte. Después de conocerla, leí el libro *Managing your Project Portfolio*[[Rothman00]](bibliografia.md#Rothman00), quien la explica detalladamente.
 
@@ -137,7 +137,7 @@ Al observar la imagen siguiente, probablemente alcancen a comprender su funciona
 
 La única herramienta digital que conozco, sin haber utilizado, es [Roadmunk](https://roadmunk.com/jira-roadmap-integration). Lo bueno de que sea un _plugin_ de [Jira](https://www.atlassian.com/software/jira) reside en que las mismas épicas planeadas en el _roadmap_ son usadas posteriormente en la herramienta de gestión, una vez iniciada la construcción.
 
-## **Priorizando Experimentos**
+# **Priorizando Experimentos**
 
 Cuando hablamos de valor de negocios en esta etapa, en la que todavía no existe un producto, en realidad hipotetizamos sobre el potencial que, creemos, entregará. Nos queda validar estas hipótesis con usuarios reales, ¿estarán dispuestos a pagar por nuestro producto?
 
@@ -149,7 +149,7 @@ Uno de los puntos fundamentales de esta metodología consiste en definir cómo v
 
 Cheryl Quirion compartía estos experimentos, visualmente, con todo el equipo de desarrollo, usando una técnica que denominó [Lean Visual Strategy](https://leanvisualstrategy.com/what-is-lean-visual-strategy-4b4dc9df610d). Compartir esta información con el equipo permite que esté alineado y entienda por qué lo está construyendo. Hacerlo de manera visual ayuda a que todos incorporen esta información mejor y más rápidamente.
 
-## **Conclusiones**
+# **Conclusiones**
 
 Hacer una buena priorización antes de comenzar a trabajar en la construcción es fundamental. Establecemos un conjunto de funcionalidades que, consideramos, deben existir en el MVP y las priorizamos para empezar por las más importantes. Establecemos así un plan para agregar valor y bajar el riesgo.
 

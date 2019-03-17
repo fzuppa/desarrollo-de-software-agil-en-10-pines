@@ -114,7 +114,7 @@ En este ejemplo, sobrestimamos nuestra capacidad \(o subestimamos la complejidad
 
 **Mike Cohn dice que la** _**Velocity**_ **es el gran ecualizador, ya que nos permite actualizar nuestro plan automáticamente**. Mientras que las estimaciones relativas sean consistentes, la medición de la _Velocity_ nos permitirá inferir un calendario actualizado sin necesidad de efectuar ningún tipo de re-estimación.
 
-## **Aspectos Importantes en las Estimaciones Ágiles**
+# **Aspectos Importantes en las Estimaciones Ágiles**
 
 Me gustaría contarles, para finalizar, cuáles son los puntos fundamentales del enfoque ágil en mi opinión. No son los _Story Points_, ni el _Planning Poker_, sino el proceso que usamos para estimar. En resumen:
 
@@ -122,7 +122,7 @@ Me gustaría contarles, para finalizar, cuáles son los puntos fundamentales del
 * **No se invierte mucho tiempo en hacer un análisis detallado** para hacer la estimación porque la precisión que presumiblemente se podría alcanzar no justifica la inversión. Ésto no significa que las estimaciones dejen de hacerse por completo ya que es necesario tener una noción del tamaño, para hacer la planificación.
 * **No implican un compromiso**. La presión que se ejerza sobre el equipo, ya sea para que acorte los tiempos o para que cumpla con la fecha inicialmente estimada, es la principal causa de disfuncionalidad que conozco. Queremos evitar que el equipo sienta la necesidad de poner un _pad_ a la estimación o quiera cortar camino para cumplir con las estimaciones y consecuentemente agregue deuda técnica. Ninguno de estos comportamientos resulta beneficioso.
 
-## **Conclusión**
+# **Conclusión**
 
 En esta sección vimos cómo hacer una estimación inicial del producto. Necesitamos tener una idea de la dimensión del mismo para poder planificar el equipo y proyectar tiempos \(de acuerdo a los _deadlines_ y las expectativas del negocio\). No deseamos, ni podemos, saber exactamente cuánto llevará. Tampoco, invertir demasiado tiempo en intentarlo, sin enfrentarnos con los problemas prácticos. No lo considero un buen uso del tiempo. Asumir un compromiso con esta información tampoco me parece razonable y es causa de muchas disfuncionalidades. Cuando comencemos a desarrollar, podremos verificar si las asunciones y estimaciones eran correctas, plasmando el conocimiento adquirido en nuestros planes. Usando _Story Points_ y midiendo la _Velocity_, ésto es automático.
 

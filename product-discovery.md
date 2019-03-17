@@ -1,7 +1,5 @@
 
 
-# Product Discovery
-
 
 
 ![](./assets/tapa-product-discovery.png)
@@ -10,7 +8,7 @@
 
 > #### La parte más dificil de construir un sistema de software es, precisamente, decidir que construir[1](product-discovery.md#notas-al-pie)
 
-## Introducción
+# Introducción
 
 En 10Pines construimos software para diversos tipos de clientes, desde grandes corporaciones como Claro y Burger King, que quieren desarrollar nuevos productos o ampliar la funcionalidad de herramientas existentes, hasta emprendimientos recién nacidos que buscan construir una versión inicial del producto. Si bien las necesidades, el tamaño del problema y obviamente el presupuesto difieren, siempre comenzamos nuestros desarrollos con una etapa que denominamos **Product Discovery** donde nos juntamos con los especialistas en el negocio, nuestros clientes, a crear una **visión compartida** de lo que se desea construir.
 
@@ -18,7 +16,7 @@ El objetivo de esta etapa es entender qué es lo que se quiere construir, quién
 
 Existe una diferencia entre la simple compresión de los requerimientos y el grado de entendimiento e involucramiento que buscamos en esta etapa en 10Pines. Esto es lo que nos permite **alcanzar un intenso grado de colaboración con todos nuestros clientes**. Diseñar una solución es algo muy complejo que se logra a través de la interacción y colaboración de todos estos actores desde el momento en que nos contactan. **El compromiso y la sinergia,** alcanzados por el equipo en esta etapa, son muy importantes. Es por eso que en todos nuestros proyectos diseñamos las soluciones juntos, proponemos y discutimos alternativas y nos enfocamos en alcanzar los objetivos, **maximizando la colaboración y la comunicación**, que son dos de los valores ágiles más importantes.
 
-## **Fase de Product Discovery**
+# **Fase de Product Discovery**
 
 _Product Discovery_ es la primera fase de nuestra Metodología. Sentamos aquí las bases de lo que constituirá el resto del desarrollo. Buscamos entender los problemas que el cliente desea solucionar y, a partir de ellos, trabajar en procura de las soluciones necesarias.
 
@@ -26,7 +24,7 @@ Creemos firmemente en los valores ágiles de comunicación y colaboración. Por 
 
 El resultado es un conjunto de artefactos que nos permitirá establecer un plan para desarrollar el producto. Es importante remarcar que la documentación producida durante esta etapa es creada, de forma _eficiente_, a través de la colaboración de todos los involucrados, generando, al mismo tiempo, un importante **caudal de conocimiento compartido**.
 
-### **¿Qué es lo que se busca descubrir?**
+## **¿Qué es lo que se busca descubrir?**
 
 Antes de describir el proceso y las herramientas que usamos en esta etapa, detallaremos qué es lo que se intenta descubrir:
 
@@ -46,23 +44,23 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, detal
 
 Marty Cagan, en su libro [‘_Inspired, how to create products that customers love_’](https://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408), afirma que para que un producto sea exitoso, debe ser **valioso, usable y posible de desarrollar**. La fase de _Product Discovery_ tiene el objetivo de crear una visión compartida de cómo alcanzar estas metas. Para eso debemos entender dónde está el valor del producto, cómo va a ser usado \(su [usabilidad](https://es.wikipedia.org/wiki/Usabilidad)\) y, por supuesto, si técnicamente es factible de construir.
 
-### **Talleres de** _**Product Discovery**_
+## **Talleres de** _**Product Discovery**_
 
 La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones que realizamos junto con nuestros clientes en las que empleamos un conjunto de herramientas, juegos, que permiten que todos los participantes se involucren. Estas reuniones, a las que concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores, pueden durar desde 4 horas, para productos pequeños, hasta una semana en proyectos de gran magnitud. La diversidad de roles enriquece el resultado, ya que, además de nuestros clientes, **que conocen qué se requiere** **y cuáles son los objetivos**, se necesitan **desarrolladores que evalúen la factibilidad**, **testers que contribuyan con su atención a los detalles** y **especialistas en UX que evalúen la** _**usabilidad**_. Es fundamental que concurran el _product manager_, el _technical leader_ y un facilitador que se encargará de llevar la reunion adelante, explicar las herramientas que se van a usar y mediar en las conversaciones. Destaco que, más allá de los artefactos producidos, resultan de gran utilidad las conversaciones desarrolladas. ¡Es curioso pero, muchas veces, detectamos que no existe una visión unificada, ni siquiera, entre diferentes integrantes de la misma empresa cliente! Discutir sobre todas las aristas que tendrá el producto, en esta etapa, resulta esencial para unificar el entendimiento y las visiones de todas las personas involucradas en el desarrollo. [Jeff Patton llama a esto ‘Comprensión Compartida’](https://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909/ref=as_sl_pc_qf_sp_asin_til?tag=jefpatass-20&linkCode=w00&linkId=NX2UXYQEFAANOFPO&creativeASIN=1491904909).
 
-### **Lean Sales Up**
+## **Lean Sales Up**
 
 Quiero destacar que en _10Pines_ hacemos estos talleres de _Product Discovery_ al momento de la preventa, es decir apenas ocurrido el primer contacto con el cliente. En consecuencia, lo que hacemos es **construir la propuesta junto a nuestros clientes**. De esta manera, nos aseguramos de entender su visión, el modelo de negocio, cuáles son las restricciones más importantes, compartiendo también una idea del costo que tendrá el desarrollo.
 
 Jorge Silva denominó a esto _[Lean Sales Up](https://blog.10pines.com/2014/10/28/lean-sales-up/)_, ya que se elimina el [_desperdicio_](https://es.wikipedia.org/wiki/Lean_manufacturing) que los procesos usuales de ventas contienen. Los artefactos creados son sumamente útiles para el posterior desarrollo y la cantidad generada de conocimiento compartido es infinita.
 
-## **Herramientas**
+# **Herramientas**
 
 A continuación, describiré algunas de las herramientas que usamos habitualmente en los talleres:
 
 ![](./assets/product_discovery_tools.png)
 
-### **User Story Mapping**
+## **User Story Mapping**
 
 **Introducción**
 
@@ -136,7 +134,7 @@ Antes observamos que es posible especificar que una tarea es más importante que
 
 Decidir dónde debemos trazar la línea involucra muchísimos factores, muchos más de los que podría abordar en este capítulo. Lo importante a destacar es que la herramienta facilita la elección de una primera versión del MVP en un ambiente de colaboración, donde participan expertos de todas las áreas.
 
-### **Lean Canvas**
+## **Lean Canvas**
 
 ¿Ustedes piensan que los desarrolladores deberían entender como funciona el negocio que modelarán? Algunos dirán, no es necesario: mientras se comunique correctamente lo que se debe desarrollar es suficiente. Podrán adivinar que estoy en desacuerdo con esta afirmación. Creo que es importante entender cómo funciona o funcionará el negocio de la empresa que nos contrata. Si estamos desarrollando un producto nuevo \(de un _startup_\), es necesario entender cuál es el modelo de negocios que piensan implementar o, dicho de otra manera, cómo piensan generar dinero. Si se trata de una aplicación para una organización, entonces debemos entender por qué es necesaria, cuál es su valor o cómo recortará costos.
 
@@ -176,7 +174,7 @@ Tratar estos proyectos corporativos como si estuviesen destinados a un startup r
 
 Hacer un taller que implique la creación del _Lean Canvas_, donde participe todo el equipo, permite que todas las personas que construirán el producto tengan una visión compartida del valor que agregará, cómo piensan venderlo y cuál es la competencia. El beneficio de contar con desarrolladores que comprendan la visión del negocio y de sus objetivos redunda en diseños pensados para alcanzarlos, el disparo de nuevas ideas, muchas veces no previstas, y en la propuesta de alternativas que busquen cumplirlos a un costo menor. En estos problemas complejos, la interacción de este grupo de profesionales heterogéneo es lo que maximiza las probabilidades de éxito.
 
-### **Elevator Pitch**
+## **Elevator Pitch**
 
 ¿Cómo podríamos convencer a un inversor, en un lapso de tiempo muy breve \(por ejemplo, si compartiésemos el ascensor\), de que tenemos una idea que vale la pena implementar? Nuestro _pitch_ deberá resumir los conceptos claves del producto que tenemos en mente: los clientes y beneficios claves, qué pensamos hacer, cuál es nuestro diferencial y cuál es nuestra ventaja competitiva.
 
@@ -200,7 +198,7 @@ Ejemplos de _Elevator Pitchs_ desarrollados para algunos clientes:
 
 ![Elevator Pitch](./assets/photo-elevator-pitchs.png)
 
-### **Personas**
+## **Personas**
 
 Uno de los objetivos que perseguimos en esta fase de _Product Discovery_ implica entender a los potenciales usuarios del sistema. ¿Quiénes son? ¿Qué tipos de usuario son? ¿Cómo encontrarán valor?
 
@@ -210,13 +208,13 @@ Este ejercicio puede realizarlo el *Product Owner* \(o el _UX Designer_ en proye
 
 ![Personas](./assets/personas.png)
 
-### **¿Qué Nos Quita el Sueño?**
+## **¿Qué Nos Quita el Sueño?**
 
 Siempre que un nuevo proyecto está por comenzar, existe un conjunto de incertidumbres o, dicho de otro modo, de riesgos que podrían hacer que el proyecto fracase. Es necesario que éstos sean identificados cuanto antes. Esta actividad es breve \(se puede hacer en 15/20 minutos\) y permite que todos los involucrados hagan explícitos estos riesgos, discutiéndose el potencial impacto de cada uno de ellos. El resultado de esta actividad será de gran ayuda en la priorización que deberá establecerse en el futuro, cuando se realice el planeamiento.
 
 ¿Cómo es la dinámica de la actividad? Básicamente, se trabaja sobre un papel de gran tamaño y _post-its_ que son entregados a todos los participantes. Durante 5’ cada integrante del equipo pensará y escribirá riesgos \(cada riesgo en un _post-it_\), pegándolos en el papel. Al finalizar este periodo, se leerán los riesgos que los integrantes del equipo han pensado y se discutirá la gravedad de cada uno de ellos, evaluándose cómo pueden ser mitigados.
 
-### **Experimentos de Usabilidad**
+## **Experimentos de Usabilidad**
 
 Una de las facetas a las que generalmente le prestamos menos atención y que, sin embargo, tiene mucha importancia es la de _Usabilidad_. Algo que muchos olvidan es que puede comenzar a evaluarse este aspecto sin escribir una sola línea de código y de manera muy económica. Aprender lo más rápido posible si los usuarios entienden la interfaz, qué _features_ consideran importantes y cuáles ni siquiera notan pueden ahorrar una importante cantidad de recursos económicos.
 
@@ -224,17 +222,17 @@ Una de las facetas a las que generalmente le prestamos menos atención y que, si
 
 
 
-#### Cómo realizar un test de usabilidad en cinco pasos - Por Juan Manuel Carraro
+### Cómo realizar un test de usabilidad en cinco pasos - Por Juan Manuel Carraro
 
 Muchas veces hay resistencias o limitaciones para realizar un test de usabilidad sin todas las condiciones que indica la teoría. Es cierto que un test realizado por un consultor en usabilidad permitirá obtener mejores resultados pero también es posible hacerlo internamente y hacerse de buena información. El requisito es cumplir ciertos criterios mínimos que aseguren una mayor consistencia metodológica y confiabilidad.
 
-##### 1. Definir los objetivos del test.
+#### 1. Definir los objetivos del test.
 
 El primer paso consiste en definir cuáles son los objetivos del test. Un objetivo puede ser revisar la arquitectura de la información, los rótulos de determinadas secciones o saber si el proceso de compra que tenemos montado en nuestro sitio resulta intuitivo y fácil para los usuarios.
 
 Los objetivos son sumamente importantes porque de ellos podremos derivar las tareas que los usuarios deberán realizar al momento de hacer el test. Por ejemplo, si nuestro objetivo es testear cuán intuitivo y fácil de navegar resulta el catálogo de productos que tenemos en nuestro sitio, una tarea podría ser solicitarle a los usuarios que encuentren un producto que cumpla con determinadas características.
 
-##### 2. Construir el guión de tareas.
+#### 2. Construir el guión de tareas.
 
 Un guión se divide en conjuntos de preguntas y series de tareas, cada una de los cuales está vinculada a ciertos objetivos. Como mínimo debe tener lo siguiente:
 
@@ -245,7 +243,7 @@ Un guión se divide en conjuntos de preguntas y series de tareas, cada una de lo
 - **Preguntas:** también pueden incluirse preguntas cerradas o abiertas dentro del test para conocer la opinión del usuario respecto a determinado elemento. Esto ayuda a evaluar elementos secundarios que por sus características no pueden testearse mediante tareas.
 - **Cuestionario posterior al test:** una vez que el usuario terminó de realizar todas las tareas y respondió todas las preguntas, se le solicita que exprese sus sensaciones y opiniones con respecto a la interfaz. Este segmento del guión de tareas es altamente cualitativo. Es importante incentivar a los usuarios para que se expresen y evitar el “Me pareció todo bien”.
 
-##### **3. Identificar el perfil de los usuarios.**
+#### **3. Identificar el perfil de los usuarios.**
 
 Uno de los factores que más influye en los resultados del test es que las personas que lo realicen sean lo suficientemente representativas del target del sitio. Para ello es importante trabajar previamente en la identificación de los rasgos y las cualidades de los usuarios teniendo en cuenta las diferentes dimensiones que componen un perfil:
 
@@ -258,7 +256,7 @@ Es incluso muy común que un sitio tenga diferentes segmentos de usuarios claram
 
 Siendo todavía más específico se pueden luego vincular determinados perfiles con ciertas tareas porque como es de esperar un perfil avanzado realizará tareas más complejas dentro del sitio que un perfil de un usuario nuevo.
 
-##### **4. Realizar los test.**
+#### **4. Realizar los test.**
 
 Con un guión de tareas consistente y correctamente revisado con al menos un par de usuarios de prueba, el test de usabilidad debería desarrollarse sin sobresaltos.
 
@@ -268,7 +266,7 @@ Cada sesión individual no debería durar más de una hora, sesiones más largas
 
 Si se puede es recomendable realizar dos o tres sesiones en la mañana, tener un tiempo entre sesión para registrar algunas notas y luego aprovechar las tardes para pasar en limpio la información completa de cada test cuando todavía tengamos frescos los detalles.
 
-##### **5. Redactar un informe.**
+#### **5. Redactar un informe.**
 
 El modo de organizar el informe final con los resultados del test es muy personal. En general es recomendable comenzar por los resultados más destacados y terminar con los detalles. Esto ayuda a que si el informe debe ser leído por alguna personas con poco tiempo, en las primeras 3 páginas pueda tener un resumen de lo más importante.
 
@@ -286,7 +284,7 @@ Hasta aquí se han resumido muy sucintamente los pasos más importantes para rea
 
 Si bien es importante la habilidad y los conocimientos previos de quien prepare y realice el test, la experiencia ayudará a ir encontrando la mejor forma de conducirlo y obtener de él resultados cada vez más reveladores.
 
-## **Conclusiones**
+# **Conclusiones**
 
 En este primer capítulo describí la primera fase de nuestro proceso de desarrollo: el _Product Discovery_. Todos nuestros proyectos comienzan con los talleres descritos, que **nos permiten crear una visión compartida de los objetivos** y **sentar las bases de una relación basada en la confianza donde fluya la comunicación**.
 
