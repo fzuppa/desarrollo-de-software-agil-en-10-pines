@@ -1,12 +1,8 @@
-# Planeamiento Continuo
-
 ##  
 
 ![](.gitbook/assets/tapa-planeamiento-continuo.png)
 
 
-
-_\*\*\*\*_![](/Users/fzuppa/Downloads/Tapa - Planeamiento Continuo.png)
 
 ## Planeamiento Continuo
 

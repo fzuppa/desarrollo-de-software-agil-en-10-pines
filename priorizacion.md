@@ -47,7 +47,7 @@ Utilizo frecuentemente las que a continuación describiré porque permiten visua
 Empezaré por el _User Story Map_, detallando su empleo a la hora de priorizar, durante el _Product Discovery_. Seguiré con una herramienta extremadamente simple, pero muy útil al mismo tiempo, llamada MoSCoW. A continuación, les mostraré algunas herramientas para visualizar la razón costo-beneficio y finalmente terminaré con otra, llamada _product roadmap_, muy útil a la hora de facilitar la priorización de funcionalidades nuevas para un producto ya implementado.    
 ****
 
-### _\*\*\*\*_![](.gitbook/assets/32x32.png) _**User Story Mapping**_
+### ![](.gitbook/assets/32x32.png) _**User Story Mapping**_
 
 Esta herramienta nos permite visualizar el producto completo rápidamente, resultando de gran utilidad para facilitar la priorización. Lo usamos durante las sesiones de _Product Discovery_, ya que nos permite comprender el orden de importancia de las tareas detectadas y también el conjunto mínimo necesario para una primer versión.
 
@@ -60,7 +60,7 @@ El _User Story Map_ es una herramienta muy útil también para decidir cuál ser
 Soy un fan de esta herramienta. Todas las conversaciones empleadas en la toma de estas decisiones tienen lugar frente al ‘mapa’ del producto, quedando inmediatamente plasmadas.    
 ****
 
-### \*\*\*\*![](.gitbook/assets/32x32.png) **MoSCoW**
+### ![](.gitbook/assets/32x32.png) **MoSCoW**
 
 Esta técnica de priorización es la más sencilla de todas. Consiste en categorizar las _User Stories_ o las épicas según su importancia. Las categorías, cuyas iniciales dan nombre a la técnica, son:
 
@@ -78,7 +78,7 @@ Con este equipo, solíamos priorizar también las épicas de cada categoría, so
 
 ![](.gitbook/assets/moscow.png)
 
-### \*\*\*\*![](.gitbook/assets/32x32.png) **Puntos de Valor de Negocios**
+### ![](.gitbook/assets/32x32.png) **Puntos de Valor de Negocios**
 
 Otra herramienta de gran utilidad durante el proceso de priorización es la asignación de ‘puntos de valor de negocios’ \(_business value points_\) a las diferentes funcionalidades, haciendo una comparación similar a la utilizada al estimar _Story Points_, pero, esta vez, asignando valores relativos en lugar de esfuerzos relativos. Las piezas de funcionalidad a las que asignamos puntos deben ser necesariamente mayores que las _User Stories_, ya que estas últimas, por sí mismas, son unidades funcionales muy pequeñas para representar un valor de negocios.
 
@@ -117,7 +117,7 @@ En mi experiencia, el costo es un factor sustancialmente menos importante que lo
 
 Todas las técnicas mostradas son similares, ya que nos fuerzan a explicitar valores y esfuerzos y nos devuelven un indicio de lo que podría ser la funcionalidad de mayor beneficio. Pueden incluso agregarse columnas, modificando consecuentemente la fórmula, para incorporar otros factores, por ejemplo, una penalidad \(si la épica no fuera desarrollada\) o el riesgo \(como en el ejemplo del _paper_ de [Karl Wiegers](http://www.processimpact.com/articles/prioritizing.pdf)\). En definitiva, el valor de la herramienta consiste en que fuerza a volcar toda la subjetividad existente en nuestras cabezas sobre una tabla con números explícitos, que calculan un beneficio a través de una fórmula acordada.
 
-### \*\*\*\*![](.gitbook/assets/32x32.png) **Tracer Bullets**
+### ![](.gitbook/assets/32x32.png) **Tracer Bullets**
 
 Cuando empezamos con un producto nuevo, el equipo técnico debe pensar cómo encarar su desarrollo, es decir, cómo construir el producto mínimo viable iterativa e incrementalmente y cómo testear que la arquitectura y tecnologías elegidas soporten los requerimientos funcionales y no funcionales. En esta fase de la priorización, de más bajo nivel, nos centramos en atacar los riesgos e incertidumbres y en dividir el trabajo de la mejor manera.
 
@@ -125,7 +125,7 @@ Con este objetivo, elegimos un conjunto de _User Stories_ que nos permitan const
 
 Este _Tracer Bullet_ permite testear todas las capas de nuestra arquitectura y crear una columna vertebral a partir de la cual hacer incrementos de funcionalidad. Además, nos permite mostrar un avance al usuario rápidamente \(aunque no tenga la calidad final\) y también correr tests de carga/_stress_ que validen la arquitectura elegida.
 
-### _\*\*\*\*_![](.gitbook/assets/32x32.png) _**Product Roadmap**_
+### ![](.gitbook/assets/32x32.png) _**Product Roadmap**_
 
 Esta es una herramienta utilizada por una experimentada _Product Owner_ con la que tuve la oportunidad de trabajar, para priorizar y organizar el trabajo de los próximos meses para los diferentes grupos de los que formaba parte. Después de conocerla, leí el libro *Managing your Project Portfolio*[[Rothman00]](bibliografia.md#Rothman00), quien la explica detalladamente.
 
