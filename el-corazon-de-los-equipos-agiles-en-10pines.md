@@ -62,13 +62,13 @@ Seguramente les resultará una ‘verdad de Perogrullo’[^2] si les digo que pa
 
 * **Comprenden el dominio en profundidad**: ¿Cómo puedes modelar algo sin conocerlo plenamente? Los buenos programadores buscan entender en profundidad los conceptos que forman parte del problema que enfrentan. Investigan, preguntan y se empapan del dominio.
 * **Saben diseñar**: Tienen habilidad para plasmar en el modelo las abstracciones correctas. Ser un buen diseñador se aprende, a partir de cursos y compartiendo proyectos junto a programadores experimentados. Sin embargo, creo que los mejores tienen algo de innato.
-* **Dominan el lenguaje de programación**: Dominar el lenguaje permite enfocarse en la resolución del problema, creando, además, soluciones más ‘elegantes’. Conocer los usos y costumbres \(lo que llamamos [_idioms_](https://en.wikipedia.org/wiki/Programming_idiom)\) hace que nuestro _codebase_ luzca bien.
+* **Dominan el lenguaje de programación**: Dominar el lenguaje permite enfocarse en la resolución del problema, creando, además, soluciones más ‘elegantes’[^3]. Conocer los usos y costumbres \(lo que llamamos [_idioms_](https://en.wikipedia.org/wiki/Programming_idiom)\) hace que nuestro _codebase_ luzca bien.
 * **Técnicas**: Considero que un buen programador debe ser prolijo y disciplinado para construir software, usando _test driven development_, refactorizando continuamente e integrando tan pronto como sea posible. Estas técnicas se vuelven fundamentales cuando trabajamos en un equipo, para poder sincronizar y colaborar correctamente.
 * **Herramientas**: Finalmente, es importante conocer en profundidad las herramientas que usamos diariamente en nuestro trabajo: la IDE, sus atajos, sus diferentes vistas y sus funcionalidades. También el versionador de código. El desarrollo debe fluir sin que existan ‘fricciones’.
 
 ![](.gitbook/assets/skills-de-un-pino.png)
 
-Junto con las habilidades ‘duras’ que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _product discovery_ o gestionar un _backlog_ . El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
+Junto con las habilidades ‘duras’[^4] que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _Product Discovery_ o gestionar un _Backlog_ . El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
 
 ## El camino del pino
 
@@ -98,7 +98,7 @@ En uno de nuestros primeros retiros estratégicos, hicimos una actividad que tuv
 
 ![](.gitbook/assets/radar-en-el-retiro.png)
 
-La 1ra foto muestra la actividad que hicimos para obtener estos atributos y luego priorizarlos. La 2da, una retrospectiva donde evaluamos cómo estamos en cada uno de ellos.
+La 1^ra^ foto muestra la actividad que hicimos para obtener estos atributos y luego priorizarlos. La 2^da^, una retrospectiva donde evaluamos cómo estamos en cada uno de ellos.
 
 Los factores que acordamos son:
 
@@ -115,17 +115,17 @@ Los que conocen la [teoría X y la teoría Y de McGregor](https://es.wikipedia.o
 
 Tenemos en cuenta estos atributos en cada una de las decisiones que tomamos: ¿Qué proyectos deberíamos tomar? ¿Cómo deberíamos aumentar nuestros sueldos? Estos valores representan nuestra guía, el consenso de lo importante para el grupo.
 
-Además, una vez al año, durante nuestro retiro estratégico \(una reunión que realizamos con todos los pinos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/): Todos los pinos puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!
+Además, una vez al año, durante nuestro retiro estratégico \(una reunión que realizamos con todos los pinos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/)[^5]: Todos los pinos puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!
 
 ## **¿Qué hacemos para lograr un buen ambiente?**
 
-### **Promover la confianza**
+### Promover la confianza
 
 ¿Podrías trabajar en un lugar en el que no confías en la empresa o en tus colegas? Creo que no. Resguardarías la información. No te arriesgarías a cometer errores, no colaborarías.
 
 **En 10Pines establecemos una relación de confianza desde el momento del ingreso**. Un ejemplo de esto lo constituye la carga de las horas trabajadas que cada quien realiza para luego calcular su sueldo. Cada una de los procesos creados o las decisiones tomadas están basados en la confianza. Es nuestro valor más importante. Es la base de un lugar sano, colaborativo, donde nos sentimos bien.
 
-### **Ser Transparentes**
+### Ser Transparentes
 
 La transparencia fomenta la confianza y, por ende, la colaboración. En 10Pines, la información está disponible para su consulta. **Somos una empresa de** [**números abiertos**](https://en.wikipedia.org/wiki/Open-book_management): cualquiera puede ver los ingresos de la empresa, la rentabilidad de los proyectos y, también, lo percibido por cada pino.
 
@@ -133,21 +133,21 @@ Cuando desarrollamos un proyecto, usamos todas los recursos disponibles para aum
 
 ### Compartir objetivos
 
-Cuando conformamos equipos para construir un producto, compartimos los objetivos, que definimos en el _product discovery_. ¿Qué pasaría si éstos fueran personales? Por ejemplo, si se midiera la performance de los programadores únicamente por su desempeño individual \(_user stories_ terminadas\) o si los integrantes del equipo pertenecieran a otras áreas, con fines contrapuestos. Seguramente, enfrentaríamos comportamientos competitivos y disfuncionales. Las reglas que especificamos en un sistema complejo determinan las conductas de sus agentes que, deseamos, sean colaborativas. El éxito del grupo debe ser el éxito de cada uno de los integrantes. **Los objetivos de 10Pines son los objetivos de todos nosotros**.
+Cuando conformamos equipos para construir un producto, compartimos los objetivos, que definimos en el _Product Discovery_. ¿Qué pasaría si éstos fueran personales? Por ejemplo, si se midiera la performance de los programadores únicamente por su desempeño individual \(_User Stories_ terminadas\) o si los integrantes del equipo pertenecieran a otras áreas, con fines contrapuestos. Seguramente, enfrentaríamos comportamientos competitivos y disfuncionales. Las reglas que especificamos en un sistema complejo determinan las conductas de sus agentes que, deseamos, sean colaborativas. El éxito del grupo debe ser el éxito de cada uno de los integrantes. **Los objetivos de 10Pines son los objetivos de todos nosotros**.
 
-### **Hacer los procesos justos**
+### Hacer los procesos justos
 
 Un punto muy importante dentro de la transparencia es que los procesos sean justos, que las reglas estén claras. En el articulo ‘[Fair Process: Managing in the Knowledge Economy](https://hbr.org/2003/01/fair-process-managing-in-the-knowledge-economy)’, se explica su importancia para los trabajadores del conocimiento.
 
 **En 10Pines, los procesos y políticas se encuentran claramente definidos en una web de acceso irrestricto**. Cuando surgen aspectos que no tenemos contemplados en ninguna política, nos juntamos, debatimos, consensuamos una y la publicamos en la web mencionada. Al ser una empresa de estructura horizontal, todos nos encargamos de respetar y hacer respetar estos procesos co-creados.
 
-### **Tomar las Decisiones en Equipo**
+### Tomar las Decisiones en Equipo
 
 Con este nivel de transparencia, confianza y colaboración, las decisiones deben tomarse de manera compartida. De esta manera, aseguramos que los integrantes estén comprometidos. **En 10Pines, cualquier grupo que se conforme posee un carácter abierto**, es decir, cualquier pino puede integrarlo. Y tomamos las decisiones entre todos.
 
 Trabajar de este modo puede resultar más lento e incómodo. Sin embargo, como uno de los líderes de 10Pines, puedo asegurarles que es muy gratificante. Valoramos sentirnos escuchados.
 
-### **Crear Espacios de Reconocimiento Personal**
+### Crear Espacios de Reconocimiento Personal
 
 Otro de los factores necesarios para sentirnos bien es el reconocimiento. Que una persona con la que trabajamos nos diga que estamos haciendo las cosas bien aumenta la autoestima y motiva intrínsecamente.
 
@@ -157,13 +157,13 @@ La [pirámide de Maslow](https://es.wikipedia.org/wiki/Pirámide_de_Maslow) mues
 
 ![Kudos al final de nuestro standup semanal](.gitbook/assets/kudos-en-el-standup.png)
 
-### **Fomentar Momentos de Distensión**
+### Fomentar Momentos de Distensión
 
 Me gusta salir a tomar una cerveza y mantener conversaciones fuera del ámbito laboral con mis compañeros de trabajo. Estos momentos permiten relajarnos y conocernos. Crean lazos fuertes que luego nos permiten trabajar mejor. **En 10Pines, jugar juegos de mesa, compartir un** _**after-office**_ **o ver películas constituyen una costumbre positiva**. Entre nosotros existen vínculos que van más allá del trabajo.
 
 ## **Las 5 disfunciones de las empresas**
 
-¿Conocen [este libro](https://g.co/kgs/LVoPh5) de Patrick Lencioni? Me ayudó a entender algunas situaciones completamente disfuncionales que se daban en algunas de las empresas donde trabajé. El autor las describe a través de esta pirámide:
+¿Conocen este libro de Patrick Lencioni[[Lencioni00]](bibliografia.md#Lencioni00 - Lencioni, Patrick - The Five Dysfunctions of a Team: A Leadership Fable - Abril, 2002)? Me ayudó a entender algunas situaciones completamente disfuncionales que se daban en algunas de las empresas donde trabajé. El autor las describe a través de esta pirámide:
 
 ![5 Disfunciones de los Equipos](.gitbook/assets/piramide-de-disfunciones.png)
 
@@ -181,9 +181,11 @@ Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son e
 
 # **Visión**
 
-> **“Si no sabes para donde vas, cualquier camino te llevará allí" - Lewis Carroll**
+> **“Si no sabes para donde vas, cualquier camino te llevará allí" - Lewis Carroll**[^6]
 
-Como ya mencioné en el capítulo 1, comenzamos los proyectos haciendo un **product discovery** del que participa todo el equipo y que permite construir una visión compartida. Aquí consensuamos los objetivos y el plan para alcanzarlos. Dicha visión nos permite volcar todo nuestro talento en busca de las mejores soluciones. **Es el disparador de la inteligencia colectiva, el energizante que dispara las interacciones necesarias**. Sienta las bases para que se produzca el mejor tipo de colaboración. Somos agentes inteligentes, empoderados, en un ambiente que nos alienta para dar lo mejor de nosotros.
+Como ya mencioné en el [capítulo 1](product-discovery.md), comenzamos los proyectos haciendo un **product discovery** del que participa todo el equipo y que permite construir una visión compartida. Aquí consensuamos los objetivos y el plan para alcanzarlos. Dicha visión nos permite volcar todo nuestro talento en busca de las mejores soluciones. **Es el disparador de la inteligencia colectiva, el energizante que dispara las interacciones necesarias**. Sienta las bases para que se produzca el mejor tipo de colaboración. Somos agentes inteligentes, empoderados, en un ambiente que nos alienta para dar lo mejor de nosotros.
+
+
 
 ![](.gitbook/assets/armando-el-equipo.png)
 
@@ -205,13 +207,13 @@ Habiendo contemplado una empresa auto-gestionada durante los últimos 9 años, n
 
 ¿Por qué se obtienen mejores resultados cuando se trabaja de esta manera? A continuación describo algunas razones:
 
-**Tenemos perspectivas parciales, que se combinan:** Crear la solución entre todos los integrantes del equipo permite que la misma sea equivalente a la suma de los talentos individuales: ¿Por qué prescindir de ideas, perspectivas y mentes de personas inteligentes y capaces? [Management 3.0](https://www.amazon.com/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471) detalla el ‘principio de la oscuridad’, que explica la razón por la cual, desde el punto de vista de la complejidad, resulta positiva la auto-organización: ‘Los miembros de un equipo de desarrollo poseen un modelo mental incompleto del sistema’. Cuando éstos se combinan, dicho modelo se completa, obteniendo ideas mejores que las que hubieran podido obtenerse por separado.
+**Tenemos perspectivas parciales, que se combinan:** Crear la solución entre todos los integrantes del equipo permite que la misma sea equivalente a la suma de los talentos individuales: ¿Por qué prescindir de ideas, perspectivas y mentes de personas inteligentes y capaces? Management 3.0[[Appelo00]](bibliografia.md#Appelo00) detalla el ‘principio de la oscuridad’, que explica la razón por la cual, desde el punto de vista de la complejidad, resulta positiva la auto-organización: ‘Los miembros de un equipo de desarrollo poseen un modelo mental incompleto del sistema’. Cuando éstos se combinan, dicho modelo se completa, obteniendo ideas mejores que las que hubieran podido obtenerse por separado.
 
 **Tenemos diferentes** _**backgrounds**_ **y** _**skills**_**, que se potencian:** Nuestro trabajo, como desarrolladores de software, es un trabajo de creación y de innovación que requiere de un equipo diverso, con diferentes _backgrounds_ y _skills_, que interactúe libremente. El [video de ABC Nightline sobre IDEO](https://www.youtube.com/watch?v=M66ZU2PCIcM) describe muy bien cómo debe crearse un ambiente de innovación: no existe un jefe, sino un facilitador, en una estructura completamente horizontal donde los integrantes tienen perfiles muy diversos. Se brinda un objetivo y se deja al equipo auto-organizarse. Debido a que el problema es altamente caótico, se fija un lapso de tiempo para su finalización. Suena familiar, ¿no?
 
-**Somos personas formadas, en contacto con los problemas:** El 5to principio en el libro de “[_Lean Software Development_](https://g.co/kgs/Cf4dUX)” habla sobre Empoderamiento: ‘Empleados educados y empoderados, guiados por un líder, pueden tomar mejores decisiones que sus _managers_’, sugiere. El método científico de Taylor no fue pensado para organizaciones del conocimiento. En éstas, delegar ‘es mucho más efectivo porque estos ingenieros, trabajando en la línea de producción, tienen mejor información y, también, la formación necesaria para tomar esas decisiones’. El desarrollo de software es exactamente igual. Los programadores somos profesionales capacitados, que trabajamos en la ‘línea de producción’.
+**Somos personas formadas, en contacto con los problemas:** El 5to principio en el libro de “_Lean Software Development"_[[Poppendieck00]](bibliografia.md#Poppendieck00) habla sobre Empoderamiento: ‘Empleados educados y empoderados, guiados por un líder, pueden tomar mejores decisiones que sus _managers_’, sugiere. El método científico de Taylor no fue pensado para organizaciones del conocimiento. En éstas, delegar ‘es mucho más efectivo porque estos ingenieros, trabajando en la línea de producción, tienen mejor información y, también, la formación necesaria para tomar esas decisiones’. El desarrollo de software es exactamente igual. Los programadores somos profesionales capacitados, que trabajamos en la ‘línea de producción’.
 
-**Somos los que mejor sabemos como contribuir:** Cada integrante es quien mejor conoce sus propios _skills_ y, por ende, quien mejor sabe cómo contribuir al equipo en función de los objetivos compartidos. Por esto, Jim Highsmith, en [_Agile Project Management_](https://g.co/kgs/pzb6LH), especifica que ‘cada una de las personas se hace responsable del pasaje de trabajo \(de acuerdo a la necesidad\), del manejo de su propia carga y de la efectividad del equipo’. ¿Existe modo superador de gestionar un proyecto?
+**Somos los que mejor sabemos como contribuir:** Cada integrante es quien mejor conoce sus propios _skills_ y, por ende, quien mejor sabe cómo contribuir al equipo en función de los objetivos compartidos. Por esto, Jim Highsmith, en _Agile Project Management_[[Highsmith00]](bibliografía.md#highsmith00-highsmith-jim-agile-project-management-creating-innovative-products-agile-software-development-series-2nd-edition-julio-2009), especifica que ‘cada una de las personas se hace responsable del pasaje de trabajo \(de acuerdo a la necesidad\), del manejo de su propia carga y de la efectividad del equipo’. ¿Existe modo superador de gestionar un proyecto?
 
 **Es la mejor manera de atacar la complejidad:** Los ‘sistemas adaptativos complejos’ describen científicamente cómo funciona la auto-organización: la solución ‘emerge’ a partir de la interacción de agentes inteligentes que toman decisiones diarias con un impacto en la solución final. Los proyectos de desarrollo de software son sistemas adaptativos complejos. La auto-organización permite atacar la complejidad inherente, a través de la participación de todos los integrantes \(agentes\) en el producto final. Dejarla en manos de una persona sería demasiado arriesgado.
 
@@ -225,7 +227,7 @@ No voy a contarles demasiados detalles de cómo nos organizamos. Creo que ésto 
 
 Por supuesto que la gestión participativa implica un gran desafío a la hora de tomar decisiones. Sin embargo, a pesar de las dificultades e incomodidades que puedan originarse, el efecto positivo de participar en las decisiones y de saber que el proceso es justo nos llena de energía y de confianza.
 
-## **Líderes en 10Pines**
+## Líderes en 10Pines
 
 Les conté que en 10Pines nos auto-organizamos para gestionar la empresa. También, que no existen jefes. Podrán pensar ustedes que es un ambiente caótico, casi anárquico, pero nada dista más de la realidad. Existe un sistema, conformado por valores, procesos y reglas, que funciona muy bien.
 
@@ -239,21 +241,21 @@ Claramente los fundadores son los líderes principales. Sin embargo, no son los 
 
 Quizás piensen que los equipos de estas características carecen de disciplina, pero no es cierto. Puedo asegurarles que **en 10Pines los equipos son auto-disciplinados, rigurosos con los procesos y las prácticas y responsables para cumplir los objetivos** teniendo en cuenta las restricciones. Cuando un grupo de personas competentes trabaja de esta manera, tomando responsabilidad colectiva por los resultados, la auto-disciplina \(así como también, la auto-organización\) sucede naturalmente.
 
-Jim Highsmith expresa que ‘la auto-disciplina hace posible la libertad y el empoderamiento’ y continúa diciendo que ‘uno de los peligros más grandes de los desarrollos centrados en procesos y de la gestión de proyectos es la reducción de los incentivos para la auto-disciplina. Posteriormente, comenta que ‘algunos _project managers_ se preguntan por qué nadie toma la iniciativa y es responsable’.
+Jim Highsmith expresa que ‘la auto-disciplina hace posible la libertad y el empoderamiento’ y continúa diciendo que ‘uno de los peligros más grandes de los desarrollos centrados en procesos y de la gestión de proyectos es la reducción de los incentivos para la auto-disciplina. Posteriormente, comenta que ‘algunos _Project Managers_ se preguntan por qué nadie toma la iniciativa y es responsable’.
 
 Un punto que también vale la pena mencionar dentro de este tópico es l**a necesidad de trabajar disciplinadamente para lograr excelencia técnica**. Esta disciplina no puede ser impuesta, ya que requiere de una práctica constante por parte de todos los integrantes del equipo. Las prácticas de _Extreme Programming_ permiten crear esa ‘presión de pares’ que nos lleva a trabajar de ese modo. Hacer _pair programming_ y _code reviews_ nos impulsa a buscar mejores diseños, a pensar cuidadosamente los nombres, a no dejar deuda técnica, a testear cuidadosamente y a evitar atajos**.**
 
 # **Comunicación**
 
-> **“Algunos de nosotros estamos en el negocio de la tecnología. La mayoría estamos en el negocio de la comunicación humana.” - Tom de Marco**
+> **“Algunos de nosotros estamos en el negocio de la tecnología. La mayoría estamos en el negocio de la comunicación humana.” - Tom de Marco**[^7]
 
 Reconocemos la importancia de la comunicación. Por eso nos esforzamos en que sea lo más caudalosa y efectiva posible.
 
-Alistair Cockburn define, en [_Agile Software Development_](https://g.co/kgs/wUnzS8), la comunicación como ‘la transmisión de una idea desde una persona a otra’. Cuando trabajamos en un equipo, emitimos diariamente conceptos, que se plasman en especificaciones y, en definitiva, en el _codebase_ que representa la solución.
+Alistair Cockburn define, en _Agile Software Development_[[Cockburn00]](bibliografia.md#Cockburn00), la comunicación como ‘la transmisión de una idea desde una persona a otra’. Cuando trabajamos en un equipo, emitimos diariamente conceptos, que se plasman en especificaciones y, en definitiva, en el _codebase_ que representa la solución.
 
 Lograr una buena comunicación es difícil. Existen malas interpretaciones, incluso cuando charlamos con nuestras parejas. ¡Imaginen en un equipo, con gente que conocemos menos y tenemos poco contacto!
 
-La comunicación, dentro del enfoque de construcción de software que hemos elegido, el enfoque ágil, es crucial: Un equipo multidisciplinario, motivado y organizado desarrolla pequeños incrementos de funcionalidad para obtener feedback rápido. Este proceso, altamente concurrente, ya que implica la interacción de todos los roles que forman parte del equipo, requiere que fluya un caudal enorme de comunicación entre sus integrantes.
+La comunicación, dentro del enfoque de construcción de software que hemos elegido, el enfoque ágil, es crucial: Un equipo multidisciplinario, motivado y organizado desarrolla pequeños incrementos de funcionalidad para obtener feedback rápido. Este proceso, altamente concurrente, ya que implica la interacción de todos los roles que forman parte del equipo, requiere que fluya un caudal enorme de comunicación entre sus integrantes[^8].
 
 En consecuencia, **debemos usar los medios de comunicación más eficientes y efectivos** a nuestro alcance: aumentar el ancho de banda de comunicación tanto como sea posible, que existan radiadores de información que disparen nuevas conversaciones, que fluya en todas direcciones y que sea directa, es decir, sin intermediarios.
 
@@ -261,11 +263,9 @@ En consecuencia, **debemos usar los medios de comunicación más eficientes y ef
 
 Sin duda, estar con la persona o personas con las cuales queremos comunicarnos frente a frente, ya que podemos observar su lenguaje corporal y aumentar la velocidad al notar la comprensión o detenernos en caso de observar dificultades. Desde el punto de vista del receptor, podemos interrumpir, permitiendo que el emisor aclare, para continuar sobre bases sólidas. ¿Cuál es la manera menos eficiente? La comunicación escrita, donde el emisor genera un documento para que otras personas lean e interpreten. No solo es más lento, sino también más proclive a errores. Entre una y otra, podemos encontrar diversos métodos alternativos como _Google Hangouts_, que permite visualizar a las personas y compartir la pantalla o _Slack_ , que posibilita la creación de grupos con los cuales se comparte información masivamente.
 
-![](.gitbook/assets/communication-effectiveness-1.png)
+![Gráfico original de [Efectividad de la comunicación](https://g.co/kgs/RVkx3i) con nuevas herramientas \(la evaluación de su efectividad está basada en un juicio propio\).](.gitbook/assets/communication-effectiveness-1.png)
 
-{% hint style="warning" %}
-Gráfico original de [Efectividad de la comunicación](https://g.co/kgs/RVkx3i) con nuevas herramientas \(la evaluación de su efectividad está basada en un juicio propio\).
-{% endhint %}
+
 
 En 10Pines procuramos que los equipos se comuniquen de modo efectivo: se trabaja en un _open space_, donde los integrantes se sientan juntos de modo de maximizar la [comunicación osmótica](bibliografia.md#Cockburn00). Cuando trabajamos desde casa, nos reunimos virtualmente usando _Hangouts_ o _Skype_. Usamos herramientas para chatear y para gestionar el proyecto, como _Jira_ o _Pivotal Tracker_. Desarrollamos haciendo _pair programming_ y hacemos _code review_. Todas estas prácticas y herramientas resultan esenciales para mejorar la comunicación.
 
@@ -283,17 +283,21 @@ Construimos una visión compartida, tanto en 10Pines como en cada uno de los pro
 
 El empoderamiento resulta esencial para desarrollar el mejor producto posible y, también, para gestionar una empresa. Además, nos compromete, disciplina, motiva y hace felices.
 
-Finalmente, buscamos una estrategia que maximice el bandwidth de comunicación, al considerarla vital para el desarrollo de software.
-
-Alistair lo denomina ‘un juego de invención y cooperación’: un equipo de _crafters_ colabora entre sí para que la solución emerja, aportando cada uno desde su perspectiva.
+Finalmente, buscamos una estrategia que maximice el *bandwidth* de comunicación, al considerarla vital para el desarrollo de software.
 
 ---
 
 # Notas al Pie
 
-[^1]: ¿**Equipos Ágiles en empresas no Ágiles?**
+[^1]: ¿Equipos Ágiles en empresas no Ágiles?
 
 En el pasado, trabajé en equipos ágiles, dentro de empresas que no lo eran. Reconocía la importancia de la auto-organización para lidiar con la complejidad y alcanzar un mejor grado de colaboración. Sin embargo, la empresa poseía una estructura jerárquica. Además, competíamos duramente por lograr un bono que era repartido entre pocos. Eso generaba grandes discrepancias que repercutían tanto en la performance colectiva como en la motivación de cada uno de los integrantes. Reportar a un jefe externo o lidiar con personas, que no comparten la modalidad de trabajo y los valores, afecta la moral y la motivación. Me pregunto si en estas situaciones existe un techo de cristal que limita a estos equipos.
 
 [^2]: Expresión del habla coloquial que funciona como sinónimo de obviedad.
+[^3]: Sé que la ‘elegancia’ constituye un concepto subjetivo, pero también sé que todos los programadores podemos distinguir código elegante.
+[^4]: [Ciencias duras y blandas](https://es.wikipedia.org/wiki/Ciencias_duras_y_blandas)
+[^5]: Esta retrospectiva es muy interesante para hacerla con sus equipos. Genera una base de entendimiento y de valores compartidos. Nos permite tomar decisiones durante la ejecución del proyecto (guiadas por estos valores). Sentirnos un equipo.
+[^6]: ‘If you don't know where you are going, any road will get you there’.
+[^7]: “Few of us are in the high tech business. Most of us are in the human communications business.”
+[^8]: Alistair lo denomina [‘un juego de invención y cooperación](http://alistair.cockburn.us/ASD+book+extract%3A+%22A+cooperative+game+of+invention+and+communication%22)’: un equipo de *crafters* colabora entre sí para que la solución emerja, aportando cada uno desde su perspectiva.
 

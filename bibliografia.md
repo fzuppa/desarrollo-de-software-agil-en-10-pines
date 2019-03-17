@@ -30,6 +30,8 @@
 
 <a name="Kniberg00"></a>[Kniberg00- Kniberg, Henrik - Lean from the Trenches: Managing Large-Scale Projects with Kanban - Diciembre, 2011](https://g.co/kgs/MKjSYM)
 
+###### [Lencioni00 - Lencioni, Patrick - The Five Dysfunctions of a Team: A Leadership Fable - Abril, 2002](https://www.amazon.es/Five-Dysfunctions-Team-Leadership-Lencioni/dp/0787960756)
+
 <a name="Martin00"></a>[Martin00 - Martin, (Uncle) Robert - Clean Code: A Handbook of Agile Software Craftsmanship - Agosto, 2008](https://g.co/kgs/CssXTo)
 
 <a name="Patton00"></a>[Patton00 - Patton, Jeff - User Story Mapping: Discover the Whole Story, Build the Right Product - Septiembre, 2014](https://g.co/kgs/yS1yV4)
