@@ -8,6 +8,10 @@
 
 <a name="Cockburn00"></a>[Cockburn00 - Cockburn, Alistair - Agile Software Development: The Cooperative Game (2nd Edition) - Octubre, 2006](https://g.co/kgs/YnRFqf)
 
+<a name="Cohn00"></a>[Cohn00 - Cohn, Mike - User Stories Applied: For Agile Software Development - Marzo, 2004](https://g.co/kgs/d4Rxzh)
+
+<a name="Cohn01"></a>[Cohn01 - Cohn, Mike - Agile Estimating and Planning - November, 2005](https://g.co/kgs/iuMEez)
+
 <a name="Martin00"></a>[Martin00 - Martin, (Uncle) Robert - Clean Code: A Handbook of Agile Software Craftsmanship - Agosto, 2008](https://g.co/kgs/CssXTo)
 
 <a name="Patton00"></a>[Patton00 - Patton, Jeff - User Story Mapping: Discover the Whole Story, Build the Right Product - Septiembre, 2014](https://g.co/kgs/yS1yV4)
