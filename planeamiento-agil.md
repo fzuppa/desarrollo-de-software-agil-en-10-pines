@@ -62,7 +62,7 @@ En mis ‘años mozos’, conocí el [Triángulo de Acero de la Gestión de Proy
 
 
 
-En el libro de Management 3.0 [[Appelo00]](bibliografia.md#Appelo00), Jurgen describe el Cuadrado de Acero, incluyendo en la 4ta arista la calidad.
+En el libro de Management 3.0 [[Appelo00]](bibliografia.md#appelo00-appelo-jurgen-management-3-0-leading-agile-developers-developing-agile-leaders-diciembre-2010), Jurgen describe el Cuadrado de Acero, incluyendo en la 4ta arista la calidad.
 
 
 

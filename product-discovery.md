@@ -1,7 +1,3 @@
-ƒ
-
-
-
 ![](./assets/tapa-product-discovery.png)
 
 
@@ -42,7 +38,7 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, detal
 
 **Estimación inicial de la magnitud:** A partir de las conversaciones sostenidas en esta etapa, se puede tener una idea inicial de cuán grande podría llegar a ser el desarrollo.
 
-Marty Cagan, en su libro ‘_Inspired, how to create products that customers love_’[[Cagan00]](bibliografia.md#rothman01-rothman-johanna-manage-it-your-guide-to-modern-pragmatic-project-management-junio-2007), afirma que para que un producto sea exitoso, debe ser **valioso, usable y posible de desarrollar**. La fase de _Product Discovery_ tiene el objetivo de crear una visión compartida de cómo alcanzar estas metas. Para eso debemos entender dónde está el valor del producto, cómo va a ser usado \(su [usabilidad](https://es.wikipedia.org/wiki/Usabilidad)\) y, por supuesto, si técnicamente es factible de construir.
+Marty Cagan, en su libro ‘_Inspired, how to create products that customers love_’[[Cagan00]](bibliografia.md#cagan00-cagan-marty-inspired-how-to-create-products-customers-love-junio-2008), afirma que para que un producto sea exitoso, debe ser **valioso, usable y posible de desarrollar**. La fase de _Product Discovery_ tiene el objetivo de crear una visión compartida de cómo alcanzar estas metas. Para eso debemos entender dónde está el valor del producto, cómo va a ser usado \(su [usabilidad](https://es.wikipedia.org/wiki/Usabilidad)\) y, por supuesto, si técnicamente es factible de construir.
 
 ## **Talleres de** _**Product Discovery**_
 
