@@ -28,7 +28,7 @@ Si bien es bastante frecuente usar _Story Points_, éstos no son fundamentales d
 
 
 
-![](./assets/estimacionesrelativas.png)
+![](./assets/EstimacionesRelativas.png)
 
 
 
@@ -46,7 +46,7 @@ Todos estos puntos, y quizás algunos otros que se agreguen para algún proyecto
 
 Usamos esta técnica para asignar estimaciones a las *User Stories*. Para ello, invitamos a todo el equipo que participará del proyecto (desarrolladores, testers, diseñadores y por supuesto los _product owners_\), entregándoles mazos similares al que se encuentra abajo, donde cada una de las cartas representa un número de _Story Points_:
 
-![](./assets/planning-poker-cards.png)
+![](./assets/Planning-poker-cards.png)
 
 La explicación del funcionamiento de esta técnica yace en la teoría de la [sabiduría de las masas](https://es.wikipedia.org/wiki/Sabiduría_de_los_grupos), que argumenta que la participación de todo el equipo incrementa la precisión de las estimaciones al escuchar las perspectivas de todos los integrantes. Que una persona sola, por más que sea un experto, realice todas las estimaciones implica un riesgo mucho mayor ya que es muy probable que omita factores poco visibles en su rol.
 

@@ -1,6 +1,6 @@
 
 
-![](./assets/colaboracion.png)
+![](./assets/Colaboracion.png)
 
 # **El corazón de los Equipos Ágiles en 10Pines**
 

@@ -54,7 +54,7 @@ En mis ‘años mozos’, conocí el [Triángulo de Acero de la Gestión de Proy
 
 
 
-![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/irontriangle.png)
+![](./assets/irontriangle.png)
 
 
 
@@ -71,6 +71,7 @@ La idea del cuadrado de acero es que ‘la modificación de una de las aristas e
 El _Project Manager_ tiene como objetivo gestionar estas aristas para que el proyecto sea exitoso. La pregunta es: **¿Qué significa que el proyecto sea exitoso?** El Standish Group popularizó una métrica errónea, basándose en el cumplimiento de las aristas del triángulo de acero. Así, un proyecto resultaba exitoso en caso de completar el _scope_ planeado a tiempo y con los recursos estimados. Aprendí, a través de Jim Highsmith, que debemos tener en cuenta los factores de negocio al evaluar el resultado ¿Cuánto valor de negocios entregamos? ¿Resolvimos los problemas de los usuarios? ¿Es usable? Las decisiones que tomemos, durante la ejecución del proyecto, deben estar guiadas por estas preguntas. Nuestro objetivo debe ser la construcción de un producto que genere la mayor cantidad de valor de negocios y que sea usable, cumpliendo con las restricciones, es decir, dentro de los tiempos y el presupuesto con el que se cuenta. Con este objetivo en mente, el plan es otro artefacto que nos ayudará a ir decidiendo y visualizando cuál es la mejor manera de lograrlo.
 
 Highsmith sugirió modificar el triángulo de acero para hacerlo compatible con los valores ágiles. Si el objetivo es maximizar el valor de negocios, este debía estar incluido en el triángulo:    
+
 
 
 ![](./assets/TrianguloHighsmith.png)
