@@ -1,6 +1,6 @@
 
 
-![](.gitbook/assets/colaboracion.png)
+![](./assets/colaboracion.png)
 
 # **El corazón de los Equipos Ágiles en 10Pines**
 
@@ -24,7 +24,7 @@ Describiré nuestra receta usando el formato propuesto por Alistair Cockburn en 
 
 
 
-![](.gitbook/assets/diamante-del-corazon-de-los-equipos-agiles-es.png)
+![](./assets/Diamante del Corazon de los equipos agiles ES.png)
 
 
 
@@ -46,7 +46,7 @@ En esta sección les hablaré sobre las personas, el ingrediente fundamental de 
 
 ## Proceso de Selección
 
-![](.gitbook/assets/proceso-de-seleccion.png)
+![](./assets/Proceso de seleccion.png)
 
 Como sabemos que las personas son importantes, invertimos mucho tiempo en el proceso de selección. No buscamos programadores con ciertos _skills_ para ingresar a un proyecto particular. **Buscamos programadores que deseen desarrollar su vida profesional en 10Pines**. En consecuencia, somos muy estrictos en la evaluación técnica. También queremos conocer, tanto como sea posible, su parte humana. Con estos objetivos hemos ideado nuestro proceso de selección.
 
@@ -66,7 +66,7 @@ Seguramente les resultará una ‘verdad de Perogrullo’[[2]](el-corazon-de-los
 * **Técnicas**: Considero que un buen programador debe ser prolijo y disciplinado para construir software, usando _test driven development_, refactorizando continuamente e integrando tan pronto como sea posible. Estas técnicas se vuelven fundamentales cuando trabajamos en un equipo, para poder sincronizar y colaborar correctamente.
 * **Herramientas**: Finalmente, es importante conocer en profundidad las herramientas que usamos diariamente en nuestro trabajo: la IDE, sus atajos, sus diferentes vistas y sus funcionalidades. También el versionador de código. El desarrollo debe fluir sin que existan ‘fricciones’.
 
-![](.gitbook/assets/skills-de-un-pino.png)
+![](./assets/Skills de un pino.png)
 
 Junto con las habilidades ‘duras’[[4]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie) que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _Product Discovery_ o gestionar un _Backlog_ . El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
 
@@ -84,7 +84,7 @@ Este camino es fundamental, tanto para cada uno de nosotros, los pinos, que, com
 
 # **Un buen ambiente**
 
-![](.gitbook/assets/que-hacemos-para-sentirnos-bien.png)
+![](./assets/Que hacemos para sentirnos bien.png)
 
 Una vez que tenemos buenas semillas, **debemos crear un ambiente donde éstas puedan florecer en su mejor expresión, desarrollándose al máximo**. Debe ser un lugar que nos permita volcar todo nuestro talento, donde nos sintamos libres, sin miedo, confiados, motivados y energizados. Debe ser un ambiente de innovación, que despierte la imaginación y dispare las ideas. También, un lugar que nos haga sentir orgullosos por lo que hacemos. Los programadores necesitamos saber que lo que estamos haciendo aporta valor.
 
@@ -96,9 +96,9 @@ Trabajar en un ambiente así permite que los talentos de todas las personas se c
 
 En uno de nuestros primeros retiros estratégicos, hicimos una actividad que tuvo el propósito de consensuar los atributos que debería tener nuestro trabajo ideal. En otras palabras, los factores que contribuirán a nuestra felicidad, a sentirnos bien, cómodos y contentos en nuestra labor diaria.
 
-![](.gitbook/assets/radar-en-el-retiro.png)
+![](./assets/Radar en el Retiro.png)
 
-La 1^ra^ foto muestra la actividad que hicimos para obtener estos atributos y luego priorizarlos. La 2^da^, una retrospectiva donde evaluamos cómo estamos en cada uno de ellos.
+La 1ra foto muestra la actividad que hicimos para obtener estos atributos y luego priorizarlos. La 2da, una retrospectiva donde evaluamos cómo estamos en cada uno de ellos.
 
 Los factores que acordamos son:
 
@@ -155,7 +155,7 @@ La [pirámide de Maslow](https://es.wikipedia.org/wiki/Pirámide_de_Maslow) mues
 
 **En 10Pines, nos gusta reconocer un buen trabajo**. Lo hacemos todo el tiempo, por ejemplo, cuando alguien nos ayuda a resolver un problema o prepara una charla. Publicamos estos reconocimientos mediante ‘[La muralla de Kudos](https://kudos.10pines.com/)’. Esta herramienta, basada en las cartas de _Kudos_ de _Management 3.0_, fue desarrollada por uno de nuestros pinos, Joaquín, para ‘enviar’ _kudos_ virtuales a otro/s pino/s a través de [slack](https://slack.com), que luego compartimos durante el standup semanal. ¡Se siente muy bien aparecer en la muralla y también agradecer a alguien de esta manera!
 
-![Kudos al final de nuestro standup semanal](.gitbook/assets/kudos-en-el-standup.png)
+![Kudos al final de nuestro standup semanal](./assets/Kudos en el Standup.png)
 
 ### Fomentar Momentos de Distensión
 
@@ -165,7 +165,11 @@ Me gusta salir a tomar una cerveza y mantener conversaciones fuera del ámbito l
 
 ¿Conocen este libro de Patrick Lencioni[[Lencioni00]](bibliografia.md#lencioni00-lencioni-patrick-the-five-dysfunctions-of-a-team-a-leadership-fable-abril-2002)? Me ayudó a entender algunas situaciones completamente disfuncionales que se daban en algunas de las empresas donde trabajé. El autor las describe a través de esta pirámide:
 
-![5 Disfunciones de los Equipos](.gitbook/assets/piramide-de-disfunciones.png)
+
+
+![](./assets/Piramide de disfunciones.png)
+
+
 
 La primera disfunción, en la base, es la **falta de Confianza**, que nace de la no-voluntad a mostrarse vulnerable frente al grupo. Si los miembros del equipo no confían entre ellos, entonces no piden ayuda y ocultan información. En definitiva, hacen lo que es mejor para ellos mismos y no para el grupo.
 
@@ -187,17 +191,23 @@ Como ya mencioné en el [capítulo 1](product-discovery.md), comenzamos los proy
 
 
 
-![](.gitbook/assets/armando-el-equipo.png)
+![](./assets/Armando el equipo.png)
 
-![](.gitbook/assets/product-discovery-photos.png)
+
+
+![](./assets/Product Discovery photos.png)
+
+
 
 10Pines funciona exactamente del mismo modo. **Todos los pinos construimos la visión de la empresa**, que repasamos y refinamos cada año, durante nuestro retiro estratégico. Esta visión nos guía, nos permite tomar las decisiones diarias.
 
-![](.gitbook/assets/retiro-estrategico-photos.png)
+
+
+![](./assets/Retiro Estrategico photos.png)
 
 # **Auto-organización**
 
-![](.gitbook/assets/autoorganizacion.png)
+![](./assets/Autoorganizacion.png)
 
 Compartida la visión, reconocidos los objetivos, **el equipo se auto-organiza para empezar a trabajar**. Todos participamos opinando, debatiendo o planteando alternativas. Contribuimos a la solución. Estamos empoderados.
 
@@ -263,7 +273,7 @@ En consecuencia, **debemos usar los medios de comunicación más eficientes y ef
 
 Sin duda, estar con la persona o personas con las cuales queremos comunicarnos frente a frente, ya que podemos observar su lenguaje corporal y aumentar la velocidad al notar la comprensión o detenernos en caso de observar dificultades. Desde el punto de vista del receptor, podemos interrumpir, permitiendo que el emisor aclare, para continuar sobre bases sólidas. ¿Cuál es la manera menos eficiente? La comunicación escrita, donde el emisor genera un documento para que otras personas lean e interpreten. No solo es más lento, sino también más proclive a errores. Entre una y otra, podemos encontrar diversos métodos alternativos como _Google Hangouts_, que permite visualizar a las personas y compartir la pantalla o _Slack_ , que posibilita la creación de grupos con los cuales se comparte información masivamente.
 
-![Gráfico original de [Efectividad de la comunicación](https://g.co/kgs/RVkx3i) con nuevas herramientas \(la evaluación de su efectividad está basada en un juicio propio\).](.gitbook/assets/communication-effectiveness-1.png)
+![Gráfico original de [Efectividad de la comunicación](https://g.co/kgs/RVkx3i) con nuevas herramientas \(la evaluación de su efectividad está basada en un juicio propio\).](./assets/Communication Effectiveness.png)
 
 
 
@@ -271,7 +281,7 @@ En 10Pines procuramos que los equipos se comuniquen de modo efectivo: se trabaja
 
 Muchos de los equipos en los que trabajamos son distribuidos, conformados con desarrolladores de 10Pines y _product owners_, _testers_ y _scrum masters_ en otras ubicaciones del globo. En estos casos, analizamos y definimos como lograr la comunicación más eficiente posible, reconociendo que, cuando las personas no comparten la misma ubicación, se genera un menor caudal de información. Para lidiar con esta situación, multiplicamos las reuniones y hacemos un uso, aún más, intensivo de las herramientas digitales.
 
-![](.gitbook/assets/comunicacion-photos.png)
+![](./assets/Comunicacion Photos.png)
 
 # **Conclusión**
 

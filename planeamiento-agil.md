@@ -54,7 +54,7 @@ En mis ‘años mozos’, conocí el [Triángulo de Acero de la Gestión de Proy
 
 
 
-![](.gitbook/assets/tirangulo-3-es.png)
+![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/irontriangle.png)
 
 
 
@@ -62,22 +62,30 @@ En el libro de Management 3.0 [[Appelo00]](bibliografia.md#appelo00-appelo-jurge
 
 
 
-![](.gitbook/assets/tirangulo-4-es.png)
+![](./assets/ironsquare.png)
+
+
 
 La idea del cuadrado de acero es que ‘la modificación de una de las aristas en una dirección tiene un efecto similar en alguna de las aristas adyacentes o el efecto contrario en la opuesta. Por ejemplo: ampliar la funcionalidad implica más recursos o extender la fecha o una calidad inferior \(interna y/o externa\). Una pérdida de recursos llevaría a tener que incluir menos funcionalidad o bajar la calidad o extender el tiempo.
 
 El _Project Manager_ tiene como objetivo gestionar estas aristas para que el proyecto sea exitoso. La pregunta es: **¿Qué significa que el proyecto sea exitoso?** El Standish Group popularizó una métrica errónea, basándose en el cumplimiento de las aristas del triángulo de acero. Así, un proyecto resultaba exitoso en caso de completar el _scope_ planeado a tiempo y con los recursos estimados. Aprendí, a través de Jim Highsmith, que debemos tener en cuenta los factores de negocio al evaluar el resultado ¿Cuánto valor de negocios entregamos? ¿Resolvimos los problemas de los usuarios? ¿Es usable? Las decisiones que tomemos, durante la ejecución del proyecto, deben estar guiadas por estas preguntas. Nuestro objetivo debe ser la construcción de un producto que genere la mayor cantidad de valor de negocios y que sea usable, cumpliendo con las restricciones, es decir, dentro de los tiempos y el presupuesto con el que se cuenta. Con este objetivo en mente, el plan es otro artefacto que nos ayudará a ir decidiendo y visualizando cuál es la mejor manera de lograrlo.
 
 Highsmith sugirió modificar el triángulo de acero para hacerlo compatible con los valores ágiles. Si el objetivo es maximizar el valor de negocios, este debía estar incluido en el triángulo:    
-****
 
-![](.gitbook/assets/tirangulo-1-es.png)
+
+![](./assets/TrianguloHighsmith.png)
+
+
 
 Como pueden ver, en una de las aristas se encuentra el valor, en forma de un producto implementable, la 2da equivale a la calidad interna, que permite al producto ser confiable y adaptable, y finalmente la 3ra, conformada por las restricciones \(costo, calendario y _scope_\).
 
 Mike Cottmeyer escribió un [post](https://www.leadingagile.com/2010/01/replacing-the-iron-triangle-of-project-management/) en el que coincide en mover el foco de las restricciones al valor que el producto puede generar, pero no cree que el triángulo sugerido represente correctamente las relaciones entre las diferentes aristas, como sí lo hace el triángulo de acero. Sugiere incluir la calidad y el valor como parte del _scope_, es decir, de la _Definition of Done_. ¿Estaría algo terminado si el _Product Owner_ no aceptara su valor o si su calidad fuera pobre?
 
-![](.gitbook/assets/tirangulo-2-es.png)
+
+
+![](./assets/TrianguloCottemeyer.png)
+
+
 
 Personalmente, no logro visualizar las relaciones del triángulo original en ninguna de estas últimas variantes. Creo que entregar la funcionalidad imaginada, con la calidad esperada, es lo que permite generar el beneficio planeado. Si no cumplimos con el presupuesto, no podremos entregar nada. Y si no lo hacemos dentro de los tiempos esperados, otro lo hará. El valor de negocios es un _tradeoff_ complejo entre todas estas aristas y por eso no creo que pueda ser ubicado dentro de ellas.
 
@@ -95,7 +103,11 @@ Este gráfico nos sirve para visualizar la pendiente de progreso del equipo, es 
 
 Simplemente graficamos una línea que represente la cantidad de puntos por ‘quemar’. Esta cantidad está dada por la suma de los puntos de las _User Stories_ que restan por hacer. Cada vez que finalizamos una historia, ‘quemamos’ sus puntos y actualizamos la pendiente. De esta manera, podemos calcular la pendiente y deducir la fecha de finalización estimada. Al momento de esbozar el plan, estimamos una pendiente \(y una fecha de finalización acorde\) que luego podremos contrastar con el progreso real.
 
-![](.gitbook/assets/burndown_chart%20%281%29.png)
+
+
+![](./assets/burndown_chart.png)
+
+
 
 Noten que, al graficar los _Story Points_ remanentes, no podemos distinguir los ‘quemados’ de los agregados, es decir, los correspondientes a nuevas _user stories_. En otras palabras, si estuviéramos ‘quemando’ menos puntos de los que estimamos, no podríamos, mediante este gráfico, discernir si esto se debe a una capacidad inferior del equipo a la estimada o al descubrimiento de nueva funcionalidad. Si quisiéramos presentar esta diferencia, podríamos hacerlo del siguiente modo:
 

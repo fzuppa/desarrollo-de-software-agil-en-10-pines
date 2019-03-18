@@ -1,6 +1,6 @@
 
 
-![](.gitbook/assets/tapa-priorizacion.png)
+![](./assets/Tapa - Priorizacion.png)
 
 # **Priorización**
 
@@ -55,7 +55,7 @@ Como ya vimos en el [capítulo 1](product-discovery.md), la manera de indicar qu
 
 El _User Story Map_ es una herramienta muy útil también para decidir cuál será el MVP, es decir, el producto que nos permite testear la hipótesis única de valor. Simplemente trazamos una línea por debajo de todas las tareas incluidas en él. Aquellas, situadas por sobre ésta, representan el MVP. Frecuentemente, vemos una gran cantidad de *post-its* por sobre la línea, lo que nos permite comprender, instantáneamente, que el MVP seleccionado es demasiado grande. En esos casos, procuramos mover la línea hacia arriba. Como ya mencioné en la sección anterior, prefiero _releases_ cortos.
 
-![](.gitbook/assets/priorizacion-user-story-mapping.png)
+![](./assets/priorizacion-user-story-mapping.png)
 
 Soy un fan de esta herramienta. Todas las conversaciones empleadas en la toma de estas decisiones tienen lugar frente al ‘mapa’ del producto, quedando inmediatamente plasmadas.    
 ****
@@ -76,7 +76,7 @@ Podemos usarla para priorizar un conjunto de _User Stories_ o épicas de un prod
 Con este equipo, solíamos priorizar también las épicas de cada categoría, sobre todo, las de la categoría ‘Must’. Así, lográbamos categorizar las épicas por bimestre, así como también conocer el orden de las que desarrollaríamos próximamente.    
 ****
 
-![](.gitbook/assets/moscow.png)
+![](./assets/moscow.png)
 
 ## ![](.gitbook/assets/32x32.png) **Puntos de Valor de Negocios**
 

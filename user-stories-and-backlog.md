@@ -1,6 +1,4 @@
-
-
-![](.gitbook/assets/tapa-user-stories.png)
+![](./assets/Tapa - User Stories.png)
 
 # ***User Stories & Backlog***
 
@@ -155,7 +153,7 @@ La idea de esta herramienta consiste en estructurar la conversación que se da a
 
 Por cada _User Story_, se construirá un ‘mapa’ usando estas tarjetas, como muestra la imagen que sigue:
 
-![](.gitbook/assets/example-mapping.png)
+![](./assets/example-mapping.png)
 
 Noten que los colores tienen el objetivo de poder visualizar ciertos _smells_ en las _stories_:
 
@@ -187,7 +185,7 @@ Trabajar de esta manera requiere cambiar el _mindset_ y pensar en _slices_ verti
 
 # **El** _***Backlog***_
 
-![](.gitbook/assets/backlog.png)
+![](./assets/backlog.png)
 
 Cuando empezamos a construir el _Backlog_, nos focalizamos en descubrir todo el trabajo que tenemos por delante, sin ir a los detalles, haciendo un barrido horizontal de todo el producto y procurando identificar toda su funcionalidad. Hacemos, en este momento también, un trabajo importante de priorización: ¿cuáles son las _User Stories_ que forman el _core_? ¿Qué es lo más importante para el negocio? ¿Qué es lo más riesgoso? ¿Cuáles son las _User Stories_ que debemos construir para edificar la arquitectura de la aplicación?
 

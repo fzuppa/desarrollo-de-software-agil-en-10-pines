@@ -118,7 +118,7 @@ Hasta aquí, pudimos ver lo más importante referido a la herramienta. El resto 
 
 Una vez finalizada la primera versión del _Story Map,_ deberíamos hacer algo que Jeff Patton denomina ‘Recorrer el story map', que implica la lectura de los *post-its* que representan cada una de las tareas, imaginando cómo es que este usuario trabajaría con el sistema. Podemos hacer este recorrido con diferentes personas, de manera de poder lograr diferentes opiniones. Por supuesto que, al recorrer el _Story Map_, descubriremos tareas olvidadas que obviamente agregaremos. ¡Los _post-its_ nos brindan esta flexibilidad!
 
-![Recorriendo el Story Map con Nicolas](.gitbook/assets/rocorriendo_user_story_mapping.jpg)
+![Recorriendo el Story Map con Nicolas](./assets/rocorriendo_user_story_mapping.jpg)
 
 **Priorización Usando el User Story Map**
 
