@@ -62,7 +62,7 @@ Intentaremos terminar la mayor cantidad de *user stories*, abordándolas en base
 
 Antes de empezar cada *story*, reunimos a los desarrolladores involucrados y los integrantes de negocios para refinar los últimos detalles. Se pulen los bordes. Se discute sobre los argumentos que vuelven necesaria esa funcionalidad, una vez más. También, cómo se testeará y validará. Entramos así de lleno en el diseño, que hacemos con la colaboración de todos los integrantes del equipo.
 
-Desarrollamos pensando, en primer lugar, en los tests automatizados que validarán la funcionalidad y procurando obtener ‘calidad de producción’, como dice la guía de Scrum. Este es el momento de hacer el producto con calidad. La calidad se ‘hornea desde el principio’, no puede incorporarse al final. 
+Desarrollamos pensando, en primer lugar, en los tests automatizados que validarán la funcionalidad y procurando obtener ‘calidad de producción’, como dice la guía de Scrum. Este es el momento de hacer el producto con calidad. La calidad se ‘hornea desde el principio’ [[1]](construyendo-el-producto-paso-a-paso.md#notas-al-pie), no puede incorporarse al final. 
 
 Una vez que terminamos el desarrollo y testeo de una *user story*, realizamos un proceso de aceptación formal, donde repasamos, una vez más, el cumplimiento de todos los criterios de aceptación. También podemos repasar nuestra ‘[definition of done](https://www.agilealliance.org/glossary/definition-of-done/)’ para estar completamente seguros de que hemos terminado.
 
