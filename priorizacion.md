@@ -132,7 +132,7 @@ Esta es una herramienta utilizada por una experimentada _Product Owner_ con la q
 Al observar la imagen siguiente, probablemente alcancen a comprender su funcionamiento. En un eje, se especifican las unidades de tiempo y en el otro, los diferentes equipos. Luego grafican el periodo que, estiman \(de modo superficial\), consumirá cada una de las épicas que tienen priorizadas en la columna correspondiente al equipo al que se asignará.    
 ****
 
-![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/Product Roadmap Horizontal.png)
+![](./assets/Product Roadmap Horizontal.png)
 
 
 La única herramienta digital que conozco, sin haber utilizado, es [Roadmunk](https://roadmunk.com/jira-roadmap-integration). Lo bueno de que sea un _plugin_ de [Jira](https://www.atlassian.com/software/jira) reside en que las mismas épicas planeadas en el _roadmap_ son usadas posteriormente en la herramienta de gestión, una vez iniciada la construcción.
