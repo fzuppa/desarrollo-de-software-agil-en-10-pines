@@ -24,6 +24,8 @@
 
 ###### [DeMarco00 - DeMarco, Tom - Peopleware: Productive Projects and Teams - Febrero, 1999](https://g.co/kgs/s9jWfH)
 
+###### [Fowler00 - Fowler, Martin/Beck, Kent - Refactoring: Improving the Design of Existing Code - Julio, 1999](https://g.co/kgs/w6VDyq)
+
 ###### [Highsmith00 - Highsmith, Jim - Agile Project Management: Creating Innovative Products, Agile Software Development Series, 2nd Edition - Julio, 2009](https://g.co/kgs/6fxQ7q)
 
 ###### [Highsmith00 - Highsmith, Jim - Agile Project Management: Creating Innovative Products (Agile Software Development Series), 2nd Edition - Julio, 2009](https://g.co/kgs/6fxQ7q)
