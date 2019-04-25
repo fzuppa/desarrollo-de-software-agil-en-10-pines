@@ -134,8 +134,23 @@ Al observar la imagen siguiente, probablemente alcancen a comprender su funciona
 
 ![](./assets/Product Roadmap Horizontal.png)
 
-
 La única herramienta digital que conozco, sin haber utilizado, es [Roadmunk](https://roadmunk.com/jira-roadmap-integration). Lo bueno de que sea un _plugin_ de [Jira](https://www.atlassian.com/software/jira) reside en que las mismas épicas planeadas en el _roadmap_ son usadas posteriormente en la herramienta de gestión, una vez iniciada la construcción.
+
+## *Buy a Feature* – *by* Germán Gaitan
+
+En ocasiones, el producto que estamos desarrollando impacta en diferentes áreas de la organización, cuyos objetivos y expectativas son diferentes (¡y hasta contrapuestos!). En estos casos, si los *stakeholders*, que representan estas áreas, no logran establecer un consenso acerca del valor de las funcionalidades, podemos recurrir a otras técnicas que nos permitan realizar la priorización de una manera subjetiva, pero aún colaborativa, como es el caso de *Buy a Feature*[[1]](priorizacion.md#notas-al-pie):
+
+Cada *stakeholder* escribe las funcionalidades de su interés en tarjetas, como si se tratara de productos de góndola. Incluso pueden destinarse algunos minutos a darles un aspecto más atractivo o *marketinero* (utilizando *stickers*, colores, etc.). Una vez preparadas, las tarjetas se colocan sobre una mesa donde todas quepan de forma bien visible y se dan unos minutos para que todos las puedan leer y debatir acerca de su significado.
+
+Entregamos a cada *stakeholder* una cantidad equitativa de fichas de póker, dinero de fantasía o hasta porotos ¡como en el truco! En mi opinión lo mejor es utilizar fichas de póker -cuanto más pesadas, mejor- ya que brindan una sensación de valor genuino. En general se da a todos la misma cantidad de fichas (5 por ronda, por ejemplo), pero pueden entregarse cantidades diferentes en función de su jerarquía en la organización o algún otro atributo que determine lo que vale su voto.
+
+Comienza la primera ronda, y cada *stakeholder* “gasta” sus fichas repartiéndolas entre las funcionalidades que son de su interés. Pueden aplicarse algunas restricciones, como que no deben colocarse todas las fichas en la misma funcionalidad o alguna otra variante que asegure un voto diversificado. Al término de esta fase, se cuentan las fichas de cada funcionalidad. La más votada es retirada de la mesa, seleccionada como prioritaria. Si dos funcionalidades comparten el primer lugar, ninguna es retirada y se espera a la siguiente ronda para definir.
+
+La actividad se realiza en varias rondas, entregando siempre las mismas cantidades de fichas. Las tarjetas de funcionalidad que quedaron en la mesa conservan las fichas que vienen acumulando de las rondas anteriores. En cada ronda se retira la tarjeta con más fichas y se coloca debajo de la seleccionada en la ronda anterior en orden de prioridad.
+
+En general se realizan tres o cuatro rondas de compra de funcionalidades. Todo depende de la cantidad de participantes y de la cantidad de fichas de las que cada uno dispone. Lo que indica que ya se iteró suficiente es que, al finalizar una ronda, quedan sobre la mesa varias tarjetas con muchos votos, que pueden ser priorizadas con las fichas que sumaron hasta ese momento.
+
+Esta experiencia suele ser divertida y muy distendida, favorece las charlas de negociación de funcionalidades entre *stakeholders* en cada ronda. Su resultado es una priorización rápida y con altísima aceptación.
 
 # **Priorizando Experimentos**
 
@@ -155,3 +170,8 @@ Hacer una buena priorización antes de comenzar a trabajar en la construcción e
 
 Este camino que trazamos es creado colaborativamente y compartido por todos los participantes. Las herramientas que mencioné contribuyen en el proceso. Una vez iniciada la construcción resulta fundamental mantener un _Backlog_ actualizado. Queremos estar seguros de estar trabajando, en todo momento, sobre las funcionalidades más importantes, es decir, las que aporten más valor y reduzcan más el riesgo.
 
+# Notas al Pie
+
+
+
+1. Compre una funcionalidad
