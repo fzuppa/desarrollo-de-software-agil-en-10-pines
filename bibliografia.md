@@ -2,6 +2,8 @@
 
 ###### [Adzic00 - Adzic, Gojko - Specification by Example: How Successful Teams Deliver the Right Software 1st Edition - Junio, 2011](https://g.co/kgs/3ecUwn)
 
+###### [Adzic01 - Adzic, Gojko - Bridging the Communication Gap: Specification by Example and Agile Acceptance Testing - Enero, 2009](https://g.co/kgs/Kcd6qw)
+
 ###### [Anderson00 - Anderson, David - Kanban: Successful Evolutionary Change for Your Technology Business - Abril, 2010](https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402)
 
 ###### [Appelo00 - Appelo, Jurgen - Management 3.0: Leading Agile Developers, Developing Agile Leaders - Diciembre, 2010](https://g.co/kgs/iAXCQ9)
