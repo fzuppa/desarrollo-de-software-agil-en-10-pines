@@ -1,6 +1,7 @@
+![](./assets/tapa.png)
+
 # Table of contents
 
-* [Readme](README.md)
 * [Introducción](introduccion.md)
 * [Product Discovery](product-discovery.md)
 * [User Stories & Backlog](user-stories-and-backlog.md)
