@@ -1,6 +1,6 @@
 ![](./assets/tapa.png)
 
-# Table of contents
+# Tabla de Contenidos
 
 * [Introducción](introduccion.md)
 
@@ -24,6 +24,5 @@
 
 * [Bibliografía](bibliografia.md)
 
-  
 
 
