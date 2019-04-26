@@ -1,5 +1,3 @@
-![](./assets/tapa.png)
-
 # Tabla de Contenidos
 
 * [Introducción](introduccion.md)
