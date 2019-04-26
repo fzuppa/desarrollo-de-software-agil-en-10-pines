@@ -122,6 +122,10 @@ Esta práctica funciona bien en ambientes sanos y colaborativos donde cualquiera
 
 ![Agustin y Dario, haciendo *pair-programming* en las 1ras oficinas de 10Pines. Foto extraida de Wikipedia](./assets/pair-programming.jpg)
 
+Agustin y Dario, haciendo *pair-programming* en las 1ras oficinas de 10Pines. Foto extraida de [Wikipedia](https://es.wikipedia.org/wiki/Programaci%C3%B3n_en_pareja)
+
+
+
 Si el *code review* es bueno, llevémoslo al extremo, dice Beck en Extreme Programming cuando explica la práctica de *pair programming*. Escribamos el código de a dos, tomando las decisiones juntos, debatiendo ideas y revisando el código escrito. 
 
 Usamos mucho esta práctica para desarrollar *User Stories* difíciles y para transmitir conocimiento. La calidad del código producido es siempre mayor a la que se puede alcanzar trabajando individualmente. Las decisiones se debaten. Las personas combinan sus esfuerzos en procura de un código legible. Suman sus ideas: se debaten, se refinan y se mejoran. Además, las probabilidades de introducir un *bug* se ven reducidas. Nos sentimos bien trabajando de esta manera. Nos divertimos y nos levanta la moral. También nos ayuda a mantener la concentración: no chequeamos el whatsapp cuando estamos haciendo *pair programming* con un compañero. Algunos equipos establecen sesiones con una duración de, por ejemplo, una hora, permitiendo pausas necesarias para realizar tareas sociales.
