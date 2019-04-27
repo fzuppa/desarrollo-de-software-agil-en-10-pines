@@ -1,6 +1,5 @@
 # Summary
 
-* [Desarrollo de Software Ágil en 10Pines](/README.md)
 * [Introducción](introduccion.md)
 * [Product Discovery](product-discovery.md)
 * [User Stories & Backlog](user-stories-and-backlog.md)
