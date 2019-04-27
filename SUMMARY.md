@@ -1,6 +1,5 @@
-# Table of contents
+# Summary
 
-* [Readme](README.md)
 * [Introducción](introduccion.md)
 * [Product Discovery](product-discovery.md)
 * [User Stories & Backlog](user-stories-and-backlog.md)
@@ -12,4 +11,6 @@
 * [Desarrollando software con Excelencia Técnica](desarrollando-software-con-excelencia-tecnica.md)
 * [Conclusión](conclusiones.md)
 * [Bibliografía](bibliografia.md)
+
+
 
