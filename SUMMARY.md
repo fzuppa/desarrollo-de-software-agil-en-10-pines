@@ -1,6 +1,6 @@
 # Summary
 
-* [Qué encontrarás en el libro](README.md)
+* [Desarrollo de Software Ágil en 10Pines](README.md)
 * [Dedicación](dedicacion.md)
 * [Introducción](introduccion.md)
 * [Product Discovery](product-discovery.md)
