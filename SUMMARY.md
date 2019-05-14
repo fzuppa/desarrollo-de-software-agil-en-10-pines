@@ -1,6 +1,7 @@
 # Summary
 
-* [Desarrollo de Software Ágil en 10Pines](README.md)
+* [Qué encontrarás en el libro](README.md)
+* [Dedicación](dedicacion.md)
 * [Introducción](introduccion.md)
 * [Product Discovery](product-discovery.md)
 * [User Stories & Backlog](user-stories-and-backlog.md)
@@ -12,4 +13,6 @@
 * [Desarrollando software con Excelencia Técnica](desarrollando-software-con-excelencia-tecnica.md)
 * [Conclusión](conclusiones.md)
 * [Bibliografía](bibliografia.md)
+
+
 
