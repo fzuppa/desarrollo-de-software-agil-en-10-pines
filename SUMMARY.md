@@ -1,5 +1,7 @@
 # Summary
 
+* [Qué encontrarás en el libro](README.md)
+* [Dedicación](dedicacion.md)
 * [Introducción](introduccion.md)
 * [Product Discovery](product-discovery.md)
 * [User Stories & Backlog](user-stories-and-backlog.md)

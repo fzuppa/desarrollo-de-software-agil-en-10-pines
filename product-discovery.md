@@ -56,7 +56,7 @@ A continuación, describiré algunas de las herramientas que usamos habitualment
 
 ![](./assets/product_discovery_tools.png)
 
-## **User Story Mapping**
+## ![]()**User Story Mapping**
 
 **Introducción**
 
@@ -220,17 +220,17 @@ Una de las facetas a las que generalmente le prestamos menos atención y que, si
 
 ### Cómo realizar un test de usabilidad en cinco pasos - Por Juan Manuel Carraro
 
-Muchas veces hay resistencias o limitaciones para realizar un test de usabilidad sin todas las condiciones que indica la teoría. Es cierto que un test realizado por un consultor en usabilidad permitirá obtener mejores resultados pero también es posible hacerlo internamente y hacerse de buena información. El requisito es cumplir ciertos criterios mínimos que aseguren una mayor consistencia metodológica y confiabilidad.
+Muchas veces hay resistencias o limitaciones para realizar un test de usabilidad, sin todas las condiciones que indica la teoría. Es cierto que un test realizado por un consultor en usabilidad permitirá obtener mejores resultados pero también es posible hacerlo internamente y hacerse de buena información. El requisito es cumplir ciertos criterios mínimos que aseguren una mayor consistencia metodológica y confiabilidad.
 
-#### 1. Definir los objetivos del test.
+#### 1. Definir los objetivos del test
 
 El primer paso consiste en definir cuáles son los objetivos del test. Un objetivo puede ser revisar la arquitectura de la información, los rótulos de determinadas secciones o saber si el proceso de compra que tenemos montado en nuestro sitio resulta intuitivo y fácil para los usuarios.
 
 Los objetivos son sumamente importantes porque de ellos podremos derivar las tareas que los usuarios deberán realizar al momento de hacer el test. Por ejemplo, si nuestro objetivo es testear cuán intuitivo y fácil de navegar resulta el catálogo de productos que tenemos en nuestro sitio, una tarea podría ser solicitarle a los usuarios que encuentren un producto que cumpla con determinadas características.
 
-#### 2. Construir el guión de tareas.
+#### 2. Construir el guión de tareas
 
-Un guión se divide en conjuntos de preguntas y series de tareas, cada una de los cuales está vinculada a ciertos objetivos. Como mínimo debe tener lo siguiente:
+Un guión se divide en conjuntos de preguntas y series de tareas, cada una de los cuales está vinculada a ciertos objetivos. Como mínimo, debe tener lo siguiente:
 
 - **Introducción:** aquí es donde el consultor o quien realice el test se presenta, le cuenta al usuario qué va a hacer, cuáles son los objetivos del test, etc. Dos ideas son las que tienen que quedar claras para el usuario: debe pensar en voz alta para que el consultor pueda tomar notas mientras él trabaja y debe tener en claro que no se está evaluando a la persona sino a la interfaz, por lo que los errores serán bienvenidos.
 - **Cuestionario previo al test:** aquí se trata de identificar o verificar el perfil del usuario. Algunas de las preguntas que se pueden incluir son: cuántas horas al día le dedica a Internet, qué tipo de sitios visita habitualmente o si realiza compras online.
@@ -239,7 +239,7 @@ Un guión se divide en conjuntos de preguntas y series de tareas, cada una de lo
 - **Preguntas:** también pueden incluirse preguntas cerradas o abiertas dentro del test para conocer la opinión del usuario respecto a determinado elemento. Esto ayuda a evaluar elementos secundarios que por sus características no pueden testearse mediante tareas.
 - **Cuestionario posterior al test:** una vez que el usuario terminó de realizar todas las tareas y respondió todas las preguntas, se le solicita que exprese sus sensaciones y opiniones con respecto a la interfaz. Este segmento del guión de tareas es altamente cualitativo. Es importante incentivar a los usuarios para que se expresen y evitar el “Me pareció todo bien”.
 
-#### **3. Identificar el perfil de los usuarios.**
+#### *3. Identificar el perfil de los usuarios*
 
 Uno de los factores que más influye en los resultados del test es que las personas que lo realicen sean lo suficientemente representativas del target del sitio. Para ello es importante trabajar previamente en la identificación de los rasgos y las cualidades de los usuarios teniendo en cuenta las diferentes dimensiones que componen un perfil:
 
@@ -252,7 +252,7 @@ Es incluso muy común que un sitio tenga diferentes segmentos de usuarios claram
 
 Siendo todavía más específico se pueden luego vincular determinados perfiles con ciertas tareas porque como es de esperar un perfil avanzado realizará tareas más complejas dentro del sitio que un perfil de un usuario nuevo.
 
-#### **4. Realizar los test.**
+#### **4. Realizar los tests**
 
 Con un guión de tareas consistente y correctamente revisado con al menos un par de usuarios de prueba, el test de usabilidad debería desarrollarse sin sobresaltos.
 
@@ -260,9 +260,9 @@ Es fundamental tener resueltas previamente todas las cuestiones logísticas para
 
 Cada sesión individual no debería durar más de una hora, sesiones más largas tienden a cansar al usuario y la atención decae. Normalmente es suficiente realizar un test con 5 usuarios, ya que así se identificarán cerca del 80% de los problemas de usabilidad.
 
-Si se puede es recomendable realizar dos o tres sesiones en la mañana, tener un tiempo entre sesión para registrar algunas notas y luego aprovechar las tardes para pasar en limpio la información completa de cada test cuando todavía tengamos frescos los detalles.
+Es recomendable realizar dos o tres sesiones en la mañana, tener un tiempo entre sesión para registrar algunas notas y luego aprovechar las tardes para pasar en limpio la información completa de cada test con los detalles todavía frescos.
 
-#### **5. Redactar un informe.**
+#### **5. Redactar un informe**
 
 El modo de organizar el informe final con los resultados del test es muy personal. En general es recomendable comenzar por los resultados más destacados y terminar con los detalles. Esto ayuda a que si el informe debe ser leído por alguna personas con poco tiempo, en las primeras 3 páginas pueda tener un resumen de lo más importante.
 
@@ -274,7 +274,7 @@ En el informe se deben clasificar los errores o problemas encontrados para luego
 
 También los errores pueden clasificarse por tipo, por ejemplo si se trata de errores de la arquitectura de la información, del diseño o a nivel de los textos.
 
-Algunos de los datos que también son útiles incluir son la cantidad de clics y el tiempo que les lleva a los usuarios realizar cada tarea. Esta información puede ayudar luego a extraer interesantes conclusiones.
+Algunos datos útiles para incluir son la cantidad de clics y el tiempo que les lleva a los usuarios realizar cada tarea. Esta información puede ayudar luego a extraer interesantes conclusiones.
 
 Hasta aquí se han resumido muy sucintamente los pasos más importantes para realizar un test de usabilidad.
 

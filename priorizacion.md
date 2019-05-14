@@ -69,7 +69,7 @@ Esta técnica de priorización es la más sencilla de todas. Consiste en categor
 * _Could_: Podrían estar
 * _Won’t_: No van a estar
 
-Pese a su simpleza, esta herramienta resulta sumamente útil, ya quenos obliga a consensuar, entre todo el equipo, una categoría para cada uno de los ítems.
+Pese a su simpleza, esta herramienta resulta sumamente útil, ya que nos obliga a consensuar, entre todo el equipo, una categoría para cada uno de los ítems.
 
 Podemos usarla para priorizar un conjunto de _User Stories_ o épicas de un producto nuevo y también funcionalidades que queremos agregar a uno en funcionamiento. Un ejemplo muy interesante de esta última situación tuvo lugar dentro de un equipo con el que colaboré: 3 _Product Owners_ debían priorizar las épicas del bimestre venidero. Resultó muy interesante observar como reconocían la imposibilidad para completar el trabajo, al visualizar la gran cantidad de épicas categorizadas en ‘_Must_’, y decidían las que podían posponerse. Como ya les mencioné, la utilidad de la herramienta yace en que **obliga a un conjunto de personas a consensuar categorías para un conjunto de ítems de un modo muy visual**.
 
@@ -93,7 +93,7 @@ Además, estimar los puntos de valor de negocios de las épicas nos permite esta
 | **Pago con Tarjeta de Descuentos** | **5** | **3** | **1.66** |
 | **Reportes real-time para Jefes** | **8** | **5** | **1.6** |
 
-La 4ta columna es la razón entre el valor de negocios y los puntos de esfuerzo, es decir, la división entre el valor de la 2da columna y la 3ra. Aquí pueden ver como la épica más beneficiosa es ‘Pago con Bitcoins’, con un beneficio de 2. El valor de negocios es el más pequeño, pero el esfuerzo también. El _Product Owner_ podría decidir priorizar ‘la fruta que cuelga baja en el árbol’ \([_low hanging fruit_\)](https://www.merriam-webster.com/dictionary/low-hanging%20fruit). Paradójicamente, la épica menos beneficiosa es la de mayor valor de negocios, justamente porque implica un esfuerzo importante.
+La 4ta columna es la razón entre el valor de negocios y los puntos de esfuerzo, es decir, la división entre el valor de la 2da columna y la 3ra. Aquí pueden ver como la épica más beneficiosa es ‘Pago con Bitcoins’, con un beneficio de 2. El valor de negocios es el más pequeño, pero el esfuerzo también. El _Product Owner_ podría decidir priorizar ‘la fruta que cuelga baja en el árbol’ \([_low hanging fruit_)])(https://www.merriam-webster.com/dictionary/low-hanging%20fruit). Paradójicamente, la épica menos beneficiosa es la de mayor valor de negocios, justamente porque implica un esfuerzo importante.
 
 En mi experiencia, el costo es un factor sustancialmente menos importante que los demás \(valor de negocios y riesgo\). En contadas ocasiones observé que un _Product Owner_ tomara la decisión de priorizar una funcionalidad solamente porque su desarrollo no fuera costoso. Para resolver esto, podemos añadir ‘pesos’ para cada uno de los factores. Siguiendo el ejemplo anterior, si especificáramos un peso de 0.7 para el valor de negocios y 0.3 para el esfuerzo, obtendríamos los siguientes resultados.    
 ****
