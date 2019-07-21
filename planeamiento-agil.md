@@ -116,6 +116,52 @@ Noten que, al graficar los _Story Points_ remanentes, no podemos distinguir los 
 
 Pueden existir muchas sutilezas en este juego de colaboración y comunicación que es el desarrollo de software. El gráfico podría mostrar que estamos ‘quemando’ menos puntos de los planeados, pero esto puede deberse a que la funcionalidad no está claramente expresada en las _User Stories_ \(y, por ende, cuesta ‘aceptarlas’\). Estas herramientas disparan conversaciones que permiten clarificar razones y buscar mejoras progresivas.
 
+## Parking Lot[[1]](planeamiento-ágil.md#notas-al-pie) - by Gisela Decuzzi - Una forma de mostrar avance
+
+Uno de los desafíos con los que me suelo encontrar en los proyectos en los que trabajo es la necesidad de comunicar el avance de las tareas y denotar qué tan cerca (o lejos) estamos de alcanzar nuestros objetivos. Ésto puede parecer trivial. Sin embargo, al descomponer el trabajo en pequeñas historias, dependiendo de cómo nos organicemos, resulta difícil entender esta situación de un pantallazo. Muchas veces tenemos desarrolladas funcionalidades que a simple vista parecerían completas pero, por una cuestión de organización y prioridades de negocio, no lo están. 
+
+Déjenme que cite un ejemplo, basado en un caso real. Nos encontrábamos realizando una migración del ingreso a un sistema existente. Descompusimos los temas en grandes secciones: Ingreso a la aplicación, registración de usuario (*sign-up*), recuperación de contraseña, bloqueo de usuarios, etc. Rápidamente generamos y tomamos las historias más importantes que le daban forma al desarrollo. Teníamos la sensación de que, tan solo a dos *sprints* de haber empezado, ya habíamos terminado todo lo necesario. En realidad habíamos manejado sólo los casos principales, sin sumergirnos en profundidad. Por ejemplo, los usuarios podían registrarse sin ser verificada la seguridad de las *passwords* o ingresar al sistema sin permanecer logueados a partir de una sesión anterior o solicitar el reseteo de su contraseña con un pedido anterior aún vigente. Estos *features* para el negocio eran muy importantes, dado que representaban los diferenciales sobre el sistema de ingreso existente. Sin embargo, como los usuarios de negocio no estaban en el día a día, terminaba explicandoles una y otra (y otra) qué funcionalidad nos faltaba. Lo cierto es que no teníamos buena visibilidad del estado de avance del proyecto.
+
+Prefiero no invertir demasiado tiempo en la generación de reportes complejos costosos de mantener o dependientes de una persona. **Una buena herramienta de reporte es aquella que, de un pantallazo, comunica información compleja de forma entendible para el que la recibe**. Esto era lo que buscaba. Algunos colegas me sugirieron un reporte llamado *Parking Lot*.
+
+Antes de entrar en detalle acerca de cómo lo implementamos en varios proyectos, permítanme destacar algunas características de los proyectos donde este reporte fue de gran utilidad: 
+
+- Agrupación en grandes temas: en particular mapear *épicas* y descomponerlas en historias pero al comunicar siempre hacer referencia a las épicas.
+- Tamaño: cada gran tema tiene su complejidad y su tamaño consecuente, que uno pretende comunicar al exterior. Estimamos cada historia usando *Story Points* y el tamaño de una épica lo consideramos simplemente como la suma de los puntos de sus historias.
+- Avance: al comunicar, simplificar el ciclo de vida de las historias en pasos sencillos: *Pendiente, En Progreso, Terminado* con hitos claros de cuando se cambia de un estado a otro. Podrían existir más estados intermedios (por ejemplo en revisión, en testing, rechazado, etc) pero, fuera del equipo de desarrollo, no se requiere tanta granularidad dado que lleva a confusiones.
+- Tema bloqueado: cuando nos encontramos con dependencias no resolubles por el equipo de desarrollo, y necesitamos de alguien más para destrabar este tema, resulta información valiosa para comunicar hacia fuera del equipo.
+
+La idea del *Parking Lot* es usar la metáfora un estacionamiento, organizado por sectores para distintos tipos de vehículos. Con esta inspiración, dimensionamos los temas en tamaños relativos, usando rectángulos más grandes mientras mayor esfuerzo se requiera.
+
+Recomiendo utilizar las épicas como grandes temas, dimensionados mediante la sumatoria de los puntos de cada historia que lo conforma, para con esas proporciones formar rectángulos más amplios. Si notamos que varias épicas componen una agrupación que tiene sentido comunicar (por lo general nos pasa), simplemente encerramos los temas en un rectángulo.
+
+Cada uno de los rectángulos que representa un gran tema queremos que comunique:
+
+1. **Estado**: para esto podemos usar una convención de colores, por ejemplo:
+   1. Blanco: Pendiente
+   2. Naranja: En progreso
+   3. Verde: Terminada
+2. **Avance**: hace referencia a su nivel de completitud usar un porcentaje de la épica e indicarlo con una barra de progreso (similar al medidor de batería de los celulares).
+3. **Descripción** del tema: indicar en pocas palabras a qué nos estamos refiriendo, el nombre de la épica.
+
+Opcionalmente se puede agregar información relevante para el proyecto, como por ejemplo:
+
+1. Indicador de bloqueo en un tema.
+2. Fecha estimada (a grandes rasgos, puede ser por ejemplo un mes) de completitud de la épica.
+3. El responsable de cada tema.
+
+En la siguiente imagen podemos ver un ejemplo de aplicación:
+
+![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/Parking Lot 1.png)
+
+Ejemplos en distintos estados:
+
+![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/Parking Lot 2.png)
+
+Si aplicáramos esto a todo el proyecto, obtendríamos un gráfico similar a:
+
+![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/Parking Lot 3.png)
+
 # **_Planning Failure_ Modes**
 
 ## **Un Plan Detallado para lidiar con la Complejidad**
@@ -126,7 +172,7 @@ Prefiero seguir los valores ágiles para manejar la complejidad: presentar toda 
 
 ## _**Multitasking**_
 
-Este es un _failure mode_ típico de grandes corporaciones: planear como si fuéramos a trabajar en un solo proyecto, pero hacerlo en varios, además de sumar reuniones y otras actividades. El impacto en cada proyecto y en la productividad es inmenso y suele pasar desapercibido[[1]](planeamiento-ágil.md#notas-al-pie).
+Este es un _failure mode_ típico de grandes corporaciones: planear como si fuéramos a trabajar en un solo proyecto, pero hacerlo en varios, además de sumar reuniones y otras actividades. El impacto en cada proyecto y en la productividad es inmenso y suele pasar desapercibido[[2]](planeamiento-ágil.md#notas-al-pie).
 
 ¿Conocen la [Ley de Little](https://berriprocess.com/es/2016/01/03/la-ley-de-little/)? Dice que si estamos haciendo X tareas a la vez, demoraremos X veces más en terminar cada una de ellas. Bastante fuerte, ¿no? Visualicemos la fórmula mediante un ejemplo: imaginen que tienen un negocio y son capaces de atender 2 personas por hora \(_Throughput_\). Asumiendo que dedican media hora \(0.5 horas\) para cada una \(_Leadtime_\), según la ley mencionada, la cantidad promedio de personas en el local \(_wip_\) será 1.
 
@@ -191,4 +237,5 @@ Finalmente, recuerden el plan es simplemente otro de los artefactos que nos ayud
 # Notas al Pie
 
 1. Si buscan un juego para visualizar el costo del multitasking, les recomiendo [The Multitasking Name Game](https://www.crisp.se/gratis-material-och-guider/multitasking-name-game) de Henrik Kniberg.
+2. https://leadinganswers.typepad.com/leading_answers/2007/02/summarizing_pro.html
 

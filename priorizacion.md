@@ -2,15 +2,15 @@
 
 ![](./assets/Tapa - Priorizacion.png)
 
-# **Saber qué es lo importante es lo importante**
+# **Saber qué es lo importante... es lo importante**
 
  Un consultor amigo siempre decía que las metodologías ágiles no son más que un compendio de prácticas para reducir el riesgo. En este sentido, desarrollar las funcionalidades más importantes primero es fundamental, ya que muy probablemente el dinero no alcance para todas las que el cliente desea. Al usar un proceso de desarrollo iterativo e incremental, podemos hacer _releases_ tempranos que las implementen, dejando el resto para otros posteriores. De esta manera, optimizamos el retorno de inversión y minimizamos el riesgo del proyecto.
 
-¿Cuál es la funcionalidad más importante? El _Product Owner_ y todas las personas vinculadas al negocio, seguramente, conocen mejor la funcionalidad que aporta más valor. En otras palabras, la que generará mayores ingresos resolverá más problemas u optimizará los procesos más importantes. Este no es el único factor que debemos tener en cuenta al priorizar. Otro, sumamente importante, es el riesgo tecnológico. Debemos ‘atacar’ rápidamente todas las áreas tecnológicas que provoquen mayor incertidumbre, ya que, si no pudiésemos resolver los problemas del modo imaginado, esto podría provocar que el producto final no aportase el valor de negocios inicialmente esperado. Reducir el riesgo tecnológico también es un factor preponderante a la hora de priorizar.
+¿Cuál es la funcionalidad más importante? El _Product Owner_ y todas las personas vinculadas al negocio seguramente conocen mejor la funcionalidad que aporta más valor, en otras palabras, la que generará mayores ingresos, resolverá más problemas u optimizará los procesos más importantes. Este no es el único factor que debemos tener en cuenta al priorizar. Otro, sumamente importante, es el riesgo tecnológico. Debemos ‘atacar’ rápidamente todas las áreas tecnológicas que provoquen mayor incertidumbre, ya que, si no pudiésemos resolver los problemas del modo imaginado, esto podría provocar que el producto final no aportase el valor de negocios inicialmente esperado. Reducir el riesgo tecnológico también es un factor preponderante a la hora de priorizar.
 
 Es importante que todo el equipo colabore en la priorización del producto. El _Product Owner_ será, sin embargo, el actor más importante, quien determine lo que el negocio espera. Por su parte, el equipo técnico debe colaborar activamente, identificando los riesgos tecnológicos y las dependencias. La priorización, así como el diseño, debe ser el resultado de la colaboración del equipo en pos de un objetivo compartido.
 
-El trabajo de priorización no concluye con la escritura del _Backlog_ preliminar. Desde el inicio de su construcción, se genera conocimiento que puede impactar en la prioridad de las funcionalidades planeadas. También pueden tener lugar eventos externos \(como un anuncio de un competidor o un cambio en un proveedor\) que modifiquen nuestro plan. El _Backlog_ será la herramienta utilizada para reflejar todas las decisiones de priorización tomadas durante el transcurso del proyecto.
+El trabajo de priorización no concluye con la escritura del _Backlog_ preliminar. Desde el inicio de su construcción, se genera un grado de conocimiento que puede impactar en la prioridad de las funcionalidades planeadas. También pueden tener lugar eventos externos \(como un anuncio de un competidor o un cambio en un proveedor\) que modifiquen nuestro plan. El _Backlog_ será la herramienta utilizada para reflejar todas las decisiones de priorización tomadas durante el transcurso del proyecto.
 
 En este capítulo, trataremos principalmente la priorización dentro del contexto de desarrollo de un producto nuevo, transmitiendo los factores a tener en cuenta y algunas herramientas utilizadas.
 
@@ -18,7 +18,7 @@ En este capítulo, trataremos principalmente la priorización dentro del context
 
 El factor más importante es el valor de negocios, que, en su acepción más sencilla, implica cuánto dinero ganaremos. Sin embargo, este podría no llegar a ser tan directo. Existen otras aristas que influyen, como ganar nuevos clientes o una porción de mercado donde no existan otros competidores. En definitiva, **el valor de negocios que una funcionalidad entrega es el beneficio que la organización obtiene a partir de él**. Nuestro objetivo debe ser maximizarlo.
 
-El 2do factor a tener en cuenta es el riesgo tecnológico. Si existieran componentes, _frameworks_ o servicios que no sabemos como funcionan, es importante despejar esta incertidumbre lo más rápido posible. No deseamos progresar en el desarrollo del producto para luego darnos cuenta de que algo no va a funcionar y que, en consecuencia, el valor entregado sea inferior al esperado. En el mundo ágil dicen falla rápido \(‘_fail fast_’\) o, para decirlo en otras palabras tomadas de Alistair Cockburn, aprende rápido \(‘_learn fast_’\).
+El 2do factor a tener en cuenta es el riesgo tecnológico. Si existieran componentes, _frameworks_ o servicios, que no sabemos cómo funcionan, es importante despejar esta incertidumbre lo más rápido posible. No deseamos progresar en el desarrollo del producto para luego darnos cuenta de que algo no va a funcionar y que, en consecuencia, el valor entregado sea inferior al esperado. En el mundo ágil dicen falla rápido \(‘_fail fast_’\) o, para decirlo en otras palabras tomadas de Alistair Cockburn, aprende rápido \(‘_learn fast_’\).
 
 Otra perspectiva desde la que podemos mirar este tópico de priorización es la del aprendizaje. Estamos aprendiendo y debemos lidiar con riesgos e incertidumbres. En consecuencia, deberíamos priorizar todo aquello que nos permita incrementarlo.
 
@@ -32,7 +32,7 @@ Antes de interiorizarnos en muchas de las herramientas utilizadas, les mostraré
 
 * **Maximiza el retorno de inversión del proyecto**: desde el punto de vista financiero, no hay dudas de que es sumamente beneficioso, ya que, en un periodo de tiempo mucho menor, obtendremos parte del valor de negocios prometido \(que puede ser usado para financiar el resto del proyecto\).
 * **Minimiza el riesgo**: Tener mucho trabajo en progreso representa un riesgo, porque las condiciones \(internas o externas\) pueden cambiar. Al construir el MVP, debemos acotar este _release_ al mínimo posible, para testear la hipótesis única de valor \(que tiene un riesgo muy grande\) al menor costo posible.
-* **Minimiza la incertidumbre**: No olvidemos que, antes de construir el producto y testearlo con usuarios reales, solo hipotetizamos. Testear el producto nos ayudará a despejar muchas de las incógnitas existentes.
+* **Minimiza la incertidumbre**: No olvidemos que, antes de construir el producto y testearlo con usuarios reales, sólo hipotetizamos. 
 
 Verán menciones a esta heurística en toda la literatura ágil. Kent Beck incluyó, entre las reglas de planeamiento de _Extreme Programming_, una que denominó ‘[releases cortos y frecuentes](http://www.extremeprogramming.org/rules/releaseoften.html)’[[Beck00]](bibliografia.md#beck00-beck-kent-fowler-martin-planning-extreme-programming-the-xp-series-octubre-2000). Probablemente fue quien luego propició uno de los [principios ágiles](http://agilemanifesto.org/principles.html) que afirma: ‘buscamos satisfacer a los clientes a través de la entrega continua de software con valor’. La [declaración de interdependencia](http://pmdoi.org/), escrita por _Project Managers_, específica que ‘se aumenta el retorno de inversión, haciendo foco en tener un flujo continuo de valor’. Las reglas de [Lean Software Development](https://en.wikipedia.org/wiki/Lean_software_development) [[Poppendieck00]](bibliografia.md#poppendieck00-poppendieck-00-mary-tom-lean-software-development-an-agile-toolkit-mayo-2003) van en la misma dirección. Una de ellas proclama: ‘debemos entregar software rápidamente, ya que implica una ventaja competitiva’. Finalmente, [Kanban](https://www.crisp.se/gratis-material-och-guider/kanban) [[Anderson00]](bibliografia.md#anderson00-anderson-david-kanban-successful-evolutionary-change-for-your-technology-business-abril-2010) [[Kniberg00]](bibliografia.md#kniberg-00-kniberg-henrik-lean-from-the-trenches-managing-large-scale-projects-with-kanban-diciembre-2011) hace de todo esto su _leit motiv_. Sus reglas principales comprenden ‘visualizar el flujo de valor’, para ‘limitar el trabajo en progreso’ y, de esta manera, ‘maximizarlo’.
 
@@ -42,14 +42,14 @@ Ahora sí, veamos algunas de las herramientas que usamos frecuente en distintas 
 
 # **Herramientas**
 
-Utilizo frecuentemente las que a continuación describiré porque permiten visualizar y facilitar el proceso de priorización. Además, resultan simples para entender y livianas de implementar. Existen otras más sofisticadas, por ejemplo las financieras, que calculan el retorno de inversión, sobre las que no profundizaré aquí.
+Utilizo frecuentemente las herramientas que a continuación describiré porque permiten visualizar y facilitar el proceso de priorización. Además, resultan simples para entender y livianas de implementar. Existen otras más sofisticadas, por ejemplo las financieras, que calculan el retorno de inversión, sobre las que no profundizaré aquí.
 
-Empezaré por el _User Story Map_, detallando su empleo a la hora de priorizar, durante el _Product Discovery_. Seguiré con una herramienta extremadamente simple, pero muy útil al mismo tiempo, llamada MoSCoW. A continuación, les mostraré algunas herramientas para visualizar la razón costo-beneficio y finalmente terminaré con otra, llamada _product roadmap_, muy útil a la hora de facilitar la priorización de funcionalidades nuevas para un producto ya implementado.    
+Empezaré por el _User Story Map_, detallando su empleo a la hora de priorizar, durante el _Product Discovery_. Seguiré con una herramienta extremadamente simple, pero muy útil al mismo tiempo, llamada MoSCoW. A continuación, les mostraré otras, pensadas para la visualización de la razón costo-beneficio y finalmente terminaré con otra, llamada _product roadmap_, muy útil a la hora de facilitar la priorización de funcionalidades nuevas para un producto ya implementado.    
 ****
 
 ## ![](.gitbook/assets/32x32.png) _**User Story Mapping**_
 
-Esta herramienta nos permite visualizar el producto completo rápidamente, resultando de gran utilidad para facilitar la priorización. Lo usamos durante las sesiones de _Product Discovery_, ya que nos permite comprender el orden de importancia de las tareas detectadas y también el conjunto mínimo necesario para una primer versión.
+Esta herramienta nos permite visualizar el producto completo rápidamente, resultando de gran utilidad para facilitar la priorización. Lo usamos durante las sesiones de _Product Discovery_, ya que posibilita la comprensión del orden de importancia de las tareas detectadas y también el conjunto mínimo necesario para una versión inicial.
 
 Como ya vimos en el [capítulo 1](product-discovery.md), la manera de indicar que una tarea resulta más importante que otra consiste en situarla sobre la de menor importancia. Esta decisión siempre es precedida por interesantes discusiones plasmadas, de modo visual, en el _story map_.
 
@@ -64,27 +64,27 @@ Soy un fan de esta herramienta. Todas las conversaciones empleadas en la toma de
 
 Esta técnica de priorización es la más sencilla de todas. Consiste en categorizar las _User Stories_ o las épicas según su importancia. Las categorías, cuyas iniciales dan nombre a la técnica, son:
 
-* _Must_: Tienen que estar sí o sí.
+* _Must_: Las obligatorias.
 * _Should_: Deberían estar.
-* _Could_: Podrían estar
-* _Won’t_: No van a estar
+* _Could_: Podrían estar.
+* _Won’t_: No van a estar.
 
 Pese a su simpleza, esta herramienta resulta sumamente útil, ya que nos obliga a consensuar, entre todo el equipo, una categoría para cada uno de los ítems.
 
-Podemos usarla para priorizar un conjunto de _User Stories_ o épicas de un producto nuevo y también funcionalidades que queremos agregar a uno en funcionamiento. Un ejemplo muy interesante de esta última situación tuvo lugar dentro de un equipo con el que colaboré: 3 _Product Owners_ debían priorizar las épicas del bimestre venidero. Resultó muy interesante observar como reconocían la imposibilidad para completar el trabajo, al visualizar la gran cantidad de épicas categorizadas en ‘_Must_’, y decidían las que podían posponerse. Como ya les mencioné, la utilidad de la herramienta yace en que **obliga a un conjunto de personas a consensuar categorías para un conjunto de ítems de un modo muy visual**.
+Podemos usarla para priorizar un conjunto de _User Stories_ o épicas de un producto nuevo y también funcionalidades que deseamos agregar a uno en funcionamiento. Un ejemplo muy interesante de esta última situación tuvo lugar dentro de un equipo con el que colaboré: 3 _Product Owners_ debían priorizar las épicas del bimestre venidero. Resultó muy interesante observar cómo reconocían la imposibilidad para completar el trabajo, al visualizar la gran cantidad de épicas categorizadas en ‘_Must_’, y decidían las que podían posponerse. Como ya les mencioné, la utilidad de la herramienta yace en que **obliga a un conjunto de personas a consensuar categorías para un conjunto de ítems de un modo muy visual**.
 
-Con este equipo, solíamos priorizar también las épicas de cada categoría, sobre todo, las de la categoría ‘Must’. Así, lográbamos categorizar las épicas por bimestre, así como también conocer el orden de las que desarrollaríamos próximamente.    
+Con este equipo, solíamos priorizar también las épicas de cada categoría, sobre todo, las de la categoría ‘Must’. Así lográbamos categorizar las épicas por bimestre, así como también conocer el orden de las que desarrollaríamos próximamente.    
 ****
 
 ![](./assets/moscow.png)
 
 ## ![](.gitbook/assets/32x32.png) **Puntos de Valor de Negocios**
 
-Otra herramienta de gran utilidad durante el proceso de priorización es la asignación de ‘puntos de valor de negocios’ \(_business value points_\) a las diferentes funcionalidades, haciendo una comparación similar a la utilizada al estimar _Story Points_, pero, esta vez, asignando valores relativos en lugar de esfuerzos relativos. Las piezas de funcionalidad a las que asignamos puntos deben ser necesariamente mayores que las _User Stories_, ya que estas últimas, por sí mismas, son unidades funcionales muy pequeñas para representar un valor de negocios.
+Otra herramienta de gran utilidad durante el proceso de priorización es la asignación de ‘puntos de valor de negocios’ \(_business value points_\) a las diferentes funcionalidades, haciendo una comparación similar a la utilizada al estimar _Story Points_ pero, esta vez, **asignando valores relativos en lugar de esfuerzos relativos**. Las piezas de funcionalidad a las que asignamos puntos deben ser necesariamente mayores que las _User Stories_, ya que estas últimas, por sí mismas, son unidades funcionales muy pequeñas para representar un valor de negocios.
 
 Como en la técnica de MoSCoW, también nos fuerza a consensuar y explicitar valores. Decimos que una épica es más importante que otra, pero, ¿cuánto? ¿Estamos todos de acuerdo en eso? Explicitar esos puntos de valor de negocio puede resultar un ejercicio muy fructífero para todos.
 
-Además, estimar los puntos de valor de negocios de las épicas nos permite establecer la razón costo-beneficio de cada una de ellas. Existen varios modos de visualización, que transmitiré mediante el ejemplo del sistema para el cajero de supermercados del capítulo 1. Debemos agregar las épicas que presento a continuación, a las cuales asignaremos los siguientes puntos de valor de negocios y esfuerzo. Obtendremos es algo similar a la tabla siguiente:    
+Además, estimar los puntos de valor de negocios de las épicas nos permite establecer la razón costo-beneficio de cada una de ellas. Existen varios modos de visualización, que transmitiré mediante el ejemplo del sistema para el cajero de supermercados del capítulo 1. Debemos agregar las épicas que presento a continuación, a las cuales asignaremos los siguientes puntos de valor de negocios y esfuerzo. Obtendremos  algo similar a la tabla siguiente:    
 ****
 
 | **Épica** | **Valor de Negocios** | **Puntos de Esfuerzo** | **Razón \(Beneficio\)** |
