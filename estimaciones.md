@@ -4,7 +4,7 @@
 
 # **Una Primera Noción del Tamaño**
 
-Una vez que tenemos esta primera versión del _Backlog_, **necesitaremos saber cuán grande es el producto** a construir **para estimar el costo y también para planear un equipo** que, teniendo en cuenta las restricciones de tiempo y dinero, lo desarrolle.
+Una vez que tenemos esta primera versión del _Backlog_, **necesitaremos saber cuán grande es el producto a construir para estimar el costo y también para planear un equipo** que, teniendo en cuenta las restricciones de tiempo y dinero, lo desarrolle.
 
 **Hacemos la estimación inicial de la manera más rápida y eficiente posible**, sin perder tiempo en adivinanzas y especulaciones, usando la técnica de [Planning Poker](https://es.wikipedia.org/wiki/Planning_poker) para asignar [Story Points](https://www.mountaingoatsoftware.com/blog/what-are-story-points) a cada una de las _User Stories_ descubiertas. Noten que estimamos incrementos de funcionalidad visibles. Esto es fundamental para la posterior gestión del proyecto, ya que medimos el progreso del mismo en base a funcionalidad terminada.
 
@@ -14,11 +14,11 @@ He mencionado unos cuantos conceptos sobre los que, desde mi punto de vista, val
 
 # **Estimaciones Relativas usando** _***Story Points***_
 
-Durante muchos años de mi vida realicé estimaciones en tiempos absolutos. Para hacerlas, desagregaba los componentes que, entendía, debían desarrollarse y asignaba tiempos (que luego sumaba) para cada uno de ellos. Usé puntos de función y complejas planillas de cálculo creadas dentro del marco de estándares de calidad como [CMMI](https://es.wikipedia.org/wiki/Capability_Maturity_Model_Integration) \(que procuraban tener métodos estandarizados para la organización\). Ninguna de estas técnicas resultó, en mi experiencia, en estimaciones más precisas, generando siempre comportamientos disfuncionales que terminaron siendo perjudiciales para la organización. Un ejemplo que todos conocerán es el que consta en agregar un ‘_padding_’ a la estimación, para ‘cumplir’ con los tiempos. ¿Les parece que tiene sentido?
+Durante muchos años de mi vida realicé estimaciones en tiempos absolutos. Para hacerlas, desagregaba los componentes que, entendía, debían desarrollarse y asignaba tiempos (que luego sumaba) para cada uno de ellos. Usé puntos de función y complejas planillas de cálculo creadas dentro del marco de estándares de calidad como [CMMI](https://es.wikipedia.org/wiki/Capability_Maturity_Model_Integration) \(que procuraban tener métodos estandarizados para la organización\). Ninguna de estas técnicas resultó, en mi experiencia, en estimaciones precisas, generando siempre comportamientos disfuncionales que terminaron siendo perjudiciales para la organización. Un ejemplo que todos conocerán es el que consta en agregar un ‘_padding_’ a la estimación, para ‘cumplir’ con los tiempos. ¿Les parece que tiene sentido?
 
 Cuando empecé a trabajar con Scrum, descubrí el concepto de estimaciones relativas usando _Story Points_. Con esta técnica, no estimamos cuánto esfuerzo demanda completar una _User Story_, sino **cuánto demanda una con respecto a otra**. Asignamos puntos, que llamamos _Story Points_, como resultado de estas comparaciones relativas. Así, una _User Story_ que tiene asignado 2 requerirá el doble de esfuerzo que otra de 1 y 2/3 de una tercera de 3. **Estos puntos amalgaman todos los factores que pueden influir en el esfuerzo**, entre los que puedo nombrarles[[Cohn]](bibliografia.md#cohn00-cohn-mike-user-stories-applied-for-agile-software-development-marzo-2004):
 
-* **Cantidad de Trabajo**: ¿Es un formulario con 3 o 10 campos? ¿Involucra mucho _testing_?
+* **Cantidad de Trabajo**: ¿Es un formulario con 3 o 10 campos? ¿Involucra mucho testing?
 * **Incertidumbre**: ¿Conocemos el negocio? ¿Las funcionalidades están cerradas o hay puntos abiertos? ¿Es una tecnología que conocemos o es nueva y no tenemos experiencia? ¿Tenemos que interactuar con servicios desconocidos?
 * **Complejidad**: Volviendo al ejemplo del formulario, ¿los componentes usados son sencillos? ¿Involucran validaciones? ¿Están interrelacionados?
 
@@ -32,7 +32,7 @@ Si bien es bastante frecuente usar _Story Points_, estos no son fundamentales de
 
 
 
-¿Por qué usamos estimaciones relativas? **La primera razón es que vuelven el proceso más sencillo y liviano**, ya que no nos detenemos en tratar de adivinar lo que no conocemos o en investigaciones que haremos cuando empecemos a trabajar. Además, las estimaciones relativas nos desplazan de razonamientos tales como ‘esta _User Story_ la desarrollará una persona determinada por sus _skills_ o _seniority_’ que no tienen ningún sentido. Simplemente decidimos, como equipo, cuanto más grande o más chica es una _User Story_ con respecto a otra. La segunda razón es que realizar las estimaciones de esta manera nos protege de cualquier intento de presión \(por parte de Jefes/_Project Managers_, etc\) a través de la existencia de este nivel nuevo de indirección. Estas presiones siempre generan, como ya mencioné, conductas que no son beneficiosas para nadie.    
+¿Por qué usamos estimaciones relativas? **La primera razón es que vuelven el proceso más sencillo y liviano**, ya que no nos detenemos en tratar de adivinar lo que no conocemos o en investigaciones que haremos cuando empecemos a trabajar. Además, las estimaciones relativas nos desplazan de razonamientos tales como ‘esta _User Story_ la desarrollará una persona determinada por sus _skills_ o _seniority_’ que no tienen ningún sentido. Simplemente decidimos, como equipo, cuanto más grande o más chica es una _User Story_ con respecto a otra. La segunda razón es que realizar las estimaciones de esta manera nos protege de cualquier intento de presión \(por parte de Jefes/_Project Managers_, etc.\) a través de la existencia de este nivel nuevo de indirección. Estas presiones siempre generan, como ya mencioné, conductas que no son beneficiosas para nadie.    
 
 ****
 
@@ -42,7 +42,7 @@ Un punto a tener en claro, antes de estimar, es qué significa completar una _Us
 
 Todos estos puntos, y quizás algunos otros que se agreguen para algún proyecto u organización en particular, constituyen la [*definition of done*](https://www.scruminc.com/definition-of-done/). No tiene sentido escribirlos en cada _User Story_ porque están implícitos, aplican a todas. Es muy importante que todo el equipo entienda lo mismo. En otras palabras, que para todos signifique lo mismo completar una _User Story_. Una actividad que podemos realizar, para asegurarnos de ésto, consiste en armar un afiche con la lista de los criterios definidos. Una vez creado, podemos pegarlo cerca de nuestros escritorios, para que funcione como un [radiador de información](http://alistair.cockburn.us/Information+radiator).
 
-# ***Planning Poker***
+# ![](.gitbook/assets/32x32.png)***Planning Poker***
 
 Usamos esta técnica para asignar estimaciones a las *User Stories*. Para ello, invitamos a todo el equipo que participará del proyecto (desarrolladores, testers, diseñadores y _product owners_\), entregándoles mazos similares al que se encuentra abajo, donde cada una de las cartas representa un número de _Story Points_:
 

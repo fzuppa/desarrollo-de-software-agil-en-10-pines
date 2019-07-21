@@ -6,7 +6,7 @@
 
 # ***Product Discovery***
 
-En 10Pines construimos *software* para diversos tipos de clientes, desde grandes corporaciones como Claro y Burger King, que quieren desarrollar nuevos productos o ampliar la funcionalidad de herramientas existentes, hasta emprendimientos recién nacidos que buscan construir una versión inicial del producto. Si bien las necesidades, el tamaño del problema y obviamente el presupuesto difieren, siempre comenzamos nuestros desarrollos por una etapa que denominamos ***Product Discovery***, donde nos juntamos con los especialistas en el negocio, nuestros clientes, para crear una **visión compartida** de lo que se desea construir.
+En 10Pines construimos software para diversos tipos de clientes, desde grandes corporaciones como Claro y Burger King, que quieren desarrollar nuevos productos o ampliar la funcionalidad de herramientas existentes, hasta emprendimientos recién nacidos que buscan construir una versión inicial del producto. Si bien las necesidades, el tamaño del problema y obviamente el presupuesto difieren, siempre comenzamos nuestros desarrollos por una etapa que denominamos ***Product Discovery***, donde nos juntamos con los especialistas en el negocio, nuestros clientes, para crear una **visión compartida** de lo que se desea construir.
 
 El objetivo de esta etapa es entender quiénes serán los usuarios y clientes principales, cuáles son sus problemas y necesidades y cómo las vamos a resolver. Además, tener una idea del tamaño, establecer prioridades, identificar riesgos y acordar cuál es el [producto mínimo viable](https://es.wikipedia.org/wiki/Producto_viable_mínimo).
 
@@ -24,11 +24,11 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, detal
 
 **Por qué:** ¿Cuáles son los problemas más importantes que desean resolver? ¿Por qué es necesaria esta herramienta? Entender todo esto en detalle nos permite diseñar soluciones mejores, muchas veces sugiriendo alternativas a las inicialmente propuestas por nuestros clientes.
 
-**Qué:** quiénes son los actores principales y qué procesos de negocios llevarán a cabo en el sistema a desarrollar. Por supuesto, existirán flujos principales y alternativos. En esta etapa detectaremos todos, aunque, después, terminemos priorizando algunos y descartando otros.
+**Quiénes y Qué:** Quiénes son los actores principales y qué procesos de negocios llevarán a cabo en el sistema a desarrollar. Por supuesto, existirán flujos principales y alternativos. En esta etapa detectaremos todos, aunque, después, terminemos priorizando algunos y descartando otros.
 
 **Prioridades:** Si algo aprendí en todos estos años de desarrollo es que el tiempo y el dinero nunca alcanzarán para construir todo lo que se desea. Es por eso que parte de las actividades, que desarrollamos en esta etapa, consiste en identificar cuáles son los _features_ indispensables, es decir, aquellos que no pueden faltar o con los que se obtendrán mayores beneficios. Entender las prioridades y trabajar en ellas resultan fundamentales para el éxito del proyecto.
 
-**Producto Mínimo Viable:** resulta valioso entender cuál es el experimento mínimo que nuestros clientes están dispuestos a testear con usuarios reales. Sus altas expectativas muchas veces los impulsan a buscar la implementación de todas sus ideas, pretendiendo obtener éxito desde el comienzo. Lamentablemente, en la mayor parte de las ocasiones esto no ocurre. Es por eso que los alentamos a diseñar _experimentos_ mas pequeños que testeen sus hipótesis con usuarios reales. Nuestro objetivo es [crear conocimiento validado de la manera más rápida y eficiente posible](http://theleanstartup.com/).
+**Producto Mínimo Viable:** Resulta valioso entender cuál es el experimento mínimo que nuestros clientes están dispuestos a testear con usuarios reales. Sus altas expectativas muchas veces los impulsan a buscar la implementación de todas sus ideas, pretendiendo obtener éxito desde el comienzo. Lamentablemente, en la mayor parte de las ocasiones esto no ocurre. Es por eso que los alentamos a diseñar experimentos más pequeños que testeen sus hipótesis con usuarios reales. Nuestro objetivo es [crear conocimiento validado de la manera más rápida y eficiente posible](http://theleanstartup.com/).
 
 **Modelo de Negocio:** Cuando trabajamos con [_startups_](https://en.wikipedia.org/wiki/Startup_company), creemos que es importante entender cuál es su modelo de negocios, es decir, cómo piensan ganar dinero y cuál es el diferencial del producto. Si el proyecto es para una corporación, entonces es importante entender cuáles son los procesos que esta herramienta optimizará o cómo se obtendrán nuevos ingresos a partir de la misma.
 
@@ -40,7 +40,7 @@ Marty Cagan, en su libro ‘_Inspired, how to create products that customers lov
 
 ## **Talleres de** _**Product Discovery**_
 
-La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones, que realizamos junto con nuestros clientes y en las que empleamos un conjunto de herramientas que permiten que todos los participantes se involucren. Estas reuniones, a las que concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores pueden durar desde 4 horas hasta una semana en proyectos de gran magnitud. La diversidad de roles enriquece el resultado, ya que, además de nuestros clientes, **que conocen qué se requiere** **y cuáles son los objetivos**, se necesitan **desarrolladores que evalúen la factibilidad**, **testers que contribuyan con su atención a los detalles** y **especialistas en UX que evalúen la** **usabilidad**. Es fundamental que concurran el _product manager_, el _technical leader_ y un facilitador encargado de llevar la reunión adelante, explicar las herramientas que se van a usar y mediar en las conversaciones. Destaco que, más allá de los artefactos producidos, resultan de gran utilidad las conversaciones desarrolladas. ¡Es curioso pero, muchas veces, detectamos que no existe una visión unificada, ni siquiera, entre diferentes integrantes de la misma empresa cliente! Discutir sobre todas las aristas que tendrá el producto, en esta etapa, resulta esencial para unificar el entendimiento y las visiones de todas las personas involucradas en el desarrollo. Jeff Patton llama a esto ‘Comprensión Compartida’[[Patton00]](bibliografia.md#patton00-patton-jeff-user-story-mapping-discover-the-whole-story-build-the-right-product-septiembre-2014).
+La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones, que realizamos junto con nuestros clientes y en las que empleamos un conjunto de herramientas que permiten que todos los participantes se involucren. Estas reuniones, a las que concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores pueden durar desde 4 horas hasta una semana en proyectos de gran magnitud. La diversidad de roles enriquece el resultado, ya que, además de nuestros clientes, que conocen qué se requiere y cuáles son los objetivos, se necesitan desarrolladores que evalúen la factibilidad, testers que contribuyan con su atención a los detalles y especialistas en *UX* que evalúen la usabilidad. Es fundamental que concurran el _product manager_, el _technical leader_ y un facilitador encargado de llevar la reunión adelante, explicar las herramientas que se van a usar y mediar en las conversaciones. Destaco que, más allá de los artefactos producidos, resultan de gran utilidad las conversaciones desarrolladas. ¡Es curioso pero, muchas veces, detectamos que no existe una visión unificada, ni siquiera, entre diferentes integrantes de la misma empresa cliente! Discutir sobre todas las aristas que tendrá el producto, en esta etapa, resulta esencial para unificar el entendimiento y las visiones de todas las personas involucradas en el desarrollo. Jeff Patton llama a esto ‘comprensión compartida’[[Patton00]](bibliografia.md#patton00-patton-jeff-user-story-mapping-discover-the-whole-story-build-the-right-product-septiembre-2014).
 
 ## **Lean Sales Up**
 
@@ -54,7 +54,7 @@ A continuación, describiré algunas de las herramientas que usamos habitualment
 
 ![](./assets/product_discovery_tools.png)
 
-## ***User Story Mapping***
+## ![](.gitbook/assets/32x32.png)***User Story Mapping***
 
 **Introducción**
 
@@ -78,7 +78,7 @@ Para graficar la construcción del _story map_, introduciré un ejemplo muy senc
 
 ![](./assets/story_mapping_dynamic1.png)
 
-Una vez que identifiquemos al actor principal, trataremos de descubrir cómo usará el sistema, es decir, cuáles serán los principales procesos de negocio bajo su responsabilidad. Jeff Patton los denomina **actividades,** término procedente de expertos en UX tales como Larry Constantine y Don Norman, y las define como **"**grandes cosas que el actor hace y que están conformadas por un conjunto de pasos, pero que no siempre tienen un _workflow_ preciso definido". En mi experiencia facilitando estos talleres, resulta difícil precisar estas actividades en una etapa inicial. Por esta razón, también podemos comenzar preguntando: ¿Qué es lo primero que el usuario hará en el sistema? Ese algo, escrito en forma de verbo, será nuestra 1ra Tarea. Patton define una **tarea** como "algo pequeño, que el usuario hace en el sistema para llegar a un objetivo". Parafraseando: ¿Cuál es la primera tarea que el usuario llevará a cabo en el sistema? Cuando la hayamos identificado, la escribiremos en un _post-it_ que pegaremos debajo del que identifica al tipo de usuario. Posteriormente, buscaremos determinar qué hará a continuación, escribiremos el _post-it correspondiente y_ lo pegaremos a la derecha del anterior, señalando la cuestión temporal.
+Una vez que identifiquemos al actor principal, trataremos de descubrir cómo usará el sistema, es decir, cuáles serán los principales procesos de negocio bajo su responsabilidad. Jeff Patton los denomina **actividades,** término procedente de expertos en *UX* tales como Larry Constantine y Don Norman, y las define como **"**grandes cosas que el actor hace y que están conformadas por un conjunto de pasos, pero que no siempre tienen un _workflow_ preciso definido". En mi experiencia facilitando estos talleres, resulta difícil precisar estas actividades en una etapa inicial. Por esta razón, también podemos comenzar preguntando: ¿Qué es lo primero que el usuario hará en el sistema? Ese algo, escrito en forma de verbo, será nuestra 1ra Tarea. Patton define una **tarea** como "algo pequeño, que el usuario hace en el sistema para llegar a un objetivo". Parafraseando: ¿Cuál es la primera tarea que el usuario llevará a cabo en el sistema? Cuando la hayamos identificado, la escribiremos en un _post-it_ que pegaremos debajo del que identifica al tipo de usuario. Posteriormente, buscaremos determinar qué hará a continuación, escribiremos el *post-it* correspondiente y lo pegaremos a la derecha del anterior, señalando la cuestión temporal.
 
 Retomando el ejemplo, ¿qué será lo primero que hará el cajero, cuando nos presentemos con nuestro canasto de compras? Pensaremos nuestro sistema de la manera más simple y diremos que ‘Ingresará el código de cada uno de los artículos que tiene en el canasto''. Llamaremos a esta tarea 'Ingresar Código Producto'. ¿Qué haremos una vez ingresado el código de todos los artículos? Calcular el total. Llamaremos a la tarea con el mismo nombre y la pegaremos a la derecha del *post-it* anterior.
 
@@ -92,11 +92,11 @@ Podemos visualizar rápidamente el flujo de tareas de nuestro tipo de usuario pr
 
 Seguramente que la charla llevará a querer agrupar estas tareas bajo un proceso de negocio o, como Patton las denomina, una actividad que las identifique. Cuando descubramos esta actividad, escribiremos un _post-it_ de otro color y lo pegaremos sobre el conjunto de tareas que engloba.
 
-¿Cómo podríamos llamar a la actividad que engloba la introducción de todos los artículos y el cálculo del total a pagar? Por razones de simplicidad y falta de otros participantes para discutir el nombre de la misma, la llamaré: ‘Cargar Productos’. Nótese el *post-it* de diferente color sobre la 1er tarea que comprende.
+¿Cómo podríamos llamar a la actividad que engloba la introducción de todos los artículos y el cálculo del total a pagar? Por razones de simplicidad y falta de otros participantes para discutir el nombre de la misma, la llamaré: ‘Cargar Productos’. Nótese el *post-it* de diferente color sobre la 1ra tarea que comprende.
 
 ![](./assets/story_mapping_dynamic4.png)
 
-Por las mismas razones, denominaré a la actividad que engloba todas las tareas de cobro: ‘Cobrar’
+Por las mismas razones, denominaré a la actividad que engloba todas las tareas de cobro: ‘Cobrar’.
 
 ![](./assets/story_mapping_dynamic5.png)
 
@@ -104,7 +104,7 @@ En este ejemplo, hemos partido del descubrimiento de tareas para luego abstraer 
 
 Una vez descrita la primera actividad \(y el primer conjunto de tareas\) preguntaremos: ¿qué otras tareas o actividades llevará a cabo en el sistema este usuario? Impulsados por esta interrogación, comenzaremos nuevamente el ciclo detallado.
 
-Seguramente, en algún momento, nos daremos cuenta de que podemos hacer cierta tarea o cierta otra tarea para alcanzar un mismo objetivo \(por supuesto que esto se puede extender a un flujo de tareas\). ¿Qué haremos para representar esto, visualmente, dentro de nuestro _Story Map_? Pegaremos los _post-its,_ que corresponden a las tareas opcionales, debajo de las tareas principales. Nótese que mencioné una tarea principal y una opcional, es decir, que _priorizamos_ y esta priorización queda reflejada en nuestro _Story Map_.
+Seguramente, en algún momento, nos daremos cuenta de que podemos hacer cierta tarea o cierta otra tarea para alcanzar un mismo objetivo \(por supuesto que esto se puede extender a un flujo de tareas\). ¿Qué haremos para representar esto, visualmente, dentro de nuestro _Story Map_? Pegaremos los _post-its,_ que corresponden a las tareas opcionales, debajo de las tareas principales. Nótese que mencioné una tarea principal y una opcional, es decir, que priorizamos y esta priorización queda reflejada en nuestro _Story Map_.
 
 Siguiendo con el ejemplo, imagínese que, en vez de ‘Ingresar el producto’ de forma manual, lo escaneamos \(como usualmente se hace en los supermercados\). Escribiremos la tarea y la pegaremos debajo de la tarea principal. Lo mismo pasaría si identificásemos una tarea para ‘Tomar pago con tarjeta’, que será opcional a la principal de 'Tomar pago con efectivo'. Nuestro _Story Map_ quedará como ilustra el ejemplo:
 
@@ -128,15 +128,15 @@ Antes observamos que es posible especificar que una tarea es más importante que
 
 Decidir dónde debemos trazar la línea involucra muchísimos factores, muchos más de los que podría abordar en este capítulo. Lo importante a destacar es que la herramienta facilita la elección de una primera versión del MVP en un ambiente de colaboración, donde participan expertos de todas las áreas.
 
-## **Lean Canvas**
+## ![](.gitbook/assets/32x32.png)**Lean Canvas**
 
 ¿Ustedes piensan que los desarrolladores deberían entender cómo funciona el negocio que modelarán? Algunos dirán que no es necesario: mientras se comunique correctamente lo que se debe desarrollar es suficiente. Podrán adivinar que estoy en desacuerdo con esta afirmación. Creo que es importante entender cómo funciona o funcionará el negocio de la empresa que nos contrata. Si estamos desarrollando un producto nuevo \(de un _startup_\), es necesario entender cuál es el modelo de negocios que piensan implementar o, dicho de otra manera, cómo piensan generar dinero. Si se trata de una aplicación para una organización, entonces debemos entender por qué es necesaria, cuál es su valor o cómo recortará costos.
 
-En el pasado, eran frecuentes los planes de negocio extensos que requerían un gran esfuerzo. En la actualidad, es común el uso de una herramienta llamada _Lean Canvas,_ que es mucho más simple y liviana y, por ende, más atractiva para desarrollar en uno de nuestros talleres.
+En el pasado, eran frecuentes los planes de negocio extensos que requerían un gran esfuerzo. En la actualidad, es común el uso de una herramienta llamada _Lean Canvas,_ que es mucho más simple y liviana y, por ende, más atractiva para desarrollar en nuestros talleres.
 
 _Lean Canvas_ es una herramienta que popularizó Eric Ries, a través de su metodología [Lean Startups](http://theleanstartup.com/book), que sirve para especificar el modelo de negocios de una manera muy simple y efectiva. La herramienta se enfoca en el problema detectado y en la solución que proporcione un valor agregado, no existente en el mercado. Se encuentran disponibles diferentes versiones, por ejemplo, en [leanstack](https://leanstack.com) pueden encontrar ésta \(ilustrada por la imagen\), definida como una adaptación del _business model canvas_ de Alex Osterwalder.
 
-![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/lean_canvas.png)
+![](assets/lean_canvas.png)
 
 En el orden propuesto, iremos descubriendo:
 
@@ -168,7 +168,7 @@ Tratar estos proyectos corporativos como si estuviesen destinados a un *startup*
 
 Hacer un taller que implique la creación del _Lean Canvas_, donde participe todo el equipo, permite que todas las personas que construirán el producto tengan una visión compartida del valor que agregará, cómo piensan venderlo y cuál es la competencia. El beneficio de contar con desarrolladores que comprendan la visión del negocio y de sus objetivos redunda en diseños pensados para alcanzarlos, el disparo de nuevas ideas (muchas veces no previstas) y en la propuesta de alternativas que busquen cumplirlos a un costo menor. En estos problemas complejos, la interacción de este grupo heterogéneo de profesionales es lo que maximiza las probabilidades de éxito.
 
-## ***Elevator Pitch***
+## ![](.gitbook/assets/32x32.png)***Elevator Pitch***
 
 ¿Cómo podríamos convencer a un inversor, en un lapso de tiempo muy breve \(por ejemplo, si compartiésemos el ascensor\), de que tenemos una idea que vale la pena implementar? Nuestro _pitch_ deberá resumir los conceptos claves del producto que tenemos en mente: los clientes y beneficios, qué pensamos hacer, cuál es nuestro diferencial y cuál es nuestra ventaja competitiva.
 
@@ -192,7 +192,7 @@ Ejemplos de _Elevator Pitchs_ desarrollados para algunos clientes:
 
 ![Elevator Pitch](./assets/photo-elevator-pitchs.png)
 
-## ***Personas***
+## ![](.gitbook/assets/32x32.png)***Personas***
 
 Uno de los objetivos que perseguimos en esta fase de _Product Discovery_ implica entender a los potenciales usuarios del sistema. ¿Quiénes son? ¿Qué tipos de usuario son? ¿Cómo encontrarán valor?
 
@@ -202,13 +202,13 @@ Este ejercicio puede realizarlo el *Product Owner* \(o el _UX Designer_ en proye
 
 ![Personas](./assets/personas.png)
 
-## **¿Qué Nos Quita el Sueño?**
+## ![](.gitbook/assets/32x32.png)**¿Qué Nos Quita el Sueño?**
 
 Siempre que un nuevo proyecto está por comenzar, existe un conjunto de incertidumbres o, dicho de otro modo, de riesgos que podrían hacer que el proyecto fracase. Es necesario que estos sean identificados cuanto antes. Esta actividad es breve \(se puede hacer en 15/20 minutos\) y permite que todos los involucrados hagan explícitos dichos riesgos, discutiéndose el potencial impacto de cada uno de ellos. El resultado de esta actividad será de gran ayuda en la priorización que deberá establecerse en el futuro, cuando se realice el planeamiento.
 
 ¿Cómo es la dinámica de la actividad? Básicamente, se trabaja sobre un papel de gran tamaño y _post-its_ que son entregados a todos los participantes. Durante 5’ cada integrante del equipo pensará y escribirá riesgos \(cada riesgo en un _post-it_\), pegándolos en el papel. Al finalizar este periodo, se leerán los riesgos que los integrantes del equipo han pensado y se discutirá la gravedad de cada uno de ellos, evaluándose cómo pueden ser mitigados.
 
-## **Experimentos de Usabilidad**
+## ![](.gitbook/assets/32x32.png)**Experimentos de Usabilidad**
 
 Una de las facetas a las que generalmente le prestamos menos atención y que, sin embargo, tiene mucha importancia es la de _Usabilidad_. Algo que muchos olvidan es que puede comenzar a evaluarse este aspecto sin escribir una sola línea de código y de manera muy económica. Aprender lo más rápido posible si los usuarios entienden la interfaz, qué _features_ consideran importantes y cuáles ni siquiera notan puede ahorrar una importante cantidad de recursos económicos.
 
@@ -230,21 +230,21 @@ Los objetivos son sumamente importantes porque de ellos podremos derivar las tar
 
 Un guión se divide en conjuntos de preguntas y series de tareas, cada una de los cuales está vinculada a ciertos objetivos. Como mínimo, debe tener lo siguiente:
 
-- **Introducción:** aquí es donde el consultor o quien realice el test se presenta, le cuenta al usuario qué va a hacer, cuáles son los objetivos del test, etc. Dos ideas deben quedar claras para el usuario: pensar en voz alta, para que el consultor pueda tomar notas mientras trabaja, y tener en claro que no se está evaluando a la persona sino a la interfaz, por lo que los errores serán bienvenidos.
-- **Cuestionario previo al test:** aquí se trata de identificar o verificar el perfil del usuario. Algunas de las preguntas que se pueden incluir son: cuántas horas al día le dedica a Internet, qué tipo de sitios visita habitualmente o si realiza compras online.
-- **Descripción de un escenario:** como el contexto del test no deja de ser una situación artificial, que intenta reproducir las circunstancias reales, se le entrega al usuario información para situarlo en un determinado contexto. Por ejemplo, si estamos testeando un *Home Banking* con clientes que no pertenecen al mismo banco se les pide que actúen como si fueran clientes de la entidad y se les da información de sus cuentas, de su perfil o servicios contratados.
-- **Tareas:** las tareas constituyen el eje del guión y son aquellas acciones requeridas al usuario durante el test. Algunos ejemplos: agregar un producto al carrito de compra, ingresar al sitio con usuario y contraseña, registrarse, etc. Es sumamente importante que el usuario comente en voz alta lo que hace para que el consultor pueda tomar nota de sus dudas, dificultades o errores producidos durante el proceso.
-- **Preguntas:** también pueden incluirse preguntas cerradas o abiertas dentro del test para conocer la opinión del usuario respecto a determinado elemento. Esto ayuda a evaluar elementos secundarios que por sus características no pueden testearse mediante tareas.
-- **Cuestionario posterior al test:** una vez que el usuario terminó de realizar todas las tareas y respondió todas las preguntas, se le solicita que exprese sus sensaciones y opiniones con respecto a la interfaz. Este segmento del guión de tareas es altamente cualitativo. Es importante incentivar a los usuarios para que se expresen y evitar el “Me pareció todo bien”.
+- **Introducción:** Aquí es donde el consultor o quien realice el test se presenta, le cuenta al usuario qué va a hacer, cuáles son los objetivos del test, etc. Dos ideas deben quedar claras para el usuario: pensar en voz alta, para que el consultor pueda tomar notas mientras trabaja, y tener en claro que no se está evaluando a la persona sino a la interfaz, por lo que los errores serán bienvenidos.
+- **Cuestionario previo al test:** Aquí se trata de identificar o verificar el perfil del usuario. Algunas de las preguntas que se pueden incluir son: cuántas horas al día le dedica a Internet, qué tipo de sitios visita habitualmente o si realiza compras online.
+- **Descripción de un escenario:** Como el contexto del test no deja de ser una situación artificial, que intenta reproducir las circunstancias reales, se le entrega al usuario información para situarlo en un determinado contexto. Por ejemplo, si estamos testeando un *Home Banking* con clientes que no pertenecen al mismo banco se les pide que actúen como si fueran clientes de la entidad y se les da información de sus cuentas, de su perfil o servicios contratados.
+- **Tareas:** Las tareas constituyen el eje del guión y son aquellas acciones requeridas al usuario durante el test. Algunos ejemplos: agregar un producto al carrito de compra, ingresar al sitio con usuario y contraseña, registrarse, etc. Es sumamente importante que el usuario comente en voz alta lo que hace para que el consultor pueda tomar nota de sus dudas, dificultades o errores producidos durante el proceso.
+- **Preguntas:** También pueden incluirse preguntas cerradas o abiertas dentro del test para conocer la opinión del usuario respecto a determinado elemento. Esto ayuda a evaluar elementos secundarios que por sus características no pueden testearse mediante tareas.
+- **Cuestionario posterior al test:** Una vez que el usuario terminó de realizar todas las tareas y respondió todas las preguntas, se le solicita que exprese sus sensaciones y opiniones con respecto a la interfaz. Este segmento del guión de tareas es altamente cualitativo. Es importante incentivar a los usuarios para que se expresen y evitar el “Me pareció todo bien”.
 
 #### *3. Identificar el perfil de los usuarios*
 
 Uno de los factores que más influye en los resultados del test es que las personas que lo realicen sean lo suficientemente representativas del *target* del sitio. Para ello es importante trabajar previamente en la identificación de los rasgos y las cualidades de los usuarios teniendo en cuenta las diferentes dimensiones que componen un perfil:
 
-- **Geográfica:** analiza la ubicación geográfica de los usuarios.
-- **Demográfica:** analiza las características de los usuarios en tanto individuos sociales.
-- **Psicográfica:** procura conocer a la persona entera en su interacción con el ambiente.
-- **Conductual:** mide las actitudes de los usuarios hacia el consumo de un determinado producto o servicio en particular: la forma, el lugar y las ocasiones en que dicho consumo se produce.
+- **Geográfica:** Analiza la ubicación geográfica de los usuarios.
+- **Demográfica:** Analiza las características de los usuarios en tanto individuos sociales.
+- **Psicográfica:** Procura conocer a la persona entera en su interacción con el ambiente.
+- **Conductual:** Mide las actitudes de los usuarios hacia el consumo de un determinado producto o servicio en particular: la forma, el lugar y las ocasiones en que dicho consumo se produce.
 
 Es incluso muy común que un sitio tenga diferentes segmentos de usuarios claramente identificables. En este caso es importante definir en primera instancia el perfil genérico y luego los perfiles particulares.
 
@@ -262,13 +262,13 @@ Es recomendable realizar dos o tres sesiones en la mañana, tener un tiempo inte
 
 #### **5. Redactar un informe**
 
-El modo de organizar el informe final con los resultados es muy personal. En general, es recomendable comenzar por lo más destacado y terminar con los detalles. Esto ayuda a que si el informe debe ser leído por alguna personas con poco tiempo, en las primeras tres páginas pueda tener un resumen de lo más importante.
+El modo de organizar el informe final con los resultados es muy personal. En general, es recomendable comenzar por lo más destacado y terminar con los detalles. Esto ayuda a que si el informe debe ser leído por alguna persona con poco tiempo, en las primeras tres páginas pueda tener un resumen de lo más importante.
 
 En el informe se deben clasificar los errores o problemas encontrados para luego poder priorizarlos y armar un plan de implementación de mejoras si fuese necesario. Las categorías deben ser simples y reducidas. Un ejemplo sería:
 
-- **Problemas graves:** aquellos que impiden al usuario concluir una tarea solicitada.
-- **Problemas importantes:** aquellos que permiten la conclusión de la tarea pero con un esfuerzo mayor al normal y luego de numerosos errores.
-- **Problemas menores:** aquellos que generan dudas o confusión en los usuarios, pero permiten realizar la tarea sin mucha demora.
+- **Problemas graves:** Aquellos que impiden al usuario concluir una tarea solicitada.
+- **Problemas importantes:** Aquellos que permiten la conclusión de la tarea pero con un esfuerzo mayor al normal y luego de numerosos errores.
+- **Problemas menores:** Aquellos que generan dudas o confusión en los usuarios, pero permiten realizar la tarea sin mucha demora.
 
 También los errores pueden clasificarse por tipo: errores de la arquitectura de la información, del diseño o a nivel de los textos.
 
@@ -290,6 +290,6 @@ ___
 
 # Notas al pie
 
-1. The hardest single part of building a software system is deciding precisely what to build - [Brooks00](bibliografia.md#brooks00-brooks-jr-frederick-the-mythical-man-month-agosto-1995)
-2. A User Story Mapping Example with David Hussman - https://www.youtube.com/watch?v=LgIfrpvLM_Y
+1. *The hardest single part of building a software system is deciding precisely what to build* - [Brooks00](bibliografia.md#brooks00-brooks-jr-frederick-the-mythical-man-month-agosto-1995)
+2. *A User Story Mapping Example with David Hussman* - https://www.youtube.com/watch?v=LgIfrpvLM_Y
 

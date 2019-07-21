@@ -30,13 +30,13 @@ Antes de contarles cómo escribir _User Stories_, les voy a contar algo que cons
 
 Las _User Stories_ **deben estar escritas en el lenguaje de los usuarios finales**, **deben explicar el qué** \(por sobre el cómo\), **deben contener alguna funcionalidad visible al** _**Product Owner**_ y **deben ser gestionables**.
 
-Profundizo en cada una de estos atributos:
+Profundizo en cada uno de estos atributos:
 
 **Escritas en el lenguaje del usuario final**: ¿Queremos entender el dominio que estamos modelando? Entonces ¿qué mejor que describir cada una de estas funcionalidades empleando la jerga de estos usuarios en sus tareas diarias? Esto nos forzará a tener las conversaciones necesarias para entender, en profundidad, cada uno de los conceptos que estamos modelando. Por ejemplo, si estamos construyendo un software para un cajero de un supermercado, deberemos entender cómo denominan a cada uno de los productos, qué significa un arqueo de la caja y cualquier otro concepto que forme parte de su área de competencia.
 
 **Deben explicar el qué**: Es importante en este momento que se ponga el foco en describir qué es lo que se quiere construir por sobre el cómo. Esta característica se vuelve fundamental en los casos en que las *User Stories* sean escritas sin el aporte del equipo de desarrollo. *Product Owners*: No prescindan de un aporte tan fundamental como el del área técnica para el diseño de una solución, porque se perderían de una perspectiva fundamental. Desarrolladores: Si las _User Stories_ ya describen la solución, vuelvan un paso atrás y pregunten qué se quiere lograr. Mantengan su cabeza abierta para evaluar otras alternativas.
 
-**Contener Alguna Funcionalidad Visible al** _**Product Owner**_: Debe implicar una vista nueva, algún mensaje que reciba \(basado en un conjunto de condiciones\), el envío de un email, etc. Esta característica es fundamental, teniendo en cuenta que emplearemos un proceso de desarrollo iterativo e incremental donde el _Product Owner_ estará involucrado. Hacer incrementos de funcionalidad pequeños para obtener *feedback* lo más rápido posible es clave. Por supuesto que, para lograr esto, cada funcionalidad que desarrollemos incluirá trabajo en cada una de las capas que formen parte del _stack_ de tecnología que hayamos elegido \(por ejemplo, en una arquitectura clásica contendrá funcionalidad de la vista, el modelo y la base de datos\).
+**Contener alguna funcionalidad visible al** _**Product Owner**_: Debe implicar una vista nueva, algún mensaje que reciba \(basado en un conjunto de condiciones\), el envío de un email, etc. Esta característica es fundamental, teniendo en cuenta que emplearemos un proceso de desarrollo iterativo e incremental donde el _Product Owner_ estará involucrado. Hacer incrementos de funcionalidad pequeños para obtener *feedback* lo más rápido posible es clave. Por supuesto que, para lograr esto, cada funcionalidad que desarrollemos incluirá trabajo en cada una de las capas que formen parte del _stack_ de tecnología que hayamos elegido \(por ejemplo, en una arquitectura clásica contendrá funcionalidad de la vista, el modelo y la base de datos\).
 
 **Gestionables**: Queremos ‘partir’ el trabajo en ítems relativamente pequeños, para entenderlos mejor y para reducir la incertidumbre. El tamaño de estos ítems es bastante subjetivo, ya que depende del equipo, las tecnologías y de la duración de la iteración. Para dar una idea, prefiero _User Stories_ que puedan terminarse en un lapso comprendido entre 2 y 5 días. Hacer cosas más pequeñas representa demasiado _overhead_ administrativo. Hacer cosas más grandes resulta peor aún, ya que el *feedback* se hace demasiado lento y puede no haber sensación de progreso. El equipo técnico es quien mejor conoce el esfuerzo requerido para desarrollar una _User Story_ y es el que deberá aconsejar partirla si esta fuese demasiado grande.
 
@@ -75,7 +75,7 @@ When (cuando)
 Then (entonces)
 ```
 
-Es decir, dado un conjunto de precondiciones, cuando ejecutamos cierta acción, deberíamos ver cierto resultado. Escribir los criterios de aceptación de esta manera permite traducirlos en tests automatizados, que pasarán a constituir ‘documentación viva’ \(como lo denominó Gojko Adzik [[Adzic00]](bibliografia.md#adzic00-adzic-gojko-specification-by-example-how-successful-teams-deliver-the-right-software-1st-edition-junio-2011)).
+Es decir, dado un conjunto de precondiciones, cuando ejecutamos cierta acción, deberíamos ver cierto resultado. Escribir los criterios de aceptación de esta manera permite traducirlos en tests automatizados, que pasarán a constituir ‘documentación viva’ \(como lo denominó Gojko Adzic [[Adzic00]](bibliografia.md#adzic00-adzic-gojko-specification-by-example-how-successful-teams-deliver-the-right-software-1st-edition-junio-2011)).
 
 Por ejemplo, si quisiera dar un criterio de aceptación que describa qué pasa con el cálculo de todos los ítems, podría especificarlo así:
 
@@ -122,7 +122,7 @@ Por supuesto que **las** _**User Stories**_ **no tienen que ser la única herram
 
 _**Workflow**_ **de estados**: En muchas herramientas que he construido, hemos necesitado describir un _workflow_ de estados para algunas de las entidades que modelamos. Hacerlo a través de las _User Stories_ no hubiera tenido sentido. Es mucho mejor describirlo a través de un gráfico, que contenga los diferentes estados y sus transiciones.
 
-**Flujo de Navegación de Pantallas**: podríamos decir que se trata de un caso particular del anterior. Para visualizar la navegación entre las diferentes vistas, lo que hemos hecho es imprimir las pantallas \(una en cada hoja\) para luego vincularlas con flechas, describiendo las situaciones que causan los cambios de pantalla \(Balsamiq permite crear una aplicación para navegar entre las diferentes vistas y testear la usabilidad del producto de modo realista\).
+**Flujo de Navegación de Pantallas**: podríamos decir que se trata de un caso particular del anterior. Para visualizar la navegación entre las diferentes vistas, lo que hemos hecho es imprimir las pantallas \(una en cada hoja\) para luego vincularlas con flechas, describiendo las situaciones que causan los cambios de pantalla \(algunas herramientas permiten crear una aplicación para navegar entre las diferentes vistas y testear la usabilidad del producto de modo realista\).
 
 Estos son ejemplos de herramientas adicionales que usamos para pensar y describir la funcionalidad que deseamos construir y que luego podremos vincular desde las _User Stories_.
 
@@ -139,7 +139,7 @@ Paso a contarles cuál es el proceso de descubrimiento y refinamiento de las _Us
 En este trabajo de descubrimiento inicial, en el que vamos identificando las _User Stories_ e incluyéndolas en un _Backlog_ inicial \(artefacto del que hablaré en breve\), no debemos preocuparnos por entender su _scope_ exacto, ya que iremos refinándolas a medida que avancemos en la construcción del producto. El objetivo no es comenzar el desarrollo inmediatamente, sino armar un _Backlog_ que describa la funcionalidad más importante, priorizarlo y hacer una estimación que sea usada, posteriormente, al efectuar la planificación del proyecto.    
 ****
 
-## ***Example Mapping***
+## ![](.gitbook/assets/32x32.png)***Example Mapping***
 
 
 Descubrí esta técnica en la conferencia XP 2016 y la he usado en un par de ocasiones para escribir _User Stories_ junto a todo el equipo. Su creador es Matt Wynn. Pueden obtener más información [aquí](https://cucumber.io/blog/2015/12/08/example-mapping-introduction).
@@ -181,7 +181,7 @@ Podemos tener en cuenta estas maneras de ‘partir’ las *stories* cuando nos p
 * **Separar el manejo de las condiciones excepcionales**: Escribir una para el ‘camino feliz’ \(sin tener en cuenta las condiciones de error\) y otra para manejar los casos que puedan fallar.
 * **Separar las distintas operaciones**: Por ejemplo, hacer una para cada operación de un ABM.
 * **Separar desde la GUI**: Es decir, hacer una que contenga la funcionalidad, sin los detalles de diseño, y otra que contemple el diseño.
-* **Hacer un** _**spike**_: Cuando existe demasiada incertidumbre \(y digo demasiada, porque siempre debemos resolver algo\), podemos hacer un _Spike_ que sirva para investigar y posteriormente la _User Story_ para hacer el trabajo propiamente dicho.
+* **Hacer un** _**Spike**_: Cuando existe demasiada incertidumbre \(y digo demasiada, porque siempre debemos resolver algo\), podemos hacer un _Spike_ que sirva para investigar y posteriormente la _User Story_ para hacer el trabajo propiamente dicho.
 
 # **El** _***Backlog***_
 
@@ -191,7 +191,7 @@ Cuando empezamos a construir el _Backlog_, nos focalizamos en descubrir todo el 
 
 Las _User Stories_ del _Backlog_ inicial no están refinadas, es decir, no está escrito el detalle de cada una de ellas. Antes de empezar, de la primera iteración, debemos tener un conjunto de _User Stories_ mínimo que habilite un flujo continuo de trabajo del equipo de desarrollo. Este proceso de refinamiento se realiza empezando por el tope del Backlog, por las _User Stories_ prioritarias. ¿Cuántas refinar? No existe un máximo estipulado, pero tengan en cuenta que no deseamos refinarlas si no estamos seguros de ‘consumirlas’ luego.
 
-El _Backlog_ no es un artefacto estático, es un artefacto que muta en el transcurso del proyecto. Se modifica para reflejar, en todo momento, nuestro entendimiento del producto en proceso de construcción..
+El _Backlog_ no es un artefacto estático, es un artefacto que muta en el transcurso del proyecto. Se modifica para reflejar, en todo momento, nuestro entendimiento del producto en proceso de construcción.
 
 Todo el equipo trabaja activamente en el _Backlog_, pero es el _Product Owner_, la persona que mejor conoce el negocio, quien debe encargarse de gestionarlo de modo prolijo. Él procura que las _User Stories_ estén bien escritas y de priorizarlas. Muchas veces, a partir de conversaciones mantenidas entre los miembros del equipo o de _feedback_ externo, pueden surgir cambios en funcionalidad que inicialmente se había pensado, que deben reflejarse prolijamente en el _Backlog_ a través del _Product Owner_.    
 ****
@@ -226,7 +226,7 @@ Mi herramienta preferida es Jira porque permite visualizar claramente el _Backlo
 
 Descomponemos el trabajo en un conjunto de incrementos funcionales pequeños y visibles al _Product Owner_, para poder involucrarlo en el desarrollo y brindar _feedback_ tempranamente. Hacer los incrementos pequeños permite reducir la incertidumbre y medir el progreso frecuentemente. Llamamos a estos incrementos _User Stories_. Conversar con los usuarios para que nos ‘cuenten’ sus historias resulta esencial. La información procedente de este intercambio no puede compararse con ninguna otra escrita.
 
-Usamos un _Backlog_ para gestionar las *User Stories* y para facilitar las conversaciones. Se trata de un artefacto ‘vivo’, que el equipo consultará y modificará durante el transcurso del proyecto.
+Usamos un _Backlog_ para gestionar las *User Stories* y facilitar las conversaciones. Se trata de un artefacto ‘vivo’, que el equipo consultará y modificará durante el transcurso del proyecto.
 
 
 

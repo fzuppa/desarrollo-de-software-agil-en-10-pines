@@ -118,9 +118,9 @@ Pueden existir muchas sutilezas en este juego de colaboración y comunicación q
 
 ## Parking Lot[[1]](planeamiento-ágil.md#notas-al-pie) - by Gisela Decuzzi - Una forma de mostrar avance
 
-Uno de los desafíos con los que me suelo encontrar en los proyectos en los que trabajo es la necesidad de comunicar el avance de las tareas y denotar qué tan cerca (o lejos) estamos de alcanzar nuestros objetivos. Ésto puede parecer trivial. Sin embargo, al descomponer el trabajo en pequeñas historias, dependiendo de cómo nos organicemos, resulta difícil entender esta situación de un pantallazo. Muchas veces tenemos desarrolladas funcionalidades que a simple vista parecerían completas pero, por una cuestión de organización y prioridades de negocio, no lo están. 
+Uno de los desafíos con los que me suelo encontrar en los proyectos en los que trabajo es la necesidad de comunicar el avance de las tareas y denotar qué tan cerca (o lejos) estamos de alcanzar nuestros objetivos. Esto puede parecer trivial. Sin embargo, al descomponer el trabajo en pequeñas historias, dependiendo de cómo nos organicemos, resulta difícil entender esta situación de un pantallazo. Muchas veces tenemos desarrolladas funcionalidades que a simple vista parecerían completas pero, por una cuestión de organización y prioridades de negocio, no lo están. 
 
-Déjenme que cite un ejemplo, basado en un caso real. Nos encontrábamos realizando una migración del ingreso a un sistema existente. Descompusimos los temas en grandes secciones: Ingreso a la aplicación, registración de usuario (*sign-up*), recuperación de contraseña, bloqueo de usuarios, etc. Rápidamente generamos y tomamos las historias más importantes que le daban forma al desarrollo. Teníamos la sensación de que, tan solo a dos *sprints* de haber empezado, ya habíamos terminado todo lo necesario. En realidad habíamos manejado sólo los casos principales, sin sumergirnos en profundidad. Por ejemplo, los usuarios podían registrarse sin ser verificada la seguridad de las *passwords* o ingresar al sistema sin permanecer logueados a partir de una sesión anterior o solicitar el reseteo de su contraseña con un pedido anterior aún vigente. Estos *features* para el negocio eran muy importantes, dado que representaban los diferenciales sobre el sistema de ingreso existente. Sin embargo, como los usuarios de negocio no estaban en el día a día, terminaba explicandoles una y otra (y otra) qué funcionalidad nos faltaba. Lo cierto es que no teníamos buena visibilidad del estado de avance del proyecto.
+Déjenme que cite un ejemplo, basado en un caso real. Nos encontrábamos realizando una migración del ingreso a un sistema existente. Descompusimos los temas en grandes secciones: Ingreso a la aplicación, registración de usuario (*sign-up*), recuperación de contraseña, bloqueo de usuarios, etc. Rápidamente generamos y tomamos las historias más importantes que le daban forma al desarrollo. Teníamos la sensación de que, tan solo a 2 *sprints* de haber empezado, ya habíamos terminado todo lo necesario. En realidad habíamos manejado sólo los casos principales, sin sumergirnos en profundidad. Por ejemplo, los usuarios podían registrarse sin ser verificada la seguridad de las *passwords* o ingresar al sistema sin permanecer logueados a partir de una sesión anterior o solicitar el reseteo de su contraseña con un pedido anterior aún vigente. Estos *features* para el negocio eran muy importantes, dado que representaban los diferenciales sobre el sistema de ingreso existente. Sin embargo, como los usuarios de negocio no estaban en el día a día, terminaba explicandoles una y otra (y otra) qué funcionalidad nos faltaba. Lo cierto es que no teníamos buena visibilidad del estado de avance del proyecto.
 
 Prefiero no invertir demasiado tiempo en la generación de reportes complejos costosos de mantener o dependientes de una persona. **Una buena herramienta de reporte es aquella que, de un pantallazo, comunica información compleja de forma entendible para el que la recibe**. Esto era lo que buscaba. Algunos colegas me sugirieron un reporte llamado *Parking Lot*.
 
@@ -128,7 +128,7 @@ Antes de entrar en detalle acerca de cómo lo implementamos en varios proyectos,
 
 - Agrupación en grandes temas: en particular mapear *épicas* y descomponerlas en historias pero al comunicar siempre hacer referencia a las épicas.
 - Tamaño: cada gran tema tiene su complejidad y su tamaño consecuente, que uno pretende comunicar al exterior. Estimamos cada historia usando *Story Points* y el tamaño de una épica lo consideramos simplemente como la suma de los puntos de sus historias.
-- Avance: al comunicar, simplificar el ciclo de vida de las historias en pasos sencillos: *Pendiente, En Progreso, Terminado* con hitos claros de cuando se cambia de un estado a otro. Podrían existir más estados intermedios (por ejemplo en revisión, en testing, rechazado, etc) pero, fuera del equipo de desarrollo, no se requiere tanta granularidad dado que lleva a confusiones.
+- Avance: al comunicar, simplificar el ciclo de vida de las historias en pasos sencillos: *Pendiente, En Progreso, Terminado* con hitos claros de cuando se cambia de un estado a otro. Podrían existir más estados intermedios (por ejemplo en revisión, en testing, rechazado, etc.) pero, fuera del equipo de desarrollo, no se requiere tanta granularidad dado que lleva a confusiones.
 - Tema bloqueado: cuando nos encontramos con dependencias no resolubles por el equipo de desarrollo, y necesitamos de alguien más para destrabar este tema, resulta información valiosa para comunicar hacia fuera del equipo.
 
 La idea del *Parking Lot* es usar la metáfora un estacionamiento, organizado por sectores para distintos tipos de vehículos. Con esta inspiración, dimensionamos los temas en tamaños relativos, usando rectángulos más grandes mientras mayor esfuerzo se requiera.
@@ -152,15 +152,15 @@ Opcionalmente se puede agregar información relevante para el proyecto, como por
 
 En la siguiente imagen podemos ver un ejemplo de aplicación:
 
-![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/Parking Lot 1.png)
+![](assets/Parking Lot 1.png)
 
 Ejemplos en distintos estados:
 
-![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/Parking Lot 2.png)
+![](assets/Parking Lot 2.png)
 
 Si aplicáramos esto a todo el proyecto, obtendríamos un gráfico similar a:
 
-![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/Parking Lot 3.png)
+![](assets/Parking Lot 3.png)
 
 # **_Planning Failure_ Modes**
 

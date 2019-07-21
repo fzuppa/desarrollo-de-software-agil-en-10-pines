@@ -136,7 +136,7 @@ Al observar la imagen siguiente, probablemente alcancen a comprender su funciona
 
 La única herramienta digital que conozco, sin haber utilizado, es [Roadmunk](https://roadmunk.com/jira-roadmap-integration). Lo bueno de que sea un _plugin_ de [Jira](https://www.atlassian.com/software/jira) reside en que las mismas épicas planeadas en el _roadmap_ son usadas posteriormente en la herramienta de gestión, una vez iniciada la construcción.
 
-## *Buy a Feature* – *by* Germán Gaitan
+## ![](.gitbook/assets/32x32.png)*Buy a Feature* – *by* Germán Gaitan
 
 En ocasiones, el producto que estamos desarrollando impacta en diferentes áreas de la organización, cuyos objetivos y expectativas son diferentes (¡y hasta contrapuestos!). En estos casos, si los *stakeholders*, que representan estas áreas, no logran establecer un consenso acerca del valor de las funcionalidades, podemos recurrir a otras técnicas que nos permitan realizar la priorización de una manera subjetiva, pero aún colaborativa, como es el caso de *Buy a Feature*[[1]](priorizacion.md#notas-al-pie):
 
