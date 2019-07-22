@@ -42,11 +42,43 @@ Marty Cagan, en su libro ‘_Inspired, how to create products that customers lov
 
 La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones, que realizamos junto con nuestros clientes y en las que empleamos un conjunto de herramientas que permiten que todos los participantes se involucren. Estas reuniones, a las que concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores pueden durar desde 4 horas hasta una semana en proyectos de gran magnitud. La diversidad de roles enriquece el resultado, ya que, además de nuestros clientes, que conocen qué se requiere y cuáles son los objetivos, se necesitan desarrolladores que evalúen la factibilidad, testers que contribuyan con su atención a los detalles y especialistas en *UX* que evalúen la usabilidad. Es fundamental que concurran el _product manager_, el _technical leader_ y un facilitador encargado de llevar la reunión adelante, explicar las herramientas que se van a usar y mediar en las conversaciones. Destaco que, más allá de los artefactos producidos, resultan de gran utilidad las conversaciones desarrolladas. ¡Es curioso pero, muchas veces, detectamos que no existe una visión unificada, ni siquiera, entre diferentes integrantes de la misma empresa cliente! Discutir sobre todas las aristas que tendrá el producto, en esta etapa, resulta esencial para unificar el entendimiento y las visiones de todas las personas involucradas en el desarrollo. Jeff Patton llama a esto ‘comprensión compartida’[[Patton00]](bibliografia.md#patton00-patton-jeff-user-story-mapping-discover-the-whole-story-build-the-right-product-septiembre-2014).
 
-## **Lean Sales Up**
+## ***Lean Sales Up*** - by Jorge Silva
 
-Quiero destacar que en _10Pines_ hacemos estos talleres de _Product Discovery_ al momento de la preventa, es decir, apenas ocurrido el primer contacto con el cliente. En consecuencia, **construimos la propuesta junto a nuestros clientes**. De esta manera, nos aseguramos de entender su visión, el modelo de negocio, cuáles son las restricciones más importantes, compartiendo también una idea del costo que tendrá el desarrollo.
+El proceso de preventa puede ser doloroso, largo y caro. En esta primer etapa debemos convencer al prospecto que somos la mejor opción, ayudándolo, al mismo tiempo, a definir y ajustar sus expectativas (casi siempre altas). Por lo general, esto termina en una sobre-estimación (el clásico ‘colchón’), promesas poco realistas sobre alcances y fechas y otros comportamientos disfuncionales que pueden ensuciar la relación desde el comienzo.
 
-Jorge Silva, uno de los fundadores, denominó a esto _[Lean Sales Up](https://blog.10pines.com/2014/10/28/lean-sales-up/)_, ya que se elimina el [_desperdicio_](https://es.wikipedia.org/wiki/Lean_manufacturing) que los procesos usuales de ventas contienen. Los artefactos creados son sumamente útiles para el posterior desarrollo y la cantidad generada de conocimiento compartido es infinita.
+Cuando trabajaba en empresas tradicionales, cada vez que alguien me hablaba de la etapa de preventa, me preguntaba: “¿qué cosas imposibles habrá prometido el vendedor?” o “¿cuánto tiempo habrá recortado de la estimación para poder venderlo?”. Estas situaciones resultan frecuentes dentro de un enfoque clásico de ventas ya que el vendedor procura vender todo lo posible, ajustando lo necesario para que el cliente compre. Del otro lado está el desarrollador, que recibe esa venta optimista y debe entregar algo al cliente.
+
+Como podrán imaginar, el proceso de preventa clásico entra en conflicto con el modelo de empresa que tenemos, principalmente porque:
+
+- El precio es conocido sólo por los vendedores y el cliente.
+- Las expectativas del cliente son “endulzadas” para cerrar la venta.
+- El alcance del proyecto es definido sin el involucramiento del equipo de desarrollo.
+- Las fechas son irreales.
+- El equipo de desarrollo no se involucra con los objetivos del cliente. 
+- Las diferencias entre vendedores y desarrolladores resultan de difícil resolución.
+
+Por otro lado, es una realidad que es necesario vender para mantener la empresa viva. Para poder lograrlo de forma sustentable, elaboramos dos ideas principales:
+
+1. Los desarrolladores debemos vender. ‘Si quieres hacerlo bien, hazlo tu mismo’.
+2. Necesitamos integrar las ventas con el desarrollo. 
+
+A partir de estas ideas, redefinimos nuestro proceso de pre-venta, fusionándolo al de desarrollo y alineándolo a nuestros valores. Esto significa que no existe más una etapa de preventa separada del ciclo de desarrollo. En su lugar unimos cada uno de los proceso en uno solo. De esta forma, ambos roles, desarrollo y ventas, son conscientes de la complejidad de ambas actividades. Por otro lado, borramos la frontera entre las dos áreas, creando un equipo más completo, capaz no sólo de desarrollar software, sino también de venderlo y explicarle al cliente por qué somos la mejor opción.
+
+Luego de 10 años de trabajo continuo y mejoras, podríamos decir que nuestro proceso de preventa se basa en estas tres heurísticas:
+
+- **Explicar qué es agilidad:** No todos saben lo que implica, por lo cual debemos transmitir estas ideas al cliente.
+- **Descubrir tu producto:** Creamos el taller de “*Product Discovery*”, una herramienta poderosa usada para identificar qué construir, haciendo la preventa más exitosa.
+- **Entender la psicología de tu cliente:** Desafiar las ideas de tu potencial cliente, entender cómo piensa, cómo decide, qué necesita y qué no.
+
+Luego de todo este aprendizaje sobre las pre-ventas, terminamos con un proceso de desarrollo ágil que posee esta forma:
+
+
+
+![](assets/Lean Sales Up.png)
+
+
+
+En esta imagen se observa que la preventa, fase donde se concibe el producto, es parte del proceso de desarrollo. De esta forma se entiende la venta de modo más holística, con mayores probabilidades de que sea exitoso el proceso. 
 
 # **Herramientas**
 
