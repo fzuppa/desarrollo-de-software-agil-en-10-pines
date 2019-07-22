@@ -98,6 +98,502 @@ Por todo esto, prefiero construir los tests funcionales para los ejemplos más r
 
 ## Test Driven Development - by Hernán Wilkinson
 
+¿Qué es *Test Driven Development*? O para hacerlo más simple, TDD. ¿Cuándo hay que usarlo y cuándo no? ¿Para qué sirve y para qué no? ¿Se puede usar siempre, en cualquier sistema, en cualquier contexto? Si desarrollamos con TDD, ¿es necesario tener QA? Estas y muchas preguntas más son las que recibimos cada vez que hablamos o damos un curso de TDD. Voy a tratar de responderlas en esta sección. No será fácil. Seguramente algunas preguntas queden sin responder y se generen otras. Está bien que así suceda: es parte de todo crecimiento intelectual la generación de dudas. Sin ellas no se aprende, no se crece. En esta introducción les dejo mi primer consejo: ante la duda, practiquen, prueben y jueguen con el tema. Aprendan haciendo.
+
+Nuestra querida profesión está bendecida y maldecida al mismo tiempo por una característica esencial, como diría Fred Brooks en "*No Silver Bullet*": la "maleabilidad" del producto que generamos, la facilidad para cambiarlo, para experimentar con él, y, como decía Marvin Minsky en su paper "*Why Programming is a Good Medium for Expressing Poorly Understood and Sloppily Formulated Ideas*", para probar prácticamente las teorías de conocimiento que tenemos sobre un problema.
+
+La práctica, en nuestra profesión, resulta esencial para aprender. Espero generar muchas dudas en ustedes, pero sobre todo que puedan responderlas ustedes mismos programando. Es la mejor manera de aprender.
+
+Me gustaría empezar con un poco de historia. Conocerla ayuda a entender cómo surgió, en este caso TDD, y qué podemos esperar del futuro. Podríamos marcar el comienzo "formal" de TDD en Octubre del año 1994 cuando Kent Beck publica en la *Smalltalk Report* (una revista dedicada al lenguaje *Smalltalk* de la década del 90. Sí, en los ‘90 habían revistas de lenguajes de programación) el artículo "*Simple Smalltalk Testing*", donde describe un *framework* de "*unit testing*" que estaba utilizando para verificar que el código que escribía funcionase como esperaba. Kent Beck centra su atención en "testing", o sea en escribir tests luego de que el "código" estuviese desarrollado. Más allá de eso, fue la semilla que terminó evolucionando en lo que conocemos como TDD. Este framework de *testing* es el que luego evolucionó como *SUnit* y del cual derivan aquellos correspondientes a otros lenguajes de programación como JUnit para Java, NUnit para .Net, etc. 
+
+Él comenta que en el proceso de “germinación” de TDD influyeron mucho las enseñanzas o vivencias de su padre quien fue desarrollador de software y quien le inculcó la importancia de la verificación de lo que uno hace.
+
+Recuerdo que, allá por el año 1998, mientras trabajaba como consultor de la AFIP, otorgué a una desarrolladora de mi equipo la responsabilidad de implementar un "framework de testing" en Java, idea que había sacado, claro está, del artículo mencionado. Ya se empezaba a vislumbrar, a sentir, por entonces la importancia del testing automatizado. Dicha programadora, cuyo nombre lamentablemente no recuerdo, realizó un excelente trabajo que no prosperó en el resto del grupo de trabajo por dos razones: 1) la aversión de los programadores a testear, ¿cómo un programador iba a "perder tiempo" testeando? Para eso estaba QA, para algo se les pagaba a ellos. 2) Dejé de trabajar en la AFIP :-)
+
+Kent Beck terminó de dar forma a la idea de TDD y aplicarla en ese famoso proyecto C3 de la empresa *Chrysler*, desarrollando en Smalltalk[[3]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie) un sistema de *payroll* del cual surge no sólo la idea de TDD sino también de XP (*eXtreme Programming*).
+
+En 1999, Beck edita "*eXtreme Programming Explained*" donde, entre otras cosas, "eleva" la importancia del testing automatizado, hablando principalmente de "*unit testing*" (tests unitarios). En mi caso, que venía siguiendo a Beck en todas sus publicaciones, no dudé en comprar el libro y leerlo inmediatamente. Quedé maravillado con lo expuesto y lo implementé rápidamente. No me tuvo que convencer, lo tratado por el texto era "lo natural". Por fin alguien se animaba a decirlo y rompía con los mandatos "tayloreanos" y "cascadosos" a los que nos tenían acostumbrados los supuestos gurúes de la "ingeniería de software". 
+
+Sin embargo, la técnica no quedará formalizada hasta el año 2000, con la edición de "TDD By Example"[[Beck02]](bibliografia.md#beck02). Beck estipula 3 pasos para hacer TDD:
+
+1. *Red Step*: Escribir un test simple que falle al ser corrido.
+2. *Green Step*: Implementar sólo lo necesario **y nada más que lo necesario** (el destacado es mío) para que el test pase, cometiendo todos los "pecados" de programación y diseño que se nos ocurran.
+3. *Refactor Step*: ¡Confesarse! Beck no lo plantea con estas palabras, sino que proponer eliminar la duplicación creada en el paso 2. En definitiva, "sacarse los pecados de encima" o, en términos más técnicos, hacer un buen diseño.
+
+Como se puede ver la técnica no es compleja. Consta de tres pasos simples, fáciles de recordar y explicar, que, sin embargo, resultan difíciles de seguir y de aplicar (veremos más adelante por qué). 
+
+Estos tres pasos no explican qué es TDD sino que definen cómo se hace. ¿Qué es TDD entonces? ¿cuál es su esencia? ¿qué hace que TDD sea lo que es y no sea otra cosa? TDD es una técnica de desarrollo de software iterativa e incremental con feedback inmediato. En pocas palabras, una técnica que favorece el proceso de aprendizaje que todo ser humano lleva adelante cuando debe entender, explicar y formalizar qué es y cómo funciona algo. En definitiva, cuando debe programar.
+
+Para entender bien TDD y poder aplicarlo correctamente, no podemos perder de vista que debemos desarrollar de manera iterativa, agregando en cada iteración un nuevo incremento a nuestra solución para obtener feedback rápido que valide que estoy en el camino correcto.
+
+Veamos esto con un ejemplo. En la introducción comenté la importancia de practicar para aprender y quiero ser consistente con lo que dije (aunque a veces la inconsistencia me supera). Por ello, para explicar cada paso y su por qué utilizaré un ejemplo sencillo, el de *Conways Game Of Life*. La descripción de este juego se puede leer en [https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life). Básicamente consiste en un tablero bidimensional compuesto por celdas vivas o muertas, donde se van creando nuevas generaciones a partir de las siguientes reglas:
+
+1. Una celda viva con menos de dos vecinos vivos muere (subpoblación).
+2. Una celda viva con dos o tres vecinos vivos sigue viva.
+3. Una celda viva con más de tres vecinos vivos muere (sobrepoblación).
+4. Una celda muerta con exactamente tres vecinos vivos resucita (reproducción).
+
+Dado este problema, ¿cómo empezamos?. La respuesta es clara: hay que escribir el test más simple que se nos ocurra. ¿Por qué debe ser el test más simple? Porque la idea es no caer en análisis-parálisis: tener algo funcionando lo más rápido posible para entrar en un flujo de trabajo virtuoso y sostenible. Además, para poder resolver un problema grande debemos particionarlo. Es conveniente comenzar por la parte más chica y simple de todas ya que nos asegura una solución rápida. Estos motivos nos brindan pistas acerca de lo que debemos medir cuando estamos haciendo TDD, para saber si lo estamos haciendo correctamente. 
+
+Sí, TDD nos da un método de trabajo medible, predecible y que, por lo tanto, nos permite reflexionar y mejorar a partir de dichas mediciones. Nótese que esto no es así con la técnica "clásica" de desarrollo donde, de manera poco clara y hasta a veces caótica, se empieza por la implementación de una clase, luego se pasa a otra y posteriormente se retorna a la anterior sin orden ni guía, más allá de la idea mental de la solución que deseamos generar. Con TDD esto no sucede: existen pasos bien estipulados por lo que podemos reflexionar qué tan bien los estamos haciendo y actuar en consecuencia.
+
+¿Cuál es la medición más importante que debemos realizar cuando hacemos TDD? El tiempo que nos lleva cada paso. Recuerden, queremos feedback inmediato. Por lo tanto cuanto más rápido hagamos cada paso mejor. Demorar mucho tiempo en escribir un test es un indicio de que algo no estamos haciendo bien. Posiblemente no estemos encarando el test más simple y, por lo tanto, deberíamos repensar qué testear. O quizás el test es el más sencillo, pero estoy tardando porque escribirlo resulta muy complejo debido a que el diseño del sistema no me ayuda. Por lo tanto, debería hacer el paso 3) primero (o sea refactorizar[[4]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie) el diseño para hacerlo más testeable).
+
+Volviendo a nuestro ejemplo, ¿cuál sería el primer test que podríamos escribir? Veamos estas opciones que aparecen generalmente en el público de los cursos que dicto:
+
+1. Verificar que el juego se cree correctamente.
+2. Verificar que si creo un juego sin celdas vivas, ninguna celda esté viva.
+3. Verificar que una celda viva con menos de dos vecinos vivos muera en la próxima generación.
+4. Verificar que una celda viva con dos o tres vecinos vivos sobreviva.
+5. Verificar que todas las reglas se cumplan
+6. .… y varias ideas más que omito por un tema de espacio y tiempo.
+
+¿Cuál de todas ellas es la más simple? Descartemos de a poco. La 5) no pareciera ser la más simple porque para eso tenemos que tener las 3) y 4) más otras cosas implementadas. La 1) pareciera ser la más simple, ¡sólo tengo que crear un juego! Es verdad, sólo tengo que crear un juego, ¿pero qué verificamos de esa acción? En pocas palabras, ¿qué "asserto"? Veamos:
+
+```
+testGameIsCreatedCorreclty
+
+  gameOfLife := GameOfLife new.
+  self assert: gameOfLife ???
+```
+
+¿Qué ponemos en el ??? ?. Algunos suelen decir "hay que verificar que no es *nil* o *null"*. ¿Realmente? ¿Cómo podría suceder que *gameOfLife* sea *nil*? Sólo podría ocurrir si nos quedáramos sin memoria, pero en ese caso ¿qué estaríamos testeando?, ¿el *GameOfLife* o cómo se comporta el lenguaje de programación respecto de qué hace cuando no hay memoria? Claramente lo segundo, que carece de importancia. Veamos la opción 2). Podríamos escribir el siguiente test:
+
+```
+testGameCreatedWithoutLiveCellsHasNoLiveCells
+
+  gameOfLife := GameOfLife withAliveCells: {}.
+  self assert: gameOfLife aliveCellsIsEmpty
+```
+
+¿Qué les parece? Podría ser una opción. Pero, ¿cuánto avanzamos con este test? ¿Agrega algo a mi manera de entender el problema? La respuesta es completamente discutible y diferentes personas la responderían de distinto modo. Desde mi punto de vista, este test no agrega ningún valor. No dice nada sobre "qué hace" el GameOfLife, sobre la parte dinámica del juego, que es lo más importante de todo modelo computable (o sea, programa).
+
+Por otro lado, básicamente estamos testeando un "getter". Podrán argumentar que no es un getter, sino un *test method*. Sin embargo, es casi lo mismo ya que podría haber escrito el test de la siguiente manera:
+
+```
+testGameCreatedWithoutLiveCellsHasNoLiveCells
+
+  gameOfLife := GameOfLife withAliveCells: {}.
+  self assert: 0 equals: gameOfLife aliveCells size.
+```
+
+En este caso queda bien explícito que estoy testeando un getter y testear getters o setters no agrega ningún valor real a la solución.
+
+Pregunta de diseño: ¿Por qué escribí el test sin usar un getter? ¿Cuál de los dos últimos tests es mejor desde el punto de vista de diseño de la solución? La respuesta es: el primero. ¿Por qué? Porque no estoy rompiendo el encapsulamiento de GameOfLife, mientras que sí lo hago en el segundo test. Romper el encapsulamiento es equivalente a sacarle responsabilidades a un objeto, por lo que esa responsabilidad se termina implementando en otros lugares de manera dispersa y seguramente repetida.
+
+Nos quedan los tests 3) y 4) ¿Cuál es más simple? A mi manera de entender, el 3). El 4) implica que hay que testear si son 2 o 3 vecinos vivos, que resulta más complejo. Veamos cómo sería este test:
+
+```
+testAliveCellWithLessThatTwoAliveCellsDies
+
+  gameOfLife := GameOfLife withAliveCells: {1@1}.
+  gameOfLife calculateNextGeneration.
+  self assert: (gameOfLife isDead: 1@1)
+```
+
+Nótese que con este test ya tomé varias decisiones de diseño: 
+
+1. Crearé GameOfLife como una colección de celdas vivas, en este caso {1@1}.
+2. Identificaré las celdas mediante puntos. En este caso 1@1 será la celda con posición x=1 e y=1, que además definiré como viva.
+3. Para pasar de una generación a otra, enviaremos el mensaje #calculateNextGeneration a instancias de GameOfLife.
+
+Si corremos este test, va a fallar (suponiendo que tenemos creada la clase y los métodos relacionados) ya que no hemos implementado ninguna lógica. Por lo tanto, ya cumplimos con el paso 1 de TDD: escribir un test, correrlo y que falle. En el paso 2, implementamos lo mínimo, y necesario, para que el caso, que acabamos de testear, pase. La implementación más simple que podemos hacer es:
+
+```
+GameOfLife class>>withAliveCells: aCollectionOfCells 
+	
+	^self new initializeWithAliveCells: aCollectionOfCells 
+GameOfLife>>initializeWithAliveCells: aCollectionOfCells
+	“No hago nada”
+GameOfLife>>calculateNextGeneration
+	“No hago nada”
+GameOfLife>>isDead: aCell
+	^true
+```
+
+Lo único que tengo que hacer para que el test pase es que #isDead: devuelva *true*.El primer método, #withAliveCells: está implementado como método de clase de GameOfLife, o sea que #withAliveCells es el mensaje que recibe la clase para crear una instancia de ella. Por eso la implementación primero envía el mensaje #new a self para obtener la nueva instancia y después envía el mensaje #initialializeWithAliveCells: a la misma. Los mensajes #initializeWithAliveCells:, #calculateNextGeneration y #isDead: son mensajes que saben responder las instancias de GameOfLife.
+
+Por supuesto que muchos argumentarán que esto parece un chiste, que no implementé nada, pero no es así. Para mi "estado de conocimiento", para el incremento del problema que estoy atacando, o sea el caso de "celdas vivas con menos de 2 vecinos vivos muere", el problema está resuelto. Por supuesto que hay otros problemas con esta implementación, pero recordemos que estamos haciendo un desarrollo iterativo-incremental, por lo tanto debo preocuparme únicamente por los incrementos implementados, no por lo que me falta por implementar.
+
+Ya cumplimos con el paso 2, ahora hay que hacer el paso 3, refactorizar. ¿Hay algo para refactorizar en esta implementación? La verdad, no. Es tan simple, tan concreta, que no es necesario refactorizar nada. Es conveniente hacer una aclaración sobre el paso 3: es el único de los pasos de TDD cuya aplicación es contextual. Siempre hay que hacer el paso 3 pero puede suceder que en algunos contextos no convenga refactorizar nada porque estoy aún en un proceso de aprendizaje del problema muy temprano en el que conviene seguir avanzando antes de crear abstracciones.
+
+Como no tenemos nada para refactorizar, podemos empezar con el ciclo nuevamente: escribir el próximo test. La gran pregunta, que suele aparecer en este momento, es ¿por dónde sigo? ¿qué test me conviene escribir? Lo interesante de la implementación que hicimos es que "hardcodeamos" el retorno de *true* en el método #isDead:. Por lo tanto, esto me da la pauta del próximo test: uno que me permita sacar ese *true* hardcodeado, en otras palabras, un test que cuando le pregunte al gameOfLife si una celda está muerta me devuelva *false*. Claramente ese test verificará que se cumpla la segunda regla del juego para el caso de dos vecinos vivos (el de tres vecinos vivos lo veremos en otro test). 
+
+```
+testAliveCellWithTwoAliveNeighborsSurvives
+
+  gameOfLife := GameOfLife withAliveCells: {1@1. 1@2. 2@1}.
+  gameOfLife calculateNextGeneration.
+  self deny: (gameOfLife isDead: 1@1).
+```
+
+Podemos ver en este test cómo cambia el setup del juego: la celda 1@1 tiene dos celdas vecinas vivas, la 1@2 y la 2@1. Nótese que la aserción es que sea falso (#deny:) que la celda 1@1 esté muerta, o sea, que esté viva.
+
+Si corremos el test, fallará. Por lo tanto estamos haciendo TDD correctamente. Ahora, en el paso 2, tenemos que escribir lo mínimo necesario para que el test pase. Una solución que a veces me proponen es implementar #isDead: de tal manera que devuelva false. Sin embargo, no es una buena idea porque si hiciéramos eso el primer test no pasaría. En este caso vamos a tener que hacer algo un poco más interesante de lo que hicimos en el paso 2 anterior. Vamos a tener que crear una nueva colección de celdas vivas a partir de las que estén vivas y deban sobrevivir. La implementación quedaría así:
+
+```
+GameOfLife>>initializeWithAliveCells: aCollectionOfCells
+	aliveCells := aCollectionOfCells
+
+GameOfLife>>calculateNextGeneration
+	aliveCells := aliveCells select: [ :aCell | 
+(aCell eightNeighbors count: [ :aNeighbor | (self isDead: aNeighbor) not ]) = 2 ]
+
+GameOfLife>>isDead: aCell
+	^(aliveCells includes: aCell) not
+```
+
+Si corremos los tests, veremos que pasan. Ahora hay mucho para hacer en el paso 3, ¿no les parece? Seguramente muchos entenderán el código que acabo de escribir para este paso, pero seguramente también con un poco de dificultad. La solución no es lo suficientemente declarativa. Debemos pensar bastante para entender QUÉ hace ya que el CÓMO lo hace impera. 
+
+Primero veamos la descripción en lenguaje natural de qué hace: selecciona (#select:) las celdas vivas que al contar (#count:) sus vecinas (aCell eightNeighbors) que no están muertas ((self isDead: aNeighbor) not) sea igual a 2 (= 2). No sé qué les pasa a ustedes cuando ven código así. A mí me duele la cabeza porque me hace gastar energía tener que entender qué pasa. Analicemos qué se puede mejorar:
+
+1. La doble negación no es una "buena práctica". Nunca decimos: "no verifiques que no está muerto", decimos "verifica que está vivo".
+2. En lenguaje natural explicaríamos la regla diciendo que deseamos quedarnos con las celdas que tienen dos vecinas vivas. Entonces, ¿por qué no "decimos" lo mismo en el código.
+
+Hagamos el primer refactoring, tenemos que cambiar el test de la siguiente manera:
+
+```
+testAliveCellWithTwoAliveNeighborsSurvivies
+
+  gameOfLife := GameOfLife withAliveCells: {1@1. 1@2. 2@1}.
+  gameOfLife calculateNextGeneration.
+  self assert: (gameOfLife isAlive: 1@1).
+```
+
+Para hacer pasar el test, hay que implementar #isAlive:. Lo hacemos de la siguiente manera:
+
+```
+GameOfLife>>isAlive: aCell
+	^aliveCells includes: aCell
+```
+
+Si corremos los tests, todos seguirán pasando. Sin embargo, ahora tenemos código repetido: tanto #isDead: como #isAlive envían el mensaje #includes: a aliveCells, por lo que vamos refactorizar nuevamente para implementar #isDead: en base a #isAlive: ya que son mutuamente excluyentes:
+
+```
+GameOfLife>>isDead: aCell
+	^(self isAlive: aCell) not
+```
+
+Corremos todos los tests y verificamos que siguen corriendo satisfactoriamente. Ahora podemos hacer el otro refactor, un *extract method* que permita darle semántica a la condición del #select:
+
+```
+GameOfLife>>calculateNextGeneration
+	aliveCells := aliveCells select: [ :aCell | (self numberOfAliveNeighborsOf: aCell) = 2 ]
+
+GameOfLife>>numberOfAliveNeighborsOf: aCell
+  ^aCell eightNeighbors count: [ :aNeighbor | (self isDead: aNeighbor) not ]
+```
+
+Si corremos los tests, deberían pasar todos, por lo que finalmente podemos cambiar la condición del #count:
+
+```
+GameOfLife>>numberOfAliveNeighborsOf: aCell
+  ^aCell eightNeighbors count: [ :aNeighbor | self isAlive: aNeighbor ]
+```
+
+Hay un refactoring más que podemos hacer. A no muchos se les ocurrirá hacerlo ahora, por lo que es cuestionable. Lo haremos, de todos modos, porque refleja que estamos programando el QUÉ y no el CÓMO.
+
+```
+GameOfLife>>calculateNextGeneration
+	aliveCells := aliveCells select: [ :aCell | self shouldSurvive: aCell ]
+
+GameOfLife>>shouldSurvive: aCell
+  ^(self numberOfAliveNeighborsOf: aCell) = 2
+```
+
+Fíjense que encapsulamos en el mensaje #shouldSurvive: el hecho de que sean 2 las vecinas vivas y, al hacerlo, nos despreocupamos de ese detalle (del **cómo**) haciendo explícito el **qué**. Las nuevas celdas vivas son aquellas que deben sobrevivir. Como dice el dicho: “más claro echale agua”.
+
+Es importante recalcar que si no hubiésemos hecho estos *refactors* no estaríamos haciendo bien TDD. Por otro lado, debemos aceptarlo: no a cualquiera se le ocurrirían. Esta es justamente la diferencia entre un "diseñador" y un "buen diseñador". Un buen diseñador reconoce cuando el código no es lo suficientemente explícito. Sabe que usar doble negación no es bueno. Sabe que es bueno encapsular los ciclos para hacer explícita la semántica de los mismos (en este caso el #select:). Además, no tiene miedo del impacto en la performance porque sabe que en la actualidad programamos para las personas, no para las máquinas como sucedía en las décadas del ‘60, ‘70, ‘80 y podríamos decir hasta del ‘90, cuando hacer un envió de mensaje adicional o una "llamada a una función más" implicaba un costo en performance. En la actualidad, con la arquitectura de *pipeline* de los microprocesadores actuales, los problemas de performance pasan por otro lado. Una conclusión muy importante: "TDD no implica buen diseño". Los buenos diseños los hacen los buenos diseñadores. Ser buen diseñador no cuesta tanto: hay que priorizar declaratividad sobre performance (inicialmente) y seguir ciertas heurísticas que nos ayudan a mejorar el diseño.
+
+Pero volvamos a nuestro problema, tenemos que hacer el paso 1 nuevamente, escribir un test simple y que falle. Aún no hemos terminado con la segunda regla del juego ya que sólo hemos testeado por la existencia de 2 vecinos vivos. A continuación, tenemos que testear por 3 vecinos vivos. Fíjense que mi elección acerca de qué testear se relaciona con finalizar la regla y no pasar a otra. Esa es una buena heurística sobre qué test escribir: tratar siempre de finalizar con la funcionalidad que estamos testeando antes de pasar a otra. En este caso, terminar con la segunda regla del juego antes de pasar a la tercera. El test sería entonces:
+
+```
+testAliveCellWithThreeAliveNeighborsSurvivies
+
+  gameOfLife := GameOfLife withAliveCells: {1@1. 1@2. 2@1. 2@2}.
+  gameOfLife calculateNextGeneration.
+  self assert: (gameOfLife isAlive: 1@1).
+```
+
+Si corremos este test, veremos que falla. En consecuencia, estamos haciendo bien TDD. Ahora debemos hacer la implementación más simple que pase:
+
+```
+GameOfLife>>shouldSurvive: aCell
+  ^(self numberOfAliveNeighborsOf: aCell) between: 2 and: 3
+```
+
+Simplemente tenemos que asegurarnos que la cantidad de vecinos vivos son 2 o 3 y el test pasa.
+
+Luego de hacer pasar este test (o incluso a veces luego de haber escrito o hecho pasar el test anterior) varios preguntan por qué sólo verifico que la celda 1@1 esté viva y no las otras que también deberían estar vivas, como en este caso pasa con todas sus vecinas. 
+
+La respuesta es que el hacerlo no agrega valor. Si agregan esas aserciones verán que los test siguen funcionando lo que significa (para este ejemplo) que no son necesarias porque no están funcionalmente probando un caso distinto. Si hacemos un test de cobertura con la aserción sobre 1@1 solamente y luego agregando las aserciones sobre las otras celdas, veremos que el resultado será el mismo. Esto demuestra que no estamos verificando nada nuevo.
+
+Hice hincapié en "para este ejemplo" porque puede suceder que hayamos olvidado aserciones, o sea que el test no esté bien escrito. Claramente en dichas situaciones, agregarlas resulta correcto.
+
+Retomando el ejemplo, tenemos que revisar si se debe refactorizar algo (paso 3). Si no es necesario, estamos en condiciones de escribir nuestro próximo test: el que prueba la tercera regla:
+
+```
+testAliveCellWithMoreThanThreeAliveNeighborsDies
+
+  gameOfLife := GameOfLife withAliveCells: {1@1. 1@2. 2@1. 2@2. 1@3}.
+  gameOfLife calculateNextGeneration.
+  self assert: (gameOfLife isDead: 2@2).
+```
+
+Ahora estamos testeando por la celda 2@2, que es la que posee 4 vecinos vivos en el juego que acabamos de configurar. Al correr este test, observamos que funciona en el primer intento. Esto indica que ya no estamos haciendo TDD, porque no cumplimos con el hecho de que falle el test recién escrito. Por lo tanto, tenemos que reflexionar qué pasó, por qué no falló.
+
+Cuando un test recién escrito pasa sin inconvenientes, puede haberse presentado una de las siguientes situaciones:
+
+1. El test está repetido. El mismo caso ya se testea en otro lugar.
+2. Cuando hicimos el paso 2 en una iteración anterior, no implementamos lo mínimo necesario para que pasen los tests existentes hasta ese momento. En otros términos, nos adelantamos en el alcance de la solución.
+3. 1) y 2) al mismo tiempo.
+
+¿Qué sucedió en este caso? ¿Hicimos un implementación que abarca más casos en una iteración anterior o el test está repetido? Podemos inclinarnos a pensar que está ocurriendo 2), pero si analizamos el código veremos que no hicimos nada de más realmente. Lo que sucede es que este caso ya está testeado. Esto resulta difícil de creer porque se trata de una regla distinta del juego. Por lo menos, así está presentada en la descripción del mismo. Sin embargo, si nos ponemos a analizar las reglas desde el punto de vista lógico, ¡la regla 2 incluye la 3! Por lo tanto, el problema surge porque estamos verificando un caso ya implementado debido a que la especificación es redundante. En pocas palabras, "hay un problema" en la especificación. Aquí abro un paréntesis: seguramente nadie lo detectó al momento de leer las reglas. Esto es completamente lógico y natural, porque constituye una regla de un juego ya probado y jugado mil veces, ¡no puede estar mal! De hecho, no está mal la regla. Simplemente es redundante y por eso resulta previsible que no podamos reconocerla. Como seres humanos, hablamos y pensamos mediante un lenguaje natural, ambiguo y contextual. Por lo tanto, algunas "redundancias" no molestan. Por el contrario, entregan seguridad.
+
+Pero nosotros estamos haciendo un modelo computable formal. En este proceso de formalización de conocimiento, que es el desarrollo de software, nos encontraremos frente a definiciones ambiguas y contextuales. Es parte de nuestro trabajo reconocerlas y actuar en consecuencia.
+
+¿Qué hacemos con este test, entonces? Lo borramos, porque no ayuda desde el punto de vista formal. Podemos ir más allá aún, borrar también la tercer regla del juego. Seguimos ahora por el paso 1: tenemos que pensar en otro test, el que verifique la regla número cuatro:
+
+```
+testDeadCellWithThreeAliveNeighborsBecomesAlive
+
+  gameOfLife := GameOfLife withAliveCells: {1@1. 1@2. 2@1}.
+  gameOfLife calculateNextGeneration.
+  self assert: (gameOfLife isAlive: 2@2).
+```
+
+Nótese que seguimos verificando el estado de la celda 2@2, pero que la misma no está dentro de las celdas vivas por lo que no queda otra opción: está muerta. Si corremos el test, fallará. Esto indica que volvimos a hacer TDD. Ahora debemos hacer la implementación que haga que este test pase.¿Cómo tenemos que modificar #calculateNextGeneration? Buscando los vecinos vivos de una celda muerta. Pero enfrentamos un problema: ¡no sabemos cuáles son las celdas muertas! Sólo estamos guardando las celdas vivas. Esto nos trae un dilema a nivel diseño: ¿cómo informarle al juego qué celdas están muertas?
+
+Hay varias soluciones: 
+
+1. Cuando creamos el juego, no sólo pasarle las celdas vivas, sino también las muertas. Esto implica cambiar bastante el modo de implementación, ya que deberíamos usar una matriz donde cada elemento represente si la celda está viva o muerta (¿con un *boolean*, quizá?). También podríamos usar un diccionario cuya clave sea el punto y el valor si está viva. Esto parece, en primera instancia, bastante malo desde el punto de vista implementativo.
+2. Pasarle al juego una colección adicional, la de las celdas muertas. Esto parecería no ser tan disruptivo respecto del diseño que venimos haciendo. Tendremos que asegurarnos que la unión de ambas colecciones contenga todas las celdas del juego y que no existan celdas vivas y muertas al mismo tiempo.
+3. Pasarle al juego, además de la colección de celdas vivas, la dimensión del tablero. Esto nos permitiría iterar sobre todas las celdas. Aquellas que no se hallan dentro de la colección de celdas vivas están muertas. Esta opción parece ser la más simple: no tenemos que verificar que no haya errores de construcción como en 2) y tampoco modificar tanto el diseño de lo que venimos implementando, manteniendo la simplicidad de tener que configurar solamente las celdas vivas ya que las otras, por omisión, están muertas.
+4. Posiblemente otras opciones que no se me ocurren. 
+
+Utilizaremos la opción 3). Tenemos que agregar un parámetro al mensaje de creación de instancia (constructor en algunos lenguajes) sin romper los tests. Como lo que vamos a hacer es un *refactor*, los tests deben estar pasando. Recuerden que sólo es posible hacer el paso 3) (refactorizar) luego de hacer el paso 2) del cual se sale solamente si no falla ningún test. Por lo tanto, vamos a sacar el último test que hicimos, renombrándolo de #testDeadCellWithThreeAliveNeighborsBecomesAlive a #no_testDeadCellWithThreeAliveNeighborsBecomesAlive. Luego volvemos a correr los tests para asegurarnos que refactorizar es posible.
+
+Una vez que estamos seguros, agregamos un nuevo parámetro al mensaje #withAliveCells:. Lo podemos hacer a mano o, si el IDE que usamos tiene *refactors* automatizados, podemos hacer un “*add parameter*” o un “*change signature*” dependiendo del lenguaje/IDE utilizado. Más allá del caso, lo que vamos a indicarle es el uso del objeto 3@3 como valor inicial para este nuevo parámetro. En el caso de un lenguaje con *keywords* explícitos, como *Smalltalk*, nombraremos dicho *keyword* como #ofSize:. Esto implica que todos los métodos que envían el mensaje #withAliveCells: deberían quedar asi:
+
+ 
+
+```
+  …
+	GameOfLife withAliveCells: { … } ofSize: 3@3.
+	…
+```
+
+Y la implementación del mensaje quedaría así:
+
+```
+GameOfLife class>>withAliveCells: aCollectionOfCells ofSize: aBoardSize  	
+	^self new initializeWithAliveCells: aCollectionOfCells
+```
+
+Ahora tenemos que agregarle el parámetro a #initializeWithAliveCells: de la misma manera:
+
+```
+GameOfLife class>>withAliveCells: aCollectionOfCells ofSize: aBoardSize  	
+	^self new initializeWithAliveCells: aCollectionOfCells ofSize: aBoardSize
+
+GameOfLife>>initializeWithAliveCells: aCollectionOfCells ofSize: aBoardSize
+	aliveCells := aCollectionOfCells
+```
+
+Si corremos los tests, deberían seguir funcionando porque acabamos de hacer un refactor automatizado. Ahora podemos volver a tener el último test que escribimos y al correrlo seguirá fallando. Terminado los pasos 3) y 1), continuamos con el 2).Para que el test pase, debemos quedarnos con la dimensión del tablero:
+
+```
+GameOfLife>>initializeWithAliveCells: aCollectionOfCells ofSize: aBoardSize
+	aliveCells := aCollectionOfCells.
+	boardSize := aBoardSize
+```
+
+Y modificar #calculateNextGeneration para que itere sobre las celdas del mismo. Lamentablemente, no es tan sencillo puesto que hay que implementar la iteración a mano:
+
+```
+GameOfLife>>calculateNextGeneration
+  | newAliveCells |
+	newAliveCells := OrderedCollection new.
+	1 to: boardSize x do: [ :x |
+		1 to: boardSize y do: [ :y | | cell |
+			cell := x@y.
+			((self shouldSurvive: cell) or: [ self shouldBecomeAlive: cell ]) 
+        ifTrue: [ newAliveCells add: cell ]]].
+		
+	aliveCells := newAliveCells.
+
+GameOfLife>>shouldBecomeAlive: aCell
+	^(self isDead: aCell) and: [ (self numberOfAliveNeighborsOf: aCell) = 3 ]
+```
+
+Con estos cambios, los tests pasan. Si volvemos a habilitar el test #testDeadCellWithThreeAliveNeighborsBecomesAlive veremos que también pasa. Esto significa que ya hicimos el paso 2) para esta nueva funcionalidad y estamos en condiciones de hacer el paso 3) para hacer más declarativa la implementación de #calculateNextGeneration.
+
+La iteración sobre todos los puntos del tablero genera ruido al QUÉ. Encapsularemos la iteración en un mensaje que recibirá un *closure* que será evaluado para cada punto:
+
+```
+calculateNextGeneration	
+	| newAliveCells |
+	newAliveCells := OrderedCollection new.
+	self boardCellsDo: [ :aCell |
+		((self shouldSurvive: aCell) or: [ self shouldBecomeAlive: aCell ]) 
+      ifTrue: [ newAliveCells add: aCell ]].
+		
+	aliveCells := newAliveCells.
+
+boardCellsDo: aClosure
+	1 to: boardSize x do: [ :x |
+		1 to: boardSize y do: [ :y | aClosure value: x@y ]]
+```
+
+Si corremos los tests, deberían pasar. Ahora lo dejaremos como estaba antes, con un #select: fácil de leer:
+
+```
+calculateNextGeneration
+	aliveCells := self boardCellsSelect: [ :aCell | 
+    (self shouldSurvive: aCell) or: [ self shouldBecomeAlive: aCell ]].
+		
+boardCellsSelect: aCondition
+	| selectedCells |
+	selectedCells := OrderedCollection new.
+	self boardCellsDo: [ :aCell | (aCondition value: aCell) 
+    ifTrue: [ selectedCells add: aCell ]].
+	
+	^selectedCells 
+```
+
+¡Ahora, sí! Resulta claro. Nótese que la implementación no genera colecciones adicionales. No se crea la colección de celdas del tablero y luego se hace el #select:, sino que se itera sobre las celdas quedándose sólo con aquellas que cumplen con la condición del #select:.
+
+Volvamos a la funcionalidad. En el último cambio funcional realizado, se introdujo un error que puede pasar desapercibido si no hacemos un buen análisis de problema. La regla 4) dice que celdas muertas con 3 vecinos vivos reviven, por lo que hay que asegurarse que celdas muertas con otra cantidad de vecinos no sobrevivan. Nosotros solo testeamos "el caso feliz" en el último test, pero no el caso "negativo". ¿Cómo escribimos el test para celdas muertas con vecinos vivos distinto a 3? El problema es que puede haber muchos vecinos vivos, por lo menos de 0 a 2 y de 4 a 8, ya que pueden haber de 0 a 8 vecinos vivos. Podríamos hacer un test por cada una de las posibilidades (9 tests) o un test donde se itera por las distintas configuraciones. Más allá de eso estaríamos probando el mismo caso funcional y por lo tanto es medio molesto tener que hacerlo para cada "dato de prueba" (configuración). De esta situación se desprenden varias cosas a tener en cuenta:
+
+1. Diferencia entre "dato de prueba" y "caso de prueba": Los datos de prueba son aquellos que se utilizan para probar un caso de prueba. Un caso de prueba puede estar compuesto por un número finito o infinito de datos de prueba.
+2. Debido a que puede haber infinitos datos de prueba es necesario buscar una manera de testear un "caso" de la manera más completa posible con un conjunto finito de datos de prueba. Ese conjunto finito se obtiene por medio de técnicas donde se buscan "datos testigos", que identifican situaciones límites o representan un conjunto de datos de prueba.
+3. Debido a 2) es que a) Dijkstra "odiaba el testing" argumentaba que no representaba una técnica formal de verificación. O sea, el testing solo te asegura que funciona o no lo que se está testeando. Nada dice sobre lo no testeado. b) Personalmente, opino que debemos hacer "inducción incorrecta", tomando la técnica de inducción de Álgebra.
+
+¿Cómo se hace inducción en álgebra? Se toma una tesis y se demuestra que funciona para 1, que también funciona para N y entonces, por inducción, se demuestra que funciona para N+1 (o sea, para el resto). ¿Qué es hacer inducción incorrecta? Se demuestra que funciona para 1 y se dice "funciona para N" lo que implica un error lógico, pero necesario al realizar testing. Eso es lo que vamos a hacer con este caso. Tomaremos casos testigos y probaremos con ellos que celdas muertas reviven solo si tienen 3 vecinos vivos. Esos casos testigos serán el 2 y el 4. En realidad podría ser sólo el 2 ya que en otras reglas se compara cantidad de vecinos vivos con 2, pero vamos a tomar el 4 también y asegurar que fuera del 3 (por lo menos para el anterior y posterior) el juego se comporta correctamente.
+
+Escribamos el test:
+
+```
+testDeadCellAliveNeighborsDifferentToThreeKeepsDead
+
+  gameOfLife := GameOfLife withAliveCells: {1@2. 2@2. 3@2. 1@3} ofSize: 3@3.
+  gameOfLife calculateNextGeneration.
+  self assert: (gameOfLife isDead: 1@1).
+  self assert: (gameOfLife isDead: 2@3).
+```
+
+Este test falla para el caso de 2 vecinos vivos ya que habíamos escrito #shouldSurvive: cuando solo recorríamos celdas vivas. Ahora que recorremos todo el tablero, no estamos seguros que cuando comparamos por 2 o 3 vecinos vivos sea solo para celdas vivas. Debemos modificar #shouldSurvive: de la siguiente manera:
+
+```
+GameOfLife>>shouldSurvive: aCell
+  ^(self isAlive: aCell) 
+    and: [ (self numberOfAliveNeighborsOf: aCell) between: 2 and: 3 ]
+```
+
+Ahora sí: los tests pasan todos. A simple vista no podemos mejorar el diseño pero si nos fijamos en la implementación existen un par de mejoras que podemos hacer. La primera es no tener que buscar los vecinos vivos más de una vez, algo que actualmente sucede porque se buscan en #shouldSurvive: y #shouldBecomeAlive:. La segunda mejora es un poco más sutil y se relaciona con el hecho de que no importa si una celda está viva o muerta. Si tiene tres vecinos vivos, debe estar viva en la próxima generación. Nuevamente vemos una opción de mejora en la definición del juego por haber formalizado el mismo.
+
+Para realizar este refactor habría que hacer un "*Inline*" de los métodos #shouldSurvive: y #shouldBecomeAlive:. Hacer un "*inline method*" es lo opuesto a un "*extract method*": reemplaza todos los *senders* del mensaje relacionado a ese método por las colaboraciones del mismo. El método #calculateNextGeneration quedaría así:
+
+```
+GameOfLife>>calculateNextGeneration
+	aliveCells := self boardCellsSelect: [ :aCell | 
+    ((self isAlive: aCell) 
+      and: [ (self numberOfAliveNeighborsOf: aCell) between: 2 and: 3 ])
+		    or:  [(self isDead: aCell) 
+          and: [ (self numberOfAliveNeighborsOf: aCell) = 3 ]]].
+```
+
+El código volvió a ser ilegible pero puede observarse la búsqueda de los vecinos vivos 2 veces. Acá podría argumentarse, y con razón, que haber hecho los *refactors* en #shouldSurvive: y #shouldBecomeAlive: no fue una buena idea. Podríamos haber pasado por alto esta situación. Es por ello que a veces conviene esperar bastante, quizás hasta finalizada la solución, para empezar a refactorizar y crear abstracciones. Por otro lado, no hacerlo puede volver muy difícil la comprensión del código que estamos escribiendo. Este es un *trade off* que debemos hacer continuamente. Es completamente contextual.
+
+Volviendo al refactor, primero calcularemos los vecinos vivos y los guardaremos en una variable. Para ello, usaremos un refactor llamado “*extract to variable*”:
+
+```
+GameOfLife>>calculateNextGeneration
+  aliveCells := self boardCellsSelect: [ :aCell | | numberOfAliveNeighbors |
+    numberOfAliveNeighbors := self numberOfAliveNeighborsOf: aCell.
+    ((self isAlive: aCell)  and: [ numberOfAliveNeighbors between: 2 and: 3 ])
+      or:  [(self isDead: aCell) and: [ numberOfAliveNeighbors = 3 ]]].
+```
+
+Si corremos los tests, deberían funcionar todos. Ahora podemos simplificar la comparación de cantidad de vecinos vivos a 3, no importa si está viva o muerta.
+
+```
+GameOfLife>>calculateNextGeneration
+  aliveCells := self boardCellsSelect: [ :aCell | | numberOfAliveNeighbors |
+    numberOfAliveNeighbors := self numberOfAliveNeighborsOf: aCell.
+    numberOfAliveNeighbors = 3 
+      or: [ (self isAlive: aCell)  and: [ numberOfAliveNeighbors = 2 ]]].
+```
+
+Si corremos los tests, deberían funcionar todos. Daremos nuevamente semántica a la condición del #select:
+
+```
+GameOfLife>>calculateNextGeneration
+  aliveCells := self boardCellsSelect: [ :aCell | 
+  self shouldBeAliveOnNextGeneration: aCell ]
+
+shouldBeAliveOnNextGeneration: aCell 	
+	| numberOfAliveNeighbors |
+	numberOfAliveNeighbors := self numberOfAliveNeighborsOf: aCell.
+	^numberOfAliveNeighbors = 3 
+    or: [ (self isAlive: aCell)  and: [ numberOfAliveNeighbors = 2 ]]
+```
+
+Finalmente daremos semántica a la última condición:
+
+```
+shouldBeAliveOnNextGeneration: aCell
+  | numberOfAliveNeighbors |
+  numberOfAliveNeighours := self numberOfAliveNeighborsOf: aCell.
+  ^numberOfAliveNeighours = 3 
+    or: [ self shouldSurvive: aCell with: numberOfAliveNeighbors ]
+
+shouldSurvive: aCell with: aNumberOfAliveNeighbors
+	^(self isAlive: aCell) and: [ aNumberOfAliveNeighbors = 2 ]
+```
+
+Finalmente tenemos la solución completa, con un diseño claro y con la seguridad. gracias a los tests, de que funciona correctamente. Nótese, además, que no tuvimos grandes problemas de diseño o implementación. El desarrollo fue "suave" debido justamente al modo iterativo e incremental utilizado. Espero que hayan podido observar y sentir estas características y que hayan seguido el ejemplo en sus máquinas programando de forma simultánea a la lectura del capítulo. Si no lo hicieron, ¡no esperen más! ¡Agarren una computadora con su lenguaje de programación preferido e implementen este juego!
+
+Queda mucho por hablar de TDD, mucho por decir, ya no sobre qué es o cómo se lo practica sino preguntas de carácter organizativo e implementativo en un grupo de trabajo. Trataré de cubrir algunas a continuación:
+
+1. **¿Se puede hacer TDD en todo el sistema?**
+   No, no se puede. TDD aplica cuando se está "desarrollando software" (por desarrollar me refiero a "crear"), cuando se crean nuevas abstracciones o implementan nuevos algoritmos. No aplica cuando se está "configurando" software. ¿A qué me refiero con configurando? A instanciar frameworks básicamente. Por ejemplo cuando configuramos un *ORM* (*Hibernate*, etc) para mapear objetos a base de datos relacionales, configuramos un *framework* visual para crear ventanas, configuramos un *framework* para traducir un formato de objeto a otro, etc. Básicamente todo lo que implique configuración o únicamente reutilización de una solución existente no se puede desarrollar con TDD. Para esos casos hay que hacer testing en todo caso, o ser testeado indirectamente por tests que se hagan por medio de TDD cuando se desarrolla software que lo utilice.
+
+2. **¿Qué cobertura de código debemos tener cuando se hace TDD?**
+
+   Si aplicamos TDD correctamente, la cobertura de lo que se está desarrollando debería ser del 100%, pero subrayo "correctamente" lo cual es muy difícil de lograr y más aún cuando recién estamos empezando a practicarlo. Hago esta aclaración porque es muy común encontrarse con los talibanes de siempre, con los dogmáticos que ocupan posiciones de decisión o poder y que luego de leer que con TDD se puede lograr 100% de cobertura, lo exijan a los equipos de desarrollo apenas empiezan. Esto es una locura total y termina siendo contraproducente porque lo único que genera es odio de los programadores hacia la técnica que les está "complicando la vida". Terminan escribiendo cualquier tipo de test sólo para tener cobertura. Por otro lado, recordemos que la cobertura sólo debe ser la de los objetos programados, no la de los utilizados. Ese límite es muy difícil de trazar si la herramienta de *coverage* no es buena. Por último, recuerden que un sistema con 100% de cobertura resulta muy "rígido" lo que puede jugar en contra del mantenimiento y la evolución del mismo.
+
+3. **Si hacemos TDD, ¿se necesita tener un equipo de QA?**
+
+   ¡POR SUPUESTO! Hacer TDD no reemplaza QA ya que hay ciertas partes del sistema que no se pueden testear haciendo TDD (ver pregunta 1), porque hay ciertos tests que deben ser automatizados por herramientas de más alto nivel funcional y porque siempre es necesario que aunque sea un ser humano use el sistema. Lo que tiene de interesante hacer TDD es que el equipo de QA va a recibir un sistema con menos errores y por lo tanto puede concentrarse en hacer tests de alto nivel funcional en vez de estar testeando temas simple como se debe hacer cuando no se desarrolla con TDD
+
+4. **¿Cómo hago TDD del user interface?**
+   ¡NO SE PUEDE! O sí, dependiendo de la UI que estemos haciendo. Los test son muy frágiles. Veamos dos casos: 1) Si estoy haciendo una UI ventana entonces la construcción de la UI se realiza por medio de instanciar un *framework* y, como ya vimos en la pregunta 1, no tiene sentido hacer TDD cuando se instancian *frameworks*. Por otro lado, es muy difícil controlar la interacción con la UI de manera automatizada, principalmente porque la misma corre en su propia *thread*, generando problemas de sincronismo entre el test y la UI y finalmente porque cambios en lo que se muestra y cómo se muestra pueden hacer fallar los tests. 2) Si estamos haciendo un UI web, se mantiene el mismo problema de la fragilidad. Cualquier cambio en el HTML generado puede hacer que el test falle (más allá de las complicaciones de escribir aserciones sobre HTML). 
+   Conclusión: Si queremos automatizar la verificación de la UI, hay que hacer testing y usar herramientas especializadas para dicho fin.
+
+5. **¿Cuánto tiempo se necesita para dominar esta técnica?**
+   Es difícil de responder. Depende del conocimiento de la persona que está aprendiendo, de la experiencia en desarrollo de software, etc. Algo que he notado es que cuanto más senior es un programador más tiempo le cuesta aprender TDD porque debe hacer un cambio muy fuerte en su manera de pensar y en años de experiencia de programar de otra forma. Sin embargo, escriben mejores tests justamente por los años de experiencia y los golpes recibidos. Los programadores con menos experiencia que aceptan la técnica como forma de programar aprenden más rápido, pero les cuesta más escribir buenos tests o todos los tests necesarios debido a no haber "sufrido" tanto lo errores del desarrollo de software. 
+
+6. **¿Se puede hacer TDD en un sistema ya desarrollado?**
+   No, no se puede hacer TDD en un sistema ya existente a menos que lo que se quiera desarrollar no tenga ninguna relación con lo hecho, en definitiva, algo completamente nuevo. ¿Por qué? Porque dicho sistema tiene, a nivel diseño, un entropía muy fuerte y, por lo tanto, mucho acoplamiento y poca cohesión. Además, seguramente fue desarrollado con malas técnicas de diseño (clases anémicas y servicios que representan más a un paradigma estructurado que de objetos, etc.) o está acoplado a la base de datos. Esto atenta contra la posibilidad de hacer TDD y, más aún, contra la posibilidad de hacer testing automatizado. Si el sistema tiene mucho acoplamiento, será difícil testear situaciones que impliquen usar datos de prueba por fuera de los dados por ese acoplamiento. Por ejemplo, si el día se obtiene en cualquier parte del sistema haciendo algo parecido a "*Date today*" o "new Date()", entonces no podremos correr tests en fechas que no sean del día de hoy. En pocas palabras, no podremos simular qué día es hoy. Si el sistema está acoplado con la base de datos, entonces lamentablemente los tests serán lentos. El problema con los tests lentos es que dejamos de correrlos. Todo esto atentará contra escribir tests. La única manera de resolver este problema es cambiar el diseño del sistema de a poco, por medio de refactors automatizados que garanticen que los cambios realizados no rompan la ejecución del sistema, llevando el diseño a una situación que permita empezar a escribir tests. En dicha situación, se hará testing, no TDD: o sea se escribirán tests de código ya escrito. De a poco, a medida que se escriban más tests, el diseño irá mejorando. Esto permitirá que, llegado cierto momento, se empiece a utilizar TDD. Como se puede observar, este es un proceso largo y meticuloso que generalmente sobrevive al tiempo de rotación de las personas en un proyecto. Por eso es tan difícil de hacer exitósamente.
+
+7. **¿Cuándo debo usar** ***Mock objects*****? (objetos simuladores)**
+   Los objetos simuladores, *Test Doubles,* también lamentablemente llamados *Mocks*, son objetos que simulan ser algo cuando en realidad son otra cosa. En definitiva son objetos polimórficos con el objeto simulado que se usan para poder testear situaciones difíciles de reproducir con los objetos reales o donde el test no está en control. Ejemplos concretos a simular son sistemas externos que, por su carácter, los tests no controlan, volviendo más lenta su ejecución. El tópico de objetos simuladores es un tema en sí mismo. Tratarlo llevaría casi la misma dimensión que este capítulo, por lo que no me extenderé mucho más. Sólo les diré una regla de oro: Simular sólo lo que no desarrollo, nunca simular objetos que forman parte de lo que estoy desarrollando.
+
+8. **¿Qué hago si mis tests tardan mucho en ejecutar?**
+   Debo buscar el modo de reducir el tiempo de ejecución. Los tests que deben ejecutarse cuando hago un cambio o implemento algo con TDD no deberían tardar en correr más de 2, 3 o 5 segundos, como mucho 20 o, a lo sumo, 1 minuto. Cuando pasamos de segundos a minutos en el tiempo de ejecución de los tests estamos en problemas. Aclaro que cuando digo los "tests que deben ejecutarse" no me refiero a los tests de todo el sistema, sino a los de la funcionalidad que estoy cambiando o agregando. Un sistema grande seguramente esté compuesto por módulos o subsistemas. Por lo tanto, al modificar un subsistema, sólo debo correr los tests correspondientes al mismo, que deben ejecutarse en segundos. Luego de hacer la modificación y ver que todo funcione bien a ese nivel, deben correrse los tests del sistema. En dicho caso, puedo pasar a hablar de minutos, aunque no demasiados. Cuantos menos, mejor. Pasar los diez minutos para correr todos los tests del sistema sería un problema. 
+   Tener tests que satisfagan estos tiempos de ejecución no es fácil, pero tampoco imposible. Se logra por medio de un buen diseño y buen uso de objetos simuladores.
+   ¿Qué puede hacer que los tests tarden mucho? Un motivo puede ser que el sistema esté acoplado a la base de datos. Primero hay que simular la base de datos con objetos *fake* como base de datos en memoria. Aún así, seguramente tardarán mucho en correr, por lo que hay que tener como objetivo desacoplarse completamente de la base de datos. Este objetivo, en algunos contextos, será imposible de lograr. Por ejemplo, si utilizamos *Ruby on Rails*, debido a que se trata de un *framework* de caja blanca en lo que respecta a persistencia (todo lo que se persiste debe subclasificar *ActiveRecord*), resulta imposible desacoplar la base de datos. La única forma de hacer que los tests corran rápido en este contexto es sacar *Rails* del sistema, pero eso es imposible si el sistema ya está desarrollado, a menos que se haga uno completamente nuevo. Lo que podemos hacer, si nos interesa testear nuestro código, aplicar TDD y tener un sistema mantenible es no escribir aplicaciones web con *Ruby on Rails* y usar otro *framework* que esté preparado para hacer TDD.
+   Otro motivo por el cual los tests pueden tardar mucho es que se encuentren repetidos, mal escritos o que el sistema esté mal desarrollado. En la mayoría de los casos, este problema se debe al uso de recursos externos (archivos, micro servicios, base de datos, etc.).
+
+### Conclusiones
+
+TDD es una técnica de desarrollo basada en un proceso iterativo, incremental y con feedback inmediato. Permite resolver problemas complejos dando pequeños pasos y permite, al ser un proceso predefinido, reflexionar cómo estamos programando. Cuando hacemos TDD, el tiempo es uno de los factores cruciales a medir. El tiempo que tardamos en escribir un test, el que tardamos en hacer pasar un test, el que invertimos refactorizando y el de ejecución de los tests. Esta medida me permite saber si estoy aplicando correctamente TDD.
+
+No se puede hacer TDD en todo el sistema, no reemplaza QA y no puede hacerse en un sistema existente, por lo menos, hasta no tener un diseño que permita testearlo.
+
+Hay mucho más para hablar sobre TDD como qué estructura deben tener los tests, cómo se los debe nombrar, cómo se los puede organizar, qué datos de prueba usar, etc., pero hacerlo excedería la intención de esta sección. Espero, sin embargo, que el mismo les haya servido para entender la técnica. Para terminar, volveré al principio: practiquen todo lo que leyeron acá y luego, ¡vuelvan a practicarlo! Es la única manera de asegurar el aprendizaje y la correcta ejecución de la técnica.
+
 ## Refactor Continuo
 
 Escribir código es similar a escribir un libro. Me doy cuenta ahora que estoy aprendiendo esto último. No escribo bien y como quiero en una pasada. Escribo una primera versión, la leo, la pienso, pido feedback, la corrijo y refino (o la re-escribo si no me gusta nada). Cuando escribo código, a pesar de haberlo hecho durante muchos más años, me pasa lo mismo. Primero entiendo el problema, bosquejo la posible solución y escribo una primera versión de ella. Luego leo el código y pienso cómo podría mejorarlo. Siempre se me ocurren formas de hacerlo, entonces voy ‘refactorizando’ (ejecutando los tests para estar seguro de que todo sigue funcionando) hasta que me guste. Este proceso de mejora del código no termina cuando completo la *User Story*. Continúa infinitamente mientras trabajo en un proyecto. Es una búsqueda constante del mejor diseño, de lograr la mejor versión del código que funcione.
@@ -110,7 +606,7 @@ Refactorizar continuamente nos permite mejorar ‘el diseño del código existen
 
 ## Code Review
 
-Antes de incorporar nuestros cambios en el *branch* de desarrollo, es bueno que otro par de ojos le den una mirada. Esta revisión, que llamamos *code review,* brinda observaciones que permiten pulir y mejorar el código antes de ‘*mergearlo*’[[3]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie). Por ejemplo, nos alerta de un nombre que no se entiende, de cambios que pueden afectar algún área que no tuvimos en cuenta o de algún problema de performance.
+Antes de incorporar nuestros cambios en el *branch* de desarrollo, es bueno que otro par de ojos le den una mirada. Esta revisión, que llamamos *code review,* brinda observaciones que permiten pulir y mejorar el código antes de ‘*mergearlo*’. Por ejemplo, nos alerta de un nombre que no se entiende, de cambios que pueden afectar algún área que no tuvimos en cuenta o de algún problema de performance.
 
 El proceso que se ha estandarizado para hacer esta *review*, a partir de la popularización de Git y Github, es la creación de un *pull request*, que se revisa y *mergea* cuando se aprueba. Debemos intentar realizar el *code review* tan pronto como sea posible, de manera de minimizar el trabajo en progreso.
 
@@ -144,7 +640,7 @@ Usamos un servidor de integración continua para reforzar esta práctica y volve
 - Cuando completamos la funcionalidad, *mergeamos* nuestros cambios con los existentes en el *branch* principal. Personalmente, prefiero hacer un *rebase* para dejar los *commits* ordenados.
 - Una vez combinados los cambios, corremos los tests. Generalmente, es más cómodo y rápido *pushear* los cambios y dejar que el servidor de integración continua lo haga. 
 - Si el build está verde, estamos listos para crear el *pull request* y *mergear* los cambios (momento indicado para pedir *code review*). Si, por el contrario, falló algún test, debemos corregirlo. No podemos *mergear* un *build* que no esté verde.
-- Nuestro trabajo no termina aquí. Una vez *mergeado* nuestro *branch* al *branch* principal, verificamos que el build esté verde. De existir un problema, resulta fundamental su inmediata corrección a fin de evitar el bloqueo del resto del equipo.
+- Nuestro trabajo no termina aquí. Una vez *mergeado*[[5]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie) nuestro *branch* al *branch* principal, verificamos que el build esté verde. De existir un problema, resulta fundamental su inmediata corrección a fin de evitar el bloqueo del resto del equipo.
 
 Integrar continuamente hace nuestro trabajo sustancialmente más sencillo. Nos sentimos más seguros, ya que estamos trabajando en una versión reciente del código. Cuando rompemos algo, tenemos los cambios en la cabeza, facilitando enormemente su corrección. Ésto reduce la probabilidad de introducción de bugs, difíciles de detectar y corregir. 
 
@@ -152,19 +648,19 @@ En conclusión, la práctica de integración continua resulta fundamental en nue
 
 # La pared de Scrum
 
-> “No podemos cumplir nuestros compromisos, no podemos hacer releases, nuestros clientes se frustran y se enojan. Parece que Scrum estuviera roto.”[[4]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie)
+> “No podemos cumplir nuestros compromisos, no podemos hacer releases, nuestros clientes se frustran y se enojan. Parece que Scrum estuviera roto.”[[6]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie)
 
-¿Qué pasa cuando hacemos Scrum, pero no utilizamos las prácticas previamente descritas? Pues nos chocamos con la pared de Scrum[[5]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie). La metáfora es muy visual. No es posible hacer desarrollo de software sin usar las prácticas mencionadas en las secciones anteriores.
+¿Qué pasa cuando hacemos Scrum, pero no utilizamos las prácticas previamente descritas? Pues nos chocamos con la pared de Scrum[[7]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie). La metáfora es muy visual. No es posible hacer desarrollo de software sin usar las prácticas mencionadas en las secciones anteriores.
 
 # Manifiesto de *Software Craftsmanship* 
 
-¿El Manifiesto Ágil debería haber prestado mayor atención a los aspectos técnicos? Escuché esta pregunta en reiteradas ocasiones. Marick, uno de los signatarios, en su presentación ‘7 años después: lo que el manifiesto dejó afuera’[[6]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie) contesta esta pregunta.
+¿El Manifiesto Ágil debería haber prestado mayor atención a los aspectos técnicos? Escuché esta pregunta en reiteradas ocasiones. Marick, uno de los signatarios, en su presentación ‘7 años después: lo que el manifiesto dejó afuera’[[8]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie) contesta esta pregunta.
 
-Años después de la aparición del manifiesto, surgió un movimiento que, esta vez sí, puso la carga fundamental en el aspecto técnico. Se redactó un manifiesto de [*software craftsmanship*](http://manifesto.softwarecraftsmanship.org/) (en la actualidad, los *craftsmen* se volvieron *crafters* gracias al movimiento feminista) como contraposición a su precedente ágil, muy popular a esta altura, donde se expuso la valoración del software ‘bien hecho’[[7]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie) así como la necesidad de una comunidad de profesionales capacitados para realizar esta labor. Los creadores de este manifiesto nos hicieron comprometer con el respeto por la profesión, abrazando un sentimiento de orgullo por lo que hacemos. Finalmente, establecieron un camino para llegar a la maestría, tomando como modelo los oficios tradicionales donde se comienza siendo un aprendiz que copia y repite al *master* hasta volverse uno con el correr del tiempo.
+Años después de la aparición del manifiesto, surgió un movimiento que, esta vez sí, puso la carga fundamental en el aspecto técnico. Se redactó un manifiesto de [*software craftsmanship*](http://manifesto.softwarecraftsmanship.org/) (en la actualidad, los *craftsmen* se volvieron *crafters* gracias al movimiento feminista) como contraposición a su precedente ágil, muy popular a esta altura, donde se expuso la valoración del software ‘bien hecho’[[9]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie) así como la necesidad de una comunidad de profesionales capacitados para realizar esta labor. Los creadores de este manifiesto nos hicieron comprometer con el respeto por la profesión, abrazando un sentimiento de orgullo por lo que hacemos. Finalmente, establecieron un camino para llegar a la maestría, tomando como modelo los oficios tradicionales donde se comienza siendo un aprendiz que copia y repite al *master* hasta volverse uno con el correr del tiempo.
 
 # Sobre Prácticas Técnicas y Prácticas de Gestión - by Nicolas Paez
 
-Me acerqué a *Agile* allá por 2004 apróximadamente. Lo hice desde Extreme Programming (XP): un enfoque ágil que es muy explícito respecto de la excelencia técnica y que, en términos generales, incluye las prácticas mencionadas en las secciones precedentes. Durante un tiempo, hasta 2005 / 2006, XP fue el método ágil más popular. Luego fue desplazado por Scrum, el enfoque ágil más utilizado en la actualidad. Paralelamente, también se popularizaron algunas implementaciones de Scrum, que en 2009 fueron bautizadas por Martin Fowler como *Flaccid Scrum*[[7]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie). Estas implementaciones se caracterizan por la ausencia de prácticas técnicas lo cual, en términos de desarrollo ágil de software, implica una contradicción. Con el correr del tiempo, surgieron distintos movimientos que, a veces intencionalmente y otras no, fueron disociando las prácticas ágiles de índole técnica de aquellas ligadas a la gestión. Éstas últimas empezaron a denominarse “prácticas ágiles” a secas, mientras que las primeras, “prácticas de ingeniería”. Constituye una evidencia de ésto el reporte anual sobre el estado de Agile publicado por Version One[[8]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie). 
+Me acerqué a *Agile* allá por 2004 apróximadamente. Lo hice desde Extreme Programming (XP): un enfoque ágil que es muy explícito respecto de la excelencia técnica y que, en términos generales, incluye las prácticas mencionadas en las secciones precedentes. Durante un tiempo, hasta 2005 / 2006, XP fue el método ágil más popular. Luego fue desplazado por Scrum, el enfoque ágil más utilizado en la actualidad. Paralelamente, también se popularizaron algunas implementaciones de Scrum, que en 2009 fueron bautizadas por Martin Fowler como *Flaccid Scrum*[[10]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie). Estas implementaciones se caracterizan por la ausencia de prácticas técnicas lo cual, en términos de desarrollo ágil de software, implica una contradicción. Con el correr del tiempo, surgieron distintos movimientos que, a veces intencionalmente y otras no, fueron disociando las prácticas ágiles de índole técnica de aquellas ligadas a la gestión. Éstas últimas empezaron a denominarse “prácticas ágiles” a secas, mientras que las primeras, “prácticas de ingeniería”. Constituye una evidencia de ésto el reporte anual sobre el estado de Agile publicado por Version One[[11]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie). 
 
 Creo que este fenómeno de la “falta de excelencia técnica” se debe en parte a la expansión de *Agile* hacía otros contextos por fuera del desarrollo de software donde las denominadas prácticas técnicas como TDD y *pair-programming* no tienen aplicación. Alguien podrá argumentar que si mi contexto es relativo a la confección de prendas entonces en lugar de *pair-programming* podría hacer ‘*pair-bordado’*, pero precisamente no sería *pair-programming* sino algo análogo que podría o no traer un beneficio.
 
@@ -225,11 +721,13 @@ Buscamos la excelencia técnica continuamente. Para alcanzarla, trabajamos de fo
 
 1. Clean code that works.
 2. Ward, un personaje esencial en el nacimiento del movimiento ágil, pero de un perfil muy bajo hizo un video que está en [youtube](https://www.youtube.com/watch?v=pqeJFYwnkjE) y resume este concepto de modo mucho más claro.
-3. Anglicismo muy utilizado, equivalente al verbo fusionar de nuestra lengua.
-4. You can’t keep your commitments, you can’t release software, your customers get annoyed and angry, it looks like Scrum is broken.
-5. [The Scrum Wall](https://www.allankellyassociates.co.uk/archives/869/scrum-wall-another-agile-failure-mode/)
-6. [Seven Years Later: What the Agile Manifesto Left Out](https://www.stickyminds.com/sites/default/files/presentation/file/2013/08BADPR_WK1.pdf)
-7. Traducción literal de los términos ‘well crafted*’*
-8. https://martinfowler.com/bliki/FlaccidScrum.html
-9. <https://stateofagile.versionone.com/> - Algunos referentes de la comunidad ágil como Joshua Kerievsky han manifestado explícitamente su oposición a esta tendencia. https://www.linkedin.com/pulse/stop-calling-them-technical-practices-joshua-kerievsky/
+3. No puedo dejar de hacer un comentario relacionado a mi "amor" declarado por *Smalltalk*. Puede ser poco objetivo, pero no podemos negar la cantidad de cosas interesantes que se generaron a partir de desarrolladores relacionados a la cultura "Smalltalkera". En el caso particular del proyecto C3, no solamente usaban Smalltalk como lenguaje de programación, sino GemStone, una base de objetos IMPRESIONANTE. Tuve la suerte, la dicha, de desarrollar software con esa tecnología y puedo decir, sin pudor, que nunca me sentí tan cómodo ni tan productivo (pese a haber utilizado muchas tecnologías y lenguajes, como assembler, C, Pascal, C++, Java, C#, Python, Ruby y muchos más).
+4. Recordar que el significado original de refactorizar es "modificar el diseño sin modificar la ejecución". Es una actividad que tiene por objetivo mejorar la vida del programador, hacer que entienda más fácilmente el programa, volver más declarativa la solución. A una computadora no le importa cómo se llama un objeto o un mensaje. A una persona, sí. La diferencia entre un buen nombre y uno malo puede ser determinante en la comprensión de una solución. Hago esta aclaración sobre el significado de esta palabra porque en nuestra profesión resulta muy común mutar los significados, cambiarlos. Últimamente, he notado una confusión entre "cambiar" y "refactorizar". Se utiliza la palabra refactorizar para indicar cambio, que no implica el mismo resultado de ejecución. Cambiar un programa puede incluir cambio a nivel ejecución. Refactorizar, no. Es una diferencia muy importante.
+5. Anglicismo muy utilizado, equivalente al verbo fusionar de nuestra lengua.
+6. You can’t keep your commitments, you can’t release software, your customers get annoyed and angry, it looks like Scrum is broken.
+7. [The Scrum Wall](https://www.allankellyassociates.co.uk/archives/869/scrum-wall-another-agile-failure-mode/)
+8. [Seven Years Later: What the Agile Manifesto Left Out](https://www.stickyminds.com/sites/default/files/presentation/file/2013/08BADPR_WK1.pdf)
+9. Traducción literal de los términos ‘well crafted*’*
+10. https://martinfowler.com/bliki/FlaccidScrum.html
+11. <https://stateofagile.versionone.com/> - Algunos referentes de la comunidad ágil como Joshua Kerievsky han manifestado explícitamente su oposición a esta tendencia. https://www.linkedin.com/pulse/stop-calling-them-technical-practices-joshua-kerievsky/
 

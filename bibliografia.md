@@ -12,6 +12,8 @@
 
 ###### [Beck01 - Beck, Kent - Extreme Programming Explained: Embrace Change, 2nd Edition - Noviembre, 2004](https://g.co/kgs/KKdTyb)
 
+###### [Beck02 - Beck, Kent - Test Driven Development: By Example - Noviembre, 2002](https://g.co/kgs/aQTv54)
+
 ###### [Brooks00 - Brooks Jr., Frederick - The Mythical Man Month - Agosto, 1995](https://g.co/kgs/pU3KT4)
 
 ###### [Cagan00 - Cagan, Marty - Inspired: How To Create Products Customers Love - Junio, 2008](https://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408)
