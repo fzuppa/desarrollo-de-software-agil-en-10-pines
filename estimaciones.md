@@ -38,9 +38,9 @@ Si bien es bastante frecuente usar _Story Points_, estos no son fundamentales de
 
 # ¿Qué se tiene en cuenta al realizar una estimación? 
 
-Un punto a tener en claro, antes de estimar, es qué significa completar una _User Story_. No basta con haber ‘codeado’ la funcionalidad. **Debemos, como mínimo, ejecutar exitosamente todos los casos de prueba y el** _**Product Owner**_ **debe validar y aceptar la** _**User Story**_. Además, deben existir _tests automatizados_ para toda la nueva funcionalidad, que cobrarán vital importancia para su posterior regresión.
+Un punto a tener en claro, antes de estimar, es qué significa completar una _User Story_. No basta con haber ‘codeado’ la funcionalidad. Debemos, como mínimo, ejecutar exitosamente todos los casos de prueba y el _Product Owner_ debe validar y aceptar la _User Story_. Además, deben existir _tests_ automatizados para toda la nueva funcionalidad, que cobrarán vital importancia para su posterior regresión.
 
-Todos estos puntos, y quizás algunos otros que se agreguen para algún proyecto u organización en particular, constituyen la [*definition of done*](https://www.scruminc.com/definition-of-done/). No tiene sentido escribirlos en cada _User Story_ porque están implícitos, aplican a todas. Es muy importante que todo el equipo entienda lo mismo. En otras palabras, que para todos signifique lo mismo completar una _User Story_. Una actividad que podemos realizar, para asegurarnos de ésto, consiste en armar un afiche con la lista de los criterios definidos. Una vez creado, podemos pegarlo cerca de nuestros escritorios, para que funcione como un [radiador de información](http://alistair.cockburn.us/Information+radiator).
+Todos estos puntos, y quizás algunos otros que se agreguen para algún proyecto u organización en particular, constituyen la [*definition of done*](https://www.scruminc.com/definition-of-done/). No tiene sentido escribirlos en cada _User Story_ porque están implícitos, aplican a todas. **Es muy importante que todo el equipo entienda lo mismo**. En otras palabras, que para todos signifique lo mismo completar una _User Story_. Una actividad que podemos realizar, para asegurarnos de ésto, consiste en armar un afiche con la lista de los criterios definidos. Una vez creado, podemos pegarlo cerca de nuestros escritorios, para que funcione como un [radiador de información](http://alistair.cockburn.us/Information+radiator).
 
 # ![](.gitbook/assets/32x32.png)***Planning Poker***
 
@@ -98,7 +98,7 @@ Podríamos pensar que existe una similitud entre las horas descritas y las [hora
 
 
 
-Al comenzar a trabajar, **mediremos la cantidad de** _**Story Points**_ **que podemos terminar en cada iteración**, lo que nos dará una pauta de la verdadera capacidad del equipo. Llamamos a ésto [_Velocity_](https://www.agilealliance.org/glossary/velocity) [[Cohn]](bibliografia.md#cohn00-cohn-mike-user-stories-applied-for-agile-software-development-marzo-2004), que es un término que proviene de la física y que incluye la celeridad y la dirección \(creo que la metáfora es interesante, ya que podríamos estar desarrollando muy rápidamente la funcionalidad errada\).
+Al comenzar a trabajar, **mediremos la cantidad de** _**Story Points**_ **que podemos terminar en cada iteración**, lo que nos dará una pauta de la verdadera capacidad del equipo. Llamamos a ésto [_Velocity_](https://www.agilealliance.org/glossary/velocity) [[Cohn]](bibliografia.md#cohn00-cohn-mike-user-stories-applied-for-agile-software-development-marzo-2004), que es un término que proviene de la física y que incluye la celeridad y la dirección.
 
 Midiendo la _Velocity_ de la primera iteración, podríamos inferir, con más información que antes de empezar, cuánto nos queda por delante. Sigamos con el ejemplo de la sección anterior e imaginemos que el equipo completa 2 _User Stories_: una de 5 puntos y otra de 3. La _Velocity_ será entonces de 8 puntos. De los 75 puntos estimados, completamos 8 \(en la jerga decimos ‘quemamos 8’ y ya veremos la causa\), o sea que nos quedan 68. Podemos inferir entonces que, si seguimos con esta _Velocity_, necesitaríamos 8.5 iteraciones \(68 / 8\) para terminar.
 

@@ -114,7 +114,7 @@ Un punto muy importante, cuando escriban los criterios de aceptación, es que **
 Cuando estamos construyendo una aplicación que tiene una interfase visual \(una _app web_ o _mobile_\), la mayoría de las _User Stories_ tendrán asociadas una vista en la que se desarrollará esta funcionalidad. El mejor modo para describirla es a través de un _mockup_, que podría ser dibujado a mano \(muchas veces lo hemos realizado junto con el usuario y luego fotografiado) o ser confeccionado en una herramienta que sirva para este fin como [balsamiq](https://balsamiq.com/). Dentro de estos _mockups_ podemos agregar cualquier descripción que sirva para refinar el *scope* de la funcionalidad a describir. Retomando el ejemplo del recibo de la _User Story_ anterior, podríamos haberlo imaginado en un _mockup_, como el de la imagen que sigue, donde especificamos la información esperada de un modo más visual:    
 ****
 
-![](https://lh3.googleusercontent.com/YP0UrP5HLq6FxxN5nbJyZ55NQRTe8EpZ89pLVfD4RGSwKyr0UPiEGZnipVhleh1X8fxCe_grH7-4Tc5cmRDO9IfiKhqDLLrkRCuqKSCj59-brHS5JrPQjEQCoMeDF-5-6akjx-bR)
+![](assets/mockup.jpeg)
 
 Este _mockup_, precario \(porque lo hice yo\), tiene toda la información de los criterios mostrados en el ejemplo anterior, de modo más prolijo y con las aclaraciones pertinentes que hacen a la _User Story_ mucho más comprensible. Una imagen vale más que mil palabras. Utilicen esto a su favor.
 
