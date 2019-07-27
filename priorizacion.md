@@ -94,7 +94,7 @@ Existen varios modos de visualización, que transmitiré mediante el ejemplo del
 | **Pago con Tarjeta de Descuentos** | **5** | **3** | **1.66** |
 | **Reportes en Tiempo Real para Jefes** | **8** | **5** | **1.6** |
 
-La 4ta columna es la razón entre el valor de negocios y los puntos de esfuerzo, es decir, la división entre el valor de la 2da columna y de la 3ra. Aquí se puede ver como la épica más beneficiosa es ‘Pago con Bitcoins’, con un beneficio de 2. El valor de negocios es el más pequeño, pero el esfuerzo también. El _Product Owner_ podría decidir priorizar ‘la fruta que cuelga baja en el árbol’ \([_low hanging fruit_)])(https://www.merriam-webster.com/dictionary/low-hanging%20fruit). Paradójicamente, la épica menos beneficiosa es la de mayor valor de negocios, justamente porque implica un esfuerzo importante.
+La 4ta columna es la razón entre el valor de negocios y los puntos de esfuerzo, es decir, la división entre el valor de la 2da columna y de la 3ra. Aquí se puede ver como la épica más beneficiosa es ‘Pago con Bitcoins’, con un beneficio de 2. El valor de negocios es el más pequeño, pero el esfuerzo también. El _Product Owner_ podría decidir priorizar ‘la fruta que cuelga baja en el árbol’ ([_low hanging fruit_](https://www.merriam-webster.com/dictionary/low-hanging%20fruit)). Paradójicamente, la épica menos beneficiosa es la de mayor valor de negocios, justamente porque implica un esfuerzo importante.
 
 En mi experiencia, el costo es un factor sustancialmente menos importante que los demás \(valor de negocios y riesgo\). En contadas ocasiones observé a un _Product Owner_ tomar la decisión de priorizar una funcionalidad solamente porque su desarrollo no fuera costoso. Para resolver esto, podemos añadir ‘pesos’ para cada uno de los factores. Siguiendo el ejemplo anterior, si especificáramos un peso de 0.7 para el valor de negocios y 0.3 para el esfuerzo, obtendríamos los siguientes resultados.    
 ****
@@ -106,6 +106,7 @@ En mi experiencia, el costo es un factor sustancialmente menos importante que lo
 | **Reportes en Tiempo real para Jefes** | **8 \[5.6\]** | **3 \[0.9\]** | **6.22**  |
 
 [Jim Highsmith](https://g.co/kgs/dNXTTD) argumenta la visualización de los beneficios como porcentajes ya que esto prevendría que, al trabajar con diferentes equipos, se exageren los puntos de valor. Los resultados para el ejemplo serían los que presento a continuación, donde calculamos el porcentaje de valor para cada una de las épicas, el porcentaje de esfuerzo y luego la razón.    
+
 ****
 
 | **Épica** | **Valor de Negocios \(0.7\)** | **% de Valor** | **Puntos de Esfuerzo \(0.3\)** | **% de Esfuerzo** | **Razón \(Beneficio\)** |
@@ -131,9 +132,8 @@ Esta _Tracer Bullet_ permite testear todas las capas de nuestra arquitectura y c
 Esta es una herramienta utilizada por una experimentada _Product Owner_ con la que tuve la oportunidad de trabajar, para priorizar y organizar el trabajo de los próximos meses para los diferentes grupos de los que formaba parte. Después de conocerla, leí el libro *Managing your Project Portfolio*[[Rothman00]](bibliografia.md#rothman00-rothman-johanna-book-manage-your-project-portfolio-increase-your-capacity-agosto-2009), que la explica detalladamente.
 
 Al observar la imagen siguiente, probablemente alcancen a comprender su funcionamiento. En un eje, se especifican las unidades de tiempo y, en el otro, los diferentes equipos. Luego grafican el periodo que, estiman \(de modo superficial\), consumirá cada una de las épicas que tienen priorizadas en la columna correspondiente al equipo al que se asignará.    
-****
 
-![](./assets/Product Roadmap Horizontal.png)
+![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/product_roadmap_horizantal_1.png)
 
 La única herramienta digital que conozco, sin haber utilizado, es [Roadmunk](https://roadmunk.com/jira-roadmap-integration). Lo bueno de que sea un _plugin_ de [Jira](https://www.atlassian.com/software/jira) reside en que las mismas épicas planeadas en el _roadmap_ son usadas posteriormente en la herramienta de gestión, una vez iniciada la construcción.
 
