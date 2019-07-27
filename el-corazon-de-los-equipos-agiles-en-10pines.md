@@ -50,7 +50,7 @@ En esta sección les hablaré sobre las personas, el ingrediente fundamental de 
 
 Como sabemos que las personas son importantes, invertimos mucho tiempo en el proceso de selección. No buscamos programadores con ciertos _skills_ para ingresar a un proyecto particular. **Buscamos programadores que deseen desarrollar su vida profesional en 10Pines**. En consecuencia, somos muy estrictos en la evaluación técnica. También queremos conocer, tanto como sea posible, su parte humana. Con estos objetivos hemos ideado nuestro proceso de selección.
 
-Como mencioné anteriormente, **la excelencia técnica es parte de nuestro ADN**. No creemos que se pueda hacer software con programadores que no sean fuertes técnicamente, que no sepan diseñar o testear. Los postulantes desarrollan un ejercicio usando el lenguaje de programación de preferencia. A continuación, debatimos las decisiones de diseño tomadas, las abstracciones creadas y el proceso utilizado para llegar a ellas \(¿usaronTest Driven Development?\). No hacemos foco en el aspecto tecnológico o en los detalles del lenguaje.
+Como mencioné anteriormente, **la excelencia técnica es parte de nuestro ADN**. No creemos que se pueda hacer software con programadores que no sean fuertes técnicamente, que no sepan diseñar o testear. Los postulantes desarrollan un ejercicio usando el lenguaje de programación de preferencia. A continuación, debatimos las decisiones de diseño tomadas, las abstracciones creadas y el proceso utilizado para llegar a ellas \(¿usaron *Test Driven Development*?\). No hacemos foco en el aspecto tecnológico o en los detalles del lenguaje.
 
 El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto. Para lograrlo, **organizamos una entrevista grupal de la que participan todos los integrantes de la empresa**. El objetivo es conocer al candidato o candidata en profundidad, evaluando si es alguien con quien nos gustaría trabajar. Piensen que compartiremos muchísimas horas de nuestro día con él o ella.
 
@@ -62,7 +62,7 @@ El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto.
 * **Saben diseñar**: Tienen habilidad para plasmar en el modelo las abstracciones correctas. Ser un buen diseñador se aprende, a partir de cursos y compartiendo proyectos junto a programadores experimentados. Sin embargo, creo que los mejores tienen algo innato.
 * **Dominan el lenguaje de programación**: Dominar el lenguaje permite enfocarse en la resolución del problema, creando, además, soluciones más ‘elegantes’[[3]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie). Conocer los usos y costumbres \(lo que llamamos [_idioms_](https://en.wikipedia.org/wiki/Programming_idiom)\) hace que nuestro _codebase_ luzca bien.
 * **Técnicas**: Considero que un buen programador debe ser prolijo y disciplinado para construir software, usando _test driven development_, refactorizando continuamente e integrando tan pronto como sea posible. Estas técnicas se vuelven fundamentales cuando trabajamos en un equipo, para poder sincronizar y colaborar correctamente.
-* **Herramientas**: Finalmente, es importante conocer en profundidad las herramientas que usamos diariamente en nuestro trabajo: la IDE, sus atajos, sus diferentes vistas y sus funcionalidades. También el versionador de código. El desarrollo debe fluir sin que existan ‘fricciones’.
+* **Herramientas**: Finalmente, es importante conocer en profundidad las herramientas que usamos diariamente en nuestro trabajo: la *IDE*, sus atajos, sus diferentes vistas y sus funcionalidades. También el versionador de código. El desarrollo debe fluir sin que existan ‘fricciones’.
 
 ![](./assets/Skills de un pino.png)
 
@@ -151,7 +151,7 @@ Otro de los factores necesarios para sentirnos bien es el reconocimiento. Que un
 
 La [pirámide de Maslow](https://es.wikipedia.org/wiki/Pirámide_de_Maslow) muestra que el reconocimiento es parte de nuestras necesidades esenciales, después de la seguridad y de la confianza. El ser humano precisa tanto ser reconocido como demostrar reconocimiento.
 
-**En 10Pines, nos gusta reconocer un buen trabajo**. Lo hacemos todo el tiempo, por ejemplo, cuando alguien nos ayuda a resolver un problema o prepara una charla. Publicamos estos reconocimientos mediante ‘[La muralla de Kudos](https://kudos.10pines.com/)’. Esta herramienta, basada en las cartas de _Kudos_ de _Management 3.0_, fue desarrollada por uno de nuestros pinos, Joaquín, para ‘enviar’ _kudos_ virtuales a otro/s pino/s a través de [slack](https://slack.com), que luego compartimos durante la *standup* semanal. ¡Se siente muy bien aparecer en la muralla y también agradecer a alguien de esta manera!
+**En 10Pines, nos gusta reconocer un buen trabajo**. Lo hacemos todo el tiempo, por ejemplo, cuando alguien nos ayuda a resolver un problema o prepara una charla. Publicamos estos reconocimientos mediante ‘La muralla de Kudos’. Esta herramienta, basada en las cartas de _Kudos_ de _Management 3.0_, fue desarrollada por uno de nuestros pinos, Joaquín, para ‘enviar’ _kudos_ virtuales a otro/s pino/s a través de [slack](https://slack.com), que luego compartimos durante la *standup* semanal. ¡Se siente muy bien aparecer en la muralla y también agradecer a alguien de esta manera!
 
 ![Kudos al final de nuestro standup semanal](./assets/Kudos en el Standup.png)
 
@@ -179,23 +179,19 @@ Miembros que no se comprometen son **miembros que no son responsables**. ¿Puede
 
 Finalmente, los miembros no responsables crean un ambiente donde la 5ta disfunción florece: **No atención a los resultados**.
 
-Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son el resultado de problemas más profundos. Sólo observamos los síntomas. He visto, por ejemplo, equipos que se comunican a través de herramientas \(como Jira\) para dejar ‘evidencia’ o testers que incluyen un reporte de _bugs_ antes de aceptar la _user story_. En algunas ocasiones, cometí el error de centrarme en los síntomas, queriendo hacer los procesos más eficientes, cuando los problemas eran humanos, de falta de confianza y colaboración. Las personas, como agentes inteligentes dentro de este sistema complejo que es una organización, maquillan los problemas, desplazan el eje o se acomodan según intereses propios. 
+Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son el resultado de problemas más profundos. Sólo observamos los síntomas. He visto, por ejemplo, equipos que se comunican a través de herramientas \(como Jira\) para dejar ‘evidencia’ o testers que incluyen un reporte de _bugs_ antes de aceptar la _User Story_. En algunas ocasiones, cometí el error de centrarme en los síntomas, queriendo hacer los procesos más eficientes, cuando los problemas eran humanos, de falta de confianza y colaboración. Las personas, como agentes inteligentes dentro de este sistema complejo que es una organización, maquillan los problemas, desplazan el eje o se acomodan según intereses propios. 
 
 # **Visión**
 
-> **“Si no sabes para dónde vas, cualquier camino te llevará allí" - Lewis Carroll**[[6]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie)
-
-Como ya mencioné en el [capítulo 1](product-discovery.md), comenzamos los proyectos haciendo un **product discovery** del que participa todo el equipo y que permite construir una visión compartida que consensúa los objetivos y el plan para alcanzarlos. Dicha visión nos permite volcar todo nuestro talento en busca de las mejores soluciones. **Es el disparador de la inteligencia colectiva, el energizante que dispara las interacciones necesarias**. Sienta las bases para que se produzca el mejor tipo de colaboración. Somos agentes inteligentes, empoderados, en un ambiente que nos alienta a dar lo mejor de nosotros.
-
-
-
 ![](./assets/Armando el equipo.png)
 
+> **“Si no sabes para dónde vas, cualquier camino te llevará allí" - Lewis Carroll**[[6]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie)
 
+
+
+Como ya mencioné en el [capítulo 1](product-discovery.md), comenzamos los proyectos haciendo un *Product Discovery* del que participa todo el equipo y que permite construir una visión compartida que consensúa los objetivos y el plan para alcanzarlos. Dicha visión nos permite volcar todo nuestro talento en busca de las mejores soluciones. **Es el disparador de la inteligencia colectiva, el energizante que dispara las interacciones necesarias**. Sienta las bases para que se produzca el mejor tipo de colaboración. Somos agentes inteligentes, empoderados, en un ambiente que nos alienta a dar lo mejor de nosotros.
 
 ![](./assets/Product Discovery photos.png)
-
-
 
 10Pines funciona exactamente del mismo modo. **Todos los pinos construimos la visión de la empresa**, que repasamos y refinamos cada año, durante nuestro retiro estratégico. Esta visión nos guía, nos permite tomar las decisiones diarias.
 
@@ -311,8 +307,8 @@ Finalmente, consideramos a la comunicación vital en el desarrollo de software. 
 
 5. Esta retrospectiva es muy interesante para hacerla con sus equipos. Genera una base de entendimiento y de valores compartidos. Nos permite tomar decisiones durante la ejecución del proyecto (guiadas por estos valores). Sentirnos un equipo.
 
-6. 'If you don't know where you are going, any road will get you there'.
+6. '*If you don't know where you are going, any road will get you there*'.
 
-7. 'Few of us are in the high tech business. Most of us are in the human communications business.'
+7. '*Few of us are in the high tech business. Most of us are in the human communications business*.'
 
 8. Alistair lo denomina [‘un juego de invención y cooperación](http://alistair.cockburn.us/ASD+book+extract%3A+%22A+cooperative+game+of+invention+and+communication%22)’: un equipo de *crafters* colabora entre sí para que la solución emerja, aportando cada uno desde su perspectiva.
