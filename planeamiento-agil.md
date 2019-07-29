@@ -2,7 +2,7 @@
 
 # **Planeamiento Continuo**
 
-Ya hicimos el _Product Discovery_ y descubrimos qué se quiere construir y cómo brindará valor el producto. Entendemos mejor qué es lo más importante y también qué se considera indispensable para la primera versión. Escribimos las _User Stories_ y las estimamos. Tenemos una idea vaga, por supuesto, del tamaño. **Resta ahora pensar cuál es la mejor manera de construirlo, dadas las restricciones existentes**, que pueden ser de tiempo \(por ejemplo, ¿es necesario que el MVP esté en el mercado para cierta fecha?\) o de dinero \(los clientes cuentan con un presupuesto\).
+Ya hicimos el _Product Discovery_ y descubrimos qué se quiere construir y cómo brindará valor el producto. Entendemos mejor qué es lo más importante y también qué se considera indispensable para la primera versión. Escribimos las _User Stories_ y las estimamos. Tenemos una idea vaga, por supuesto, del tamaño. **Resta ahora pensar cuál es la mejor manera de construirlo, dadas las restricciones existentes**, que pueden ser de tiempo \(por ejemplo, ¿es necesario que el *MVP* esté en el mercado para cierta fecha?\) o de dinero \(los clientes cuentan con un presupuesto\).
 
 Es momento para definir un plan, una primera versión de él, que esboce el camino para alcanzar nuestros objetivos. Retomando lo dicho por Marty Cagan: "para que un producto sea exitoso, debe ser **valioso, usable y factible de desarrollar**". Aquí debemos pensar la última parte: ¿Podemos construirlo en los tiempos necesarios y con los recursos con los que contamos? ¿Cómo lo haremos? ¿Qué tecnología usaremos? ¿Quiénes trabajarán en la construcción? ¿Por cuánto tiempo? ¿Cómo atacaremos los riesgos identificados? ¿Cuál será el costo? El plan representa una primera versión de las respuestas a todas estas preguntas y la visión conjunta necesaria, de todo el equipo, para alcanzar estos objetivos.
 
@@ -58,7 +58,7 @@ En mis ‘años mozos’, conocí el [Triángulo de Acero de la Gestión de Proy
 
 
 
-En el libro de Management 3.0 [[Appelo00]](bibliografia.md#appelo00-appelo-jurgen-management-3-0-leading-agile-developers-developing-agile-leaders-diciembre-2010), Jurgen describe el Cuadrado de Acero, incluyendo en la 4ta arista la calidad.
+En el libro de *Management* 3.0 [[Appelo00]](bibliografia.md#appelo00-appelo-jurgen-management-3-0-leading-agile-developers-developing-agile-leaders-diciembre-2010), Jurgen describe el Cuadrado de Acero, incluyendo en la 4ta arista la calidad.
 
 
 

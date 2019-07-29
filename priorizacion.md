@@ -82,7 +82,7 @@ Con este equipo, solíamos priorizar también las épicas de cada categoría, so
 
 Otra herramienta de gran utilidad durante el proceso de priorización es la asignación de ‘puntos de valor de negocios’ \(_business value points_\) a las diferentes funcionalidades, haciendo una comparación similar a la utilizada al estimar _Story Points_ pero, esta vez, **asignando valores relativos en lugar de esfuerzos relativos**. Las piezas de funcionalidad a las que asignamos puntos deben ser necesariamente mayores que las _User Stories_, ya que estas últimas, por sí mismas, son unidades funcionales muy pequeñas para representar un valor de negocio.
 
-Como en la técnica de *MoSCoW*, también nos fuerza a consensuar y explicitar valores. Decimos que una épica es más importante que otra pero, ¿cuánto? ¿Estamos de acuerdo en eso? Explicitar esos puntos de valor de negocio puede resultar un ejercicio muy fructífero para todos. Además, una vez estimados el valor y el esfuerzo, podemos establecer la razón costo-beneficio de cada una de ellas. 
+Como en la técnica de *MoSCoW*, también nos fuerza a consensuar y explicitar valores. Decimos que una épica es más importante que otra, pero ¿cuánto? ¿estamos de acuerdo en eso? Explicitar esos puntos de valor de negocio puede resultar un ejercicio muy fructífero para todos. Además, una vez estimados el valor y el esfuerzo, podemos establecer la razón costo-beneficio de cada una de ellas. 
 
 Existen varios modos de visualización, que transmitiré mediante el ejemplo del sistema para el cajero de supermercados del capítulo 1. Imaginen que necesitamos agregar las épicas que presento a continuación, a las cuales asignaremos los siguientes puntos de valor de negocios y esfuerzo. Obtendremos  algo similar a la tabla siguiente:    
 
@@ -133,7 +133,7 @@ Esta es una herramienta utilizada por una experimentada _Product Owner_ con la q
 
 Al observar la imagen siguiente, probablemente alcancen a comprender su funcionamiento. En un eje, se especifican las unidades de tiempo y, en el otro, los diferentes equipos. Luego grafican el periodo que, estiman \(de modo superficial\), consumirá cada una de las épicas que tienen priorizadas en la columna correspondiente al equipo al que se asignará.    
 
-![](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/product_roadmap_horizantal_1.png)
+![](./assets/product_roadmap_horizantal_1.png)
 
 La única herramienta digital que conozco, sin haber utilizado, es [Roadmunk](https://roadmunk.com/jira-roadmap-integration). Lo bueno de que sea un _plugin_ de [Jira](https://www.atlassian.com/software/jira) reside en que las mismas épicas planeadas en el _roadmap_ son usadas posteriormente en la herramienta de gestión, una vez iniciada la construcción.
 
@@ -157,7 +157,7 @@ Esta experiencia suele ser divertida y muy distendida. Favorece las charlas de n
 
 Cuando hablamos de valor de negocios en esta etapa, en la que todavía no existe un producto, en realidad hipotetizamos sobre el potencial que, creemos, entregará. Nos queda validar estas hipótesis con usuarios reales, ¿estarán dispuestos a pagar por nuestro producto?
 
-Haremos esto mediante experimentos, que testean si lo supuesto se cumple. Teniendo esto en cuenta, la priorización consiste en determinar el modo de testeo de las hipótesis. En otras palabras, pensar y priorizar experimentos y, de acuerdo a ésto, decidir qué funcionalidad incluir en cada uno de ellos. De este modo, el producto mínimo viable \(MVP\) no es más que el primero de nuestros experimentos, que valida la hipótesis única de valor.
+Haremos esto mediante experimentos, que testean si lo supuesto se cumple. Teniendo esto en cuenta, la priorización consiste en determinar el modo de testeo de las hipótesis. En otras palabras, pensar y priorizar experimentos y, de acuerdo a ésto, decidir qué funcionalidad incluir en cada uno de ellos. De este modo, el producto mínimo viable \(*MVP*\) no es más que el primero de nuestros experimentos, que valida la hipótesis única de valor.
 
 Todos estos conceptos están tomados de la metodología de _Lean Startups_[[Ries00]](bibliografia.md#ries00-ries-eric-the-lean-startup-septiembre-2011), de Eric Ries. Planear, construir y validar con usuarios reales. Los lineamientos generales son muy similares a los de las metodologías ágiles, pero van un paso más allá.
 

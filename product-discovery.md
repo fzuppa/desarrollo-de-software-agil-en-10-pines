@@ -324,4 +324,5 @@ ___
 
 1. *The hardest single part of building a software system is deciding precisely what to build* - [Brooks00](bibliografia.md#brooks00-brooks-jr-frederick-the-mythical-man-month-agosto-1995)
 2. *A User Story Mapping Example with David Hussman* - https://www.youtube.com/watch?v=LgIfrpvLM_Y
+3. Extracto de "Diseño de experiencia de usuario (UX): Cómo diseñar interfaces digitales amigables para las personas y rentables para las compañías"- [[Carraro00]](bibliografia.md#)
 

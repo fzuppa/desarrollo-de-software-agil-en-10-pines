@@ -18,6 +18,8 @@
 
 ###### [Cagan00 - Cagan, Marty - Inspired: How To Create Products Customers Love - Junio, 2008](https://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408)
 
+###### [Carraro00 - Carraro, Juan Manuel/Duarte, Yanina - Diseño de experiencia de usuario (UX): Cómo diseñar interfaces digitales amigables para las personas y rentables para las compañías - Noviembre, 2015](https://www.amazon.com/Diseño-experiencia-usuario-interfaces-digitales-ebook/dp/B017RPCL3Y)
+
 ###### [Cockburn00 - Cockburn, Alistair - Agile Software Development: The Cooperative Game (2nd Edition) - Octubre, 2006](https://g.co/kgs/YnRFqf)
 
 ###### [Cohn00 - Cohn, Mike - User Stories Applied: For Agile Software Development - Marzo, 2004](https://g.co/kgs/d4Rxzh)
