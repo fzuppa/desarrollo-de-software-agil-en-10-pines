@@ -1,6 +1,6 @@
 # Conclusiones
 
-Desarrollamos software buscando maximizar el flujo de valor generado para nuestros clientes. Queremos que sea sustentable, aún cuando el contexto cambie. Trabajamos en un ambiente de gran calidad humana, donde estamos empoderados para colaborar del mejor modo.
+Desarrollamos software buscando maximizar el flujo de valor generado para nuestros clientes. Deseamos que sea sustentable, aún cuando el contexto cambie. Trabajamos en un ambiente de gran calidad humana, empoderados para colaborar del mejor modo.
 
 Nuestra Metodología, nuestra manera de organizarnos y de trabajar, responde a esta visión. Está centrada en generar valor, es liviana, basada en las personas y busca maximizar la colaboración con nuestros clientes, el feedback y la calidad. Recapitulemos:
 
@@ -16,4 +16,4 @@ Conformamos los equipos y co-creamos un ambiente donde trabajar de la mejor mane
 
 Desarrollamos software iterativa e incrementalmente. Involucrar a nuestros clientes durante el proceso de construcción resulta fundamental para obtener el producto que buscamos con la calidad esperada.
 
-Buscamos la excelencia técnica continuamente. Sabemos que es fundamental para alcanzar la calidad necesaria, para ser sustentables en nuestro proceso de desarrollo y para poder adaptarnos ante los cambios externos. Lograr esto requiere mantener el costo de cambio bajo, nuestro código limpio: con el mejor diseño posible y bien testeado. Prácticas como *pair-programming*, *test driven development* y *refactor* continuo son claves en esta búsqueda. 
+Buscamos la excelencia técnica continuamente. Sabemos que es fundamental para alcanzar la calidad necesaria, para ser sustentables en nuestro proceso de desarrollo y para poder adaptarnos ante los cambios externos. Lograr esto requiere mantener el código limpio: con el mejor diseño posible y bien testeado. Prácticas como *pair-programming*, *test driven development* y *refactor* continuo son claves en esta búsqueda. 
