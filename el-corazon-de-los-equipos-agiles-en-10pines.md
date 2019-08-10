@@ -4,13 +4,13 @@
 
 # **El corazón de los Equipos Ágiles en 10Pines**
 
-El desarrollo de software se hace en equipos. Un equipo no implica la reunión de un grupo de personas. Es mucho más que eso, tiene identidad. Todos los integrantes colaboran. Tienen el mismo objetivo, un sentido de compromiso y solidaridad y sienten que aportan valor. Tom de Marco los denominó ‘equipos consolidados’ \(en inglés, [_Jelled Teams_](https://g.co/kgs/624M1r), que toman forma, como la gelatina cuando se cocina\).
+El desarrollo de software se hace en equipos. Un equipo no implica la reunión de un grupo de personas. Es mucho más que eso, tiene identidad. Todos los integrantes colaboran. Tienen el mismo objetivo, un sentido de compromiso y solidaridad y sienten que aportan valor. Tom de Marco los denominó "equipos consolidados" \(en inglés, [_Jelled Teams_](https://g.co/kgs/624M1r), que toman forma, como la gelatina cuando se cocina\).
 
 ¿Tuvieron la suerte de trabajar en un equipo así? Conformado por gente capaz y motivada, que comparte objetivos y da lo mejor para alcanzarlos. Se respira la energía del grupo y la sinergia que puede alcanzarse es increíble.
 
 ¿Qué hace que un equipo funcione bien? ¿Cuáles son sus valores? ¿Cómo se forma?
 
-Primero, y como diría cualquier chef, es fundamental la materia prima, los ingredientes: **En 10Pines, buscamos personas con ‘madera de pino’**, sólidas técnicamente y que amen desarrollar software. Además, deben ser honestos y querer ser parte de la empresa.
+Primero, y como diría cualquier chef, es fundamental la materia prima, los ingredientes: **En 10Pines, buscamos personas con "madera de pino"**, sólidas técnicamente y que amen desarrollar software. Además, deben ser honestos y querer ser parte de la empresa.
 
 Para que estas personas rindan al máximo, debemos **crear un ambiente dentro del cual puedan florecer**. Donde confíen, puedan expresarse sin ningún tipo de miedo y volcar su talento. Un lugar que les permita seguir creciendo, desarrollarse, aprender y donde se sientan motivados y energizados.
 
@@ -20,7 +20,7 @@ La visualización de los objetivos por parte del equipo dispara la inteligencia 
 
 Finalmente, reconocemos que **la comunicación es clave para el éxito**. Por esta razón, **nuestra Metodología maximiza el ancho de banda**, procurando la mayor eficiencia posible. Trabajamos en un _open-space_, participamos en las reuniones \(reduciendo _hands-offs_\), acortamos ciclos y usamos herramientas de gestión y comunicación.
 
-Describiré nuestra receta usando el formato propuesto por Alistair Cockburn en su [Corazón de la Agilidad](https://heartofagile.com). Lo denominé ‘El Corazón de los Equipos Ágiles en 10Pines’.
+Describiré nuestra receta usando el formato propuesto por Alistair Cockburn en su [Corazón de la Agilidad](https://heartofagile.com). Lo denominé "El Corazón de los Equipos Ágiles en 10Pines".
 
 
 
@@ -42,7 +42,7 @@ Pueden notar que los equipos no presentan ninguna característica especial. Son 
 
 Analicemos cada uno de los atributos que hacen a los buenos equipos, empezando por el corazón. Los equipos son las personas. Las empresas, también. No se puede desarrollar software con gente desmotivada, en la cual no confiamos. Tampoco, ser ágiles. **Necesitamos buenos desarrolladores, honestos, responsables y colaborativos.**
 
-En esta sección les hablaré sobre las personas, el ingrediente fundamental de los equipos. Les contaré cómo seleccionamos las semillas, sus atributos y describiré el ‘camino del pino’, nuestro plan de carrera.
+En esta sección les hablaré sobre las personas, el ingrediente fundamental de los equipos. Les contaré cómo seleccionamos las semillas, sus atributos y describiré el "camino del pino", nuestro plan de carrera.
 
 ## Proceso de Selección
 
@@ -56,27 +56,27 @@ El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto.
 
 ## _**Skills**_ **de los Pinos**
 
-¿Qué significa ‘saber’ desarrollar software? ¿Qué implica ‘ser’ un buen programador? Considero que los buenos desarrolladores con los que he trabajado a lo largo de los años poseen esta combinación de _skills_:
+¿Qué significa "saber" desarrollar software? ¿Qué implica "ser" un buen programador? Considero que los buenos desarrolladores con los que he trabajado a lo largo de los años poseen esta combinación de _skills_:
 
 * **Comprenden el dominio en profundidad**: ¿Cómo puedes modelar algo sin conocerlo plenamente? Los buenos programadores buscan entender en profundidad los conceptos que forman parte del problema que enfrentan. Investigan, preguntan y se empapan del dominio.
 * **Saben diseñar**: Tienen habilidad para plasmar en el modelo las abstracciones correctas. Ser un buen diseñador se aprende, a partir de cursos y compartiendo proyectos junto a programadores experimentados. Sin embargo, creo que los mejores tienen algo innato.
-* **Dominan el lenguaje de programación**: Dominar el lenguaje permite enfocarse en la resolución del problema, creando, además, soluciones más ‘elegantes’[[3]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie). Conocer los usos y costumbres \(lo que llamamos [_idioms_](https://en.wikipedia.org/wiki/Programming_idiom)\) hace que nuestro _codebase_ luzca bien.
+* **Dominan el lenguaje de programación**: Dominar el lenguaje permite enfocarse en la resolución del problema, creando, además, soluciones más "elegantes"[[3]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie). Conocer los usos y costumbres \(lo que llamamos [_idioms_](https://en.wikipedia.org/wiki/Programming_idiom)\) hace que nuestro _codebase_ luzca bien.
 * **Técnicas**: Considero que un buen programador debe ser prolijo y disciplinado para construir software, usando _test driven development_, refactorizando continuamente e integrando tan pronto como sea posible. Estas técnicas se vuelven fundamentales cuando trabajamos en un equipo, para poder sincronizar y colaborar correctamente.
-* **Herramientas**: Finalmente, es importante conocer en profundidad las herramientas que usamos diariamente en nuestro trabajo: la *IDE*, sus atajos, sus diferentes vistas y sus funcionalidades. También el versionador de código. El desarrollo debe fluir sin que existan ‘fricciones’.
+* **Herramientas**: Finalmente, es importante conocer en profundidad las herramientas que usamos diariamente en nuestro trabajo: la *IDE*, sus atajos, sus diferentes vistas y sus funcionalidades. También el versionador de código. El desarrollo debe fluir sin que existan "fricciones".
 
 ![](./assets/Skills de un pino.png)
 
-Junto con las habilidades ‘duras’[[4]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie) que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _Product Discovery_ o gestionar un _Backlog_. El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
+Junto con las habilidades "duras"[[4]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie) que les nombré, se van desarrollando otras, ‘blandas’, como la comunicación, la gestión de proyectos y el liderazgo. La comunicación implica una doble faz: la capacidad de hablar ante propios y extraños y la capacidad de facilitación dentro del equipo. Las de gestión se relacionan con el conocimiento de la Metodología de 10Pines, por ejemplo facilitar los talleres de _Product Discovery_ o gestionar un _Backlog_. El liderazgo implica la capacidad para entender el sistema y ayudar a co-crearlo, estableciendo las reglas y restricciones. En otras palabras, los líderes ya tienen los _skills_ para trabajar en la creación del ambiente de trabajo que deseamos. También tienen la capacidad de guiar al resto de los pinos a través de sus caminos.
 
 ## El camino del pino
 
-Llegar a ser un buen programador implica un recorrido, que nosotros llamamos ‘Camino del Pino’. Durante el trayecto, crecemos y nos desarrollamos tanto humana como profesionalmente. Hemos definido un marco de referencia: comenzamos como ‘_Padawans_’, copiando y aprendiendo de pinos más experimentados. Nos convertimos luego en ‘_Knights_’, programadores experimentados y con conocimientos de gestión. Después de muchos años, alcanzamos el ‘rango’ de ‘_Masters_’, programadores expertos, conocedores de la profesión en profundidad. El lector podrá deducir de qué saga hemos extraído los nombres.
+Llegar a ser un buen programador implica un recorrido, que nosotros llamamos "Camino del Pino". Durante el trayecto, crecemos y nos desarrollamos tanto humana como profesionalmente. Hemos definido un marco de referencia: comenzamos como "_Padawans_", copiando y aprendiendo de pinos más experimentados. Nos convertimos luego en "_Knights_", programadores experimentados y con conocimientos de gestión. Después de muchos años, alcanzamos el "rango" de "_Masters_", programadores expertos, conocedores de la profesión en profundidad. El lector podrá deducir de qué saga hemos extraído los nombres.
 
-Durante las etapas iniciales del camino, como ‘_Padawans_’, los hitos consisten en mejorar los _skills_ de programación, es decir, aprender lenguajes, _frameworks_, técnicas, herramientas y participar con responsabilidad y compromiso de las actividades del equipo. Los ‘_Knights_’ son programadores capaces de resolver la mayoría de los problemas de forma autónoma. Tienen una visión más amplia del sistema, que incluye factores como la seguridad y la performance. Toman responsabilidad en parte de la gestión del proyecto y ayudan a sus pares. Dominan varios lenguajes de programación y manejan las herramientas que usamos diariamente \(*git*, *ide*\) a la perfección. En la última etapa del camino están los _Masters_, nuestros líderes, encargados de crear y fomentar el mejor ambiente laboral posible. Ellos guían a los más jóvenes por sus caminos y también trabajan para que 10Pines siga creciendo, obteniendo nuevos clientes y manteniendo la relación con los existentes.
+Durante las etapas iniciales del camino, como "_Padawans_", los hitos consisten en mejorar los _skills_ de programación, es decir, aprender lenguajes, _frameworks_, técnicas, herramientas y participar con responsabilidad y compromiso de las actividades del equipo. Los "_Knights_" son programadores capaces de resolver la mayoría de los problemas de forma autónoma. Tienen una visión más amplia del sistema, que incluye factores como la seguridad y la performance. Toman responsabilidad en parte de la gestión del proyecto y ayudan a sus pares. Dominan varios lenguajes de programación y manejan las herramientas que usamos diariamente \(*git*, *ide*\) a la perfección. En la última etapa del camino están los _Masters_, nuestros líderes, encargados de crear y fomentar el mejor ambiente laboral posible. Ellos guían a los más jóvenes por sus caminos y también trabajan para que 10Pines siga creciendo, obteniendo nuevos clientes y manteniendo la relación con los existentes.
 
 Una empresa autogestionada, como la nuestra, suma actividades a sus integrantes que otras no tienen, como  _staffear_ los equipos de trabajo, organizar eventos o definir las compras de hardware. Los pinos asumimos compromisos gradualmente que impactan dentro de nuestro crecimiento profesional.
 
-Evaluamos de forma continua el progreso, para saber en qué lugar del camino estamos y, en consecuencia, hacer ajustes y planear objetivos. Para ello, elegimos un ‘jardinero’, de mayor _seniority_, que nos acompaña en el recorrido.
+Evaluamos de forma continua el progreso, para saber en qué lugar del camino estamos y, en consecuencia, hacer ajustes y planear objetivos. Para ello, elegimos un "jardinero", de mayor _seniority_, que nos acompaña en el recorrido.
 
 Este camino es fundamental, tanto para cada uno de nosotros, los pinos, que, como trabajadores del conocimiento, valoramos la motivación intrínseca, como para 10Pines, que desea que las personas crezcan aquí. En consecuencia, invertimos mucho esfuerzo en ‘señalizarlo’. Evaluamos constantemente cómo está funcionando y qué podemos hacer para mejorarlo.
 
@@ -185,7 +185,7 @@ Este libro me ayudó a entender que, en ocasiones, ciertos comportamientos son e
 
 ![](./assets/Armando el equipo.png)
 
-> **“Si no sabes para dónde vas, cualquier camino te llevará allí" - Lewis Carroll**[[6]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie)
+> **"Si no sabes para dónde vas, cualquier camino te llevará allí" - Lewis Carroll**[[6]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie)
 
 
 
@@ -249,7 +249,7 @@ Quizás piensen que los equipos de estas características carecen de disciplina,
 
 Jim Highsmith expresa que ‘la auto-disciplina hace posible la libertad y el empoderamiento’ y continúa diciendo que ‘uno de los peligros más grandes de los desarrollos centrados en procesos y de la gestión de proyectos es la reducción de los incentivos para la auto-disciplina. Posteriormente, comenta que ‘algunos _Project Managers_ se preguntan por qué nadie toma la iniciativa y es responsable’.
 
-Un punto que también vale la pena mencionar dentro de este tópico es l**a necesidad de trabajar disciplinadamente para lograr excelencia técnica**. Esta disciplina no puede ser impuesta, ya que requiere de una práctica constante por parte de todos los integrantes del equipo. Las prácticas de _Extreme Programming_ permiten crear esa ‘presión de pares’ que nos lleva a trabajar de ese modo. Hacer _pair programming_ y _code reviews_ nos impulsa a buscar mejores diseños, a pensar cuidadosamente los nombres, a no dejar deuda técnica, a testear cuidadosamente, evitando atajos**.**
+Un punto que también vale la pena mencionar dentro de este tópico es l**a necesidad de trabajar disciplinadamente para lograr excelencia técnica**. Esta disciplina no puede ser impuesta, ya que requiere de una práctica constante por parte de todos los integrantes del equipo. Las prácticas de _eXtreme Programming_ permiten crear esa ‘presión de pares’ que nos lleva a trabajar de ese modo. Hacer _pair programming_ y _code reviews_ nos impulsa a buscar mejores diseños, a pensar cuidadosamente los nombres, a no dejar deuda técnica, a testear cuidadosamente, evitando atajos**.**
 
 # **Comunicación**
 
@@ -307,8 +307,8 @@ Finalmente, consideramos a la comunicación vital en el desarrollo de software. 
 
 5. Esta retrospectiva es muy interesante para hacerla con sus equipos. Genera una base de entendimiento y de valores compartidos. Nos permite tomar decisiones durante la ejecución del proyecto (guiadas por estos valores). Sentirnos un equipo.
 
-6. '*If you don't know where you are going, any road will get you there*'.
+6. "*If you don't know where you are going, any road will get you there*".
 
-7. '*Few of us are in the high tech business. Most of us are in the human communications business*.'
+7. "*Few of us are in the high tech business. Most of us are in the human communications business*."
 
 8. Alistair lo denomina [‘un juego de invención y cooperación](http://alistair.cockburn.us/ASD+book+extract%3A+%22A+cooperative+game+of+invention+and+communication%22)’: un equipo de *crafters* colabora entre sí para que la solución emerja, aportando cada uno desde su perspectiva.

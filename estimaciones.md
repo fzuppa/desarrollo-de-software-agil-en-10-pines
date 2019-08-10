@@ -14,7 +14,7 @@ He mencionado unos cuantos conceptos sobre los que, desde mi punto de vista, val
 
 # **Estimaciones Relativas usando** _***Story Points***_
 
-Durante muchos años de mi vida realicé estimaciones en tiempos absolutos. Para hacerlas, desagregaba los componentes que, entendía, debían desarrollarse y asignaba tiempos (que luego sumaba) para cada uno de ellos. Usé puntos de función y complejas planillas de cálculo creadas dentro del marco de estándares de calidad como [CMMI](https://es.wikipedia.org/wiki/Capability_Maturity_Model_Integration) \(que procuraban tener métodos estandarizados para la organización\). Ninguna de estas técnicas resultó, en mi experiencia, en estimaciones precisas, generando siempre comportamientos disfuncionales que terminaron siendo perjudiciales para la organización. Un ejemplo que todos conocerán es el que consta en agregar un ‘_padding_’ a la estimación, para ‘cumplir’ con los tiempos. ¿Les parece que tiene sentido?
+Durante muchos años de mi vida realicé estimaciones en tiempos absolutos. Para hacerlas, desagregaba los componentes que, entendía, debían desarrollarse y asignaba tiempos (que luego sumaba) para cada uno de ellos. Usé puntos de función y complejas planillas de cálculo creadas dentro del marco de estándares de calidad como [CMMI](https://es.wikipedia.org/wiki/Capability_Maturity_Model_Integration) \(que procuraban tener métodos estandarizados para la organización\). Ninguna de estas técnicas resultó, en mi experiencia, en estimaciones precisas, generando siempre comportamientos disfuncionales que terminaron siendo perjudiciales para la organización. Un ejemplo que todos conocerán es el que consta en agregar un "_padding_" a la estimación, para "cumplir" con los tiempos. ¿Les parece que tiene sentido?
 
 Cuando empecé a trabajar con Scrum, descubrí el concepto de estimaciones relativas usando _Story Points_. Con esta técnica, no estimamos cuánto esfuerzo demanda completar una _User Story_, sino **cuánto demanda una con respecto a otra**. Asignamos puntos, que llamamos _Story Points_, como resultado de estas comparaciones relativas. Así, una _User Story_ que tiene asignado 2 requerirá el doble de esfuerzo que otra de 1 y 2/3 de una tercera de 3. **Estos puntos amalgaman todos los factores que pueden influir en el esfuerzo**, entre los que puedo nombrarles[[Cohn]](bibliografia.md#cohn00-cohn-mike-user-stories-applied-for-agile-software-development-marzo-2004):
 
@@ -32,13 +32,13 @@ Si bien es bastante frecuente usar _Story Points_, estos no son fundamentales de
 
 
 
-¿Por qué usamos estimaciones relativas? **La primera razón es que vuelven el proceso más sencillo y liviano**, ya que no nos detenemos en tratar de adivinar lo que no conocemos o en investigaciones que haremos cuando empecemos a trabajar. Además, las estimaciones relativas nos desplazan de razonamientos tales como ‘esta _User Story_ la desarrollará una persona determinada por sus _skills_ o _seniority_’ que no tienen ningún sentido. Simplemente decidimos, como equipo, cuanto más grande o más chica es una _User Story_ con respecto a otra. La segunda razón es que realizar las estimaciones de esta manera nos protege de cualquier intento de presión \(por parte de Jefes/_Project Managers_, etc.\) a través de la existencia de este nivel nuevo de indirección. Estas presiones siempre generan, como ya mencioné, conductas que no son beneficiosas para nadie.    
+¿Por qué usamos estimaciones relativas? **La primera razón es que vuelven el proceso más sencillo y liviano**, ya que no nos detenemos en tratar de adivinar lo que no conocemos o en investigaciones que haremos cuando empecemos a trabajar. Además, las estimaciones relativas nos desplazan de razonamientos tales como "esta _User Story_ la desarrollará una persona determinada por sus _skills_ o _seniority_" que no tienen ningún sentido. Simplemente decidimos, como equipo, cuanto más grande o más chica es una _User Story_ con respecto a otra. La segunda razón es que realizar las estimaciones de esta manera nos protege de cualquier intento de presión \(por parte de Jefes/_Project Managers_, etc.\) a través de la existencia de este nivel nuevo de indirección. Estas presiones siempre generan, como ya mencioné, conductas que no son beneficiosas para nadie.    
 
 ****
 
 # ¿Qué se tiene en cuenta al realizar una estimación? 
 
-Un punto a tener en claro, antes de estimar, es qué significa completar una _User Story_. No basta con haber ‘codeado’ la funcionalidad. Debemos, como mínimo, ejecutar exitosamente todos los casos de prueba y el _Product Owner_ debe validar y aceptar la _User Story_. Además, deben existir _tests_ automatizados para toda la nueva funcionalidad, que cobrarán vital importancia para su posterior regresión.
+Un punto a tener en claro, antes de estimar, es qué significa completar una _User Story_. No basta con haber "codeado" la funcionalidad. Debemos, como mínimo, ejecutar exitosamente todos los casos de prueba y el _Product Owner_ debe validar y aceptar la _User Story_. Además, deben existir _tests_ automatizados para toda la nueva funcionalidad, que cobrarán vital importancia para su posterior regresión.
 
 Todos estos puntos, y quizás algunos otros que se agreguen para algún proyecto u organización en particular, constituyen la [*definition of done*](https://www.scruminc.com/definition-of-done/). No tiene sentido escribirlos en cada _User Story_ porque están implícitos, aplican a todas. **Es muy importante que todo el equipo entienda lo mismo**. En otras palabras, que para todos signifique lo mismo completar una _User Story_. Una actividad que podemos realizar, para asegurarnos de ésto, consiste en armar un afiche con la lista de los criterios definidos. Una vez creado, podemos pegarlo cerca de nuestros escritorios, para que funcione como un [radiador de información](http://alistair.cockburn.us/Information+radiator).
 
@@ -92,7 +92,7 @@ En nuestro ejemplo:
 Si el costo es u$s 60/hora, el presupuesto para el proyecto sería: 1575 x 60 = u$s 94500
 ```
 
-Podríamos pensar que existe una similitud entre las horas descritas y las [horas-hombre](https://es.wikipedia.org/wiki/Hora-persona) de la gestión tradicional de proyectos, pero no son exactamente lo mismo. La diferencia, sutil, radica en que las estimaciones para cada una de las _User Stories_ se basan en un equipo, mientras que para la gestión tradicional de proyectos se trata de estimaciones del tiempo que demora un 'recurso' en completar una actividad.
+Podríamos pensar que existe una similitud entre las horas descritas y las [horas-hombre](https://es.wikipedia.org/wiki/Hora-persona) de la gestión tradicional de proyectos, pero no son exactamente lo mismo. La diferencia, sutil, radica en que las estimaciones para cada una de las _User Stories_ se basan en un equipo, mientras que para la gestión tradicional de proyectos se trata de estimaciones del tiempo que demora un "recurso" en completar una actividad.
 
 # _**Velocity**_ **y** _**Burndown**_
 
@@ -100,7 +100,7 @@ Podríamos pensar que existe una similitud entre las horas descritas y las [hora
 
 Al comenzar a trabajar, **mediremos la cantidad de** _**Story Points**_ **que podemos terminar en cada iteración**, lo que nos dará una pauta de la verdadera capacidad del equipo. Llamamos a ésto [_Velocity_](https://www.agilealliance.org/glossary/velocity) [[Cohn]](bibliografia.md#cohn00-cohn-mike-user-stories-applied-for-agile-software-development-marzo-2004), que es un término que proviene de la física y que incluye la celeridad y la dirección.
 
-Midiendo la _Velocity_ de la primera iteración, podríamos inferir, con más información que antes de empezar, cuánto nos queda por delante. Sigamos con el ejemplo de la sección anterior e imaginemos que el equipo completa 2 _User Stories_: una de 5 puntos y otra de 3. La _Velocity_ será entonces de 8 puntos. De los 75 puntos estimados, completamos 8 \(en la jerga decimos ‘quemamos 8’ y ya veremos la causa\), o sea que nos quedan 68. Podemos inferir entonces que, si seguimos con esta _Velocity_, necesitaríamos 8.5 iteraciones \(68 / 8\) para terminar.
+Midiendo la _Velocity_ de la primera iteración, podríamos inferir, con más información que antes de empezar, cuánto nos queda por delante. Sigamos con el ejemplo de la sección anterior e imaginemos que el equipo completa 2 _User Stories_: una de 5 puntos y otra de 3. La _Velocity_ será entonces de 8 puntos. De los 75 puntos estimados, completamos 8 \(en la jerga decimos "quemamos 8" y ya veremos la causa\), o sea que nos quedan 68. Podemos inferir entonces que, si seguimos con esta _Velocity_, necesitaríamos 8.5 iteraciones \(68 / 8\) para terminar.
 
 Al completar la 2da iteración y medir la _Velocity_, dispondremos de mayor información, ya que podremos obtener un promedio de las _velocities_ de las 2 primeras iteraciones. Por ejemplo, si hubiera sido igual a 6, el promedio de las 2 iteraciones sería igual a 7, lo que nos indica que necesitaríamos 8.8 iteraciones más para terminar.
 
@@ -108,7 +108,7 @@ Para visualizar la _Velocity_, podemos usar el gráfico de _Burndown:_
 
 ![](./assets/burndown_chart.png)
 
-En este gráfico, el eje ‘Y’ indica la cantidad de puntos por quemar y el ‘X’ muestra el tiempo.
+En este gráfico, el eje "Y" indica la cantidad de puntos por quemar y el "X" muestra el tiempo.
 
 En este ejemplo, sobrestimamos nuestra capacidad \(o subestimamos la complejidad del proyecto\). **Con esta información, debemos actualizar nuestro plan**: ¿Podemos extender la fecha de entrega? ¿Podemos acotar el _scope_, dejando algunas funcionalidades para un _release_ posterior? ¿Podríamos aumentar la _Velocity_ sumando a un integrante más? La confianza y la colaboración existentes entre los miembros del equipo permiten dar lugar a estas conversaciones.
 

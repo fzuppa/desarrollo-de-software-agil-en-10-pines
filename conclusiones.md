@@ -1,8 +1,10 @@
 # Conclusiones
 
-Desarrollamos software buscando maximizar el flujo de valor generado para nuestros clientes. Deseamos que sea sustentable, aún cuando el contexto cambie. Trabajamos en un ambiente de gran calidad humana, empoderados para colaborar del mejor modo.
+Desarrollamos software buscando maximizar el flujo de valor generado para nuestros clientes. Deseamos que sea sustentable, frente a las modificaciones del contexto. Trabajamos en un ambiente de gran calidad humana, empoderados para colaborar del mejor modo.
 
-Nuestra Metodología, nuestra manera de organizarnos y de trabajar, responde a esta visión. Está centrada en generar valor, es liviana, basada en las personas y busca maximizar la colaboración con nuestros clientes, el feedback y la calidad. Recapitulemos:
+Nuestra Metodología, nuestra manera de organizarnos y de trabajar, responde a esta visión. Está centrada en generar valor, es liviana, basada en las personas y busca maximizar la colaboración con nuestros clientes, el feedback y la calidad. 
+
+Recapitulemos:
 
 Empezamos por un *Product Discovery,* que permite entender la propuesta de valor a la vez que sienta las bases de una relación de colaboración con nuestros clientes. Participamos en él algunas de las personas ligadas al proyecto, reduciendo así el desperdicio. Las herramientas que usamos son livianas, permitiendo que todo el equipo colabore eficientemente.
 

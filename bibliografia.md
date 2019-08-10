@@ -8,9 +8,9 @@
 
 ###### [Appelo00 - Appelo, Jurgen - Management 3.0: Leading Agile Developers, Developing Agile Leaders - Diciembre, 2010](https://g.co/kgs/iAXCQ9)
 
-###### [Beck00 - Beck, Kent, Fowler, Martin - Planning Extreme Programming (The Xp Series) - Octubre, 2000](https://g.co/kgs/AZtpxD)
+###### [Beck00 - Beck, Kent, Fowler, Martin - Planning eXtreme Programming (The Xp Series) - Octubre, 2000](https://g.co/kgs/AZtpxD)
 
-###### [Beck01 - Beck, Kent - Extreme Programming Explained: Embrace Change, 2nd Edition - Noviembre, 2004](https://g.co/kgs/KKdTyb)
+###### [Beck01 - Beck, Kent - eXtreme Programming Explained: Embrace Change, 2nd Edition - Noviembre, 2004](https://g.co/kgs/KKdTyb)
 
 ###### [Beck02 - Beck, Kent - Test Driven Development: By Example - Noviembre, 2002](https://g.co/kgs/aQTv54)
 

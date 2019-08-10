@@ -1,4 +1,4 @@
-![](./assets/tapa-product-discovery.png)
+""![](./assets/tapa-product-discovery.png)
 
 
 
@@ -36,15 +36,15 @@ Antes de describir el proceso y las herramientas que usamos en esta etapa, detal
 
 **Estimación inicial de la magnitud:** A partir de las conversaciones sostenidas en esta etapa, se puede tener una idea inicial de cuán grande podría llegar a ser el desarrollo.
 
-Marty Cagan, en su libro ‘_Inspired, how to create products that customers love_’[[Cagan00]](bibliografia.md#cagan00-cagan-marty-inspired-how-to-create-products-customers-love-junio-2008), afirma que para que un producto sea exitoso debe ser **valioso, usable y posible de desarrollar**. La fase de _Product Discovery_ tiene el objetivo de crear una visión compartida de cómo alcanzar estas metas. Para eso debemos entender dónde está el valor del producto, cómo va a ser usado \(su [usabilidad](https://es.wikipedia.org/wiki/Usabilidad)\) y, por supuesto, si técnicamente es factible de construir.
+Marty Cagan, en su libro "_Inspired, how to create products that customers love_"[[Cagan00]](bibliografia.md#cagan00-cagan-marty-inspired-how-to-create-products-customers-love-junio-2008), afirma que para que un producto sea exitoso debe ser **valioso, usable y posible de desarrollar**. La fase de _Product Discovery_ tiene el objetivo de crear una visión compartida de cómo alcanzar estas metas. Para eso debemos entender dónde está el valor del producto, cómo va a ser usado \(su [usabilidad](https://es.wikipedia.org/wiki/Usabilidad)\) y, por supuesto, si técnicamente es factible de construir.
 
 ## **Talleres de** _**Product Discovery**_
 
-La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones, que realizamos junto con nuestros clientes y en las que empleamos un conjunto de herramientas que permiten que todos los participantes se involucren. Estas reuniones, a las que concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores pueden durar desde 4 horas hasta una semana en proyectos de gran magnitud. La diversidad de roles enriquece el resultado, ya que, además de nuestros clientes, que conocen qué se requiere y cuáles son los objetivos, se necesitan desarrolladores que evalúen la factibilidad, testers que contribuyan con su atención a los detalles y especialistas en *UX* que evalúen la usabilidad. Es fundamental que concurran el _product manager_, el _technical leader_ y un facilitador encargado de llevar la reunión adelante, explicar las herramientas que se van a usar y mediar en las conversaciones. Destaco que, más allá de los artefactos producidos, resultan de gran utilidad las conversaciones desarrolladas. ¡Es curioso pero, muchas veces, detectamos que no existe una visión unificada, ni siquiera, entre diferentes integrantes de la misma empresa cliente! Discutir sobre todas las aristas que tendrá el producto, en esta etapa, resulta esencial para unificar el entendimiento y las visiones de todas las personas involucradas en el desarrollo. Jeff Patton llama a esto ‘comprensión compartida’[[Patton00]](bibliografia.md#patton00-patton-jeff-user-story-mapping-discover-the-whole-story-build-the-right-product-septiembre-2014).
+La mejor forma de hacer este descubrimiento es a partir de un conjunto de reuniones, que realizamos junto con nuestros clientes y en las que empleamos un conjunto de herramientas que permiten que todos los participantes se involucren. Estas reuniones, a las que concurren usuarios de negocios, desarrolladores, testers, especialistas en UX y diseñadores pueden durar desde 4 horas hasta una semana en proyectos de gran magnitud. La diversidad de roles enriquece el resultado, ya que, además de nuestros clientes, que conocen qué se requiere y cuáles son los objetivos, se necesitan desarrolladores que evalúen la factibilidad, testers que contribuyan con su atención a los detalles y especialistas en *UX* que evalúen la usabilidad. Es fundamental que concurran el _product manager_, el _technical leader_ y un facilitador encargado de llevar la reunión adelante, explicar las herramientas que se van a usar y mediar en las conversaciones. Destaco que, más allá de los artefactos producidos, resultan de gran utilidad las conversaciones desarrolladas. ¡Es curioso pero, muchas veces, detectamos que no existe una visión unificada, ni siquiera, entre diferentes integrantes de la misma empresa cliente! Discutir sobre todas las aristas que tendrá el producto, en esta etapa, resulta esencial para unificar el entendimiento y las visiones de todas las personas involucradas en el desarrollo. Jeff Patton llama a esto "comprensión compartida"[[Patton00]](bibliografia.md#patton00-patton-jeff-user-story-mapping-discover-the-whole-story-build-the-right-product-septiembre-2014).
 
-## ***Lean Sales Up*** - by Jorge Silva
+## ***Lean Sales Up*** - por Jorge Silva
 
-El proceso de preventa puede ser doloroso, largo y caro. En esta primer etapa debemos convencer al prospecto que somos la mejor opción, ayudándolo, al mismo tiempo, a definir y ajustar sus expectativas (casi siempre altas). Por lo general, esto termina en una sobre-estimación (el clásico ‘colchón’), promesas poco realistas sobre alcances y fechas y otros comportamientos disfuncionales que pueden ensuciar la relación desde el comienzo.
+El proceso de preventa puede ser doloroso, largo y caro. En esta primer etapa debemos convencer al prospecto que somos la mejor opción, ayudándolo, al mismo tiempo, a definir y ajustar sus expectativas (casi siempre altas). Por lo general, esto termina en una sobre-estimación (el clásico "colchón"), promesas poco realistas sobre alcances y fechas y otros comportamientos disfuncionales que pueden ensuciar la relación desde el comienzo.
 
 Cuando trabajaba en empresas tradicionales, cada vez que alguien me hablaba de la etapa de preventa, me preguntaba: “¿qué cosas imposibles habrá prometido el vendedor?” o “¿cuánto tiempo habrá recortado de la estimación para poder venderlo?”. Estas situaciones resultan frecuentes dentro de un enfoque clásico de ventas ya que el vendedor procura vender todo lo posible, ajustando lo necesario para que el cliente compre. Del otro lado está el desarrollador, que recibe esa venta optimista y debe entregar algo al cliente.
 
@@ -59,7 +59,7 @@ Como podrán imaginar, el proceso de preventa clásico entra en conflicto con el
 
 Por otro lado, es una realidad que es necesario vender para mantener la empresa viva. Para poder lograrlo de forma sustentable, elaboramos dos ideas principales:
 
-1. Los desarrolladores debemos vender. ‘Si quieres hacerlo bien, hazlo tu mismo’.
+1. Los desarrolladores debemos vender. "Si quieres hacerlo bien, hazlo tu mismo".
 2. Necesitamos integrar las ventas con el desarrollo. 
 
 A partir de estas ideas, redefinimos nuestro proceso de pre-venta, fusionándolo al de desarrollo y alineándolo a nuestros valores. Esto significa que no existe más una etapa de preventa separada del ciclo de desarrollo. En su lugar unimos cada uno de los proceso en uno solo. De esta forma, ambos roles, desarrollo y ventas, son conscientes de la complejidad de ambas actividades. Por otro lado, borramos la frontera entre las dos áreas, creando un equipo más completo, capaz no sólo de desarrollar software, sino también de venderlo y explicarle al cliente por qué somos la mejor opción.
@@ -90,7 +90,7 @@ A continuación, describiré algunas de las herramientas que usamos habitualment
 
 **Introducción**
 
-Aprendí esta técnica cuando vivía en San Francisco, en 2009, en uno de los tantos _open spaces_ a los que asistí. Por ese entonces, yo trabajaba con _Scrum_ o _Extreme Programming_ desde hacía algunos años y uno de los cuestionamientos que poseía era que el _Backlog_ \(que trataré en el próximo capítulo\) no me dejaba visualizar de manera nítida el trabajo que debíamos realizar. ¿No resulta difícil poder visualizar un producto, a través de una lista de *User Stories*? Descubrir esta herramienta fue realmente un hallazgo para mí.
+Aprendí esta técnica cuando vivía en San Francisco, en 2009, en uno de los tantos _open spaces_ a los que asistí. Por ese entonces, yo trabajaba con _Scrum_ o _eXtreme Programming_ desde hacía algunos años y uno de los cuestionamientos que poseía era que el _Backlog_ \(que trataré en el próximo capítulo\) no me dejaba visualizar de manera nítida el trabajo que debíamos realizar. ¿No resulta difícil poder visualizar un producto, a través de una lista de *User Stories*? Descubrir esta herramienta fue realmente un hallazgo para mí.
 
 ¿Qué es un _User Story Mapping_? En pocas palabras, **es un mapa que describe los procesos de negocios de cada uno de los actores que forman parte del sistema**, a través de las tareas que deben llevarse a cabo para completar cada uno de estos procesos. La técnica fue popularizada por Jeff Patton dentro del mundillo ágil. El resultado, desde el plano visual, será algo similar a lo que puede verse en la siguiente imagen:
 
@@ -110,13 +110,13 @@ Para graficar la construcción del _story map_, introduciré un ejemplo muy senc
 
 ![](./assets/story_mapping_dynamic1.png)
 
-Una vez que identifiquemos al actor principal, trataremos de descubrir cómo usará el sistema, es decir, cuáles serán los principales procesos de negocio bajo su responsabilidad. Jeff Patton los denomina **actividades,** término procedente de expertos en *UX* tales como Larry Constantine y Don Norman, y las define como **"**grandes cosas que el actor hace y que están conformadas por un conjunto de pasos, pero que no siempre tienen un _workflow_ preciso definido". En mi experiencia facilitando estos talleres, resulta difícil precisar estas actividades en una etapa inicial. Por esta razón, también podemos comenzar preguntando: ¿Qué es lo primero que el usuario hará en el sistema? Ese algo, escrito en forma de verbo, será nuestra 1ra Tarea. Patton define una **tarea** como "algo pequeño, que el usuario hace en el sistema para llegar a un objetivo". Parafraseando: ¿Cuál es la primera tarea que el usuario llevará a cabo en el sistema? Cuando la hayamos identificado, la escribiremos en un _post-it_ que pegaremos debajo del que identifica al tipo de usuario. Posteriormente, buscaremos determinar qué hará a continuación, escribiremos el *post-it* correspondiente y lo pegaremos a la derecha del anterior, señalando la cuestión temporal.
+Una vez que identifiquemos al actor principal, trataremos de descubrir cómo usará el sistema, es decir, cuáles serán los principales procesos de negocio bajo su responsabilidad. Jeff Patton los denomina **actividades,** término procedente de expertos en *UX* tales como Larry Constantine y Don Norman, y las define como "grandes cosas que el actor hace y que están conformadas por un conjunto de pasos, pero que no siempre tienen un _workflow_ preciso definido". En mi experiencia facilitando estos talleres, resulta difícil precisar estas actividades en una etapa inicial. Por esta razón, también podemos comenzar preguntando: ¿Qué es lo primero que el usuario hará en el sistema? Ese algo, escrito en forma de verbo, será nuestra 1ra Tarea. Patton define una **tarea** como "algo pequeño, que el usuario hace en el sistema para llegar a un objetivo". Parafraseando: ¿Cuál es la primera tarea que el usuario llevará a cabo en el sistema? Cuando la hayamos identificado, la escribiremos en un _post-it_ que pegaremos debajo del que identifica al tipo de usuario. Posteriormente, buscaremos determinar qué hará a continuación, escribiremos el *post-it* correspondiente y lo pegaremos a la derecha del anterior, señalando la cuestión temporal.
 
-Retomando el ejemplo, ¿qué será lo primero que hará el cajero, cuando nos presentemos con nuestro canasto de compras? Pensaremos nuestro sistema de la manera más simple y diremos que ‘Ingresará el código de cada uno de los artículos que tiene en el canasto''. Llamaremos a esta tarea 'Ingresar Código Producto'. ¿Qué haremos una vez ingresado el código de todos los artículos? Calcular el total. Llamaremos a la tarea con el mismo nombre y la pegaremos a la derecha del *post-it* anterior.
+Retomando el ejemplo, ¿qué será lo primero que hará el cajero, cuando nos presentemos con nuestro canasto de compras? Pensaremos nuestro sistema de la manera más simple y diremos que "Ingresará el código de cada uno de los artículos que tiene en el canasto". Llamaremos a esta tarea "Ingresar Código Producto". ¿Qué haremos una vez ingresado el código de todos los artículos? Calcular el total. Llamaremos a la tarea con el mismo nombre y la pegaremos a la derecha del *post-it* anterior.
 
 ![](./assets/story_mapping_dynamic2.png)
 
-Una vez calculado el total, el cajero deberá cobrar. El medio de pago más sencillo de implementar es con dinero en efectivo, así que escribiremos una tarea que lo represente: ‘Tomar pago con efectivo’. Una vez realizado, ‘emitiremos el recibo’.
+Una vez calculado el total, el cajero deberá cobrar. El medio de pago más sencillo de implementar es con dinero en efectivo, así que escribiremos una tarea que lo represente: "Tomar pago con efectivo". Una vez realizado, "emitiremos el recibo".
 
 ![](./assets/story_mapping_dynamic3.png)
 
@@ -124,21 +124,21 @@ Podemos visualizar rápidamente el flujo de tareas de nuestro tipo de usuario pr
 
 Seguramente que la charla llevará a querer agrupar estas tareas bajo un proceso de negocio o, como Patton las denomina, una actividad que las identifique. Cuando descubramos esta actividad, escribiremos un _post-it_ de otro color y lo pegaremos sobre el conjunto de tareas que engloba.
 
-¿Cómo podríamos llamar a la actividad que engloba la introducción de todos los artículos y el cálculo del total a pagar? Por razones de simplicidad y falta de otros participantes para discutir el nombre de la misma, la llamaré: ‘Cargar Productos’. Nótese el *post-it* de diferente color sobre la 1ra tarea que comprende.
+¿Cómo podríamos llamar a la actividad que engloba la introducción de todos los artículos y el cálculo del total a pagar? Por razones de simplicidad y falta de otros participantes para discutir el nombre de la misma, la llamaré: "Cargar Productos". Nótese el *post-it* de diferente color sobre la 1ra tarea que comprende.
 
 ![](./assets/story_mapping_dynamic4.png)
 
-Por las mismas razones, denominaré a la actividad que engloba todas las tareas de cobro: ‘Cobrar’.
+Por las mismas razones, denominaré a la actividad que engloba todas las tareas de cobro: "Cobrar".
 
 ![](./assets/story_mapping_dynamic5.png)
 
-En este ejemplo, hemos partido del descubrimiento de tareas para luego abstraer las actividades. Podríamos haber comenzado también por la identificación de las actividades principales: ‘Cargar Productos’ y ‘Cobrar’ para luego descomponerlas en tareas. En definitiva, ya sea que partamos de la abstracción, es decir, de la actividad y la separemos en tareas o viceversa, de las tareas concretas y, en algún momento, abstraigamos la actividad, el resultado final será el mismo.
+En este ejemplo, hemos partido del descubrimiento de tareas para luego abstraer las actividades. Podríamos haber comenzado también por la identificación de las actividades principales: "Cargar Productos" y "Cobrar" para luego descomponerlas en tareas. En definitiva, ya sea que partamos de la abstracción, es decir, de la actividad y la separemos en tareas o viceversa, de las tareas concretas y, en algún momento, abstraigamos la actividad, el resultado final será el mismo.
 
 Una vez descrita la primera actividad \(y el primer conjunto de tareas\) preguntaremos: ¿qué otras tareas o actividades llevará a cabo en el sistema este usuario? Impulsados por esta interrogación, comenzaremos nuevamente el ciclo detallado.
 
 Seguramente, en algún momento, nos daremos cuenta de que podemos hacer cierta tarea o cierta otra tarea para alcanzar un mismo objetivo \(por supuesto que esto se puede extender a un flujo de tareas\). ¿Qué haremos para representar esto, visualmente, dentro de nuestro _Story Map_? Pegaremos los _post-its,_ que corresponden a las tareas opcionales, debajo de las tareas principales. Nótese que mencioné una tarea principal y una opcional, es decir, que priorizamos y esta priorización queda reflejada en nuestro _Story Map_.
 
-Siguiendo con el ejemplo, imagínese que, en vez de ‘Ingresar el producto’ de forma manual, lo escaneamos \(como usualmente se hace en los supermercados\). Escribiremos la tarea y la pegaremos debajo de la tarea principal. Lo mismo pasaría si identificásemos una tarea para ‘Tomar pago con tarjeta’, que será opcional a la principal de 'Tomar pago con efectivo'. Nuestro _Story Map_ quedará como ilustra el ejemplo:
+Siguiendo con el ejemplo, imagínese que, en vez de "Ingresar el producto" de forma manual, lo escaneamos \(como usualmente se hace en los supermercados\). Escribiremos la tarea y la pegaremos debajo de la tarea principal. Lo mismo pasaría si identificásemos una tarea para "Tomar pago con tarjeta", que será opcional a la principal de "Tomar pago con efectivo". Nuestro _Story Map_ quedará como ilustra el ejemplo:
 
 ![](./assets/story_mapping_dynamic6.png)
 
@@ -146,7 +146,7 @@ Hasta aquí, pudimos ver lo más importante referido a la herramienta. El resto 
 
 **Recorriendo el *User Story Map***
 
-Una vez finalizada la primera versión del _Story Map,_ deberíamos hacer algo que Jeff Patton denomina ‘Recorrer el story map', que implica la lectura de los *post-its* que representan cada una de las tareas, imaginando cómo el usuario trabajaría con el sistema. Podemos hacer este recorrido con diferentes personas, de manera de poder lograr diferentes opiniones. Por supuesto que, al recorrer el _Story Map_, descubriremos tareas olvidadas que obviamente agregaremos. ¡Los _post-its_ nos brindan esta flexibilidad!
+Una vez finalizada la primera versión del _Story Map,_ deberíamos hacer algo que Jeff Patton denomina "Recorrer el story map", que implica la lectura de los *post-its* que representan cada una de las tareas, imaginando cómo el usuario trabajaría con el sistema. Podemos hacer este recorrido con diferentes personas, de manera de poder lograr diferentes opiniones. Por supuesto que, al recorrer el _Story Map_, descubriremos tareas olvidadas que obviamente agregaremos. ¡Los _post-its_ nos brindan esta flexibilidad!
 
 ![Recorriendo el Story Map con Nicolas](./assets/rocorriendo_user_story_mapping.jpg)
 
@@ -192,7 +192,7 @@ En [canvanizer.com](https://canvanizer.com/new/lean-canvas), podemos encontrar u
 
 ![](./assets/canvanizer.png)
 
-Mi colega Jorge Silva encontró un importante valor en el uso de esta herramienta en proyectos destinados a corporaciones, efectuándole algunos cambios, que incluyeron la adición de una sección de ‘Ahorros’, que permite describir cómo se ahorrará dinero en ciertos procesos. En este [post](https://blog.10pines.com/2015/07/13/enterprise-lean-canvas/) podrán encontrar más detalles.
+Mi colega Jorge Silva encontró un importante valor en el uso de esta herramienta en proyectos destinados a corporaciones, efectuándole algunos cambios, que incluyeron la adición de una sección de "Ahorros", que permite describir cómo se ahorrará dinero en ciertos procesos. En este [post](https://blog.10pines.com/2015/07/13/enterprise-lean-canvas/) podrán encontrar más detalles.
 
 ![](./assets/enterprise_canvas.png)
 
@@ -248,7 +248,7 @@ Una de las facetas a las que generalmente le prestamos menos atención y que, si
 
 
 
-### Cómo realizar un test de usabilidad en cinco pasos - Por Juan Manuel Carraro
+### Cómo realizar un test de usabilidad en cinco pasos - por Juan Manuel Carraro
 
 Muchas veces hay resistencias o limitaciones para realizar un test de usabilidad, sin todas las condiciones que indica la teoría. Es cierto que un *test* realizado por un consultor en usabilidad permitirá obtener mejores resultados, pero también es posible hacerlo internamente y hacerse de buena información. El requisito es cumplir ciertos criterios mínimos que aseguren una mayor consistencia metodológica y confiabilidad.
 
