@@ -12,7 +12,7 @@ Deberemos arriesgar el tiempo que involucraría 1 _Story Point_, para inferir cu
 
 He mencionado unos cuantos conceptos sobre los que, desde mi punto de vista, vale la pena profundizar. En las secciones que siguen, les contaré más sobre estimaciones relativas, _Story Points_, _Planning Poker_, la _Velocity_ y sobre cómo usamos estos conceptos para el planeamiento y la gestión del proyecto.
 
-# **Estimaciones Relativas usando** _***Story Points***_
+# **Estimaciones relativas usando** _***Story Points***_
 
 Durante muchos años de mi vida realicé estimaciones en tiempos absolutos. Para hacerlas, desagregaba los componentes que, entendía, debían desarrollarse y asignaba tiempos (que luego sumaba) para cada uno de ellos. Usé puntos de función y complejas planillas de cálculo creadas dentro del marco de estándares de calidad como [CMMI](https://es.wikipedia.org/wiki/Capability_Maturity_Model_Integration) \(que procuraban tener métodos estandarizados para la organización\). Ninguna de estas técnicas resultó, en mi experiencia, en estimaciones precisas, generando siempre comportamientos disfuncionales que terminaron siendo perjudiciales para la organización. Un ejemplo que todos conocerán es el que consta en agregar un "_padding_" a la estimación, para "cumplir" con los tiempos. ¿Les parece que tiene sentido?
 
@@ -70,7 +70,7 @@ Una vez establecida una estimación para la segunda _User Story_, seguiremos con
 
 Como ya lo mencioné, **no creo que tenga sentido invertir una cantidad exagerada de tiempo en esta actividad**. Si ya definimos el Producto Mínimo Viable \(hablaremos sobre este concepto que llamamos MVP en la próxima sección\), nos limitaremos a estimar solamente sus _User Stories_. Si el MVP fuera demasiado grande, sería bueno partirlo en _releases_. Debe tenerse en cuenta que, mientras más _User Stories_ estimemos, mayor será el riesgo de perder el tiempo en ítems que después no sean construidos. **Tampoco vale la pena invertir tiempo para comprender cada** _**User Story**_ **en profundidad**. Una técnica que empleo habitualmente, para no extenderme, consiste en delimitar el tiempo que se va a usar para la estimación de cada _User Story_ \(5 minutos puede ser adecuado\). Otra opción consiste en, de ser el equipo numeroso, repartir las _User Stories_ entre 2 grupos para que puedan hacer las estimaciones en paralelo dando lugar a la exposición de los resultados.
 
-# **Costo y Tiempo de Trabajo**
+# **Costo y tiempo de trabajo**
 
 Para comenzar un proyecto, se debe tener una idea de la dimensión del producto a construir, principalmente para conocer el costo y para poder planificar en base a él.
 
@@ -114,7 +114,7 @@ En este ejemplo, sobrestimamos nuestra capacidad \(o subestimamos la complejidad
 
 **Mike Cohn dice que la** _**Velocity**_ **es el gran ecualizador, ya que nos permite actualizar nuestro plan automáticamente**. Mientras que las estimaciones relativas sean consistentes, la medición de la _Velocity_ nos permitirá inferir un calendario actualizado sin necesidad de efectuar ningún tipo de re-estimación.
 
-# **Aspectos Importantes en las Estimaciones Ágiles**
+# **Aspectos importantes en las estimaciones ágiles**
 
 Me gustaría contarles, para finalizar, cuáles son los puntos fundamentales del enfoque ágil en mi opinión. No son los _Story Points_, ni el _Planning Poker_, sino el proceso que usamos para estimar. En resumen:
 

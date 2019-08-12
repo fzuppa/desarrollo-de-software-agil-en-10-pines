@@ -234,13 +234,13 @@ Este ejercicio puede realizarlo el *Product Owner* \(o el _UX Designer_ en proye
 
 ![Personas](./assets/personas.png)
 
-## ![](.gitbook/assets/32x32.png)**¿Qué Nos Quita el Sueño?**
+## ![](.gitbook/assets/32x32.png)**¿Qué nos quita el sueño?**
 
 Siempre que un nuevo proyecto está por comenzar, existe un conjunto de incertidumbres o, dicho de otro modo, de riesgos que podrían hacer que el proyecto fracase. Es necesario que estos sean identificados cuanto antes. Esta actividad es breve \(se puede hacer en 15/20 minutos\) y permite que todos los involucrados hagan explícitos dichos riesgos, discutiéndose el potencial impacto de cada uno de ellos. El resultado de esta actividad será de gran ayuda en la priorización que deberá establecerse en el futuro, cuando se realice el planeamiento.
 
 ¿Cómo es la dinámica de la actividad? Básicamente, se trabaja sobre un papel de gran tamaño y _post-its_ que son entregados a todos los participantes. Durante 5’ cada integrante del equipo pensará y escribirá riesgos \(cada riesgo en un _post-it_\), pegándolos en el papel. Al finalizar este periodo, se leerán los riesgos que los integrantes del equipo han pensado y se discutirá la gravedad de cada uno de ellos, evaluándose cómo pueden ser mitigados.
 
-## ![](.gitbook/assets/32x32.png)**Experimentos de Usabilidad**
+## ![](.gitbook/assets/32x32.png)**Experimentos de usabilidad**
 
 Una de las facetas a las que generalmente le prestamos menos atención y que, sin embargo, tiene mucha importancia es la de _Usabilidad_. Algo que muchos olvidan es que puede comenzar a evaluarse este aspecto sin escribir una sola línea de código y de manera muy económica. Aprender lo más rápido posible si los usuarios entienden la interfaz, qué _features_ consideran importantes y cuáles ni siquiera notan puede ahorrar una importante cantidad de recursos económicos.
 

@@ -12,7 +12,7 @@ Haremos un plan para marcar el rumbo, pero no para seguirlo en detalle, ya que n
 
 En este capítulo hablaremos sobre planeamiento: qué tienen nuestros planes y cuáles son sus características principales. Luego, evaluaremos en detalle las aristas principales englobadas en la gestión de un proyecto. A continuación, detallaré algunas herramientas que permiten visualizar el progreso del mismo. Finalmente, nos ocuparemos de algunas situaciones frecuentes que atentan contra los planes y su ejecución.
 
-# **¿Qué Contiene un Plan?**
+# **¿Qué contiene un plan?**
 
 Componentes esenciales:
 
@@ -92,7 +92,7 @@ Personalmente, no logro visualizar las relaciones del triángulo original en nin
 
 Para finalizar, detallaré las heurísticas que sigo cuando gestiono un proyecto. El costo es una restricción fija, depende del presupuesto con el que contamos. No es una arista que se pueda modificar. Tampoco lo es la calidad interna. Creo que, en cualquier emprendimiento tecnológico, el _codebase_ debe mantenerse en buena forma, bien diseñado y testeado. De otra manera, no será ni confiable ni extendible. Restan el tiempo y la funcionalidad, aristas que iremos moviendo cual _sliders_, para obtener el mejor producto posible en tiempos razonables.
 
-# **Midiendo la *Velocity* y Replaneando**
+# **Midiendo la *Velocity* y replaneando**
 
 ¿Cómo medimos el progreso del plan? Sabemos que, al esbozarlo, se efectuaron muchas especulaciones. Al empezar a desarrollar, habiendo priorizado las áreas con mayor valor e incertidumbre, aprenderemos del producto y del proyecto. Usaremos todo este conocimiento adquirido para "replanear". Esta es la base del planeamiento ágil: es continuo y se extiende a lo largo de todo el desarrollo del proyecto. No seguir un plan, sino ir descubriendo lo mejor para el producto y, en base a ésto, modificarlo.
 
@@ -162,9 +162,9 @@ Si aplicáramos esto a todo el proyecto, obtendríamos un gráfico similar a:
 
 ![](assets/Parking Lot 3.png)
 
-# **_Planning Failure Modes_**
+# **_Planning failure modes_**
 
-## **Un Plan Detallado para lidiar con la Complejidad**
+## **Un plan detallado para lidiar con la complejidad**
 
 Muchos _Project Managers_ que conocí procuraban manejar la complejidad inherente a un proyecto de desarrollo de software mediante un plan detallado que buscaba adelantarse a todas las posibles circunstancias. Esto brindaba una falsa sensación de seguridad: ¿qué podría salir mal con tal nivel de planificación?
 
@@ -207,7 +207,7 @@ Siempre me produjo mucha molestia la interrupción en el "momento del codeo", ya
 
 Piensen entonces las consecuencias que implicará _staffear_ a un desarrollador en más de un proyecto: cada uno de ellos demorará más y los integrantes no tendrán los tiempos necesarios para alcanzar el _flow_, además del _overhead_ que se producirá por cada uno.
 
-## _**Deadlines**_ **Estrictos**
+## _**Deadlines**_ **estrictos**
 
 ¿Les resulta familiar este diálogo?
 
@@ -232,7 +232,7 @@ Finalmente, recuerden que el plan es simplemente otro de los artefactos que nos 
 
 
 
-# Notas al Pie
+# Notas al pie
 
 2. https://leadinganswers.typepad.com/leading_answers/2007/02/summarizing_pro.html
 2. Si buscan un juego para visualizar el costo del multitasking, les recomiendo [The Multitasking Name Game](https://www.crisp.se/gratis-material-och-guider/multitasking-name-game) de Henrik Kniberg.

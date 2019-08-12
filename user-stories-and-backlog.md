@@ -12,7 +12,7 @@ En este capítulo ahondaré sobre estas herramientas, describiendo sus caracter�
 
 # _**User Stories**_
 
-## **Un Poco de Historia**
+## **Un poco de historia**
 
 Durante los años 90, Kent Beck \(quizás, la persona más influyente en el nacimiento del mundo de desarrollo ágil\) sugirió que la manera que usábamos para especificar el producto a desarrollar era tremendamente ineficiente. ¿Qué hacíamos? Una parte del equipo, conformado generalmente por los analistas, intentaba describir mediante un documento, en la fase de Análisis del Proceso del Desarrollo en Cascada, todo lo que el sistema a desarrollar debía contener. Luego, este documento era entregado a los desarrolladores para que empezaran a trabajar a partir de él. ¿Difícil, no? Difícil especificar lo que se tiene que hacer en un documento, que este sea completo y entender qué hacer a partir del mismo. Beck propuso un cambio radical, paradigmático y revolucionario desde la simplicidad: **que los usuarios de negocio escribieran una tarjeta por cada una de las funcionalidades que deseaban ver en el sistema** y que dicha tarjeta operase como el disparador de un **conjunto de conversaciones que sirvieran para clarificar qué se deseaba** o, en otras palabras, para hacer el análisis.
 
@@ -131,7 +131,7 @@ Un punto muy importante que quiero mencionarles: como en el caso del código, la
 Me gustaría cerrar esta sección diciéndoles que, como en cualquier otra parte de su Metodología, en la escritura de las *User Stories* **deben ser críticos para refinar el proceso **y encontrar el modo más claro y eficiente.     
 ****
 
-## **Proceso de Descubrimiento**
+## **Proceso de descubrimiento**
 
 
 Paso a contarles cuál es el proceso de descubrimiento y refinamiento de las _User Stories_. El resultado del _Product Discovery_ nos brinda los artefactos que nos sirven como base. En particular, el _User Story Mapping_ es muy útil. Partiendo de las tareas que cada uno de los roles "hace" en el sistema, inferimos la funcionalidad necesaria para escribirlas. Ya vimos el caso donde, para la tarea de escaneo manual que habíamos detectado, creamos una _User Story_ para detallarla con mayor profundidad. También habíamos descubierto que el cajero podía tomar un 'pago con tarjeta de crédito'. Seguramente, será mejor construir una funcionalidad tan compleja usando múltiples _User Stories_, de manera de poder incluir al _Product Owner_ durante la construcción y medir el progreso intermedio.
@@ -201,7 +201,7 @@ Todo el equipo trabaja activamente en el _Backlog_, pero es el _Product Owner_, 
 
 Formalizando, el _Backlog_ es una lista priorizada y posiblemente estimada de las *User Stories* del proyecto. Lo utilizamos para almacenar, comunicar, compartir y principalmente gestionar todo el conocimiento que adquirimos durante el transcurso del proyecto, a través de las _User Stories_. Es, además, una herramienta de gestión fundamental durante la construcción del sistema que nos permite visualizar qué _User Stories_ fueron terminadas, están en desarrollo o quedan por hacer.
 
-## **Atributos Importantes**
+## **Atributos importantes**
 
 
 Repasemos los atributos más importantes de este artefacto:
@@ -212,7 +212,7 @@ Repasemos los atributos más importantes de este artefacto:
 
 **Es liviano**: Es muy fácil agregar, modificar, borrar y priorizar _User Stories_. Tiene que serlo, ya que el trabajo que se hará sobre él será intensivo.
 
-## **Herramientas Digitales**
+## **Herramientas digitales**
 
 Creo que es fundamental contar con una herramienta digital para la correcta gestión del _Backlog_, tanto para su conformación como para la posterior administración del proyecto.
 
@@ -230,7 +230,7 @@ Usamos un _Backlog_ para gestionar las *User Stories* y facilitar las conversaci
 
 
 
-# Notas al Pie
+# Notas al pie
 
 1. '*The root of all evils in software in software design*' - [Martin00](bibliografia.md#martin00-martin-uncle-robert-clean-code-a-handbook-of-agile-software-craftsmanship-agosto-2008)
 

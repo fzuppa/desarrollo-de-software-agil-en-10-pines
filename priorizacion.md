@@ -26,7 +26,7 @@ Otro factor que podríamos llegar a tener en cuenta, aunque de menor importancia
 
 Ninguno de estos factores decide la priorización por sí mismo, ya que tanto los de negocios, como los tecnológicos, deben ser tenidos en cuenta. Como ya mencioné anteriormente, las decisiones de priorización serán el resultado de la colaboración entre todos los miembros del equipo.
 
-# ***Releases* Cortos**
+# ***Releases* cortos**
 
 Antes de interiorizarnos en muchas de las herramientas utilizadas, les mostraré la heurística más importante a la hora de priorizar y de planear. Acoten, tanto como sea posible, la cantidad de trabajo. En otras palabras, en lugar de hacer _releases_ grandes y riesgosos, háganlos simples y breves. Les resumo las ventajas que obtendrán:
 
@@ -78,7 +78,7 @@ Con este equipo, solíamos priorizar también las épicas de cada categoría, so
 
 ![](./assets/moscow.png)
 
-## ![](.gitbook/assets/32x32.png) **Puntos de Valor de Negocio**
+## ![](.gitbook/assets/32x32.png) **Puntos de valor de negocio**
 
 Otra herramienta de gran utilidad durante el proceso de priorización es la asignación de "puntos de valor de negocio" \(_business value points_\) a las diferentes funcionalidades, haciendo una comparación similar a la utilizada al estimar _Story Points_ pero, esta vez, **asignando valores relativos en lugar de esfuerzos relativos**. Las piezas de funcionalidad a las que asignamos puntos deben ser necesariamente mayores que las _User Stories_, ya que estas últimas, por sí mismas, son unidades funcionales muy pequeñas para representar un valor de negocio.
 
@@ -153,7 +153,7 @@ En general se realizan tres o cuatro rondas de compra de funcionalidades. Todo d
 
 Esta experiencia suele ser divertida y muy distendida. Favorece las charlas de negociación de funcionalidades entre *stakeholders* en cada ronda. Su resultado es una priorización rápida y con altísima aceptación.
 
-# **Priorizando Experimentos**
+# **Priorizando experimentos**
 
 Cuando hablamos de valor de negocio en esta etapa, en la que todavía no existe un producto, en realidad hipotetizamos sobre el potencial que, creemos, entregará. Nos queda validar estas hipótesis con usuarios reales, ¿estarán dispuestos a pagar por nuestro producto?
 
@@ -171,7 +171,7 @@ Realizar una buena priorización antes de empezar con el desarrollo es fundament
 
 Este camino que trazamos es creado colaborativamente y compartido por todos los participantes. Las herramientas que mencioné contribuyen en el proceso. Una vez iniciada la construcción resulta fundamental mantener un _Backlog_ actualizado. Queremos estar seguros de estar trabajando, en todo momento, sobre las funcionalidades más importantes, es decir, las que aporten más valor y reduzcan más el riesgo.
 
-# Notas al Pie
+# Notas al pie
 
 
 

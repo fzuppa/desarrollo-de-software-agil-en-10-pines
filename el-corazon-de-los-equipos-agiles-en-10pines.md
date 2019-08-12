@@ -38,13 +38,13 @@ Los equipos están conformados por integrantes dedicados a tiempo completo. Esto
 
 Pueden notar que los equipos no presentan ninguna característica especial. Son conformaciones circunstanciales, auto-organizadas para atender clientes y proyectos. No existen fricciones o contradicciones con la empresa[[1]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie). Comparten valores, principios y prácticas.
 
-# **Los Equipos son las Personas**
+# **Los equipos son las personas**
 
 Analicemos cada uno de los atributos que hacen a los buenos equipos, empezando por el corazón. Los equipos son las personas. Las empresas, también. No se puede desarrollar software con gente desmotivada, en la cual no confiamos. Tampoco, ser ágiles. **Necesitamos buenos desarrolladores, honestos, responsables y colaborativos.**
 
 En esta sección les hablaré sobre las personas, el ingrediente fundamental de los equipos. Les contaré cómo seleccionamos las semillas, sus atributos y describiré el "camino del pino", nuestro plan de carrera.
 
-## Proceso de Selección
+## Proceso de selección
 
 ![](./assets/Proceso de seleccion.png)
 
@@ -54,7 +54,7 @@ Como mencioné anteriormente, **la excelencia técnica es parte de nuestro ADN**
 
 El costado humano resulta difícil de evaluar en un periodo de tiempo tan corto. Para lograrlo, **organizamos una entrevista grupal de la que participan todos los integrantes de la empresa**. El objetivo es conocer al candidato o candidata en profundidad, evaluando si es alguien con quien nos gustaría trabajar. Piensen que compartiremos muchísimas horas de nuestro día con él o ella.
 
-## _**Skills**_ **de los Pinos**
+## _**Skills**_ **de los pinos**
 
 ¿Qué significa "saber" desarrollar software? ¿Qué implica "ser" un buen programador? Considero que los buenos desarrolladores con los que he trabajado a lo largo de los años poseen esta combinación de _skills_:
 
@@ -123,7 +123,7 @@ Además, una vez al año, durante nuestro retiro estratégico \(una reunión que
 
 **En 10Pines establecemos una relación de confianza desde el momento del ingreso**. Un ejemplo de esto lo constituye la carga de las horas trabajadas que cada quien realiza para luego calcular su sueldo. Cada uno de los procesos creados o de las decisiones tomadas están basados en la confianza. Es nuestro valor más importante. Es la base de un lugar sano y colaborativo.
 
-### Ser Transparentes
+### Ser transparentes
 
 La transparencia fomenta la confianza y, por ende, la colaboración. En 10Pines, la información está disponible para su consulta. **Somos una empresa de** [**números abiertos**](https://en.wikipedia.org/wiki/Open-book_management): cualquiera puede ver los ingresos de la empresa, la rentabilidad de los proyectos y, también, lo percibido por cada pino.
 
@@ -139,13 +139,13 @@ Un punto muy importante dentro de la transparencia es que los procesos sean just
 
 **En 10Pines, los procesos y políticas se encuentran claramente definidos en una web de acceso irrestricto**. Cuando surgen aspectos que no tenemos contemplados en ninguna política, nos juntamos, debatimos, consensuamos una y la publicamos en la web mencionada. Al ser una empresa de estructura horizontal, todos nos encargamos de respetar y hacer respetar estos procesos co-creados.
 
-### Tomar las Decisiones en Equipo
+### Tomar las decisiones en equipo
 
 Con este nivel de transparencia, confianza y colaboración, las decisiones deben tomarse de manera compartida. De esta manera, aseguramos que los integrantes estén comprometidos. **En 10Pines, cualquier grupo que se conforme posee un carácter abierto**, es decir, cualquier pino puede integrarlo. Y tomamos las decisiones entre todos.
 
 Trabajar de este modo puede resultar más lento e incómodo. Sin embargo, como uno de los líderes de 10Pines, puedo asegurarles que es muy gratificante. Valoramos sentirnos escuchados.
 
-### Crear Espacios de Reconocimiento Personal
+### Crear espacios de reconocimiento personal
 
 Otro de los factores necesarios para sentirnos bien es el reconocimiento. Que una persona con la que trabajamos nos diga que estamos haciendo las cosas bien aumenta la autoestima y motiva intrínsecamente.
 
@@ -155,7 +155,7 @@ La [pirámide de Maslow](https://es.wikipedia.org/wiki/Pirámide_de_Maslow) mues
 
 ![Kudos al final de nuestro standup semanal](./assets/Kudos en el Standup.png)
 
-### Fomentar Momentos de Distensión
+### Fomentar momentos de distensión
 
 Me gusta salir a tomar una cerveza y mantener conversaciones fuera del ámbito laboral con mis compañeros de trabajo. Estos momentos permiten relajarnos y conocernos. Crean lazos fuertes que luego nos permiten trabajar mejor. **En 10Pines, jugar juegos de mesa, compartir un** _**after-office**_ **o ver películas constituyen una costumbre positiva**. Entre nosotros existen vínculos que van más allá del trabajo.
 
@@ -293,7 +293,7 @@ Finalmente, consideramos a la comunicación vital en el desarrollo de software. 
 
 ---
 
-# Notas al Pie
+# Notas al pie
 
 1. ¿Equipos Ágiles en empresas no Ágiles?
 

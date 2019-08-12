@@ -8,7 +8,7 @@ En capítulos anteriores, descompusimos nuestro trabajo en incrementos funcional
 
 
 
-# Desarrollo Iterativo e Incremental
+# Desarrollo iterativo e incremental
 
 Empezamos nuestro desarrollo por las *User Stories* que priorizamos en nuestro backlog, que iremos construyendo gradualmente para obtener feedback rápido. Algunas de estas *stories* son bosquejos, esqueletos no terminados, partes incompletas de funcionalidad, que necesitan trabajo adicional para ser finalizadas. Otras son incrementos funcionales completos, listos para implementarse en producción. Las primeras corresponden a la estrategia iterativa. Las segundas, a la estrategia incremental. El proceso de desarrollo iterativo e incremental combina ambas estrategias. 
 
@@ -34,7 +34,7 @@ El proceso de desarrollo iterativo e incremental combina las 2 estrategias. Algu
 
 
 
-# Trabajando en Iteraciones de duración fija
+# Trabajando en iteraciones de duración fija
 
 Con el plan y las *User Stories* que tenemos, podríamos empezar con el desarrollo. Sin embargo, el horizonte apuntado quizás resulte demasiado lejano. ¿Podremos mantener el foco durante esos 3 meses que, estimamos, durará el desarrollo del MVP? Difícil.
 
@@ -54,7 +54,7 @@ Me gusta trabajar con iteraciones fijas (*timeboxed iterations*), sobre todo, en
 
 
 
-# El trabajo de una Iteración
+# El trabajo de una iteración
 
 Como ya les comenté en la sección anterior, el equipo se auto-organiza para seleccionar el conjunto mínimo de *User Stories* que puede construir eficientemente. Los desarrolladores somos quienes mejor conocemos el tamaño de éstas y quienes mejor podemos dividir y organizar el trabajo que debe realizarse. 
 
@@ -94,6 +94,6 @@ detallados, que no aportan valor.
 
 Construimos el software gradualmente, a partir de incrementos funcionales pequeños con el objetivo de recibir feedback temprano. Trabajamos en iteraciones de duración fija para ganar foco, medir nuestra *velocity* y establecer una cadencia. El desarrollo iterativo e incremental es uno de los pilares fundamentales de la agilidad.
 
-# Notas al Pie
+# Notas al pie
 
 1. *Bake quality in* [[Poppendieck00]](bibliografia.md#Poppendieck00)

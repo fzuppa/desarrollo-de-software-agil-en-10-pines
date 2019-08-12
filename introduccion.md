@@ -4,7 +4,7 @@ Todavía recuerdo mi reunión con Emilio Gutter, hasta ese momento un ex colega 
 
 Durante estos años, los pinos (quienes formamos parte de 10Pines) elaboramos nuestros procesos, seleccionamos herramientas y estandarizamos artefactos. En resumen, co-creamos nuestra Metodología[[1]](introduccion.md#notas-al-pie), que recientemente sentí la necesidad de observar con detenimiento, estudiar y describir. Este libro es el resultado de dicho proceso.
 
-# Características Principales
+# Características principales
 
 Nuestra Metodología está basada en las personas, es liviana (enfocada en producir valor), está centrada en la calidad y amplifica la comunicación. Les cuento con más detalle: 
 
@@ -18,7 +18,7 @@ Nuestra Metodología está basada en las personas, es liviana (enfocada en produ
 
 Quisiera que los lectores evalúen el cumplimiento de estos atributos en los procesos, herramientas y artefactos que describiré a lo largo de estas páginas.
 
-# Flujo de Trabajo
+# Flujo de trabajo
 
 ![](assets/flujo-de-trabajo.png)
 
@@ -42,7 +42,7 @@ Con toda esta información, [creamos un plan](planeamiento-agil.md) liviano, cre
 
 ¡Los invito a continuar leyendo las páginas que siguen para entender profundamente el significado de trabajar y ser parte de nuestro mundo!
 
-# Notas al Pie
+# Notas al pie
 
 1. "La Metodología es todo lo que haces regularmente en tu empresa para desarrollar software". Incluye a quién se contrata, para qué, cómo se trabaja y qué se produce y comparte. Entre los componentes de una Metodología, podemos nombrar los *skills*, los roles definidos, las actividades en las que estos roles invierten su tiempo (programar, testear, reuniones), los procesos (cómo estas actividades encajan en el tiempo), los artefactos que producen, los *standards* que adoptaron y, por supuesto, los valores compartidos como grupo. [[Alistair00]](bibliografia.md#cockburn00-cockburn-alistair-agile-software-development-the-cooperative-game-2-nd-edition-octubre-2006)
 2. El "**peso de la Metodología**" está dado por la cantidad de "elementos de control"  necesarios (deliverables, *standards*, medidas de calidad) y la "ceremonia" (cuánto se demora) de cada uno de ellos. [[Alistair00]](bibliografia.md#cockburn00-cockburn-alistair-agile-software-development-the-cooperative-game-2-nd-edition-octubre-2006)
