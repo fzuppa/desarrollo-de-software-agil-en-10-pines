@@ -106,11 +106,11 @@ Nuestra querida profesión está bendecida y maldecida al mismo tiempo por una c
 
 La práctica, en nuestra profesión, resulta esencial para aprender. Espero generar muchas dudas en ustedes, pero sobre todo que puedan responderlas ustedes mismos programando. Es la mejor manera de aprender.
 
-Me gustaría empezar con un poco de historia. Conocerla ayuda a entender cómo surgió, en este caso TDD, y qué podemos esperar del futuro. Podríamos marcar el comienzo "formal" de TDD en Octubre del año 1994 cuando Kent Beck publica en la *Smalltalk Report* (una revista dedicada al lenguaje *Smalltalk* de la década del 90. Sí, en los 90 habían revistas de lenguajes de programación) el artículo "*Simple Smalltalk Testing*", donde describe un *framework* de "*unit testing*" que estaba utilizando para verificar que el código escrito funcionase como esperaba. Kent Beck centra su atención en "testing", o sea en escribir tests luego de que el "código" estuviese desarrollado. Más allá de eso, fue la semilla que terminó evolucionando en lo que conocemos como TDD. Este framework de *testing* es el que luego evolucionó como *SUnit* y del cual derivan aquellos correspondientes a otros lenguajes de programación como JUnit para Java, NUnit para .Net, etc. 
+Me gustaría empezar con un poco de historia. Conocerla ayuda a entender cómo surgió, en este caso TDD, y qué podemos esperar del futuro. Podríamos marcar el comienzo "formal" de TDD en octubre del año 1994 cuando Kent Beck publica en la *Smalltalk Report* (una revista dedicada al lenguaje *Smalltalk* de la década del 90. Sí, en los 90 habían revistas de lenguajes de programación) el artículo "*Simple Smalltalk Testing*", donde describe un *framework* de "*unit testing*" que estaba utilizando para verificar que el código escrito funcionase como esperaba. Kent Beck centra su atención en "*testing*", o sea en escribir tests luego de que el "código" estuviese desarrollado. Más allá de eso, fue la semilla que terminó evolucionando en lo que conocemos como TDD. Este *framework* de *testing* es el que luego evolucionó como *SUnit* y del cual derivan aquellos correspondientes a otros lenguajes de programación como JUnit para Java, NUnit para .Net, etc. 
 
 Él comenta que en el proceso de “germinación” de TDD influyeron mucho las enseñanzas o vivencias de su padre quien fue desarrollador de software y quien le inculcó la importancia de la verificación de lo que uno hace.
 
-Recuerdo que, allá por el año 1998, mientras trabajaba como consultor de la AFIP, otorgué a una desarrolladora de mi equipo la responsabilidad de implementar un "*framework* de testing" en Java, idea que había sacado, claro está, del artículo mencionado. Ya se empezaba a vislumbrar, a sentir, por entonces la importancia del testing automatizado. Dicha programadora, cuyo nombre lamentablemente no recuerdo, realizó un excelente trabajo que no prosperó en el resto del grupo de trabajo por dos razones: 1) la aversión de los programadores a testear, ¿cómo un programador iba a "perder tiempo" testeando? Para eso estaba QA, para algo se les pagaba a ellos. 2) Dejé de trabajar en la AFIP :-)
+Recuerdo que, allá por el año 1998, mientras trabajaba como consultor de la AFIP, otorgué a una desarrolladora de mi equipo la responsabilidad de implementar un "*framework* de *testing*" en Java, idea que había sacado, claro está, del artículo mencionado. Ya se empezaba a vislumbrar, a sentir, por entonces la importancia del testing automatizado. Dicha programadora, cuyo nombre lamentablemente no recuerdo, realizó un excelente trabajo que no prosperó en el resto del grupo de trabajo por dos razones: 1) la aversión de los programadores a testear, ¿cómo un programador iba a "perder tiempo" testeando? Para eso estaba QA, para algo se les pagaba a ellos. 2) Dejé de trabajar en la AFIP :-)
 
 Kent Beck terminó de dar forma a la idea de TDD y aplicarla en ese famoso proyecto C3 de la empresa *Chrysler*, desarrollando en Smalltalk[[3]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie) un sistema de *payroll* del cual surge no sólo la idea de TDD sino también de XP (*eXtreme Programming*).
 
@@ -120,7 +120,7 @@ Sin embargo, la técnica no quedará formalizada hasta el año 2000, con la edic
 
 1. *Red Step*: Escribir un test simple que falle al ser corrido.
 2. *Green Step*: Implementar sólo lo necesario **y nada más que lo necesario** (el destacado es mío) para que el test pase, cometiendo todos los "pecados" de programación y diseño que se nos ocurran.
-3. *Refactor Step*: ¡Confesarse! Beck no lo plantea con estas palabras, sino que proponer eliminar la duplicación creada en el paso 2. En definitiva, "sacarse los pecados de encima" o, en términos más técnicos, hacer un buen diseño.
+3. *Refactor Step*: ¡Confesarse! Beck no lo plantea con estas palabras, sino que propone eliminar la duplicación creada en el paso 2. En definitiva, "sacarse los pecados de encima" o, en términos más técnicos, hacer un buen diseño.
 
 Como se puede ver la técnica no es compleja. Consta de tres pasos simples, fáciles de recordar y explicar, que, sin embargo, resultan difíciles de seguir y de aplicar (veremos más adelante por qué). 
 
@@ -139,7 +139,7 @@ Dado este problema, ¿cómo empezamos? La respuesta es clara: hay que escribir e
 
 Sí, TDD nos da un método de trabajo medible, predecible y que, por lo tanto, nos permite reflexionar y mejorar a partir de dichas mediciones. Nótese que esto no es así con la técnica "clásica" de desarrollo donde, de manera poco clara y a veces caótica, se empieza por la implementación de una clase, luego se pasa a otra y posteriormente se retorna a la anterior sin orden ni guía, más allá de la idea mental acerca de la solución que deseamos generar. Con TDD esto no sucede: existen pasos bien estipulados por lo que podemos reflexionar qué tan bien los estamos haciendo y actuar en consecuencia.
 
-¿Cuál es la medición más importante que debemos realizar cuando hacemos TDD? El tiempo que nos lleva cada paso. Recuerden, queremos feedback inmediato. Por lo tanto, cuanto más rápido hagamos cada paso mejor. Demorar mucho tiempo en escribir un test es un indicio de que algo no estamos haciendo bien. Posiblemente no estemos encarando el test más simple. En tal caso, deberíamos repensar qué testear. O quizás es el más sencillo, pero estoy tardando porque escribirlo resulta muy complejo debido a que el diseño del sistema no me ayuda. Por lo tanto, debería hacer el paso 3) primero (o sea refactorizar[[4]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie) el diseño para hacerlo más testeable).
+¿Cuál es la medición más importante que debemos realizar cuando hacemos TDD? El tiempo que nos lleva cada paso. Recuerden, queremos feedback inmediato. Por lo tanto, cuanto más rápido hagamos cada paso, mejor. Demorar mucho tiempo en escribir un test es un indicio de que algo no estamos haciendo bien. Posiblemente no estemos encarando el test más simple. En tal caso, deberíamos repensar qué testear. O quizás es el más sencillo, pero estoy tardando porque escribirlo resulta muy complejo debido a que el diseño del sistema no me ayuda. Por lo tanto, debería hacer el paso 3) primero (o sea refactorizar[[4]](desarrollando-software-con-excelencia-tecnica.md#notas-al-pie) el diseño para hacerlo más testeable).
 
 Volviendo a nuestro ejemplo, ¿cuál sería el primer test que podríamos escribir? Veamos estas opciones que aparecen generalmente en el público de los cursos que dicto:
 
@@ -148,7 +148,7 @@ Volviendo a nuestro ejemplo, ¿cuál sería el primer test que podríamos escrib
 3. Verificar que una celda viva con menos de dos vecinos vivos muera en la próxima generación.
 4. Verificar que una celda viva con dos o tres vecinos vivos sobreviva.
 5. Verificar que todas las reglas se cumplan
-6. .… y varias ideas más que omito por un tema de espacio y tiempo.
+6. ... y varias ideas más que omito por un tema de espacio y tiempo.
 
 ¿Cuál de todas ellas es la más simple? Descartemos de a poco. La 5) no pareciera ser la más simple porque para eso tenemos que tener las 3) y 4) más otras cosas implementadas. La 1) pareciera ser la más simple, ¡sólo tengo que crear un juego! Es verdad, sólo tengo que crear un juego. Pero, ¿qué verificamos de esa acción? En pocas palabras, ¿qué "asserto"? Veamos:
 
@@ -170,7 +170,7 @@ testGameCreatedWithoutLiveCellsHasNoLiveCells
 
 ¿Qué les parece? Podría ser una opción. Pero, ¿cuánto avanzamos con este test? ¿Agrega algo a mi manera de entender el problema? La respuesta es completamente discutible y diferentes personas la responderían de distinto modo. Desde mi punto de vista, este test no agrega ningún valor. No dice nada sobre "qué hace" el GameOfLife, sobre la parte dinámica del juego, que es lo más importante de todo modelo computable (o sea, programa).
 
-Por otro lado, básicamente estamos testeando un "getter". Podrán argumentar que no es un getter, sino un *test method*. Sin embargo, es casi lo mismo ya que podría haber escrito el test de la siguiente manera:
+Por otro lado, básicamente estamos testeando un "*getter*". Podrán argumentar que no es un *getter*, sino un *test method*. Sin embargo, es casi lo mismo ya que podría haber escrito el test de la siguiente manera:
 
 ```
 testGameCreatedWithoutLiveCellsHasNoLiveCells
@@ -179,11 +179,11 @@ testGameCreatedWithoutLiveCellsHasNoLiveCells
   self assert: 0 equals: gameOfLife aliveCells size.
 ```
 
-En este caso queda bien explícito que estoy testeando un getter y testear getters o setters no agrega ningún valor real a la solución.
+En este caso queda bien explícito que estoy testeando un *getter* y testear *getters* o *setters* no agrega ningún valor real a la solución.
 
-Pregunta de diseño: ¿Por qué escribí el test sin usar un getter? ¿Cuál de los dos últimos tests es mejor desde el punto de vista de diseño de la solución? La respuesta es: el primero. ¿Por qué? Porque no estoy rompiendo el encapsulamiento de GameOfLife, mientras que sí lo hago en el segundo test. Romper el encapsulamiento es equivalente a sacarle responsabilidades a un objeto, por lo que esa responsabilidad se termina implementando en otros lugares de manera dispersa y seguramente repetida.
+Pregunta de diseño: ¿Por qué escribí el test sin usar un *getter*? ¿Cuál de los dos últimos tests es mejor desde el punto de vista de diseño de la solución? La respuesta es: el primero. ¿Por qué? Porque no estoy rompiendo el encapsulamiento de GameOfLife, mientras que sí lo hago en el segundo test. Romper el encapsulamiento es equivalente a sacarle responsabilidades a un objeto, por lo que esa responsabilidad se termina implementando en otros lugares de manera dispersa y seguramente repetida.
 
-Nos quedan los tests 3) y 4) ¿Cuál es más simple? A mi manera de entender, el 3). El 4) implica que hay que testear si son 2 o 3 vecinos vivos, que resulta más complejo. Veamos cómo sería este test:
+Nos quedan los tests 3) y 4). ¿Cuál es más simple? A mi manera de entender, el 3). El 4) implica que hay que testear si son 2 o 3 vecinos vivos, que resulta más complejo. Veamos cómo sería este test:
 
 ```
 testAliveCellWithLessThatTwoAliveCellsDies
@@ -229,9 +229,9 @@ testAliveCellWithTwoAliveNeighborsSurvives
   self deny: (gameOfLife isDead: 1@1).
 ```
 
-Podemos ver en este test cómo cambia el setup del juego: la celda 1@1 tiene dos celdas vecinas vivas, la 1@2 y la 2@1. Nótese que la aserción es que sea falso (#deny:) que la celda 1@1 esté muerta, o sea, que esté viva.
+Podemos ver en este test cómo cambia el *setup* del juego: la celda 1@1 tiene dos celdas vecinas vivas, la 1@2 y la 2@1. Nótese que la aserción es que sea falso (#deny:) que la celda 1@1 esté muerta, o sea, que esté viva.
 
-Si corremos el test, fallará. Por lo tanto estamos haciendo TDD correctamente. Ahora, en el paso 2, tenemos que escribir lo mínimo necesario para que el test pase. Una solución que a veces me proponen es implementar #isDead: de tal manera que devuelva false. Sin embargo, no es una buena idea porque si hiciéramos eso el primer test no pasaría. En este caso vamos a tener que hacer algo un poco más interesante de lo que hicimos en el paso 2 anterior. Vamos a tener que crear una nueva colección de celdas vivas a partir de las que estén vivas y deban sobrevivir. La implementación quedaría así:
+Si corremos el test, fallará. Por lo tanto, estamos haciendo TDD correctamente. Ahora, en el paso 2, tenemos que escribir lo mínimo necesario para que el test pase. Una solución que a veces me proponen es implementar #isDead: de tal manera que devuelva false. Sin embargo, no es una buena idea porque si hiciéramos eso el primer test no pasaría. En este caso vamos a tener que hacer algo un poco más interesante de lo que hicimos en el paso 2 anterior. Vamos a tener que crear una nueva colección de celdas vivas a partir de las que estén vivas y deban sobrevivir. La implementación quedaría así:
 
 ```
 GameOfLife>>initializeWithAliveCells: aCollectionOfCells
@@ -245,7 +245,7 @@ GameOfLife>>isDead: aCell
 	^(aliveCells includes: aCell) not
 ```
 
-Si corremos los tests, veremos que pasan. Ahora hay mucho para hacer en el paso 3, ¿no les parece? Seguramente muchos entenderán el código que acabo de escribir para este paso, pero seguramente también con un poco de dificultad. La solución no es lo suficientemente declarativa. Debemos pensar bastante para entender QUÉ hace ya que el CÓMO lo hace impera. 
+Si corremos los tests, veremos que pasan. Ahora hay mucho para hacer en el paso 3, ¿no les parece? Seguramente muchos entenderán el código que acabo de escribir para este paso, pero seguramente también con un poco de dificultad. La solución no es lo suficientemente declarativa. Debemos pensar bastante para entender QUÉ hace, ya que el CÓMO lo hace, impera. 
 
 Primero veamos la descripción en lenguaje natural de qué hace: selecciona (#select:) las celdas vivas que al contar (#count:) sus vecinas (aCell eightNeighbors) que no están muertas ((self isDead: aNeighbor) not) sea igual a 2 (= 2). No sé qué les pasa a ustedes cuando ven código así. A mí me duele la cabeza porque me hace gastar energía tener que entender qué pasa. Analicemos qué se puede mejorar:
 
@@ -255,7 +255,7 @@ Primero veamos la descripción en lenguaje natural de qué hace: selecciona (#se
 Hagamos el primer refactor, tenemos que cambiar el test de la siguiente manera:
 
 ```
-testAliveCellWithTwoAliveNeighborsSurvivies
+testAliveCellWithTwoAliveNeighborsSurvives
 
   gameOfLife := GameOfLife withAliveCells: {1@1. 1@2. 2@1}.
   gameOfLife calculateNextGeneration.
@@ -269,7 +269,7 @@ GameOfLife>>isAlive: aCell
 	^aliveCells includes: aCell
 ```
 
-Si corremos los tests, todos seguirán pasando. Sin embargo, ahora tenemos código repetido: tanto #isDead: como #isAlive envían el mensaje #includes: a aliveCells, por lo que vamos refactorizar nuevamente para implementar #isDead: en base a #isAlive: ya que son mutuamente excluyentes:
+Si corremos los tests, todos seguirán pasando. Sin embargo, ahora tenemos código repetido: tanto #isDead: como #isAlive envían el mensaje #includes: a aliveCells, por lo que vamos a refactorizar nuevamente para implementar #isDead: en base a #isAlive: ya que son mutuamente excluyentes:
 
 ```
 GameOfLife>>isDead: aCell
@@ -310,7 +310,7 @@ Es importante recalcar que si no hubiésemos hecho estos *refactors* no estaría
 Pero volvamos a nuestro problema, tenemos que hacer el paso 1 nuevamente, escribir un test simple y que falle. Aún no hemos terminado con la segunda regla del juego ya que sólo hemos testeado por la existencia de 2 vecinos vivos. A continuación, tenemos que testear por 3 vecinos vivos. Noten que mi elección de qué testear se relaciona con la regla actual, no con la siguiente.  Esa es una buena heurística sobre qué test escribir: tratar siempre de finalizar con la funcionalidad que estamos testeando antes de pasar a otra. En este caso, terminar con la segunda regla del juego antes de pasar a la tercera. El test sería entonces:
 
 ```
-testAliveCellWithThreeAliveNeighborsSurvivies
+testAliveCellWithThreeAliveNeighborsSurvives
 
   gameOfLife := GameOfLife withAliveCells: {1@1. 1@2. 2@1. 2@2}.
   gameOfLife calculateNextGeneration.
@@ -490,9 +490,9 @@ GameOfLife>>shouldSurvive: aCell
     and: [ (self numberOfAliveNeighborsOf: aCell) between: 2 and: 3 ]
 ```
 
-Ahora sí: los tests pasan todos. A simple vista no podemos mejorar el diseño pero si nos fijamos en la implementación existen un par de mejoras que podemos hacer. La primera es no tener que buscar los vecinos vivos más de una vez, algo que actualmente sucede porque se buscan en #shouldSurvive: y #shouldBecomeAlive:. La segunda mejora es un poco más sutil y se relaciona con el hecho de que no importa si una celda está viva o muerta. Si tiene tres vecinos vivos, debe estar viva en la próxima generación. Nuevamente vemos una opción de mejora en la definición del juego por haber formalizado el mismo.
+Ahora sí: los tests pasan todos. A simple vista no podemos mejorar el diseño, pero si nos fijamos en la implementación existen un par de mejoras que podemos hacer. La primera es no tener que buscar los vecinos vivos más de una vez, algo que actualmente sucede porque se buscan en #shouldSurvive: y #shouldBecomeAlive:. La segunda mejora es un poco más sutil y se relaciona con el hecho de que no importa si una celda está viva o muerta. Si tiene tres vecinos vivos, debe estar viva en la próxima generación. Nuevamente vemos una opción de mejora en la definición del juego por haber formalizado el mismo.
 
-Para realizar este refactor habría que hacer un "*Inline*" de los métodos #shouldSurvive: y #shouldBecomeAlive:. Hacer un "*inline method*" es lo opuesto a un "*extract method*": reemplaza todos los *senders* del mensaje relacionado a ese método por las colaboraciones del mismo. El método #calculateNextGeneration quedaría así:
+Para realizar este refactor habría que hacer un "*inline*" de los métodos #shouldSurvive: y #shouldBecomeAlive:. Hacer un "*inline method*" es lo opuesto a un "*extract method*": reemplaza todos los *senders* del mensaje relacionado a ese método por las colaboraciones del mismo. El método #calculateNextGeneration quedaría así:
 
 ```
 GameOfLife>>calculateNextGeneration
@@ -503,7 +503,7 @@ GameOfLife>>calculateNextGeneration
           and: [ (self numberOfAliveNeighborsOf: aCell) = 3 ]]].
 ```
 
-El código volvió a ser ilegible pero puede observarse la búsqueda de los vecinos vivos 2 veces. Acá podría argumentarse, y con razón, que haber hecho los *refactors* en #shouldSurvive: y #shouldBecomeAlive: no fue una buena idea. Podríamos haber pasado por alto esta situación. Es por ello que a veces conviene esperar, quizás hasta finalizada la solución, para empezar a refactorizar y crear abstracciones. Por otro lado, no hacerlo puede volver muy difícil la comprensión del código que estamos escribiendo. Este es un *trade off* que debemos hacer continuamente. Es completamente contextual.
+El código volvió a ser ilegible, pero puede observarse la búsqueda de los vecinos vivos 2 veces. Acá podría argumentarse, y con razón, que haber hecho los *refactors* en #shouldSurvive: y #shouldBecomeAlive: no fue una buena idea. Podríamos haber pasado por alto esta situación. Es por ello que a veces conviene esperar, quizás hasta finalizada la solución, para empezar a refactorizar y crear abstracciones. Por otro lado, no hacerlo puede volver muy difícil la comprensión del código que estamos escribiendo. Este es un *trade off* que debemos hacer continuamente. Es completamente contextual.
 
 Volviendo al refactor, primero calcularemos los vecinos vivos y los guardaremos en una variable. Para ello, usaremos un refactor llamado “*extract to variable*”:
 
@@ -539,7 +539,7 @@ shouldBeAliveOnNextGeneration: aCell
     or: [ (self isAlive: aCell)  and: [ numberOfAliveNeighbors = 2 ]]
 ```
 
-Finalmente daremos semántica a la última condición:
+Daremos semántica a la última condición:
 
 ```
 shouldBeAliveOnNextGeneration: aCell
@@ -552,12 +552,12 @@ shouldSurvive: aCell with: aNumberOfAliveNeighbors
 	^(self isAlive: aCell) and: [ aNumberOfAliveNeighbors = 2 ]
 ```
 
-Finalmente tenemos la solución completa, con un diseño claro y con la seguridad. gracias a los tests, de que funciona correctamente. Nótese, además, que no tuvimos grandes problemas de diseño o implementación. El desarrollo fue "suave" debido justamente al modo iterativo e incremental utilizado. Espero que hayan podido observar y sentir estas características y que hayan seguido el ejemplo en sus máquinas programando de forma simultánea a la lectura del capítulo. Si no lo hicieron, ¡no esperen más! ¡Agarren una computadora con su lenguaje de programación preferido e implementen este juego!
+Finalmente tenemos la solución completa, con un diseño claro y con la seguridad, gracias a los tests, de que funciona correctamente. Nótese, además, que no tuvimos grandes problemas de diseño o implementación. El desarrollo fue "suave" debido justamente al modo iterativo e incremental utilizado. Espero que hayan podido observar y sentir estas características y que hayan seguido el ejemplo en sus máquinas programando de forma simultánea a la lectura del capítulo. Si no lo hicieron, ¡no esperen más! ¡Agarren una computadora con su lenguaje de programación preferido e implementen este juego!
 
 Queda mucho por hablar de TDD, mucho por decir, ya no sobre qué es o cómo se lo practica sino preguntas de carácter organizativo e implementativo en un grupo de trabajo. Trataré de cubrir algunas a continuación:
 
 1. **¿Se puede hacer TDD en todo el sistema?**
-   No, no se puede. TDD aplica cuando se está "desarrollando software" (por desarrollar me refiero a "crear"), cuando se crean nuevas abstracciones o implementan nuevos algoritmos. No aplica cuando se está "configurando" software. ¿A qué me refiero con ésto? A instanciar frameworks básicamente. Por ejemplo: cuando configuramos un *ORM* (*Hibernate*, etc) para mapear objetos a base de datos relacionales, configuramos un *framework* visual para crear ventanas, un *framework* para traducir un formato de objeto a otro, etc. Básicamente todo lo que implique configuración o únicamente reutilización de una solución existente no se puede desarrollar con TDD. Para esos casos hay que hacer testing o ser testeado indirectamente por tests que se hagan por medio de TDD cuando se desarrolla software que lo utilice.
+   No, no se puede. TDD aplica cuando se está "desarrollando software" (por desarrollar me refiero a "crear"), cuando se crean nuevas abstracciones o implementan nuevos algoritmos. No aplica cuando se está "configurando" software. ¿A qué me refiero con ésto? A instanciar *frameworks* básicamente. Por ejemplo: cuando configuramos un *ORM* (*Hibernate*, etc) para mapear objetos a base de datos relacionales, configuramos un *framework* visual para crear ventanas, un *framework* para traducir un formato de objeto a otro, etc. Básicamente todo lo que implique configuración o únicamente reutilización de una solución existente no se puede desarrollar con TDD. Para esos casos hay que hacer testing o ser testeado indirectamente por tests que se hagan por medio de TDD cuando se desarrolla software que lo utilice.
 
 2. **¿Qué cobertura de código debemos tener cuando se hace TDD?**
 
@@ -568,23 +568,23 @@ Queda mucho por hablar de TDD, mucho por decir, ya no sobre qué es o cómo se l
    ¡POR SUPUESTO! Hacer TDD no reemplaza QA ya que hay ciertas partes del sistema que no se pueden testear haciendo TDD (ver pregunta 1), porque hay ciertos tests que deben ser automatizados por herramientas de alto nivel funcional y siempre es necesario que al menos un ser humano use el sistema. Lo que tiene de interesante hacer TDD es que el equipo de QA recibirá un sistema con
    menos errores, lo que permitirá concentrarse en hacer tests de alto nivel funcional en vez de probar temas simples.
 
-4. **¿Cómo hago TDD del user interface?**
-   ¡NO SE PUEDE! O sí, dependiendo de la UI que estemos haciendo. Los test son muy frágiles. Veamos dos casos: 1) Si estoy haciendo una UI ventana entonces la construcción de la UI se realizará por medio de instanciar un *framework* y, como ya vimos en la pregunta 1, no tiene sentido hacer TDD cuando se instancian *frameworks*. Por otro lado, es muy difícil controlar la interacción con la UI de manera automatizada, principalmente porque la misma corre en su propia *thread*, generando problemas de sincronismo entre el test y la UI y finalmente porque cambios en lo que se muestra y cómo se muestra pueden hacer fallar los tests. 2) Si estamos haciendo un UI web, se mantiene el mismo problema de la fragilidad. Cualquier cambio en el HTML generado puede hacer que el test falle (más allá de las complicaciones de escribir aserciones sobre HTML). 
+4. **¿Cómo hago TDD del *user interface*?**
+   ¡NO SE PUEDE! O sí, dependiendo de la UI que estemos haciendo. Los tests son muy frágiles. Veamos dos casos: 1) Si estoy haciendo una UI ventana entonces la construcción de la UI se realizará por medio de instanciar un *framework* y, como ya vimos en la pregunta 1, no tiene sentido hacer TDD cuando se instancian *frameworks*. Por otro lado, es muy difícil controlar la interacción con la UI de manera automatizada, principalmente porque la misma corre en su propio *thread*, generando problemas de sincronismo entre el test y la UI y finalmente porque cambios en lo que se muestra y cómo se muestra pueden hacer fallar los tests. 2) Si estamos haciendo una UI web, se mantiene el mismo problema de la fragilidad. Cualquier cambio en el HTML generado puede hacer que el test falle (más allá de las complicaciones de escribir aserciones sobre HTML). 
    Conclusión: Si queremos automatizar la verificación de la UI, hay que hacer testing y usar herramientas especializadas para dicho fin.
 
 5. **¿Cuánto tiempo se necesita para dominar esta técnica?**
    Es difícil de responder. Depende del conocimiento de la persona que está aprendiendo, de la experiencia en desarrollo de software, etc. Algo que he notado es que cuanto más senior es un programador más tiempo le cuesta aprender TDD porque debe hacer un cambio muy fuerte en su manera de pensar y en años de experiencia de programar de otro modo. Sin embargo, escriben mejores tests justamente por los años de experiencia y los golpes recibidos. Los programadores con menos experiencia que aceptan la técnica como forma de programar aprenden más rápido, pero les cuesta más escribir buenos tests o todos los tests necesarios debido a no haber "sufrido" tanto lo errores del desarrollo de software. 
 
 6. **¿Se puede hacer TDD en un sistema ya desarrollado?**
-   No, no se puede hacer TDD en un sistema ya existente a menos que lo que se quiera desarrollar no tenga ninguna relación con lo hecho, en definitiva, algo completamente nuevo. ¿Por qué? Porque dicho sistema tiene, a nivel diseño, un entropía muy fuerte y, por lo tanto, mucho acoplamiento y poca cohesión. Además, seguramente fue desarrollado con malas técnicas de diseño (clases anémicas y servicios que representan más a un paradigma estructurado que de objetos, etc.) o está acoplado a la base de datos. Esto atenta contra la posibilidad de hacer TDD y, más aún, contra la posibilidad de hacer testing automatizado. Si el sistema tiene mucho acoplamiento, será difícil testear situaciones que impliquen usar datos de prueba por fuera de los dados por ese acoplamiento. Por ejemplo, si el día se obtiene en cualquier parte del sistema haciendo algo parecido a "*Date today*" o "new Date()", entonces no podremos correr tests en fechas que no sean del día de hoy. En pocas palabras, no podremos simular qué día es hoy. Si el sistema está acoplado con la base de datos, entonces lamentablemente los tests serán lentos. El problema con los tests lentos es que dejamos de correrlos. Todo esto atentará contra escribir tests. La única manera de resolver este problema es cambiar el diseño del sistema de a poco, por medio de refactors automatizados que garanticen que los cambios realizados no rompan la ejecución del sistema, llevando el diseño a una situación que permita empezar a escribir tests. En dicha situación, se hará testing, no TDD: o sea se escribirán tests de código ya escrito. De a poco, a medida que se escriban más tests, el diseño irá mejorando. Esto permitirá que, llegado cierto momento, se empiece a utilizar TDD. Como se puede observar, este es un proceso largo y meticuloso que generalmente sobrevive al tiempo de rotación de las personas en un proyecto. Por eso es tan difícil de hacer exitósamente.
+   No, no se puede hacer TDD en un sistema ya existente a menos que lo que se quiera desarrollar no tenga ninguna relación con lo hecho, en definitiva, algo completamente nuevo. ¿Por qué? Porque dicho sistema tiene, a nivel diseño, un entropía muy fuerte y, por lo tanto, mucho acoplamiento y poca cohesión. Además, seguramente fue desarrollado con malas técnicas de diseño (clases anémicas y servicios que representan más a un paradigma estructurado que de objetos, etc.) o está acoplado a la base de datos. Esto atenta contra la posibilidad de hacer TDD y, más aún, contra la posibilidad de hacer testing automatizado. Si el sistema tiene mucho acoplamiento, será difícil testear situaciones que impliquen usar datos de prueba por fuera de los dados por ese acoplamiento. Por ejemplo, si el día se obtiene en cualquier parte del sistema haciendo algo parecido a "Date today" o "new Date()", entonces no podremos correr tests en fechas que no sean del día de hoy. En pocas palabras, no podremos simular qué día es hoy. Si el sistema está acoplado con la base de datos, entonces lamentablemente los tests serán lentos. El problema con los tests lentos es que dejamos de correrlos. Todo esto atentará contra escribir tests. La única manera de resolver este problema es cambiar el diseño del sistema de a poco, por medio de refactors automatizados que garanticen que los cambios realizados no rompan la ejecución del sistema, llevando el diseño a una situación que permita empezar a escribir tests. En dicha situación, se hará testing, no TDD: o sea se escribirán tests de código ya escrito. De a poco, a medida que se escriban más tests, el diseño irá mejorando. Esto permitirá que, llegado cierto momento, se empiece a utilizar TDD. Como se puede observar, este es un proceso largo y meticuloso que generalmente sobrevive al tiempo de rotación de las personas en un proyecto. Por eso es tan difícil de hacer exitósamente.
 
 7. **¿Cuándo debo usar** ***Mock objects*****? (objetos simuladores)**
    Los objetos simuladores, *Test Doubles,* también lamentablemente llamados *Mocks*, son objetos que simulan ser algo cuando en realidad son otra cosa. En definitiva, son objetos polimórficos con el objeto simulado que se usan para poder testear situaciones difíciles de reproducir con los objetos reales o donde el test no está en control. Ejemplos concretos a simular son sistemas externos que, por su carácter, los tests no controlan, volviendo más lenta su ejecución. El tópico de objetos simuladores es un tema en sí mismo. Tratarlo llevaría casi la misma dimensión que este capítulo, por lo que no me extenderé mucho más. Sólo les diré una regla de oro: Simular sólo lo que no desarrollo, nunca simular objetos que forman parte de lo que estoy desarrollando.
 
-8. **¿Qué hago si mis tests tardan mucho en ejecutar?**
+8. **¿Qué hago si mis tests tardan mucho en ejecutarse?**
    Debo buscar el modo de reducir el tiempo de ejecución. Los tests que deben ejecutarse cuando hago un cambio o implemento algo con TDD no deberían tardar en correr más de 2, 3 o 5 segundos, como mucho 20 o, a lo sumo, 1 minuto. Cuando pasamos de segundos a minutos en el tiempo de ejecución de los tests estamos en problemas. Aclaro que cuando digo los "tests que deben ejecutarse" no me refiero a los tests de todo el sistema, sino a los de la funcionalidad que estoy cambiando o agregando. Un sistema grande seguramente esté compuesto por módulos o subsistemas. Por lo tanto, al modificar un subsistema, sólo debo correr los tests correspondientes al mismo, que deben ejecutarse en segundos. Luego de hacer la modificación y ver que todo funcione bien a ese nivel, deben correrse los tests del sistema. En dicho caso, puedo pasar a hablar de minutos, aunque no demasiados. Cuantos menos, mejor. Pasar los diez minutos para correr todos los tests del sistema sería un problema. 
    Tener tests que satisfagan estos tiempos de ejecución no es fácil, pero tampoco imposible. Se logra por medio de un buen diseño y buen uso de objetos simuladores.
-   ¿Qué puede hacer que los tests tarden mucho? Un motivo puede ser que el sistema esté acoplado a la base de datos. Primero hay que simular la base de datos con objetos *fake* como base de datos en memoria. Aún así, seguramente tardarán mucho en correr, por lo que hay que tener como objetivo desacoplarse completamente de la base de datos. Este objetivo, en algunos contextos, será imposible de lograr. Por ejemplo, si utilizamos *Ruby on Rails*, debido a que se trata de un *framework* de caja blanca en lo que respecta a persistencia (todo lo que se persiste debe subclasificar *ActiveRecord*), resulta imposible desacoplar la base de datos. La única forma de hacer que los tests corran rápido en este contexto consiste en sacar *Rails* del sistema, pero eso es imposible si el sistema ya está desarrollado, a menos que se haga uno completamente nuevo. Lo que podemos hacer, si nos interesa testear nuestro código, aplicar TDD y tener un sistema mantenible es no escribir aplicaciones web con *Ruby on Rails* y usar otro *framework* que esté preparado para hacer TDD.
+   ¿Qué puede hacer que los tests tarden mucho? Un motivo puede ser que el sistema esté acoplado a la base de datos. Primero hay que simular la base de datos con objetos *fake* como base de datos en memoria. Aún así, seguramente tardarán mucho en correr, por lo que hay que tener como objetivo desacoplarse completamente de la base de datos. Este objetivo, en algunos contextos, será imposible de lograr. Por ejemplo, si utilizamos *Ruby on Rails*, debido a que se trata de un *framework* de caja blanca en lo que respecta a persistencia (todo lo que se persiste debe subclasificar ActiveRecord), resulta imposible desacoplar la base de datos. La única forma de hacer que los tests corran rápido en este contexto consiste en sacar *Rails* del sistema, pero eso es imposible si el sistema ya está desarrollado, a menos que se haga uno completamente nuevo. Lo que podemos hacer, si nos interesa testear nuestro código, aplicar TDD y tener un sistema mantenible es no escribir aplicaciones web con *Ruby on Rails* y usar otro *framework* que esté preparado para hacer TDD.
    Otro motivo por el cual los tests pueden tardar mucho es que se encuentren repetidos, mal escritos o que el sistema esté mal desarrollado. En la mayoría de los casos, este problema se debe al uso de recursos externos (archivos, microservicios, base de datos, etc.).
 
 ### Conclusiones
