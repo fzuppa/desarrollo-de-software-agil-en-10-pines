@@ -14,4 +14,6 @@
 * [Desarrollando Software con Excelencia Técnica](desarrollando-software-con-excelencia-tecnica.md)
 * [Conclusión](conclusiones.md)
 * [Bibliografía](bibliografia.md)
+* [Biografías](biografias.md)
 * [Agradecimientos](agradecimientos.md)
+

@@ -64,11 +64,9 @@ Antes de empezar cada *story*, reunimos a los desarrolladores involucrados y los
 
 Desarrollamos pensando, en primer lugar, en los tests automatizados que validarán la funcionalidad y procurando obtener "calidad de producción", como dice la guía de *Scrum*. Este es el momento de hacer el producto con calidad. La calidad se "hornea desde el principio"[[1]](construyendo-el-producto-paso-a-paso.md#notas-al-pie), no puede incorporarse al final. 
 
-Una vez que terminamos el desarrollo y testeo de una *User Story*, realizamos un proceso de aceptación formal, donde repasamos, una vez más, el cumplimiento de todos los criterios de aceptación. También podemos repasar nuestra "[definition of done](https://www.agilealliance.org/glossary/definition-of-done/)" para estar completamente seguros de que hemos terminado.
+Una vez que terminamos el desarrollo y testeo de una *User Story*, realizamos un proceso de aceptación formal, donde repasamos, una vez más, el cumplimiento de todos los criterios de aceptación. También podemos repasar nuestra "[*definition of done*](https://www.agilealliance.org/glossary/definition-of-done/)" para estar completamente seguros de que hemos terminado.
 
 Todo este proceso, altamente concurrente, involucra un grado de comunicación muy intenso. El *Product Owner* y los usuarios de negocios trabajan de la mano con los desarrolladores para construir el producto que desean, comunicando claramente y validando cada incremento. Todo este feedback, brindado a tiempo, se incorpora dentro del producto.
-
-
 
 # ¿Qué logramos trabajando de este modo?
 
