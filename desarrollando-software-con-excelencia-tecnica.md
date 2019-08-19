@@ -33,12 +33,12 @@ Debo confesar que la primera vez que trabajé usando *eXtreme Programming* me re
 Al mismo tiempo, llegó a mis manos un libro de esos que producen un quiebre en la vida profesional: "*Planning eXtreme Programming*" [[Beck01]](bibliografia.md#beck01-beck-kent-extreme-programming-explained-embrace-change-2nd-edition-noviembre-2004). El concepto que deseaba referir aquí es el de "costo de cambio". El autor comienza por un estudio publicado por Barry Boehm a comienzos de los 80s donde sugiere que corregir un error se vuelve exponencialmente más costoso mientras más tarde se detecte (de aquí proviene la famosa frase: "un error es 100x más costoso de corregir en producción que al momento de realizar la especificación"). 
 
 ![Versión propia basada en
-el gráfico de Costo de Cambio](./assets/cost-of-change.png)
+el gráfico de Costo de Cambio](./assets/costo-de-cambio.png)
 
 Beck sugiere que con "la combinación de tecnologías y prácticas de programación" descritas, la curva puede achatarse de esta manera:
 
 ![Versión propia basada en
-el gráfico de Costo de Cambio en Extreme Programming](./assets/cost-of-change-xp.png)
+el gráfico de Costo de Cambio en Extreme Programming](./assets/costo-de-cambio-XP.png)
 
 Este concepto fue, para mí, revelador. Quizás Beck pueda haber exagerado un poco (como sugiere Ambler en este [post](http://www.agilemodeling.com/essays/costOfChange.htm)), pero lo crucial es destacar **la importancia de mantener el costo de cambio tan bajo como sea posible** para poder incorporar funcionalidad sustentablemente, adaptándonos al cambio. Mantener el costo de cambio bajo es, en definitiva, un requisito fundamental si queremos ser Ágiles. Si no pudiéramos hacerlo, el resto de las prácticas perderían sentido. Dicho de otro modo, si incorporar funcionalidad se volviese cada vez más costoso, difícilmente podríamos mantener la agilidad.
 
