@@ -1,4 +1,4 @@
-""![](./assets/tapa-product-discovery.png)
+![](./assets/tapa-product-discovery.png)
 
 
 
