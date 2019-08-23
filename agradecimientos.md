@@ -1,4 +1,4 @@
-Mi primer agradecimiento es para 10Pines, a todas y todos los pinos por apoyarme y permitirme que cumpla este sueño. Particularmente, a mis socios y amigos: Alejandra, Emilio, Hernán, Jorge y Darío por acompañarme en todo este camino.
+Mi primer agradecimiento es para 10Pines: a todas y todos por apoyarme y permitirme que cumpla este sueño. Particularmente, a mis socios y amigos: Alejandra, Emilio, Hernán, Jorge y Darío por acompañarme en todo este camino.
 
 A Cris, mi amigo y editor, por las horas dedicadas, la paciencia para enseñarme la lengua española y por aguantar todos los anglicismos que usamos los desarrolladores. He aprendido muchísimo durante estos dos años. 
 

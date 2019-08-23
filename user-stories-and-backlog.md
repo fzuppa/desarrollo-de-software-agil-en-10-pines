@@ -218,7 +218,7 @@ Creo que es fundamental contar con una herramienta digital para la correcta gest
 
 En 10Pines trabajamos con clientes que utilizan diferentes herramientas como [Jira](https://www.atlassian.com/software/jira), [VersionOne](https://www.versionone.com/) o [Pivotal Tracker](https://www.pivotaltracker.com/). Otros clientes tienen su propia herramienta ágil que se adapta exactamente a su metodología, como *[8thlight](https://8thlight.com/)* con [Artisan](https://artisan.8thlight.com).
 
-![Pivotal Tracker](https://lh5.googleusercontent.com/az75-_H9BJPEve1XDwN5YpcWI7PiXdq_YCIaKRC8eiqHjLeePWy0DHgAYKpHqncFr8OCVVT1eZgg8aYaOrR4lyoYlnohL__tTO7eBUtJubzwXDRELmMUYEzX68vkxM-kVxLXODAt)
+![Pivotal Tracker](/Users/fzuppa/GitBook/Library/fzuppa/desarrollo-de-software-agil-en-10-pines/assets/pivotal.png)
 
 Mi herramienta preferida es Jira porque permite visualizar claramente el _Backlog_, las _User Stories_ y los _story boards_. Además, el _workflow_ es configurable y soporta Scrum y Kanban. Como desventaja, contiene demasiada información en cada vista, lo que dificulta ubicar lo realmente necesario.
 

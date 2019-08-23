@@ -24,7 +24,7 @@ Otra perspectiva desde la que podemos mirar este tópico de priorización es la 
 
 Otro factor que podríamos llegar a tener en cuenta, aunque de menor importancia, es el esfuerzo \(o costo\). Conociéndolo, el _Product Owner_ podrá decidir que una funcionalidad es demasiado costosa para el valor que arroja o, por el contrario, construir otra menos valiosa, solamente porque el esfuerzo requerido es menor. Para ponerlo en términos formales, la razón costo-beneficio puede influir en la priorización.
 
-Ninguno de estos factores decide la priorización por sí mismo, ya que tanto los de negocios, como los tecnológicos, deben ser tenidos en cuenta. Como ya mencioné anteriormente, las decisiones de priorización serán el resultado de la colaboración entre todos los miembros del equipo.
+Ninguno de estos factores decide la priorización por sí mismo, ya que tanto los de negocios, como los tecnológicos, deben ser tenidos en cuenta. Como ya mencioné anteriormente, las decisiones de priorización serán el resultado de la colaboración entre todas y todos.
 
 # ***Releases* cortos**
 
@@ -82,7 +82,7 @@ Con este equipo, solíamos priorizar también las épicas de cada categoría, so
 
 Otra herramienta de gran utilidad durante el proceso de priorización es la asignación de "puntos de valor de negocio" \(_business value points_\) a las diferentes funcionalidades, haciendo una comparación similar a la utilizada al estimar _Story Points_ pero, esta vez, **asignando valores relativos en lugar de esfuerzos relativos**. Las piezas de funcionalidad a las que asignamos puntos deben ser necesariamente mayores que las _User Stories_, ya que estas últimas, por sí mismas, son unidades funcionales muy pequeñas para representar un valor de negocio.
 
-Como en la técnica de *MoSCoW*, también nos fuerza a consensuar y explicitar valores. Decimos que una épica es más importante que otra, pero ¿cuánto? ¿estamos de acuerdo en eso? Explicitar esos puntos de valor de negocio puede resultar un ejercicio muy fructífero para todos. Además, una vez estimados el valor y el esfuerzo, podemos establecer la razón costo-beneficio de cada una de ellas. 
+Como en la técnica de *MoSCoW*, también nos fuerza a consensuar y explicitar valores. Decimos que una épica es más importante que otra, pero ¿cuánto? ¿estamos de acuerdo en eso? Explicitar esos puntos de valor de negocio puede resultar un ejercicio muy fructífero. Además, una vez estimados el valor y el esfuerzo, podemos establecer la razón costo-beneficio de cada una de ellas. 
 
 Existen varios modos de visualización, que transmitiré mediante el ejemplo del sistema para el cajero de supermercados del capítulo 1. Imaginen que necesitamos agregar las épicas que presento a continuación, a las cuales asignaremos los siguientes puntos de valor de negocios y esfuerzo. Obtendremos  algo similar a la tabla siguiente:    
 
@@ -163,13 +163,13 @@ Todos estos conceptos están tomados de la metodología de _Lean Startups_[[Ries
 
 Uno de los puntos fundamentales de esta metodología consiste en definir cómo vamos a medir el funcionamiento del experimento. De haber realizado el _Lean Canvas_, mencionado en el capítulo 1, recordarán que una de las secciones consistía en describir explícitamente estos experimentos. En muchos de los desarrollos en los que trabajé, no existía certidumbre acerca de cómo se validaría lo construido. Sin embargo, esto es fundamental, ¡debemos saber lo que se quiere lograr!
 
-Cheryl Quirion compartía estos experimentos visualmente con todo el equipo de desarrollo, usando una técnica que denominó [Lean Visual Strategy](https://leanvisualstrategy.com/what-is-lean-visual-strategy-4b4dc9df610d). Compartir esta información con el equipo permite que esté alineado y entienda por qué lo está construyendo. Hacerlo de manera visual ayuda a que todos incorporen esta información mejor y más rápidamente.
+Cheryl Quirion compartía estos experimentos visualmente con todo el equipo de desarrollo, usando una técnica que denominó [Lean Visual Strategy](https://leanvisualstrategy.com/what-is-lean-visual-strategy-4b4dc9df610d). Compartir esta información con el equipo permite que esté alineado y entienda por qué lo está construyendo. Hacerlo de manera visual ayuda a que todas y todos incorporen esta información mejor y más rápidamente.
 
 # **Conclusiones**
 
 Realizar una buena priorización antes de empezar con el desarrollo es fundamental. Empezamos por determinar la funcionalidad necesaria para realizar el primer experimento, llamado *MVP*. Luego, el orden en que lo construiremos de manera de minimizar el riesgo y maximizar el valor.
 
-Este camino que trazamos es creado colaborativamente y compartido por todos los participantes. Las herramientas que mencioné contribuyen en el proceso. Una vez iniciada la construcción resulta fundamental mantener un _Backlog_ actualizado. Queremos estar seguros de estar trabajando, en todo momento, sobre las funcionalidades más importantes, es decir, las que aporten más valor y reduzcan más el riesgo.
+Este camino que trazamos es creado colaborativamente y compartido por todas y todos. Las herramientas que mencioné contribuyen en el proceso. Una vez iniciada la construcción resulta fundamental mantener un _Backlog_ actualizado. Queremos estar seguros de estar trabajando, en todo momento, sobre las funcionalidades más importantes, es decir, las que aporten más valor y reduzcan más el riesgo.
 
 # Notas al pie
 

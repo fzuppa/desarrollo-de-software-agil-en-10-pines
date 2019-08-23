@@ -108,7 +108,7 @@ La práctica, en nuestra profesión, resulta esencial para aprender. Espero gene
 
 Me gustaría empezar con un poco de historia. Conocerla ayuda a entender cómo surgió, en este caso TDD, y qué podemos esperar del futuro. Podríamos marcar el comienzo "formal" de TDD en octubre del año 1994 cuando Kent Beck publica en la *Smalltalk Report* (una revista dedicada al lenguaje *Smalltalk* de la década del 90. Sí, en los 90 habían revistas de lenguajes de programación) el artículo "*Simple Smalltalk Testing*", donde describe un *framework* de "*unit testing*" que estaba utilizando para verificar que el código escrito funcionase como esperaba. Kent Beck centra su atención en "*testing*", o sea en escribir tests luego de que el "código" estuviese desarrollado. Más allá de eso, fue la semilla que terminó evolucionando en lo que conocemos como TDD. Este *framework* de *testing* es el que luego evolucionó como *SUnit* y del cual derivan aquellos correspondientes a otros lenguajes de programación como JUnit para Java, NUnit para .Net, etc. 
 
-Él comenta que en el proceso de “germinación” de TDD influyeron mucho las enseñanzas o vivencias de su padre quien fue desarrollador de software y quien le inculcó la importancia de la verificación de lo que uno hace.
+Beck comenta que en el proceso de “germinación” de TDD influyeron mucho las enseñanzas o vivencias de su padre quien fue desarrollador de software y quien le inculcó la importancia de la verificación de lo que uno hace.
 
 Recuerdo que, allá por el año 1998, mientras trabajaba como consultor de la AFIP, otorgué a una desarrolladora de mi equipo la responsabilidad de implementar un "*framework* de *testing*" en Java, idea que había sacado, claro está, del artículo mencionado. Ya se empezaba a vislumbrar, a sentir, por entonces la importancia del testing automatizado. Dicha programadora, cuyo nombre lamentablemente no recuerdo, realizó un excelente trabajo que no prosperó en el resto del grupo de trabajo por dos razones: 1) la aversión de los programadores a testear, ¿cómo un programador iba a "perder tiempo" testeando? Para eso estaba QA, para algo se les pagaba a ellos. 2) Dejé de trabajar en la AFIP :-)
 
@@ -124,7 +124,7 @@ Sin embargo, la técnica no quedará formalizada hasta el año 2000, con la edic
 
 Como se puede ver la técnica no es compleja. Consta de tres pasos simples, fáciles de recordar y explicar, que, sin embargo, resultan difíciles de seguir y de aplicar (veremos más adelante por qué). 
 
-Estos tres pasos no explican qué es TDD, sino que definen cómo se hace. ¿Qué es TDD entonces? ¿cuál es su esencia? ¿qué hace que TDD sea lo que es y no sea otra cosa? TDD es una técnica de desarrollo de software iterativa e incremental con feedback inmediato. En pocas palabras, una técnica que favorece el proceso de aprendizaje que todo ser humano lleva adelante cuando debe entender, explicar y formalizar qué es y cómo funciona algo. En definitiva, cuando debe programar.
+Estos tres pasos no explican qué es TDD, sino que definen cómo se hace. ¿Qué es TDD entonces? ¿Cuál es su esencia? ¿Qué hace que TDD sea lo que es y no sea otra cosa? TDD es una técnica de desarrollo de software iterativa e incremental con feedback inmediato. En pocas palabras, una técnica que favorece el proceso de aprendizaje que todo ser humano lleva adelante cuando debe entender, explicar y formalizar qué es y cómo funciona algo. En definitiva, cuando debe programar.
 
 Para comprender bien TDD y poder aplicarlo correctamente, no podemos perder de vista que debemos desarrollar de manera iterativa, agregando en cada iteración un nuevo incremento a nuestra solución para obtener feedback rápido que valide que estoy en el camino correcto.
 
@@ -245,7 +245,7 @@ GameOfLife>>isDead: aCell
 	^(aliveCells includes: aCell) not
 ```
 
-Si corremos los tests, veremos que pasan. Ahora hay mucho para hacer en el paso 3, ¿no les parece? Seguramente muchos entenderán el código que acabo de escribir para este paso, pero seguramente también con un poco de dificultad. La solución no es lo suficientemente declarativa. Debemos pensar bastante para entender QUÉ hace, ya que el CÓMO lo hace, impera. 
+Si corremos los tests, veremos que pasan. Ahora hay mucho para hacer en el paso 3, ¿no les parece? Seguramente muchos entenderán el código que acabo de escribir para este paso, pero seguramente también con un poco de dificultad. La solución no es lo suficientemente declarativa. Debemos pensar bastante para entender QUÉ hace, ya que el CÓMO lo hace impera. 
 
 Primero veamos la descripción en lenguaje natural de qué hace: selecciona (#select:) las celdas vivas que al contar (#count:) sus vecinas (aCell eightNeighbors) que no están muertas ((self isDead: aNeighbor) not) sea igual a 2 (= 2). No sé qué les pasa a ustedes cuando ven código así. A mí me duele la cabeza porque me hace gastar energía tener que entender qué pasa. Analicemos qué se puede mejorar:
 

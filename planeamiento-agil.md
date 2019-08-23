@@ -16,7 +16,7 @@ En este capítulo hablaremos sobre planeamiento: qué tienen nuestros planes y c
 
 Componentes esenciales:
 
-**La visión de negocios**: ¿A dónde queremos llegar? ¿Cuáles son los objetivos principales? Todos debemos compartirlos. En consecuencia, deben quedar claramente plasmados. Haberlos obtenido a través de las sesiones colaborativas del _product discovery_ simplifica esto enormemente.
+**La visión de negocios**: ¿A dónde queremos llegar? ¿Cuáles son los objetivos principales? Todas y todos debemos compartirlos. En consecuencia, deben quedar claramente plasmados. Haberlos obtenido a través de las sesiones colaborativas del _product discovery_ simplifica esto enormemente.
 
 **El Backlog**: el _Backlog_ inicial, que contiene _user stories_ sin mucho detalle. **Representa el entendimiento colectivo de cómo va a descomponerse el trabajo en incrementos de funcionalidad** que después nos permitan trabajar con un proceso de desarrollo iterativo e incremental. Podemos también tener identificadas las _User Stories_ que tienen que completarse para el MVP \(de hecho, lo mejor es que el plan corresponda a este grupo solamente\).
 
@@ -35,7 +35,7 @@ Repasemos los atributos principales de nuestros planes:
 * **Es fácil de cambiar**: Está pensado para "abrazar el cambio". Creamos el plan partiendo de la incertidumbre. Aprenderemos muchísimo durante el camino. Todo este nuevo conocimiento deberá plasmarse en el plan.
 * **Es corto**: No creo en planes que duren muchos meses. 
 * **Es creíble**: He visto _Project Managers_ crear planes con _deadlines_ y _milestones_, para luego transmitir al equipo el "cronograma". ¿Qué sentido tiene esto? ¿Podrías, como desarrollador, comprometerte con algo que no creaste y con lo que no crees? El plan debe ser producto de una visión conjunta consensuada.
-* **Visible a todo el equipo**: Claramente, si fue creado y consensuado por todos, el plan es accesible a los integrantes en todo momento. ¿Podrías alcanzar las metas propuestas, si el equipo no dispone de toda la información?
+* **Visible a todo el equipo**: Claramente, si fue creado y consensuado por todas y todos, el plan es accesible en todo momento. ¿Podrías alcanzar las metas propuestas, si el equipo no dispone de toda la información?
 * **No es un artefacto estático**: Este plan inicial, esbozado a partir del _Product Discovery_ y que contiene mucha incertidumbre aún, se refinará a medida que aprendamos: ¿Es factible tecnológicamente? ¿Podemos construir el producto a la _Velocity_ que habíamos estimado previamente? Este nuevo conocimiento, de negocios, tecnológico y del equipo, generado en la etapa de construcción, debe plasmarse en el plan, ya que sería una pena no usarlo a nuestro favor. Por las razones previamente mencionadas, Mike Cohn denominó a su libro "_Estimating & Planning_"[[Cohn00]](bibliografia.md#cohn00-cohn-mike-user-stories-applied-for-agile-software-development-marzo-2004). No es un plan. Es planeamiento, continuo. Y Jim Highsmith [[Highsmith00]](bibliografia.md#highsmith00-highsmith-jim-agile-project-management-creating-innovative-products-agile-software-development-series-2nd-edition-julio-2009) llamó a esta etapa "Especulación". Es un nombre muy acertado, ya que, en cualquier plan, existe incertidumbre. "Cuando especulamos, establecemos un objetivo y una dirección, pero, al mismo tiempo, esperamos cambios en el camino".
 
 ## **Aristas**

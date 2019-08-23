@@ -78,7 +78,7 @@ Luego de todo este aprendizaje sobre las pre-ventas, terminamos con un proceso d
 
 
 
-En esta imagen se observa que la preventa, fase donde se concibe el producto, es parte del proceso de desarrollo. De esta forma se entiende la venta de modo más holística, con mayores probabilidades de que sea exitoso el proceso. 
+En esta imagen se observa que la preventa, fase donde se concibe el producto, es parte del proceso de desarrollo. De esta forma se entiende la venta de modo más holístico, con mayores probabilidades de que sea exitoso el proceso. 
 
 # **Herramientas**
 

@@ -1,4 +1,4 @@
-![](./assets/tapa.png)
+![](./assets/Tapa Digital ES.png)
 
 
 

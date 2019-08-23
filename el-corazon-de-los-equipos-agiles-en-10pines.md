@@ -4,7 +4,7 @@
 
 # **El corazón de los Equipos Ágiles en 10Pines**
 
-El desarrollo de software se hace en equipos. Un equipo no implica la reunión de un grupo de personas. Es mucho más que eso, tiene identidad. Todos los integrantes colaboran. Tienen el mismo objetivo, un sentido de compromiso y solidaridad y sienten que aportan valor. Tom de Marco los denominó "equipos consolidados" \(en inglés, [_Jelled Teams_](https://g.co/kgs/624M1r), que toman forma, como la gelatina cuando se cocina\).
+El desarrollo de software se hace en equipos. Un equipo no implica la reunión de un grupo de personas. Es mucho más que eso, tiene identidad. Los integrantes colaboran. Tienen el mismo objetivo, un sentido de compromiso y solidaridad y sienten que aportan valor. Tom de Marco los denominó "equipos consolidados" \(en inglés, [_Jelled Teams_](https://g.co/kgs/624M1r), que toman forma, como la gelatina cuando se cocina\).
 
 ¿Tuvieron la suerte de trabajar en un equipo así? Conformado por gente capaz y motivada, que comparte objetivos y da lo mejor para alcanzarlos. Se respira la energía del grupo y la sinergia que puede alcanzarse es increíble.
 
@@ -88,7 +88,7 @@ Una vez que tenemos buenas semillas, **debemos crear un ambiente donde puedan fl
 
 Trabajar en un ambiente así permite que los talentos de todas las personas se combinen y hagan sinergia para obtener los mejores resultados. No quedan dudas de que, cuando todos colaboramos, el producto resultante es mejor. Como resultado adicional, esto nos estimula, nos motiva. Esta es la manera en la que trabajamos en 10Pines. No imagino hacerlo de otro modo.
 
-¿Cómo podemos crear este ambiente? **¿Cómo podemos configurar las reglas de este sistema complejo, que es la organización, para alentar estos sentimientos y comportamientos?** En esta sección, les contaré lo que hemos construido, entre todos, en 10Pines.
+¿Cómo podemos crear este ambiente? **¿Cómo podemos configurar las reglas de este sistema complejo, que es la organización, para alentar estos sentimientos y comportamientos?** En esta sección, les contaré lo construido, entre todas y todos, en 10Pines.
 
 ## **¿Qué nos motiva?**
 
@@ -113,7 +113,7 @@ Los que conocen la [teoría X y la teoría Y de McGregor](https://es.wikipedia.o
 
 Tenemos en cuenta estos atributos en cada una de las decisiones que tomamos: ¿Qué proyectos deberíamos tomar? ¿Cómo deberíamos aumentar nuestros sueldos? Estos valores representan nuestra guía, el consenso de lo importante para el grupo.
 
-Además, una vez al año, durante nuestro retiro estratégico \(una reunión que realizamos con todos los pinos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/)[[5]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie): Todos los pinos puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!
+Además, una vez al año, durante nuestro retiro estratégico \(una reunión realizada entre todas y todos, que trataré en breve\), inspeccionamos estos atributos en profundidad usando la retrospectiva del [radar](https://blog.agilistic.nl/retrospective-do-the-team-radar/)[[5]](el-corazon-de-los-equipos-agiles-en-10pines.md#notas-al-pie): Puntuamos cada una de las ‘aristas’ para luego graficar en la herramienta los promedios obtenidos. De esta manera, podemos visualizar y debatir cómo estamos: ¡Muchas mejoras profundas han surgido de las conversaciones disparadas por esta retrospectiva!
 
 ## **¿Qué hacemos para lograr un buen ambiente?**
 
