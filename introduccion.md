@@ -48,5 +48,5 @@ Con toda esta información, [creamos un plan](planeamiento-agil.md) liviano, cre
 2. El "**peso de la Metodología**" está dado por la cantidad de "elementos de control"  necesarios (deliverables, *standards*, medidas de calidad) y la "ceremonia" (cuánto se demora) de cada uno de ellos. [[Alistair00]](bibliografia.md#cockburn00-cockburn-alistair-agile-software-development-the-cooperative-game-2-nd-edition-octubre-2006)
 3. *Barely Sufficient* [[Highsmith00]](bibliografia.md#highsmith00-highsmith-jim-agile-project-management-creating-innovative-products-agile-software-development-series-2nd-edition-julio-2009-1)
 4. En el mundo de *Lean*, "desperdicio" es toda actividad que no agregue valor, viéndolo desde la perspectiva del usuario final.
-5. *Bake quality in* [[Poppendieck00]](bibliografia#poppendieck00-poppendieck-00-mary-tom-lean-software-development-an-agile-toolkit-mayo-2003)
+5. *Bake quality in* [[Poppendieck00]](bibliografia.md#poppendieck00-poppendieck-00-mary-tom-lean-software-development-an-agile-toolkit-mayo-2003)
 
