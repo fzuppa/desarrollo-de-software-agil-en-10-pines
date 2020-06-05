@@ -474,7 +474,7 @@ Volvamos a la funcionalidad. En el último cambio funcional realizado, se introd
 Escribamos el test:
 
 ```
-testDeadCellAliveNeighborsDifferentToThreeKeepsDead
+testDeadCellWithAliveNeighborsDifferentToThreeKeepsDead
 
   gameOfLife := GameOfLife withAliveCells: {1@2. 2@2. 3@2. 1@3} ofSize: 3@3.
   gameOfLife calculateNextGeneration.
